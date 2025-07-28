@@ -12,12 +12,12 @@ number-sections: false
 ::: g-col-6
 # Hi, I'm Arvind Venkatadri.
 
-I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), both in Bangalore, INDIA, and a [Certified](https://www.matriz-official.net) Level #1 TRIZ Professional. 
+I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), both in Bangalore, INDIA, and a [Certified Level #1 TRIZ Professional](https://www.matriz-official.net) . 
 
 I have a passion for coding in R / ObservableJS / p5.js, 
 Data Visualization, Complexity Science, Literature, and Creative
 Thinking / Problem Solving with TRIZ. On this website, I share and teach
-what I learn.
+what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving.
 
 To get started, you can check out [my courses](./content/courses/listing.qmd). You can also find me on
 [Twitter](https://twitter.com/arvind_v), 

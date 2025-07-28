@@ -14,4 +14,4 @@ listing:
   categories: true
 ---
 
-Here are the courses that I teach:
+

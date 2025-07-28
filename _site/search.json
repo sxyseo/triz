@@ -4,14 +4,14 @@
     "href": "blog.html",
     "title": "Hi, I’m Arvind Venkatadri.",
     "section": "",
-    "text": "Hi, I’m Arvind Venkatadri.\nI’m external Faculty at the Srishti Manipal Institute of Art and Design, both in Bangalore, INDIA, and a Certified Level #1 TRIZ Professional.\nI have a passion for coding in R / ObservableJS / p5.js, Data Visualization, Complexity Science, Literature, and Creative Thinking / Problem Solving with TRIZ. On this website, I share and teach what I learn.\nTo get started, you can check out my courses. You can also find me on Twitter, GitHub, and on Medium. Feel free to reach out to me via email !\n\n\n\n\n\n Back to top"
+    "text": "Hi, I’m Arvind Venkatadri.\nI’m external Faculty at the Srishti Manipal Institute of Art and Design, both in Bangalore, INDIA, and a Certified Level #1 TRIZ Professional .\nI have a passion for coding in R / ObservableJS / p5.js, Data Visualization, Complexity Science, Literature, and Creative Thinking / Problem Solving with TRIZ. On this website, I share and teach what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving.\nTo get started, you can check out my courses. You can also find me on Twitter, GitHub, and on Medium. Feel free to reach out to me via email !\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Arvind V.",
     "section": "",
-    "text": "I’m an an external Faculty Member at the Srishti Manipal Institute of Art, Design, and Technology (SMI), in Bangalore, INDIA. I am passionate about working on R, Data Visualization, Complexity Science, and Creative Thinking and Problem Solving with TRIZ. On this website, I share my course materials and methods. I also blog about TRIZ and Data Science on occasion.\nTo get started, you can check out my courses on this website.\nMy other teaching websites are:\n- Foundation Courses at Srishti\n- Teaching R to Artists and Designers\n- Using AI in R\n\nMy student portfolios are here:\nhttps://we-r-us.netlify.app/portfolio/\nhttps://form-and-structure.netlify.app/portfolio/\n\nYou can find me on Twitter, or GitHub, and on LinkedIn! Feel free to reach out to me via mail too!\n\n\n Back to top"
+    "text": "I’m external Faculty at the Srishti Manipal Institute of Art and Design, both in Bangalore, INDIA, and a Certified Level #1 TRIZ Professional .\nI have a passion for coding in R / ObservableJS / p5.js, Data Visualization, Complexity Science, Literature, and Creative Thinking / Problem Solving with TRIZ. On this website, I share and teach what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving. To get started, you can check out the Modules on this website.\nMy teaching websites are:\n\n\nTRIZ for Problem Solvers (This one!!)\nThe Mad Hatter’s Guide to Data Viz and Stats in R\n\nModel Thinking in Design\n\nLiterary Jukebox: Design Thinking from Short Fiction\n\nMaths for Creative Coders\n\n\nMy student portfolios are here:\nhttps://we-r-us.netlify.app/portfolio/\nhttps://form-and-structure.netlify.app/portfolio/\n\nYou can find me on Twitter, or GitHub, and on LinkedIn! Feel free to reach out to me via mail too!\n\n\n Back to top"
   },
   {
     "objectID": "content/courses/TRIZ4ProbSolving/Modules/90-TRIZ-Contradiction-Matrix/index.html#project-tetris-triz-videos",
@@ -313,7 +313,67 @@
     "href": "content/courses/TRIZ4ProbSolving/listing.html",
     "title": "TRIZ for Problem Solvers",
     "section": "",
-    "text": "Title\n\n\n\nReading Time\n\n\n\n\n\n\n\n\n\n\n\nI am Water\n\n\n2 min\n\n\n\n\n\n\n\n\n\nI am What I yam\n\n\n2 min\n\n\n\n\n\n\n\n\n\nBirds of Different Feathers\n\n\n2 min\n\n\n\n\n\n\n\n\n\nI Connect therefore I am\n\n\n5 min\n\n\n\n\n\n\n\n\n\nI Think, Therefore I am\n\n\n1 min\n\n\n\n\n\n\n\n\n\nThe Art of Parallel Thinking\n\n\n2 min\n\n\n\n\n\n\n\n\n\nA Year of Metaphoric Thinking\n\n\n5 min\n\n\n\n\n\n\n\n\n\nTRIZ - Problems and Contradictions\n\n\n6 min\n\n\n\n\n\n\n\n\n\nTRIZ - The Unreasonable Effectiveness of Available Resources\n\n\n6 min\n\n\n\n\n\n\n\n\n\nTRIZ - The Ideal Final Result\n\n\n2 min\n\n\n\n\n\n\n\n\n\nTRIZ - A Contradictory Language\n\n\n13 min\n\n\n\n\n\n\n\n\n\nTRIZ - The Contradiction Matrix Workflow\n\n\n2 min\n\n\n\n\n\n\n\n\n\nTRIZ - The Laws of Evolution\n\n\n2 min\n\n\n\n\n\n\n\n\n\nTRIZ - Substance Field Analysis, and ARIZ\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "text": "Japanese Daisugi Method of Growing Timber",
+    "crumbs": [
+      "TRIZ for Problem Solvers"
+    ]
+  },
+  {
+    "objectID": "content/courses/TRIZ4ProbSolving/listing.html#inspiration",
+    "href": "content/courses/TRIZ4ProbSolving/listing.html#inspiration",
+    "title": "TRIZ for Problem Solvers",
+    "section": "Inspiration",
+    "text": "Inspiration\nThis is an extracted “kagga” from the famous Mankutimmmana Kagga by D V Gundappa. (Quoted to me in 1989 at Horanadu, by late friend B.S.Nagesh Rao, Digital Systems Division, ISRO Satellite Centre)\n\nhosa chiguru haLE bEru kUDiralu mara sogasu| hosa yukti haLe tatva-doDagUDe dharma|| RuShivaakyadoDane vij~jaanakale mELavise| jasavu janajIvanake - maMkutimma || 522 ||",
+    "crumbs": [
+      "TRIZ for Problem Solvers"
+    ]
+  },
+  {
+    "objectID": "content/courses/TRIZ4ProbSolving/listing.html#introduction",
+    "href": "content/courses/TRIZ4ProbSolving/listing.html#introduction",
+    "title": "TRIZ for Problem Solvers",
+    "section": "Introduction",
+    "text": "Introduction\nCreative Problem Solving is a Process and can be taught and learnt. Brainstorming is utter BS. Post-Its are a great Invention, but a complete waste of time.\nThis is a (very opinionated) Contextual Enquiry Course on Creative Problem Solving , designed for the Foundation (freshman) year of a Bachelor’s Degree in Art and Design, at the Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India.",
+    "crumbs": [
+      "TRIZ for Problem Solvers"
+    ]
+  },
+  {
+    "objectID": "content/courses/TRIZ4ProbSolving/listing.html#abstract",
+    "href": "content/courses/TRIZ4ProbSolving/listing.html#abstract",
+    "title": "TRIZ for Problem Solvers",
+    "section": "Abstract",
+    "text": "Abstract\nThis Unit takes students on a journey of understanding the process of Personal Creativity and Structured Innovation.\nWe begin by using the idea of Flow, as a pathway between ever-increasing (creative) Complexity and Boredom as defined by Csikszentmihalyi. Childhood Games will be examined to understand the aspects of Play and linked to and the idea of “Infinite Games” by James Carse and how Rule-Breaking in Play is an important step in enhancing personal creativity.\nBourdieu’s concept of Cultural Capital will be interpreted as one of the primary sources for an individual’s ideas, along with Csikzentmihalyi’s idea of the Creative Domain, Field and the Creative Individual. Tools for enhancing Cultural Capital will be introduced. The MBTI / Big 5 Tool will be used to understanding ourselves, our abilities, strengths, traits and differences from others.\nStructured heuristic techniques based on de Bono’s 6 Hat method will help us see how to perform Situational Analysis and Idea Generation, to help us take ideas from conception to execution. Reference will be made to Alex Osborn’s “Applied Imagination” methods and tied to the Big 5 results.\nAspects of the Systematic Russian Process of innovation and problem solving, TRIZ (Teoriya Resheniya Izobretatelskhikh Zadatch) invented by Genrikh Altshuller will be introduced. Alshuller’s idea of Generalized Problem Solving by borrowing ideas/memes from other Domains, his 8 Laws of Evolution of Products, and ( a few of ) the 40 Inventive Principles derived from his analysis of patents, will be covered in gamified fashion. These will be linked to with David Perkin’s (Harvard Project Zero) ideas and Edward de Bono’s methods to interpret, and design for, existing situations and products.\nAdvanced aspects of TRIZ such as Su-Field Analysis, the Laws of Product Evolution, and ARIZ will be introduced in gamefied fashion.\nField visits to product, food preparation, solar energy, and logistics companies will be used to bolster and demonstrate the unity of these concepts acquired in class. Technological assignments, and non-tech making and presenting tasks will also be used in class to create gamefied experiences for all of these.\nThe students will finally use the methods and ideas they have learnt and apply them in creating a project, artifact or performance of their own.",
+    "crumbs": [
+      "TRIZ for Problem Solvers"
+    ]
+  },
+  {
+    "objectID": "content/courses/TRIZ4ProbSolving/listing.html#course-contents",
+    "href": "content/courses/TRIZ4ProbSolving/listing.html#course-contents",
+    "title": "TRIZ for Problem Solvers",
+    "section": "Course Contents",
+    "text": "Course Contents\nThe course will have some basic foundations from psychological and cognitive science foundations, on top of which will be built the edifice of Big Understandings, Dispostions, and Skills.\n\nFundamentals of Flow and Play as defined by Mihaly Csikszentmihalyi\nThinking Styles and how one appreciates the Problem Situation\nCultural Capital as a source of one’s Ideas\nGenes and Memes\nCognitive Biases and Functional Fixedness\nCultivating a Mentality of Resource(fulness)\nMetaphors as Gateways\nThe Six Thinking Hats Method and how to apply them in practice\nInnovative Problems Solving Methods like TRIZ , its philosophy, and techniques such as the TRIZ Contradiction Matrix and 40 Inventive Principles\nAdvanced TRIZ methods such as Substance-Field Analysis , 76 Scientific Principles , and the Laws of Product Evolution\nAnalysis of Hollywood Movies for manifestations of metaphoric problems and TRIZ methods\nBring your own Problem: A Final Culminating Problem-Solving Project\n\n\nWhy all this “Structure” to a course on Creativity?\nIsn’t Empathy Mapping-Brainstorming-Ideation-Iteration the core of the Design process? What is this new(?)-fangled structured TRIZ process thing?\nLet us see some short extracts from Herbert Simon’s landmark book, Sciences of the Artificial: (emphasis everywhere in the following is mine)\n\nChapter 5: The Science of Design: Creating the Artificial Historically and traditionally, it has been the task of the science disciplines to teach about natural things: how they are and how they work. It has been the task of engineering schools to teach about artificial things: how to make artifacts that have desired properties and how to design.\n\n\nEngineers are not the only professional designers. Everyone designs who devises courses of action aimed at changing existing situations into preferred ones. The intellectual activity that produces material artifacts is no different fundamentally from the one that prescribes remedies for a sick patient or the one that devises a new sales plan for a company or a social welfare policy for a state. Design, so construed, is the core of all professional training; it is the principal mark that distinguishes the professions from the sciences. Schools of engineering, as well as schools of architecture, business, education, law, and medicine, are all centrally concerned with the process of design.\n\n\nIn view of the key role of design in professional activity, it is ironic that in this century the natural sciences almost drove the sciences of the artificial from professional school curricula, a development that peaked about two or three decades after the Second World War. Engineering schools gradually became schools of physics and mathematics; medical school became schools of biological science; business schools became schools of finite mathematics.\n\n\nSuch a universal phenomenon must have had a basic cause. It did have a very obvious one. As professional schools, including the independent engineering schools, were more and more absorbed into the general cul- ture of the university, they hankered after academic respectability.\n\n\nIn terms of the prevailing norms, academic respectability calls for subject matter that is intellectually tough, analytic, formalizable, and teachable.\n\n\nIn the past much, if not most, of what we knew about design and about the artificial sciences was intellectually soft, intuitive, informal, and cookbooky.\n\nYeah. That’s why this course exists. To make Design tough, analytic, formalizable, and teachable learnable.",
+    "crumbs": [
+      "TRIZ for Problem Solvers"
+    ]
+  },
+  {
+    "objectID": "content/courses/TRIZ4ProbSolving/listing.html#references",
+    "href": "content/courses/TRIZ4ProbSolving/listing.html#references",
+    "title": "TRIZ for Problem Solvers",
+    "section": "References",
+    "text": "References\n\nHerbert A. Simon. (1988). The Science of Design: Creating the Artificial. Design Issues, Vol. 4, No. 1/2, Designing the Immaterial Society (1988), pp. 67-82.Stable URL: http://www.jstor.org/stable/1511391\nPrekshaa.(December 2019) The Making of Mankutimmana Kagga. https://www.prekshaa.in/article/making-mankutimmana-kagga",
+    "crumbs": [
+      "TRIZ for Problem Solvers"
+    ]
+  },
+  {
+    "objectID": "content/courses/TRIZ4ProbSolving/listing.html#course-materials-and-modules",
+    "href": "content/courses/TRIZ4ProbSolving/listing.html#course-materials-and-modules",
+    "title": "TRIZ for Problem Solvers",
+    "section": "Course Materials and Modules",
+    "text": "Course Materials and Modules",
     "crumbs": [
       "TRIZ for Problem Solvers"
     ]
@@ -995,7 +1055,7 @@
     "href": "content/courses/listing.html",
     "title": "Teaching",
     "section": "",
-    "text": "Here are the courses that I teach:\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n\n\n\nTRIZ for Problem Solvers\n\n\nMethods and Process for Creative Thinking and Problem Solving\n\n\nDec 31, 2022\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Title\n\n\n\nSubtitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n\n\n\nTRIZ for Problem Solvers\n\n\nMethods and Process for Creative Thinking and Problem Solving\n\n\nDec 31, 2022\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "content/courses/TRIZ4ProbSolving/Modules/200-TRIZ-Advanced-Stuff/index.html#references",
