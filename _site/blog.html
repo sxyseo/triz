@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./content/materials/icon-park-twotone--concept-sharing.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-1b3e43c72e8be34557c75123b0b69e0d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15ea27bac76f9890c21e80949f497921.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6906d15c8da1363cc8026a66b5a71dee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-afa36575126fe0cbd1278e680bef78d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/line-highlight-1.0.0/line-highlight.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
@@ -94,6 +95,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">TRIZ: A Creative Problem-Solving System</span>
     </a>
@@ -155,7 +158,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./content/materials/images/1book25.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./content/materials/images/1book25.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./content/materials/images/1book25.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -258,6 +262,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">TRIZ - Substance Field Analysis, and ARIZ</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./content/courses/TRIZ4ProbSolving/Modules/400-TRIZ-References/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - Reference Documents</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -281,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="hi-im-arvind-venkatadri." class="level1 g-col-6">
 <h1>Hi, I’m Arvind Venkatadri.</h1>
 <p>I’m external Faculty at the <a href="https://srishtimanipalinstitute.in">Srishti Manipal Institute of Art and Design</a>, both in Bangalore, INDIA, and a <a href="https://www.matriz-official.net">Certified Level #1 TRIZ Professional</a> .</p>
-<p>I have a passion for coding in R / ObservableJS / p5.js, Data Visualization, Complexity Science, Literature, and Creative Thinking / Problem Solving with TRIZ. On this website, I share and teach what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving.</p>
+<p>I have a passion for coding in R / ObservableJS / p5.js, Data Visualization, Complexity Science, Literature, and Creative Thinking / Problem Solving with TRIZ. On this website, I share and teach what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving. I am a Level#1 Certified TRIZ Professional from MATRIZ, the International TRIZ Association.</p>
 <p>To get started, you can check out <a href="./content/courses/listing.html">my courses</a>. You can also find me on <a href="https://twitter.com/arvind_v">Twitter</a>, <a href="https://github.com/arvindvenkatadri">GitHub</a>, and on <a href="https://medium.com/@arvind.venkatadri">Medium</a>. Feel free to reach out to me via <a href="mailto:arvind.venkatadri@gmail.com">email</a> !</p>
 </section>
 </div>
@@ -340,13 +350,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
