@@ -1,0 +1,75 @@
+---
+date: "2024-02-14"
+date-modified: "`r Sys.Date()"
+title: "TRIZ - At the Movies"
+order: 95
+categories:
+- Contradictions
+- Reel World Problems
+- TRIZ Inventive Principles
+
+---
+## Introduction
+To recap: 
+
+We have seen:\
+
+- How to examine an Object or a Situation 
+- Use the Ishikawa Diagram to find Knobs and Settings
+- Find one or more Administrative Contradictions(AC)  
+- State the Ideal Final Result(IFR) to focus our attention  
+- Convert the AC into a TC with 39 TRIZ Parameters  
+- (Convert the AC into a PC)  
+- Read the  TRIZ Inventive Principles(IPs) from the Contradiction Matrix
+- Apply the TRIZ Inventive Principles to solve the Problem.
+
+Here are a few iconic movies that we may consider as embodying very significant use of TRIZ Principles!! But here is a [***very very*** Administrative Contradiction for you to consider]{style="background-color:yellow;"}:
+
+>We watch the movie and have fun, but we then have a monster of an Assignment to follow. 
+
+Your call!!
+
+## TRIZ at the Movies
+
+Home Alone\
+{{< youtube 4hbru1nLBeU >}}<br>
+
+{{< youtube nBiZu5C6lCo >}} <br>
+
+Castaway:\
+{{< youtube 5qFJDndN9GQ >}} <br>
+
+Apollo 13:\
+{{< youtube 7RJnMME0XAw >}} <br>
+
+
+## References
+
+1. <u><https://www.cliohistory.org/thomas-lawrence/akaba></u>
+
+1. Script from Lawrence of Arabia. <u>https://assets.scriptslug.com/live/pdf/scripts/lawrence-of-arabia-1962.pdf</u>
+
+2. Filmsite.org: <u>[Review of Lawrence of Arabia.](https://www.filmsite.org/lawr.html)</u> 
+
+3. <u>https://sheldonkirshner.com/lawrence-of-arabia-the-movie-revisited/</u>
+
+4. <u><https://www.reddit.com/r/TrueFilm/comments/r7r7o4/lawrence_of_arabia_why_everyone_needs_to_watch_it/></u>
+
+## More Readings
+
+1. <u>https://medium.com/@arvind.venkatadri</u>
+
+::: {.hidden .unlisted .unnumbered}
+
+## Links {.hidden .unlisted .unnumbered}
+
+1. <u><https://youtu.be/4hbru1nLBeU></u>
+
+2. <u><https://youtu.be/nBiZu5C6lCo></u>
+
+3. <u><https://youtu.be/Lu1ojHsMRrY></u>
+
+4. <u><https://youtu.be/7RJnMME0XAw?si=ak5Tl7BWnNxbuLTI></u>
+
+:::
+

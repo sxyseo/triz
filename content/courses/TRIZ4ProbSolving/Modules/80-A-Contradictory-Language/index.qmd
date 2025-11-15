@@ -1,41 +1,145 @@
 ---
 date: "2021-01-05"
+date-modified: "`r Sys.Date()`"
 title: "TRIZ - A Contradictory Language"
 order: 80
-links:
-- icon: flask
-  icon_pack: fas
-  name: TRIZ Basics
-  url: /slides/PlayAndInvent/TRIZ-Basics/index.html
-tags:
+categories:
 - Genrikh Altshuller
 - TRIZ
 - 48 Inventive Parameters
 
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
 ---
 
 
-```{r,echo=FALSE, fig.align='center',fig.alt="Image by Brett Jordan on Unsplash", out.height="75%"}
+```{r,echo=FALSE, fig.align='center',fig.alt="Image by Brett Jordan on Unsplash", out.height="440px", out.width="440px"}
 knitr::include_graphics("featured.jpg")
 
 ```
 
 
-```{r setup, include=FALSE}
-library(blogdown)
-library(tidyverse)
-library(hrbrthemes)
-hrbrthemes::import_roboto_condensed()
+
+## An Interdisciplinary <u>[Esperanto](https://www.youtube.com/watch?v=whGSkjXTPjU)</u>
+
+So: let us use a metaphor for a metaphoric language !!
+
+<br>
+{{< youtube whGSkjXTPjU >}}
+<br>
+
+```{r}
+#| label: plot-theme-ggplot4
+#| cache: false
+#| code-fold: true
+#| messages: false
+#| warning: false
+#| 
+library(systemfonts)
 library(showtext)
-font_add_google(name = "Fira Code", family = "fira")
-font_add_google("Gochi Hand", "gochi")
+library(blogdown)
+library(marquee)
+library(ggrepel)
+## Clean the slate
+systemfonts::clear_local_fonts()
+systemfonts::clear_registry()
+##
+showtext_opts(dpi = 96) #set DPI for showtext
+font_add_google(name = "Fira Code", family = "Fira")
+font_add_google(name = "Roboto Condensed", family = "Roboto Condensed")
+font_add_google("Alegreya", "Alegreya")
 font_add_google("Schoolbell", "bell")
-showtext_auto()
+
+showtext_auto(enable = TRUE) #enable showtext
+##
+theme_custom <- function(){ 
+
+    theme_bw(base_size = 10) + 
+    
+    # theme(panel.widths = unit(11, "cm"), 
+    #       panel.heights = unit(6.79, "cm")) + # Golden Ratio
+    
+    theme(plot.margin = margin_auto(t = 1, r = 2, b = 1, l = 1, unit = "cm"),
+          plot.background = element_rect(fill = "bisque",
+                                         colour = "black",
+                                         linewidth = 1)) + 
+            
+    theme_sub_axis(title = element_text(family = "Roboto Condensed", 
+                                       size = 10),
+                   text = element_text(family = "Roboto Condensed", 
+                                       size = 8)) + 
+    
+    theme_sub_legend(text = element_text(family = "Roboto Condensed", 
+                                         size = 6),
+                     title = element_text(family = "Alegreya", 
+                                          size = 8)) + 
+    
+    theme_sub_plot(title = element_text(family = "Alegreya", 
+                                        size = 14, face = "bold"),
+                   title.position = "plot",
+                   subtitle = element_text(family = "Alegreya", 
+                                           size = 10),
+                   caption = element_text(family = "Alegreya", 
+                                          size = 6),
+                   caption.position = "plot") 
+    
+}
+
+## Use available fonts in ggplot text geoms too!
+ggplot2::update_geom_defaults(geom = "text", new = list(
+  family = "Roboto Condensed",
+  face = "plain",
+  size = 3.5,
+  color = "#2b2b2b"
+)
+)
+ggplot2::update_geom_defaults(geom = "label", new = list(
+  family = "Roboto Condensed",
+  face = "plain",
+  size = 3.5,
+  color = "#2b2b2b"
+)
+)
+
+ggplot2::update_geom_defaults(geom = "marquee", new = list(
+  family = "Roboto Condensed",
+  face = "plain",
+  size = 3.5,
+  color = "#2b2b2b"
+)
+)
+ggplot2::update_geom_defaults(geom = "text_repel", new = list(
+  family = "Roboto Condensed",
+  face = "plain",
+  size = 3.5,
+  color = "#2b2b2b"
+)
+)
+ggplot2::update_geom_defaults(geom = "label_repel", new = list(
+  family = "Roboto Condensed",
+  face = "plain",
+  size = 3.5,
+  color = "#2b2b2b"
+)
+)
+
+ggplot2::update_geom_defaults(geom = "rich_text", new = list(
+  family = "Roboto Condensed",
+  face = "plain",
+  size = 3.5,
+  color = "#2b2b2b"
+)
+)
+
+## Set the theme
+ggplot2::theme_set(new = theme_custom())
+
+## tinytable options
+options("tinytable_tt_digits" = 2)
+options("tinytable_format_num_fmt" = "significant_cell")
+options(tinytable_html_mathjax = TRUE)
+
+
+## Set defaults for flextable
+flextable::set_flextable_defaults(font.family = "Roboto Condensed")
 
 ```
 
@@ -52,7 +156,7 @@ We used the method of:
 
 Now that we know how problems can be stated as simple *Administrative Contradictions (AC)*, we need to take the next step and make what TRIZ calls **Technical Contradictions (TC)** and **Physical Contradictions (PC)**. To do this, we will use a set of *metaphoric phrases* that are an integral part of (classical) TRIZ. These metaphoric phrases are simple enough and provide rich troves for imaginative problem solving.
 
-Before we study this *TRIZ Contradiction Language* however, we need to obtain a quick understanding of its history.
+Before we study this [*TRIZ Contradiction Language*]{style="background-color:yellow;"} however, we need to obtain a quick understanding of its history.
 
 
 
@@ -106,24 +210,14 @@ ggplot(data, aes(x = Levels, y = pp, fill = Levels)) +
   ) +
   coord_flip() + 
   scale_fill_brewer(palette = "Spectral",
-                    guide = guide_legend(reverse = TRUE)) +
-  theme_void() +
-  theme(plot.title.position = "plot",
-    plot.title = element_text(
-      face = "bold",
-      size = 20,
-    ),
-    plot.subtitle = element_text(
-      face = "bold",
-      size = 18
-    ),
+                    guide = guide_legend(reverse = TRUE)) +     ggplot2::theme_set(new = theme_custom()) + 
+  labs(title = "Soviet Patents and their Innovation Levels", 
+       subtitle = "Analyzed by Genrikh Altshuller") +
+  theme(
     axis.text.y = element_text(size = 16),
     axis.text.x = element_blank(),
     axis.title = element_blank(),
-    legend.position = "none") +
-  labs(title = "Soviet Patents and their Innovation Levels", 
-       subtitle = "Analyzed by Genrikh Altshuller")
-
+    legend.position = "none")
 ```
 
 ***Level 1: Apparent Solution***. This level requires no real invention; it consists of minor adaptations of existing concepts. Simple improvement of a technical system. They require knowledge available within an industry relevant to that system.
@@ -182,18 +276,18 @@ ggplot(data.frame(x=c(0, 50)), aes(x=x)) +
   geom_abline(slope = 12, intercept = 0, colour = "pink") +
   labs(ylab = "Likelihood of losing a Wheel",
        title =  "Automobile Wheel Bolts (*A Contradiction*)") +
-annotate("text", x = 6, y = 25, label = "Effort to Remove Wheel Bolts",size = 18) +
-  annotate("text", x = 45, y = 100, label = "Number of Wheel Bolts", size = 18) +
+annotate("text", x = 6, y = 25, label = "Effort to Remove Wheel Bolts",size = 12) +
+  annotate("text", x = 45, y = 100, label = "Number of Wheel Bolts", size = 12) +
   annotate("text", x = 45, y = 450, label = "Ideality") +
   theme_void() +
   theme(
     plot.title = element_text(
-      family = "serif",
+      family = "roboto",
       face = "bold",
       size = 28
     ),
     plot.subtitle = element_text(
-      family = "gochi",
+      family = "roboto",
       face = "bold",
       size = 24
     ),
@@ -221,8 +315,7 @@ annotate("text", x = 6, y = 25, label = "Effort to Remove Wheel Bolts",size = 18
 ```
 
 
-```{r,echo=FALSE,eval=FALSE}
-library(ggplot2)
+```{r,echo=FALSE,fig.align='center', out.height="300px", out.width="480px"}
 library(ggtext)
 
 eq = function(x){(x-25)*(x-25)}
@@ -236,23 +329,20 @@ ggplot(data, aes(x = x)) +
     data = data,
     x = 40, y = 600,
     label = "Effort in Removing Bolts",
-    hjust = 0.5, vjust = 0.5,fill = "pink",
-    size = 8
+    hjust = 0.5, vjust = 0.5,fill = "pink"
   ) + 
   geom_richtext(
     data = data, 
     x = 10, y = 600,
     label = "Likelihood of losing a Wheel",
-    hjust = 0.5, vjust = 0.4, fill = "skyblue",
-    size = 8
+    hjust = 0.5, vjust = 0.4, fill = "skyblue"
   ) + 
   
    geom_richtext(
     data = data, 
     x = 25, y = 50,
     label = "Ideality??",
-    hjust = 0.5, vjust = 0.5,
-    size = 8
+    hjust = 0.5, vjust = 0.5
   )  + 
   labs(title =  "Automobile Wheel Bolts",
        subtitle = "*A Contradiction*",  
@@ -262,21 +352,15 @@ ggplot(data, aes(x = x)) +
   # annotate("text", x = 6, y = 25, label = "Effort to Remove Wheel Bolts",size = 12) +
   # annotate("text", x = 45, y = 100, label = "Number of Wheel Bolts", size = 12) +
   # annotate("text", x = 45, y = 450, label = "Ideality") +
-  theme_minimal() +
+  theme_custom() +
   theme(
     axis.text.y = element_blank(),
     axis.text.x = element_blank(),
-    axis.title = element_text(size = 18),
+    axis.title = element_text(size = 12),
     axis.line = element_line(arrow = arrow(), linewidth = 1),
     panel.grid = element_blank(),
-    
-    plot.title = element_text(
-      family = "serif",
-      face = "bold",
-      size = 24
-    ),
     plot.subtitle = element_markdown(
-      family = "gochi",
+      #family = "gochi",
       face = "bold",
       size = 18
     )
@@ -287,7 +371,13 @@ ggplot(data, aes(x = x)) +
 
 ```
 
-*PC Examples*:  
+
+See this:
+
+{{< youtube tRBOiq-Q6_s >}}
+
+
+### PC Examples  
 
 - Landing gear must be present on an airplane in order to land and takeoff. It should not be present during flight because of an increase in air drag. The physical contradiction is that **the landing gear must be both present and absent**. This contradiction is resolved by separating the requirements in time — make the landing gear retractable.   
 
@@ -308,9 +398,7 @@ One quote from this short reading seems very apposite here:
 ## References
 
 1. Valeri Souchkov, **Differentiating Among the Five Levels of Solutions**,[**Web**](https://www.metodolog.ru/triz-journal/archives/2007/07/02/index.html)  
-
 1. Valeri Souchkov, **"How to Define a Contradiction"**, [**Web**](https://xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf) and [**PDF**](TRIZ_DefineContradiction_Tutorial.pdf)  
-
 1. Open Source TRIZ: **TRIZ Power Tools: Formulating Contradictions**: [Webpage](https://www.opensourcetriz.com/triz-books/triz-skills/resolving-contradictions.html)
 
 
@@ -318,10 +406,7 @@ One quote from this short reading seems very apposite here:
 ## Additional Readings
 
 1. <https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success>
-
 1. <https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success>
-
-
 
 
 [^1]:Classical TRIZ started off with ***39 Inventive Parameters***. In recent years, the parameters have been increased to 48, after a study of an ever-increasing body of patent literature.

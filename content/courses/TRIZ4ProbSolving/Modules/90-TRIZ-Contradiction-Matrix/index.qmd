@@ -13,7 +13,7 @@ links:
 #   url: /pdf/TRIZ/Titanic_Case_Study.pdf
 slides: 
 summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
-tags:
+categories:
 - Contradictions
 - Contradiction Matrix
 - 39 TRIZ Parameters
@@ -65,6 +65,24 @@ Let us get an actual experience of TRIZ methods with these short videos:
 
 6. How to use the Contradiction Matrix:[(Coursera Video)](https://www.coursera.org/lecture/creative-thinking-techniques-and-tools-for-success/contradiction-matrix-DtEKz>)
 
+## Discussion
+
+- The <u>[TRIZ Contradiction Matrix](pdf/TRIZ/matrix2003.pdf)</u> gives us 3-4 short, pithy **metaphoric solutions**, called **TRIZ Inventive Principles** that are eminently suited to our problem.\
+
+- We need to look at those Inventive Principle metaphors, and translate them back into our problem. Think of this process as, what else, yet another metaphor: *taking the antilogarithm* to arrive at the solution of a complicated multiplication problem. \
+- We use our CC, that we have embedded in the Ishikawa Diagram, to decide which knobs we can turn in accordance with each Inventive Principle. 
+
+
+Here is an example from the movie <u>[Home Alone(2)](https://youtu.be/mz-snPWBQYQ)</u>:
+
+{{< youtube h_bUcNjmuSk >}}
+<br>
+
+The use of the movie **audio dialogue** by Kevin could be an example of the following *TRIZ Inventive Principles*:\
+
+- `Taking Out` ( i.e. taking the essential good/bad part out of something)\
+- `Continuity of Useful Action` (i.e. repeated use of a good solution)
+
 
 ## A TRIZ Workflow
 
@@ -96,19 +114,12 @@ Want to create a good protest or strike? Or simply want to clean up the oceans?
 ## References
 
 1. Pizza Box <https://www.metodolog.ru/triz-journal/archives/2008/03/04/>
-
 1. TRIZ for Dummies Cheat Sheet [(weblink)](https://www.dummies.com/business/management/triz-for-dummies-cheat-sheet/)
-
 1. TRIZ Inventive Principles in Pics @instagram: <https://www.instagram.com/stories/highlights/17857566926043828/>
-
 1. Stan Kaplan, ***An Introduction to TRIZ***[(PDF)](pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)
 This is a simple and short introduction to *all* aspects of Classical TRIZ.
-
 1. Jack Hipple, "The Ideal Result: What it is and how to achive it", Springer, 2012.
-
 1. Project TETRIS: Chapter 1: Introduction to Classical TRIZ [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_01.pdf)
-
-
 1. Project TETRIS: Chapter 5: Techniques  to  Resolve  Contradictions / Resources / Effects [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_05.pdf)
-
 1. Project TETRIS: Examples of inventive problems: Example 1-5 [(RAR Archive File)](https://innovazionesistematica.it/wp-content/uploads/2020/10/ExamplesEN.rar)
+

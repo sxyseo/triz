@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="dcterms.date" content="2021-01-05">
 <title>TRIZ - A Contradictory Language – TRIZ: A Creative Problem-Solving System</title>
@@ -17,6 +17,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -37,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-15ea27bac76f9890c21e80949f497921.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-9afb2adbe3790f1849c32ba3c79c48e4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../../site_libs/bootstrap/bootstrap-afa36575126fe0cbd1278e680bef78d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -91,8 +126,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../../../../index.html">
     <span class="navbar-title">TRIZ: A Creative Problem-Solving System</span>
     </a>
@@ -175,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/20-Cultural-Capital/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">I am What I yam</span></a>
+ <span class="menu-text">I yam What I yam</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -193,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/37-What-Am-I-Thinking-Of/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">I Think, Therefore I am</span></a>
+ <span class="menu-text">I Think, Fast and Slow</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -240,6 +273,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/95-TRIZ-Stories/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - At the Movies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/100-TRIZ-Laws-of-Evolution/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - The Laws of Evolution</span></a>
   </div>
@@ -266,10 +305,16 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-<li><a href="#metaphors-for-our-contradictions" id="toc-metaphors-for-our-contradictions" class="nav-link active" data-scroll-target="#metaphors-for-our-contradictions">Metaphors for our Contradictions</a></li>
+<li><a href="#an-interdisciplinary-esperanto" id="toc-an-interdisciplinary-esperanto" class="nav-link active" data-scroll-target="#an-interdisciplinary-esperanto">An Interdisciplinary <u>Esperanto</u></a></li>
+  <li><a href="#metaphors-for-our-contradictions" id="toc-metaphors-for-our-contradictions" class="nav-link" data-scroll-target="#metaphors-for-our-contradictions">Metaphors for our Contradictions</a></li>
   <li><a href="#the-history-of-triz" id="toc-the-history-of-triz" class="nav-link" data-scroll-target="#the-history-of-triz">The History of TRIZ</a></li>
   <li><a href="#speaking-triz" id="toc-speaking-triz" class="nav-link" data-scroll-target="#speaking-triz">Speaking TRIZ</a></li>
-  <li><a href="#some-contradiction-examples" id="toc-some-contradiction-examples" class="nav-link" data-scroll-target="#some-contradiction-examples">Some Contradiction Examples</a></li>
+  <li>
+<a href="#some-contradiction-examples" id="toc-some-contradiction-examples" class="nav-link" data-scroll-target="#some-contradiction-examples">Some Contradiction Examples</a>
+  <ul class="collapse">
+<li><a href="#pc-examples" id="toc-pc-examples" class="nav-link" data-scroll-target="#pc-examples">PC Examples</a></li>
+  </ul>
+</li>
   <li><a href="#thinking-problem-solving-and-language" id="toc-thinking-problem-solving-and-language" class="nav-link" data-scroll-target="#thinking-problem-solving-and-language">Thinking, Problem Solving, and Language</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional Readings</a></li>
@@ -278,7 +323,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../../content/courses/TRIZ4ProbSolving/listing.html">TRIZ for Problem Solvers</a></li><li class="breadcrumb-item"><a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/80-A-Contradictory-Language/index.html">TRIZ - A Contradictory Language</a></li></ol></nav><div class="quarto-title">
 <h1 class="title">TRIZ - A Contradictory Language</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Genrikh Altshuller</div>
+    <div class="quarto-category">TRIZ</div>
+    <div class="quarto-category">48 Inventive Parameters</div>
+  </div>
+  </div>
 
 
 
@@ -292,6 +342,12 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">November 15, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -300,12 +356,145 @@ ul.task-list li input[type="checkbox"] {
 </header><div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="featured.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="featured.jpg" class="quarto-figure quarto-figure-center figure-img" style="height:75.0%" alt="Image by Brett Jordan on Unsplash" width="779"></a></p>
+<figure class="figure"><p><a href="featured.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="featured.jpg" class="quarto-figure quarto-figure-center figure-img" alt="Image by Brett Jordan on Unsplash" width="440" height="440"></a></p>
 </figure>
 </div>
 </div>
 </div>
-<section id="metaphors-for-our-contradictions" class="level2"><h2 class="anchored" data-anchor-id="metaphors-for-our-contradictions">Metaphors for our Contradictions</h2>
+<section id="an-interdisciplinary-esperanto" class="level2"><h2 class="anchored" data-anchor-id="an-interdisciplinary-esperanto">An Interdisciplinary <u><a href="https://www.youtube.com/watch?v=whGSkjXTPjU">Esperanto</a></u>
+</h2>
+<p>So: let us use a metaphor for a metaphoric language !!</p>
+<p><br></p>
+<div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/whGSkjXTPjU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <br><div class="cell" data-messages="false">
+<details class="code-fold"><summary>Show the Code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-source-line-numbers="nil" data-code-line-numbers="nil"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/r-lib/systemfonts">systemfonts</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/yixuan/showtext">showtext</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/rstudio/blogdown">blogdown</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://marquee.r-lib.org">marquee</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggrepel.slowkow.com/">ggrepel</a></span><span class="op">)</span></span>
+<span><span class="co">## Clean the slate</span></span>
+<span><span class="fu">systemfonts</span><span class="fu">::</span><span class="fu"><a href="https://systemfonts.r-lib.org/reference/add_fonts.html">clear_local_fonts</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu">systemfonts</span><span class="fu">::</span><span class="fu"><a href="https://systemfonts.r-lib.org/reference/register_font.html">clear_registry</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">##</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/showtext/man/showtext_opts.html">showtext_opts</a></span><span class="op">(</span>dpi <span class="op">=</span> <span class="fl">96</span><span class="op">)</span> <span class="co"># set DPI for showtext</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/sysfonts/man/font_add_google.html">font_add_google</a></span><span class="op">(</span>name <span class="op">=</span> <span class="st">"Fira Code"</span>, family <span class="op">=</span> <span class="st">"Fira"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/sysfonts/man/font_add_google.html">font_add_google</a></span><span class="op">(</span>name <span class="op">=</span> <span class="st">"Roboto Condensed"</span>, family <span class="op">=</span> <span class="st">"Roboto Condensed"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/sysfonts/man/font_add_google.html">font_add_google</a></span><span class="op">(</span><span class="st">"Alegreya"</span>, <span class="st">"Alegreya"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/sysfonts/man/font_add_google.html">font_add_google</a></span><span class="op">(</span><span class="st">"Schoolbell"</span>, <span class="st">"bell"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/showtext/man/showtext_auto.html">showtext_auto</a></span><span class="op">(</span>enable <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="co"># enable showtext</span></span>
+<span><span class="co">##</span></span>
+<span><span class="va">theme_custom</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="op">)</span> <span class="op">{</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_bw</a></span><span class="op">(</span>base_size <span class="op">=</span> <span class="fl">10</span><span class="op">)</span> <span class="op">+</span></span>
+<span></span>
+<span>    <span class="co"># theme(panel.widths = unit(11, "cm"),</span></span>
+<span>    <span class="co">#       panel.heights = unit(6.79, "cm")) + # Golden Ratio</span></span>
+<span></span>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span></span>
+<span>      plot.margin <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">margin_auto</a></span><span class="op">(</span>t <span class="op">=</span> <span class="fl">1</span>, r <span class="op">=</span> <span class="fl">2</span>, b <span class="op">=</span> <span class="fl">1</span>, l <span class="op">=</span> <span class="fl">1</span>, unit <span class="op">=</span> <span class="st">"cm"</span><span class="op">)</span>,</span>
+<span>      plot.background <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_rect</a></span><span class="op">(</span></span>
+<span>        fill <span class="op">=</span> <span class="st">"bisque"</span>,</span>
+<span>        colour <span class="op">=</span> <span class="st">"black"</span>,</span>
+<span>        linewidth <span class="op">=</span> <span class="fl">1</span></span>
+<span>      <span class="op">)</span></span>
+<span>    <span class="op">)</span> <span class="op">+</span></span>
+<span></span>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/subtheme.html">theme_sub_axis</a></span><span class="op">(</span></span>
+<span>      title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">10</span></span>
+<span>      <span class="op">)</span>,</span>
+<span>      text <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">8</span></span>
+<span>      <span class="op">)</span></span>
+<span>    <span class="op">)</span> <span class="op">+</span></span>
+<span></span>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/subtheme.html">theme_sub_legend</a></span><span class="op">(</span></span>
+<span>      text <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">6</span></span>
+<span>      <span class="op">)</span>,</span>
+<span>      title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Alegreya"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">8</span></span>
+<span>      <span class="op">)</span></span>
+<span>    <span class="op">)</span> <span class="op">+</span></span>
+<span></span>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/subtheme.html">theme_sub_plot</a></span><span class="op">(</span></span>
+<span>      title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Alegreya"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">14</span>, face <span class="op">=</span> <span class="st">"bold"</span></span>
+<span>      <span class="op">)</span>,</span>
+<span>      title.position <span class="op">=</span> <span class="st">"plot"</span>,</span>
+<span>      subtitle <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Alegreya"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">10</span></span>
+<span>      <span class="op">)</span>,</span>
+<span>      caption <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span></span>
+<span>        family <span class="op">=</span> <span class="st">"Alegreya"</span>,</span>
+<span>        size <span class="op">=</span> <span class="fl">6</span></span>
+<span>      <span class="op">)</span>,</span>
+<span>      caption.position <span class="op">=</span> <span class="st">"plot"</span></span>
+<span>    <span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span></span>
+<span><span class="co">## Use available fonts in ggplot text geoms too!</span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/update_defaults.html">update_geom_defaults</a></span><span class="op">(</span>geom <span class="op">=</span> <span class="st">"text"</span>, new <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>  family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>  face <span class="op">=</span> <span class="st">"plain"</span>,</span>
+<span>  size <span class="op">=</span> <span class="fl">3.5</span>,</span>
+<span>  color <span class="op">=</span> <span class="st">"#2b2b2b"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/update_defaults.html">update_geom_defaults</a></span><span class="op">(</span>geom <span class="op">=</span> <span class="st">"label"</span>, new <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>  family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>  face <span class="op">=</span> <span class="st">"plain"</span>,</span>
+<span>  size <span class="op">=</span> <span class="fl">3.5</span>,</span>
+<span>  color <span class="op">=</span> <span class="st">"#2b2b2b"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/update_defaults.html">update_geom_defaults</a></span><span class="op">(</span>geom <span class="op">=</span> <span class="st">"marquee"</span>, new <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>  family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>  face <span class="op">=</span> <span class="st">"plain"</span>,</span>
+<span>  size <span class="op">=</span> <span class="fl">3.5</span>,</span>
+<span>  color <span class="op">=</span> <span class="st">"#2b2b2b"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/update_defaults.html">update_geom_defaults</a></span><span class="op">(</span>geom <span class="op">=</span> <span class="st">"text_repel"</span>, new <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>  family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>  face <span class="op">=</span> <span class="st">"plain"</span>,</span>
+<span>  size <span class="op">=</span> <span class="fl">3.5</span>,</span>
+<span>  color <span class="op">=</span> <span class="st">"#2b2b2b"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/update_defaults.html">update_geom_defaults</a></span><span class="op">(</span>geom <span class="op">=</span> <span class="st">"label_repel"</span>, new <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>  family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>  face <span class="op">=</span> <span class="st">"plain"</span>,</span>
+<span>  size <span class="op">=</span> <span class="fl">3.5</span>,</span>
+<span>  color <span class="op">=</span> <span class="st">"#2b2b2b"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/update_defaults.html">update_geom_defaults</a></span><span class="op">(</span>geom <span class="op">=</span> <span class="st">"rich_text"</span>, new <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>  family <span class="op">=</span> <span class="st">"Roboto Condensed"</span>,</span>
+<span>  face <span class="op">=</span> <span class="st">"plain"</span>,</span>
+<span>  size <span class="op">=</span> <span class="fl">3.5</span>,</span>
+<span>  color <span class="op">=</span> <span class="st">"#2b2b2b"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details><div class="cell-output cell-output-error">
+<pre data-code-line-numbers=""><code>Error in `update_defaults()`:
+! Can't find geom called "rich_text".</code></pre>
+</div>
+<details class="code-fold"><summary>Show the Code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" data-source-line-numbers="nil" data-code-line-numbers="nil"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Set the theme</span></span>
+<span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/get_theme.html">theme_set</a></span><span class="op">(</span>new <span class="op">=</span> <span class="fu">theme_custom</span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">## tinytable options</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span><span class="st">"tinytable_tt_digits"</span> <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span><span class="st">"tinytable_format_num_fmt"</span> <span class="op">=</span> <span class="st">"significant_cell"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>tinytable_html_mathjax <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co">## Set defaults for flextable</span></span>
+<span><span class="fu">flextable</span><span class="fu">::</span><span class="fu"><a href="https://davidgohel.github.io/flextable/reference/set_flextable_defaults.html">set_flextable_defaults</a></span><span class="op">(</span>font.family <span class="op">=</span> <span class="st">"Roboto Condensed"</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+</section><section id="metaphors-for-our-contradictions" class="level2"><h2 class="anchored" data-anchor-id="metaphors-for-our-contradictions">Metaphors for our Contradictions</h2>
 <p>Recall that you considered several familiar <em>Objects</em> in the earlier module on Problems and Contradictions. And also considered a few sample <em>Situations</em> to find <em>Administrative Contradictions</em> in them.</p>
 <p>We used the method of:</p>
 <ul>
@@ -316,7 +505,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 </ul>
 <p>Now that we know how problems can be stated as simple <em>Administrative Contradictions (AC)</em>, we need to take the next step and make what TRIZ calls <strong>Technical Contradictions (TC)</strong> and <strong>Physical Contradictions (PC)</strong>. To do this, we will use a set of <em>metaphoric phrases</em> that are an integral part of (classical) TRIZ. These metaphoric phrases are simple enough and provide rich troves for imaginative problem solving.</p>
-<p>Before we study this <em>TRIZ Contradiction Language</em> however, we need to obtain a quick understanding of its history.</p>
+<p>Before we study this <span style="background-color:yellow;"><em>TRIZ Contradiction Language</em></span> however, we need to obtain a quick understanding of its history.</p>
 </section><section id="the-history-of-triz" class="level2"><h2 class="anchored" data-anchor-id="the-history-of-triz">The History of TRIZ</h2>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -376,12 +565,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>To increase the speed of an airplane, a new and more powerful engine is installed. This increases the weight of the airplane so the wings can no longer support it during takeoff. Increasing the wing size produces more drag, slowing the airplane down.</li>
 </ul>
-<p><em>PC Examples</em>:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="index_files/figure-html/unnamed-chunk-5-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center figure-img" width="480" height="300"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>See this:</p>
+<p></p>
+<div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/tRBOiq-Q6_s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="pc-examples" class="level3"><h3 class="anchored" data-anchor-id="pc-examples">PC Examples</h3>
 <ul>
 <li><p>Landing gear must be present on an airplane in order to land and takeoff. It should not be present during flight because of an increase in air drag. The physical contradiction is that <strong>the landing gear must be both present and absent</strong>. This contradiction is resolved by separating the requirements in time — make the landing gear retractable.</p></li>
 <li><p>For high water diving, water must be “hard” to support the diver and “soft” so as not to injure the diver. The physical contradiction: <strong>The water must be hard and soft at the same time</strong>. This contradiction is resolved by separating the requirements in space: Saturate the water with air bubbles — the pool contains both air and water.</p></li>
 <li><p>… an inherent contradiction in takeout pizza products. The customer wants the pizza to be hot, but hot pizza gives off steam. As a result, the cardboard box lid absorbs the steam, softens, and collapses down on the pizza. When the customer lifts the lid of the pizza box after arriving home, some of the pizza, which has stuck to the lid, attaches to the raised lid and the customer is not pleased because a significant amount of the cheese that he paid for is not edible. <strong>We want the pizza to be hot for one reason (an enjoyable pizza) and we want it to be cold for another</strong> (preventing the lid from becoming soggy and collapsing due to steam and water absorption). The little plastic tripod that is in the center of many takeout pizzas was the subject of the talk I heard. Such a simple invention! It resolves the contradiction of the pizza being hot and cold at the same time. (Jack Hipple, The Ideal Result)</p></li>
-</ul></section><section id="thinking-problem-solving-and-language" class="level2"><h2 class="anchored" data-anchor-id="thinking-problem-solving-and-language">Thinking, Problem Solving, and Language</h2>
+</ul></section></section><section id="thinking-problem-solving-and-language" class="level2"><h2 class="anchored" data-anchor-id="thinking-problem-solving-and-language">Thinking, Problem Solving, and Language</h2>
 <p>Here is Albert Einstein speaking on <strong>The Language of Science</strong>. The transcript is here.<a href="albert-einstein-the-common-language-of-science.pdf"><strong>PDF</strong></a>.</p>
 <p>One quote from this short reading seems very apposite here:</p>
 <blockquote class="blockquote">
@@ -391,13 +591,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/iEtQ-gQ0Bq8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section><section id="references" class="level2"><h2 class="anchored" data-anchor-id="references">References</h2>
 <ol type="1">
-<li><p>Valeri Souchkov, <strong>Differentiating Among the Five Levels of Solutions</strong>,<a href="https://www.metodolog.ru/triz-journal/archives/2007/07/02/index.html"><strong>Web</strong></a></p></li>
-<li><p>Valeri Souchkov, <strong>“How to Define a Contradiction”</strong>, <a href="https://xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf"><strong>Web</strong></a> and <a href="TRIZ_DefineContradiction_Tutorial.pdf"><strong>PDF</strong></a></p></li>
-<li><p>Open Source TRIZ: <strong>TRIZ Power Tools: Formulating Contradictions</strong>: <a href="https://www.opensourcetriz.com/triz-books/triz-skills/resolving-contradictions.html">Webpage</a></p></li>
+<li>Valeri Souchkov, <strong>Differentiating Among the Five Levels of Solutions</strong>,<a href="https://www.metodolog.ru/triz-journal/archives/2007/07/02/index.html"><strong>Web</strong></a><br>
+</li>
+<li>Valeri Souchkov, <strong>“How to Define a Contradiction”</strong>, <a href="https://xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf"><strong>Web</strong></a> and <a href="TRIZ_DefineContradiction_Tutorial.pdf"><strong>PDF</strong></a><br>
+</li>
+<li>Open Source TRIZ: <strong>TRIZ Power Tools: Formulating Contradictions</strong>: <a href="https://www.opensourcetriz.com/triz-books/triz-skills/resolving-contradictions.html">Webpage</a>
+</li>
 </ol></section><section id="additional-readings" class="level2"><h2 class="anchored" data-anchor-id="additional-readings">Additional Readings</h2>
 <ol type="1">
-<li><p><a href="https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success" class="uri">https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success</a></p></li>
-<li><p><a href="https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success" class="uri">https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success</a></p></li>
+<li><a href="https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success" class="uri">https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success</a></li>
+<li><a href="https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success" class="uri">https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success</a></li>
 </ol>
 
 

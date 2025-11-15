@@ -83,20 +83,23 @@ Further, the patents the study of which helped Altshuller create TRIZ in the fir
 
 ## Some Examples from History
 
+### Botticelli
 > Botticelli was for centuries considered to be a coarse painter, and the women he painted “sickly” and “clumsy”. Only in the mid-nineteenth century did some critics begin to reevaluate his work and see in it creative anticipations of modern sensibility. To what extent was creativity contained in Botticelli’s canvases, and to what extent did it emerge
 from the interpretive efforts of critics like Ruskin?
 
+### Gregor Mendel
 > ...our view of Mendel’s contribution to genetics is generally quite wrong. The impression we have is that Mendel made a series of epochal experiments in the genetic transmission of traits in the 1860s, but that his creativity was not recognized by the scientific community until about 40 years later. This view is radically mistaken in a subtle but essential respect. (Brannigan) argues that Mendel’s experiments were not and could not have been contributions
 to genetics **at the time they were made**. Their implications for the theory of variation and natural selection were discovered only in 1900 by William Bateson
 and other evolutionists looking for a mechanism that explained discontinuous inheritance. Within their theoretical framework, Mendel’s work suddenly acquired an importance that it had lacked before, even in the mind of Mendel himself.
+
+### Galileo Galilei
+![](galileo_manuscript.png)
+The church was definitely the *Field* for Galileo...
 
 ## References
 
 
 1. Mihaly Csikszentmihalyi, **The Systems Model of Creativity: The Collected Works of Mihaly Csikszentmihalyi**, ISBN:9789401790857, Springer, 2015.
-
-
 1. Oliver Ding, "**Platform Creativity: Domain, Field, and Person**", <https://medium.com/call4/domain-8a22b6b486f4>
-
 1. Jessica Wolf,UCLA Newsroom, **The truth about Galileo and his conflict with the Catholic Church**, <https://newsroom.ucla.edu/releases/the-truth-about-galileo-and-his-conflict-with-the-catholic-church>
 

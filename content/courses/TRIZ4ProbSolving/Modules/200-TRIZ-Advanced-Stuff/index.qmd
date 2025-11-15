@@ -21,13 +21,130 @@ knitr::include_graphics("featured.jpg")
 # Introduction
 What if there is more than one Contradiction?
 
-What if there are complex interactions between materials and processes in the problem at hand?
+
+What if there are complex interactions between materials and processes in the problem at hand? Is there an analysis method that allows us to scientifically find the relationships between these and identify to source of our problems? How do we leverage existing scientific solutions, that point us even more directly than a metaphoric Inventive Principle?
+
+## Substance Field Analysis: Collisions between Worlds
+
+Recall that the TRIZ Inventive Principles are metaphoric and we need to *bring them down to earth* and realise <u>[the fruit of our labours](https://palani.org/purana.htm)</u>. This, as we discussed, is a leveraging of [Cultural Capital](../20-Cultural-Capital/index.html) from *previous and current generations* of inventors, of dipping into the distilled wisdom of the human race. Altshuller seems to have anticipated the difficulty here: we may not have the encyclopaediac knowledge of scientific solutions from many other domains, where the same problem as the one at hand (metaphorically) manifested itself. 
+
+Hence he also documented **76 Scientific Solutions**, or *effects* that are related to solving Contradictions. In order to facilitate that relationship, he also proposed a much-used scientific TRIZ Method, **Substance-Field, or Su-Field, Analysis**. We will now acquire this TRIZ method to complete our TRIZ Toolkit. 
+
+## Game #1
+
+This game idea is the result of a chance conversation in class with student Ira Patil, FSP 2022. 
+
+Things you need:
+
+- Makey-Makey ( one per group )
+- Laptop
+- An App or a Game on the laptop (*"Inner Game"*)
+- Some board game with pieces. Can use a non-board game also. (*"Outer Game"*)
+- Paper and pencil/graphite pieces
+- Classroom Furniture
+- Cellophane tape to anchor "contact areas". (See below)
+
+Good to have:
+
+- Additional Wire, metal foil, metal scales, keys, coins, spoons, and miscellaneous small light metallic items if you can get them
+
+Instructions:
+
+- Connect your Makey-Makey to the laptop over USB
+- Fire up a the chosen "inner game" app on the laptop. Ensure that the game uses UP/DOWN/LEFT/RIGHT/CLICK to make things happen. E.g. <u><https://www.youtube.com/watch?v=hCnGTnr7eqQ></u>. A not-too-violent arcade or RPG is also ok. 
+- Set up your board / non-board outer game close by. 
+- Connect the GND and the 5 other signals from your Makey-Makey to a variety of objects, both living and non-living, from your board game. 
+- If you are using a non-board "outer game", which involves only human movement, then ensure that the floor or wall has *contact areas* to each of the 5 signals. These can be made, for example, with a paper stuck to the wall, a metal foil stuck on the paper itself, with a wire extended from there to the Makey-Makey.
+- Play ***both*** games simultaneously. This is related to Arthur Koestler's idea of a *bisociation* [^1], where we experience a *collision* between two frames of reference. 
+
+[^1]: <https://www.themarginalian.org/2013/05/20/arthur-koestler-creativity-bisociation/>
+
+Questions to contemplate:
+
+1. Does the competitive aspect of the external game allow itself to be included in the inner game?
+
+2. Does the inner game influence movements, strategies, and plays in the outer game?
+
+3. Can *other senses* (hearing, for example), be included in the game(s) in a hitherto unknown way? 
+
+4. Can the normal use of senses within the game ( e.g. sight, of course) be altered?
+
+5. What other **parameters** and **forces** can you include in this collision between two Game-Worlds?
+
+6. Opinions: Was some interaction between the two Games ***undesirable***? Were others highly ***desirable***? Describe these.
+
+
+## Discussion
+
+1. The Game we played was a simulation for what is called the **Substance Field Model** in TRIZ. 
+
+2. In both directions, we can imagine that the two Games (and the players) project some kind of *Force* on the *Substance* of the **other game**. Examples:
+
+   - If movement direction in the *outer game* was linked to creating a particular sound or shape on the *inner game*?
+   - If you *inner game* used/made sounds, did use of this "new" sense (hearing) affect outcomes in the *outer game*?
+
+3. We should look at the pair of Games and their paraphernalia, pieces, moves, movements etc **mutually representing** [**Substances**]{style="background-color: yellow;"} and [**Fields**]{style="background-color: yellow;"}: each Game exerts a **Field** on the **Substance** of the other game. 
+
+   - Were **Fields** entirely physical (i.e. Newtonian) in nature? Did *intent*, emotions such as *delight*, *dismay*, *disappointment*, and *surprise* show up as Fields?
+
+   - Were all *Fields* intentional?
+
+   - Were all Fields beneficial or were some harmful?
+
+
+## Models in Su-Field Analysis
+To be described
+```{r, echo=FALSE}
+knitr::include_url("/slides/PlayAndInvent/TRIZ-SuField-Analysis/index.html")
+```
+
+
+## Examples for Su-Field Models
+To be described
+
+```{r,echo=FALSE}
+library(DiagrammeR)
+DiagrammeR("
+graph LR
+    A-->B
+    A-->C
+")
+```
+
+```{r, echo=FALSE}
+DiagrammeR("
+graph LR
+    A(fab:fa-tools Technical System)
+    E(fa:fa-shapes Su-Field Model of Problem)
+    F(fa:fa-chevron-up Su-Field Model of Solution)
+    G(fa:fa-comment-dots No Model)
+    H(fa:fa-arrow-left Technical Solution)
+    I(fa:fa-code Text)
+    J(fa:fa-arrow-left Type Mermaid syntax)
+
+    A -- Su-Field Analysis --> E --> F --> H
+    A -- Use **normal** methods --> G --> H
+
+    style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF
+    style G color:#FFFFFF, stroke:#00C853, fill:red
+    style I color:#FFFFFF, stroke:#2962FF, fill:#2962FF
+
+
+")
+
+```
+
+
+## The 76 Standard Solutions
+To be described
+
+## How does it Work??
+To be described
+
 
 ## References
 
 1. <https://the-trizjournal.com/altshullers-greatest-discovery-beyond/>
-
 1. Project TETRIS: Chapter 3: Short Review of ARIZ: Algorithm for Innovative Problem Solving and a Case Study [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_03.pdf)
-
 1. Project TETRIS: Chapter 4: Substance-Field ( "Su-Field" ) Analysis and Standard Solutions basic notions and rules [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_04.pdf)
 

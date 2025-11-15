@@ -79,14 +79,23 @@ We will divide into two groups (four if necessary) and contemplate <u>[a brief d
 <u><https://arvindvenkatadri.com/courses/1-play-and-invent/modules/50-metaphoric-thinking/#activity-4-seymour-papert-constructionism-game-1></u>
 
 
-### Activity-5: C'est ne une Pipe
+### Activity-5: <u>[C'est ne une Pipe](https://www.fusionmagazine.org/why-this-is-not-a-pipe/)</u>
+
+![Rene Magritte's *La Clef des Songes*](../../../../materials/images/magritte-la-clef-des-songes.jpg){width=200px}
+
+Look at the painting above by Rene Magritte, *La Clef des Songes* (The Key of Dreams).<br>
+Let us see if we can find a (piece of) a Rene Magritte gene/meme within ourselves. 
+
+> Magritte’s art has something in common with the rest of the surrealist artists: his art is the juxtaposition of elements that together won’t make a rational sense, but the value of its interpretation lies in the reaction of each spectator’s mind toward the relation of those elements. Magritte’s approach is more conceptual. He exposes how we define things by the word we use to name them creating a word-image ***series of conflicts***. For instance, we think we know what a shoe is because of the definition we give to the word. But what if we replace the name shoe for “moon”? That is what Magritte does in his painting *“La Clef des Sognes II” (1930)*. We see six simple objects and below them it is written a word apparently unrelated to the picture above it, forcing the viewer to think about this relation we have with what we see and what we know. Just like in his painting of “The Treason of Images”, Magritte is trying to show how it doesn’t matter how we name the object, the word will never be one with the object’s physical reality. 
+>
+>In general, not only (did he make) this observation through these types of images, but also he usually gives a title for his paintings that has nothing to do with the literal things you see in the image.(*emphasis mine*)
 
 1. We will break up into groups of 4-5. 
 1. Each group will be given a household object, perhaps an unusual one. 
 1. You need to imagine a use for it that is *not* what is the common known one.
 1. Market it as a product that serves this new purpose. Make an ad. 
 1. Use **only** Gen Z language in your ad. 
-1. Ad = Performance/Jingle + Poster
+1. Ad = Performance + Jingle + Poster
 
 (Articles: Book End made of Wood; Aristo Slide Rule; 80-year-old brass mortar and pestle; Node from Elephant Bamboo stem)
 
@@ -102,21 +111,27 @@ We will divide into two groups (four if necessary) and contemplate <u>[a brief d
 4. Re-write this story using language, metaphors, and images from any *domain* (other than what may be in the original story). 
     - For example, in Primo Levi's lyrical story [**Carbon**](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf), a lot of metaphors from Chemistry and atomic physics are used to describe life, and connections with people.
 
+## So What is a Metaphor?
+
+To be Written Up. 
+
+## Wait, But Why?
+To be Written Up. 
 
 ## References
 
 1.  **Guilford Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d1.html)
+1.  **Wallas-Kogan Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d2.html)
+1.  Thibodeau, Paul & Boroditsky, Lera. (2011). **Metaphors We Think With: The Role of Metaphor in Reasoning**. PloS one. 6. e16782. 10.1371/journal.pone.0016782. [(PDF)](Thibodeau-Boroditsky-Role-of-Metaphor.pdf)
+1.  Bobo Hjort. (2003) **Drawing, Knowledge, and Intuitive Thinking: Drawing as a Way to Understand and Solve Complex Problems in Art and Complexity**. J. Casti and A. Karlqvist (editors) © 2003 Published by Elsevier Science B.V.[(PDF)](Hjort.pdf)
+1.  David Chen, **Creative Paradoxical Thinking and Its Implications for Teaching and Learning Motor Skills** [(PDF)](CreativeParadoxicalThinking2011.pdf)
+1.  Holyoak and Thagard, **The Analogical Mind**, [(PDF)](Holyoak-%20Thagard%20-%20Analogical%20Mind.1997pdf.pdf)
+1.  Joshua Ferris, **The Market Value of my Father**, a metaphorical Short Story. [(Web Link)](https://www.wealthsimple.com/en-ca/magazine/joshua-ferris)
+1. Primo Levi, **Carbon**, a metaphorical Short Story. [(PDF)](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf)
+1.  Martin Weller. *Dangers of tech metaphors in nature – The Ed Techie.* N.p., n.d. Web. 5 Apr. 2024. <u><https://blog.edtechie.net/books/dangers-of-tech-metaphors-in-nature></u>.
+1. Edith Ackermann(2001). <u>[*Piaget’s Constructivism, Papert’s Constructionism: What’s the difference?*](https://learning.media.mit.edu/content/publications/EA.Piaget%20_%20Papert.pdf)</u>
+1. Dubnick, R. (1980). *Visible Poetry: Metaphor and Metonymy in the Paintings of Rene Magritte*. Contemporary Literature, 21(3), 407. doi:10.2307/1208249. <u>[(PDF)](dubnick1980.pdf)</u>
+1. Aniket Kittur, Lixiu Yu, Tom Hope, Joel Chan, Hila Lifshitz-Assaf, Karni Gilon, Felicia Ng, Robert E. Kraut, and Dafna Shahaf. (2019). *Scaling up analogical innovation with crowds and AI*. Proceedings of the National Academy of SciencesVol. 116, No. 6, February 5, 2019. <u>[**PDF**](kittur-et-al-2019-scaling-up-analogical-innovation-with-crowds-and-ai.pdf)</u>
 
-2.  **Wallas-Kogan Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d2.html)
-
-3.  Thibodeau, Paul & Boroditsky, Lera. (2011). **Metaphors We Think With: The Role of Metaphor in Reasoning**. PloS one. 6. e16782. 10.1371/journal.pone.0016782. [(PDF)](Thibodeau-Boroditsky-Role-of-Metaphor.pdf)
-
-4.  Bobo Hjort. (2003) **Drawing, Knowledge, and Intuitive Thinking: Drawing as a Way to Understand and Solve Complex Problems in Art and Complexity**. J. Casti and A. Karlqvist (editors) © 2003 Published by Elsevier Science B.V.[(PDF)](Hjort.pdf)
-
-5.  David Chen, **Creative Paradoxical Thinking and Its Implications for Teaching and Learning Motor Skills** [(PDF)](CreativeParadoxicalThinking2011.pdf)
-
-6.  Holyoak and Thagard, **The Analogical Mind**, [(PDF)](Holyoak-%20Thagard%20-%20Analogical%20Mind.1997pdf.pdf)
-
-7.  Joshua Ferris, **The Market Value of my Father**, a metaphorical Short Story. [(Web Link)](https://www.wealthsimple.com/en-ca/magazine/joshua-ferris)
 
 

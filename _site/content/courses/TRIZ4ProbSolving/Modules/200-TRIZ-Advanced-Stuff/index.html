@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="dcterms.date" content="2024-02-14">
 <title>TRIZ - Substance Field Analysis, and ARIZ – TRIZ: A Creative Problem-Solving System</title>
@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-15ea27bac76f9890c21e80949f497921.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-9afb2adbe3790f1849c32ba3c79c48e4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../../site_libs/bootstrap/bootstrap-afa36575126fe0cbd1278e680bef78d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -73,7 +73,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script><style>html{ scroll-behavior: smooth; }</style>
-<link href="../../../../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<link href="../../../../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../../../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="../../../../../site_libs/d3-3.3.8/d3.min.js"></script><script src="../../../../../site_libs/dagre-0.4.0/dagre-d3.min.js"></script><link href="../../../../../site_libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet">
+<script src="../../../../../site_libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script><link href="../../../../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="../../../../../site_libs/chromatography-0.1/chromatography.js"></script><script src="../../../../../site_libs/DiagrammeR-binding-1.0.11/DiagrammeR.js"></script><link href="../../../../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
 <script src="../../../../../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <meta property="og:title" content="TRIZ - Substance Field Analysis, and ARIZ – TRIZ: A Creative Problem-Solving System">
 <meta property="og:description" content="This is the teaching website of Arvind V., External Faculty, Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India.">
@@ -91,8 +94,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../../../../index.html">
     <span class="navbar-title">TRIZ: A Creative Problem-Solving System</span>
     </a>
@@ -175,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/20-Cultural-Capital/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">I am What I yam</span></a>
+ <span class="menu-text">I yam What I yam</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -193,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/37-What-Am-I-Thinking-Of/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">I Think, Therefore I am</span></a>
+ <span class="menu-text">I Think, Fast and Slow</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -240,6 +241,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/95-TRIZ-Stories/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - At the Movies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../../../content/courses/TRIZ4ProbSolving/Modules/100-TRIZ-Laws-of-Evolution/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - The Laws of Evolution</span></a>
   </div>
@@ -269,7 +276,14 @@ ul.task-list li input[type="checkbox"] {
 <li>
 <a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
-<li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+<li><a href="#substance-field-analysis-collisions-between-worlds" id="toc-substance-field-analysis-collisions-between-worlds" class="nav-link" data-scroll-target="#substance-field-analysis-collisions-between-worlds">Substance Field Analysis: Collisions between Worlds</a></li>
+  <li><a href="#game-1" id="toc-game-1" class="nav-link" data-scroll-target="#game-1">Game #1</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#models-in-su-field-analysis" id="toc-models-in-su-field-analysis" class="nav-link" data-scroll-target="#models-in-su-field-analysis">Models in Su-Field Analysis</a></li>
+  <li><a href="#examples-for-su-field-models" id="toc-examples-for-su-field-models" class="nav-link" data-scroll-target="#examples-for-su-field-models">Examples for Su-Field Models</a></li>
+  <li><a href="#the-76-standard-solutions" id="toc-the-76-standard-solutions" class="nav-link" data-scroll-target="#the-76-standard-solutions">The 76 Standard Solutions</a></li>
+  <li><a href="#how-does-it-work" id="toc-how-does-it-work" class="nav-link" data-scroll-target="#how-does-it-work">How does it Work??</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </li>
   </ul></nav>
@@ -306,16 +320,99 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="introduction" class="level1"><h1>Introduction</h1>
 <p>What if there is more than one Contradiction?</p>
-<p>What if there are complex interactions between materials and processes in the problem at hand?</p>
-<section id="references" class="level2"><h2 class="anchored" data-anchor-id="references">References</h2>
+<p>What if there are complex interactions between materials and processes in the problem at hand? Is there an analysis method that allows us to scientifically find the relationships between these and identify to source of our problems? How do we leverage existing scientific solutions, that point us even more directly than a metaphoric Inventive Principle?</p>
+<section id="substance-field-analysis-collisions-between-worlds" class="level2"><h2 class="anchored" data-anchor-id="substance-field-analysis-collisions-between-worlds">Substance Field Analysis: Collisions between Worlds</h2>
+<p>Recall that the TRIZ Inventive Principles are metaphoric and we need to <em>bring them down to earth</em> and realise <u><a href="https://palani.org/purana.htm">the fruit of our labours</a></u>. This, as we discussed, is a leveraging of <a href="../20-Cultural-Capital/index.html">Cultural Capital</a> from <em>previous and current generations</em> of inventors, of dipping into the distilled wisdom of the human race. Altshuller seems to have anticipated the difficulty here: we may not have the encyclopaediac knowledge of scientific solutions from many other domains, where the same problem as the one at hand (metaphorically) manifested itself.</p>
+<p>Hence he also documented <strong>76 Scientific Solutions</strong>, or <em>effects</em> that are related to solving Contradictions. In order to facilitate that relationship, he also proposed a much-used scientific TRIZ Method, <strong>Substance-Field, or Su-Field, Analysis</strong>. We will now acquire this TRIZ method to complete our TRIZ Toolkit.</p>
+</section><section id="game-1" class="level2"><h2 class="anchored" data-anchor-id="game-1">Game #1</h2>
+<p>This game idea is the result of a chance conversation in class with student Ira Patil, FSP 2022.</p>
+<p>Things you need:</p>
+<ul>
+<li>Makey-Makey ( one per group )</li>
+<li>Laptop</li>
+<li>An App or a Game on the laptop (<em>“Inner Game”</em>)</li>
+<li>Some board game with pieces. Can use a non-board game also. (<em>“Outer Game”</em>)</li>
+<li>Paper and pencil/graphite pieces</li>
+<li>Classroom Furniture</li>
+<li>Cellophane tape to anchor “contact areas”. (See below)</li>
+</ul>
+<p>Good to have:</p>
+<ul>
+<li>Additional Wire, metal foil, metal scales, keys, coins, spoons, and miscellaneous small light metallic items if you can get them</li>
+</ul>
+<p>Instructions:</p>
+<ul>
+<li>Connect your Makey-Makey to the laptop over USB</li>
+<li>Fire up a the chosen “inner game” app on the laptop. Ensure that the game uses UP/DOWN/LEFT/RIGHT/CLICK to make things happen. E.g. <u><a href="https://www.youtube.com/watch?v=hCnGTnr7eqQ" class="uri">https://www.youtube.com/watch?v=hCnGTnr7eqQ</a></u>. A not-too-violent arcade or RPG is also ok.</li>
+<li>Set up your board / non-board outer game close by.</li>
+<li>Connect the GND and the 5 other signals from your Makey-Makey to a variety of objects, both living and non-living, from your board game.</li>
+<li>If you are using a non-board “outer game”, which involves only human movement, then ensure that the floor or wall has <em>contact areas</em> to each of the 5 signals. These can be made, for example, with a paper stuck to the wall, a metal foil stuck on the paper itself, with a wire extended from there to the Makey-Makey.</li>
+<li>Play <strong><em>both</em></strong> games simultaneously. This is related to Arthur Koestler’s idea of a <em>bisociation</em> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, where we experience a <em>collision</em> between two frames of reference.</li>
+</ul>
+<p>Questions to contemplate:</p>
 <ol type="1">
-<li><p><a href="https://the-trizjournal.com/altshullers-greatest-discovery-beyond/" class="uri">https://the-trizjournal.com/altshullers-greatest-discovery-beyond/</a></p></li>
-<li><p>Project TETRIS: Chapter 3: Short Review of ARIZ: Algorithm for Innovative Problem Solving and a Case Study <a href="https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_03.pdf">(PDF)</a></p></li>
-<li><p>Project TETRIS: Chapter 4: Substance-Field ( “Su-Field” ) Analysis and Standard Solutions basic notions and rules <a href="https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_04.pdf">(PDF)</a></p></li>
+<li><p>Does the competitive aspect of the external game allow itself to be included in the inner game?</p></li>
+<li><p>Does the inner game influence movements, strategies, and plays in the outer game?</p></li>
+<li><p>Can <em>other senses</em> (hearing, for example), be included in the game(s) in a hitherto unknown way?</p></li>
+<li><p>Can the normal use of senses within the game ( e.g.&nbsp;sight, of course) be altered?</p></li>
+<li><p>What other <strong>parameters</strong> and <strong>forces</strong> can you include in this collision between two Game-Worlds?</p></li>
+<li><p>Opinions: Was some interaction between the two Games <strong><em>undesirable</em></strong>? Were others highly <strong><em>desirable</em></strong>? Describe these.</p></li>
+</ol></section><section id="discussion" class="level2"><h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<ol type="1">
+<li><p>The Game we played was a simulation for what is called the <strong>Substance Field Model</strong> in TRIZ.</p></li>
+<li>
+<p>In both directions, we can imagine that the two Games (and the players) project some kind of <em>Force</em> on the <em>Substance</em> of the <strong>other game</strong>. Examples:</p>
+<ul>
+<li>If movement direction in the <em>outer game</em> was linked to creating a particular sound or shape on the <em>inner game</em>?</li>
+<li>If you <em>inner game</em> used/made sounds, did use of this “new” sense (hearing) affect outcomes in the <em>outer game</em>?</li>
+</ul>
+</li>
+<li>
+<p>We should look at the pair of Games and their paraphernalia, pieces, moves, movements etc <strong>mutually representing</strong> <span style="background-color: yellow;"><strong>Substances</strong></span> and <span style="background-color: yellow;"><strong>Fields</strong></span>: each Game exerts a <strong>Field</strong> on the <strong>Substance</strong> of the other game.</p>
+<ul>
+<li><p>Were <strong>Fields</strong> entirely physical (i.e.&nbsp;Newtonian) in nature? Did <em>intent</em>, emotions such as <em>delight</em>, <em>dismay</em>, <em>disappointment</em>, and <em>surprise</em> show up as Fields?</p></li>
+<li><p>Were all <em>Fields</em> intentional?</p></li>
+<li><p>Were all Fields beneficial or were some harmful?</p></li>
+</ul>
+</li>
+</ol></section><section id="models-in-su-field-analysis" class="level2"><h2 class="anchored" data-anchor-id="models-in-su-field-analysis">Models in Su-Field Analysis</h2>
+<p>To be described</p>
+<div class="cell">
+<iframe src="../../../../../slides/PlayAndInvent/TRIZ-SuField-Analysis/index.html" width="2100" height="400px" data-external="1">
+</iframe>
+</div>
+</section><section id="examples-for-su-field-models" class="level2"><h2 class="anchored" data-anchor-id="examples-for-su-field-models">Examples for Su-Field Models</h2>
+<p>To be described</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="DiagrammeR html-widget html-fill-item" id="htmlwidget-32e9c24d30a57bd0dfd8" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-32e9c24d30a57bd0dfd8">{"x":{"diagram":"\ngraph LR\n    A-->B\n    A-->C\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="DiagrammeR html-widget html-fill-item" id="htmlwidget-cfc2e8ccfcc77fe487f7" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-cfc2e8ccfcc77fe487f7">{"x":{"diagram":"\ngraph LR\n    A(fab:fa-tools Technical System)\n    E(fa:fa-shapes Su-Field Model of Problem)\n    F(fa:fa-chevron-up Su-Field Model of Solution)\n    G(fa:fa-comment-dots No Model)\n    H(fa:fa-arrow-left Technical Solution)\n    I(fa:fa-code Text)\n    J(fa:fa-arrow-left Type Mermaid syntax)\n\n    A -- Su-Field Analysis --> E --> F --> H\n    A -- Use **normal** methods --> G --> H\n\n    style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF\n    style G color:#FFFFFF, stroke:#00C853, fill:red\n    style I color:#FFFFFF, stroke:#2962FF, fill:#2962FF\n\n\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section><section id="the-76-standard-solutions" class="level2"><h2 class="anchored" data-anchor-id="the-76-standard-solutions">The 76 Standard Solutions</h2>
+<p>To be described</p>
+</section><section id="how-does-it-work" class="level2"><h2 class="anchored" data-anchor-id="how-does-it-work">How does it Work??</h2>
+<p>To be described</p>
+</section><section id="references" class="level2"><h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li><a href="https://the-trizjournal.com/altshullers-greatest-discovery-beyond/" class="uri">https://the-trizjournal.com/altshullers-greatest-discovery-beyond/</a></li>
+<li>Project TETRIS: Chapter 3: Short Review of ARIZ: Algorithm for Innovative Problem Solving and a Case Study <a href="https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_03.pdf">(PDF)</a>
+</li>
+<li>Project TETRIS: Chapter 4: Substance-Field ( “Su-Field” ) Analysis and Standard Solutions basic notions and rules <a href="https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_04.pdf">(PDF)</a>
+</li>
 </ol>
 
 
-</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<ol>
+<li id="fn1"><p><a href="https://www.themarginalian.org/2013/05/20/arthur-koestler-creativity-bisociation/" class="uri">https://www.themarginalian.org/2013/05/20/arthur-koestler-creativity-bisociation/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();

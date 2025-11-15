@@ -30,7 +30,9 @@ knitr::include_graphics("featured.jpg")
 
 In the previous Module on **Problems and Contradictions** we understood how to identify an **Administrative Contradiction** in everyday situations. This is the first and most important step in the TRIZ Problem Solving Method. 
 
-Another important idea in TRIZ is that of **Available Resources**. Let us appreciate this idea with the help of two games. 
+Another important idea in TRIZ is that of **Available Resources**. Let us appreciate this idea with the help of two games. But before that, a short trip to ~~the moon~~ NASA this time.
+
+{{< youtube ry55--J4_VQ >}}
 
 ## Available Resources: Game #1  
 
@@ -137,17 +139,76 @@ Let us pretend we are part of this graph and see where our Problem Formulating S
 
 This should also remind us of the *Guilford Alternative Uses Exercise* that we did, where we forced ourselves to leave the "regular use" of an object behind and think of it as serving quite another function.
 
+
+## Breaking Assumptions: Making New Worlds
+
+First, some comic relief about ***assumptions***:
+
+{{< youtube JKHqjJIdM2w >}}
+
+<br>
+
+Chris Tucker seems to have discovered he had made an assumption! Luckily for him it is not too late!!
+
+We have seen how **material objects** seem to have *functional fixedness* in our minds. There is an equivalent idea that we can relate to *phenomena* and *processes*: we can call it *process fixedness*. What does it entail? It entails being like [Jem, Scout, and Dill](https://novelstoday.com/to-kill-a-mockingbird/page-23.html)
+
+Things that are **stated** as unchangeable:
+
+- "We are like this only"
+- "This is the way it has always be done"
+- "That is not possible to change"
+
+Sadly, there are things that are **unstated** and mentally unchangeable:
+
+- have you heard of taboos? 
+- Secrets? 
+- Or things that are unmentionable because someone does not like them?
+
+What is the METHOD by which we may discover such ***assumptions on phenomena/process*** that we place on a situation?
+
+<< TO BE WRITTEN UP IN DETAIL.>>
+
+### Case Study Story
+
+1. Sahil Bloom, on X, May 6 2024:
+
+In 2009, Stanford business professor Tina Seelig split her class into groups and issued a challenge:
+Each group had $5 and 2 hours to make the highest return on the money.
+At the end, they'd give a short presentation on their strategy.
+What happened next was fascinating:
+![](https://pbs.twimg.com/media/GM5Dw7DXoAAMd12?format=jpg&name=medium)
+
+> Most of the groups followed a simple approach:
+>
+>   - Use the $5 to buy a few items.
+>   - Barter or resell those items.
+>   - Repeat
+>   - Sell final items for (hopefully) more than $5.
+> - These groups made a modest return on their initial $5.
+
+> A few groups ignored the $5. They thought up ways to make the most money in the allotted time:
+>
+>   - Made/sold reservations at hot restaurants.
+>   - Refilled bike tires on campus.
+>   - These groups made a good return on the initial USD5.
+
+> The winning group took a very different approach: They had three realizations:
+>
+>   - The $5 was a distraction.
+>   - The 2 hours of time was not enough to make an attractive, outsized return with a mini-business.
+>   - The most valuable "asset" was actually the presentation time in front of a class of Stanford students.
+>   - Recognizing the value of the **hidden asset**, they offered the presentation time to Companies looking to recruit Stanford students.
+>   - They sold the slot for `$650`, a huge return on the `$5` of initial capital.
+
+The winning group thought differently ( about resources ) and achieved an asymmetric outcome.
+
+
 ## References
 
 1. <https://www.wikiwand.com/en/Candle_problem>
-
 1. Resources Game [PDF](./pdf/TRIZ/Titanic_Case_Study.pdf) 
-
 1. <https://thedecisionlab.com/biases/functional-fixedness>
-
 1. <https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3>
-
 1. Stan Kaplan, ***An Introduction to TRIZ*** [(PDF)](./pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)
 This is a simple and short introduction to *all* aspects of Classical TRIZ.
-
 1. Jack Hipple, "The Ideal Result: What it is and how to achieve it", Springer, 2012.
