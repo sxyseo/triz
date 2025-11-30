@@ -2,18 +2,8 @@
 date: "2021-01-20"
 title: "TRIZ - The Unreasonable Effectiveness of Available Resources"
 order: 70
-links:
-# - icon: flask
-#   icon_pack: fas
-#   name: TRIZ DataBase
-#   url: /slides/TRIZ Database/index.html
-# - icon: game
-#   icon_pack: fab
-#   name: Game
-#   url: /pdf/TRIZ/Titanic_Case_Study.pdf
-slides: 
-summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
-tags:
+date-modified: "`r Sys.Date()`"
+categories:
 - Available Resources
 - Functional Fixedness
 - Assumptions
@@ -118,7 +108,7 @@ ggplot(data = titanic_wide,
   geom_alluvium(aes(fill = Survived),curve_type = "arctangent") +
   geom_stratum() +
   geom_text(stat = "stratum", aes(label = after_stat(stratum))) +
-  theme_classic()
+  theme_void()
 
 ```
 
@@ -176,7 +166,8 @@ In 2009, Stanford business professor Tina Seelig split her class into groups and
 Each group had $5 and 2 hours to make the highest return on the money.
 At the end, they'd give a short presentation on their strategy.
 What happened next was fascinating:
-![](https://pbs.twimg.com/media/GM5Dw7DXoAAMd12?format=jpg&name=medium)
+
+![](../../../../materials/images/Stanford-SOB-Building.jpeg)
 
 > Most of the groups followed a simple approach:
 >

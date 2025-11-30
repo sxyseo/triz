@@ -1,0 +1,411 @@
+---
+title: "The TRIZ Chronicles: the Amsterdam Bubble Barrier"
+date: "2023-02-09"
+date-modified: "`r Sys.Date()`"
+order: 50
+subtitle: "Plastics in the Water"
+categories: 
+  - TRIZ Chronicles
+  - 48 TRIZ Parameters
+  - Ideal Final Result
+  - Inventive Principles
+  - Design Thinking
+  - Creativity Systems Model
+  - Making Metaphors
+summary: "Blowing Bubbles in the Water"
+abstract: "Plastics are increasingly found in our rivers and in our oceans. How can we clean this up at source? Amsterdam seems to have an answer!"
+---
+
+<br>
+![](featured.jpg)
+
+```{r, setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.align="center")
+library(qcc)
+library(SixSigma)
+
+```
+
+## Introduction
+
+Here we go with another of my *TRIZ Chronicles* !
+
+This is another piece stems from my teaching a course on Creative
+Thinking and Problem Solving based on TRIZ, titled *Play and Invent*,
+over the past 8 years or more at the <u>[**Srishti Manipal Institute of
+Art, Design, and Technology, Bangalore
+INDIA.**](https://srishtimanipalinstitute.in)</u>
+
+## Rivers of Plastic
+
+According to <u>[**Our World in
+Data:**](https://ourworldindata.org/ocean-plastics "Our World in Data")</u>
+
+Previous research suggested that only a handful of rivers transports
+almost all of the plastic to the sea -- new research suggests this is
+not the case.
+
+![](plastic-rivers.png)
+
+> 80% of the world's ocean plastics enter the ocean via rivers and
+> coastlines. The other 20% come from marine sources such as fishing
+> nets, ropes, and fleets. To tackle plastic pollution we need to know
+> where these plastics are coming from. Previous studies suggested that
+> a very small number of rivers were responsible for the vast majority
+> of ocean plastics: 60% to 90% of plastics came from only ten rivers.
+>
+> Higher-resolution mapping and consideration for factors such as
+> climate, terrain, land use, and distance to the ocean suggests ***that
+> many smaller rivers play a bigger role than we thought***. It takes
+> 1,600 of the biggest emitting rivers to account for 80% of plastic
+> inputs to the ocean.
+>
+> It is estimated that 81% of ocean plastics come from Asian rivers. The
+> Philippines alone contribute around one-third of the global total.
+> Since the number of contributing rivers is much higher than previously
+> thought, we will need ***global efforts*** to improve waste management
+> and plastic collection rather than targeting only a few of the largest
+> rivers.
+>
+> The latest research, which was just published in Science Advances,
+> updates our understanding of how these plastics are distributed.[^1]
+> Lourens Meijer et al. (2021) developed higher-resolution modeling of
+> global riverine plastics. They found that rivers emitted around 1
+> million tonnes of plastics into the oceans in 2015 (with an
+> uncertainty ranging from 0.8 to 2.7 million tonnes). Around one-third
+> of the 100,000 river outlets that they modeled contributed to this.
+> The other two-thirds emitted almost no plastic to the ocean. It's an
+> important point because we might think that most, if not all, rivers
+> are contributing to the problem. This is not the case.
+>
+> But, importantly, the latest research suggests that smaller rivers
+> play a much larger role than previously thought. In the chart we see
+> the comparison of the latest research (in red) with the two earlier
+> studies which mapped global riverine inputs. This chart shows how many
+> of the top-emitting rivers (on the x-axis) make up a given percentage
+> of plastic inputs (y-axis). Note that the number of rivers on the
+> x-axis is given on a logarithmic scale.[***emphasis mine***]
+
+So the problem is more widespread **at source** and therefore
+distributed local solutions are needed.
+
+# So, Is there a Solution?
+
+It seems we need to prevent plastics entering the oceans, by preventing
+their flow in our rivers and streams, effectively dealing with the
+problem *at source*. And that such a solution needs to be in widespread
+use ( \>1600 rivers ) in order for it to be successful. So it needs to
+be simple, effective and not terribly costly.
+
+It seems that the beautiful city of Amsterdam, with its lovely canals,
+has a solution already!
+
+<iframe width="760" height="500" src="https://www.youtube.com/embed/n_KwF-gf0S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<br>
+
+In the following, we will analyze this solution from a TRIZ standpoint.
+We will construct **Contradictions**, specify the **Ideal Final
+Result**, and find solutions using the **Contradiction Matrix**. We will
+then interpret and apply the **Inventive Principles** suggested by the
+matrix into the problem and show how the video above can be depicted as
+yet another TRIZ solution! We will also very briefly foray into using
+another aspect of TRIZ, namely the **Separation Principles** this time.
+
+## A TRIZ Analysis of the Amsterdam Bubble Barrier
+
+For a TRIZ workflow, we proceed as before:
+
+-   First, using the method described in [**Open Source
+    TRIZ**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on YouTube")**,**
+    we identify *knobs* or *parameters* within the situation
+
+-   We see how turning these could lead to identifying a Statement /
+    Cause for a Problem in the form of a *Contradiction*.
+
+-   Re-word the plain English Contradiction into TRIZ Parameters and
+    look it up in the Contradiction Matrix. Obtain the Inventive
+    Principles.
+
+-   Apply these Inventive Principles into your Problem and solve it.
+
+
+    ![](TRIZ.png)
+    
+Here below is a quick *Ishikawa Diagram* to help us identify the
+*Parameters* of this Problem:
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Cause and Effect Diagram or Fish- bone Sample
+library(qcc)
+library(SixSigma)
+
+#Effect
+effect <- "Plastics in Water"
+
+#Causes
+causes.head <- c("Measurement", "Material", "Methods", "Environment", "Manpower", "Machines")
+
+#Individual Causes
+causes <- vector(mode =  "list", length = length(causes.head))
+causes[1] <- list(c("Smaller Quantities", "Smaller Area of Water", "Rate of Flow", "Width of the Stream", "Colour of Water"))
+
+causes[2] <- list(c("Water", "Plastics","River Banks", "Air Flow", "Water Flow", "Sunlight", "Time"))
+
+causes[3] <- list(c("Floating", "Being Visible", "Flowing", "Stopping", "Human Recreation Activities", "Fishing", "Transportation"))
+
+causes[4] <- list(c("Stream","Riverbank Properties", "Bridges", "Weirs"))
+
+causes[5] <- list(c("Humans","Fisherfolk", "Boat Operators"))
+causes[6] <- list(c("Filters", "Nets", "Boats"))
+
+#Fishbone Diagram
+#
+ss.ceDiag(effect,causes.head,causes, main ="~Smoke~ Plastics on the Water",
+          #ss.col = c("", "red"), 
+          sub = paste("Ishikawa Cause-Effect Diagram \n (Made with R)"))
+
+
+
+```
+
+Each of the above terms in the Ishikawa can be a **knob** for us.
+<u>[**Turning the *knobs/parameters* in the Ishikawa
+Diagram**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on Youtube")</u>,
+we try to improve a certain Parameter or we try to reduce its effect. In
+doing so we could construct several alternative **Problem
+Descriptions**. ( Of course not all Parameters may be accessible in a
+given situation )
+
+-   We want to deal with the (hopefully) smaller quantities of plastic
+    closer to source, rather than the much larger quantities as we get
+    nearer and into the high seas.
+
+-   Clearly we want the rivers to flow and give us our sense of
+    <u>[**beauty, serenity and movement, and
+    poetry**](https://etc.usf.edu/lit2go/105/the-wind-in-the-willows/1795/the-open-road/ "The Wind in the Willows by Kenneth Grahame")</u>,
+    but the same flow should not transport plastics downstream.
+
+-   We also want the plastic, if we can stop it from floating onward, to
+    be "accessible" and be easily gathered from the stream.
+
+-   So a simple dam or
+    <u>[**weir-like**](https://en.wikipedia.org/wiki/Weir "Weir on Wikipedia")</u>
+    structure, or a net could work, but would possibly ruin our sense of
+    beauty. For example, we could consider stopping the flow of water in
+    places with weirs, but then that could make the location ugly and be
+    a hindrance to recreation and transportation. The presence of
+    plastics in the water could also alter the colour of the water.
+
+-   Finally, we are interested in preserving dissolved oxygen in the
+    water. We want to prevent *other organic decaying material*
+    accumulating around the plastic and increasing the <u>[**Biological
+    Oxygen Demand**](https://www.usgs.gov/special-topics/water-science-school/science/biological-oxygen-demand-bod-and-water)</u>
+    Not to mention the smell.
+
+So many problems !!
+
+With all this discussion, we can state at least one of our Problems as
+an <u>[**Administrative
+Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp)</u>
+in *plain English*:
+
+::: callout-note
+### Administrative Contradiction
+**AC**: We wish to pull out plastics from the **river**
+without interrupting other human activities (economic / recreational / transportation )
+:::
+
+Next, based on this Contradiction and the inspection of the Ishikawa
+Diagram above, we are now ready to define a TRIZ *Ideal Final Result*:
+
+::: callout-note
+### Ideal Final Result
+**IFR**: The River must flow. The Plastics must not.
+:::
+
+Short and pithy.
+
+We could do alternative Problem Definitions too, depending upon what our
+focus was. (Our focus here is the **river)**. The way we would look at
+the Parameters in the Ishikawa Diagram would be different in each case.
+More on this in just a bit!
+
+Let us take our AC and convert it into a *Technical Contradiction(TC)*,
+keeping this IFR in mind. We will look at the *48 TRIZ Parameters* in
+the <u>[**TRIZ Contradiction Matrix**](/pdf/TRIZ/ContradictionMatrix2003.pdf)</u> and see which
+Parameter we want to improve, while not worsening another. Here is what
+we can obtain. We will analyze the Contradiction both ways[^2]:
+
+::: callout-note
+### Technical Contradictions
+- **TC 1**: Increase `Volume of Stationary Object`(8) and not worsen `Harmful effects acting on the system`(40)
+- **TC 2**: Improve `Harmful effects acting on the system`(40) and not worsen `Volume of Stationary Object`(8)
+:::
+
+Here we choose these Parameters based on our IFR, which also reflects
+that we choose the make the **river** our focus. We want to increase the
+`volume` of the stationary plastic **in the river**, while not worsening
+the `harmful effects` acting on the **river**. Note how the IFR is
+included here, in using the word **stationary** for the object: the
+plastic must **not** flow, while the river **must**.
+
+As stated in my previous articles,
+there is considerable flexibility and possibility for imaginative
+interpretations of the AC, using the *language of TRIZ*, the **48
+Parameters** in the Contradiction Matrix. Parameters chosen from the
+TRIZ Matrix can be thought of as *metaphors* for the knobs that lie
+within our AC; Going from the AC to the TC is an act of *making
+metaphors*. We could easily have chosen the Parameter
+`Amount of Substance (10)` i.e. the plastic *on the river*, as the
+"metaphoric thing" to improve but the current IFR speaks of the
+**river**. Or we could choose `Aesthetics and Appearance (39)` as our
+target, leading to different solutions perhaps, but in a focussed
+manner. TRIZ tends to <u>[**focus our
+attention**](https://scholar.princeton.edu/sites/default/files/kahneman/files/attention_hi_quality.pdf "Daniel Kahneman")</u>
+like no other method that I know of.
+
+We could also formulate a *Physical Contradiction(PC)*[^3]:
+
+::: callout-note
+### Physical Contradiction
+**PC**: The Plastic must be in the River and not in the River at the same time.
+:::
+
+which is aimed at the river, as with the IFR. Again, if the IFR is
+formulated differently we could obtain a very different set of AC and
+PC.
+
+## Solving the Technical Contradiction
+
+Let us take the both the TC-s into the Contradiction Matrix and arrive
+at the list of TRIZ Inventive Principles. Here is the Matrix solution
+for `TC-1` in the figure below; The square for solutions to `TC-1` has
+been circled in red.
+
+![](matrix.png)
+
+Here is what the Matrix suggests:
+
+For `TC-1`:
+
+1.  39(Inert Atmosphere)
+
+2.  24(Intermediary)
+
+3.  19(Periodic Action)
+
+4.  27(Cheap Short-Living Objects) (**!!**)
+
+    and with `TC-2`:
+
+5.  5(Merging)
+
+6.  17(Another Dimension)
+
+7.  ~~39(Inert Atmosphere)~~
+
+8.  ~~19(Periodic Action)~~
+
+This is neat list for us to try to use!! Let us apply some these
+Inventive Principles! Viewing these Inventive Principles as we
+*Generalized Solutions* we try to map these back into the Problem at
+hand:
+
+-   `(39)Inert Atmosphere`: Hmm...what can be inert in the River? What
+    could "inert" mean here? The River should be inert...so must not
+    flow! OK, so a place where it must be still, perhaps!!
+-   `24(Intermediary)`: OK, something between the River and the
+    Plastic. But...we don't want nets or dams or weirs...then what? Need
+    to think!!
+-   `19(Periodic Action)`: What can be "periodic" in the River? Waves?
+    But how do we **make** waves? Need to think some more!!
+-   `27(Cheap Short Living Objects)`: What can be cheap short and
+    short living in the River water? Not fish, surely...wait,
+    **BUBBLES**!!!
+
+So, <u>[breathlessly](https://youtu.be/nWeax5joZFw)</u>: we create bubbles in the water and use them as an
+*Intermediary* to create waves/barriers that nudge the Plastic where we
+want it it to be, for collection. And of course bubbles are both *Inert*
+**and** *Atmosphere*, literally! And they are *Cheap* and *Short-Lived*
+so we need to regenerate them *Periodically!* We can periodically
+*sweep* the river with a broom made of bubbles and not seriously disturb
+any other activity. Waah TRIZ, waah!
+
+`5(Merging)` is quite easy to interpret now, in retrospect.
+`17(Another Dimension)` is also evocative and powerful as a Solution:
+the River flows *horizontally* but the barrier we need to create is
+*vertical*. Yet another interpretation could be that the Bubbles
+*dissolve in the River water* (assuming *another dimension,* as it
+were) and give us the benefit of purifying the water too, as fountains
+do!!
+
+So there you have it! It seems that <u>[**Going
+Dutch**](https://thegreatbubblebarrier.com/ "The Great Bubble Barrier")</u>
+even with bubbles, is a good idea !
+
+## Using TRIZ Separation Principles
+
+As Hipple explains, there is frequently an underlying **physical**
+parameter, such as *length*, *breadth*, *weight*, or *energy, or speed*
+for example that lies at the root of our *Technical Contradiction*.
+
+Our IFR states that we want the Plastics to not flow, and the River to
+flow at the same time. But the Plastics are
+<u>[**in**](https://christophertyler.org/CWTyler/AlicePDFs/13treacle.pdf "The Treacle Well ( Alice in Wonderland )")</u>
+the River! This is a sort of a Physical Contradiction!
+
+Can we make the River "less of a River" in places? Can we make
+**separate** zones in the River that flow and not flow, and allow us to
+harvest the plastic?Indeed,our Inventive Principles such as `(39)Inert
+Atmosphere` and `24(Intermediary)` suggest such a "spatial"
+separation. So we are applying SEPARATION in SPACE here, to solve a
+Physical Contradiction related to "time". TRIZ offers us a smaller and
+more easily "memorizable" set of metaphoric solutions in the form of
+**Separation Principles**. Here they are:
+
+-   [Separation in Time]{.smallcaps}
+-   [Separation in Space]{.smallcaps}
+-   [Separation on Condition]{.smallcaps}
+-   [Separation between Parts and the Whole]{.smallcaps}
+
+Note that while these *Separation Principles* are just a handful to
+memorize, they are in my opinion, a little harder to apply straightway.
+But then practice would help us. Note that all the Inventive Principles
+in the Matrix can be, and have been, classified as to whether they hew
+to a particular kind of *Separation* *Principle.*
+
+If there is any interesting situation that could be analyzed with TRIZ,
+please send me a DM! Thanks !
+
+## References
+
+1.  Meijer, J.J.L, Emmerik, T., Ent, R., Schmidt, C., Lebreton, L.
+    (2021). More than 1000 rivers account for 80% of global riverine
+    plastic emissions into the ocean. Science Advances.
+    <https://www.science.org/doi/10.1126/sciadv.aaz5803>
+
+2.  Jack Hipple, The Ideal Result and How to Achieve It. Springer;
+    2012th edition (June 26, 2012)
+
+3.  Valery Souchkov, Defining Contradictions.
+    <http://www.xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf>
+
+4.  Open Source TRIZ: Making Contradictions.
+    <https://www.youtube.com/watch?v=cah0OhCH55k>
+
+[^1]: The Contradiction Matrix is not quite symmetric, so stating the
+    Contradiction both ways allows us to access a slightly larger set of
+    Inventive Principles from two cells of the Matrix.
+
+[^2]: The Contradiction Matrix is not quite symmetric, so stating the
+    Contradiction both ways allows us to access a slightly larger set of
+    Inventive Principles from two cells of the Matrix.
+
+[^3]: Arriving at *Physical Contradictions* is not always easy! If we
+    can, then there are a very crisp set of **TRIZ Separation
+    Principles** that we can apply to solve the Problem.

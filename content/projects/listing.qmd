@@ -1,16 +1,38 @@
 ---
 # options specified here will apply to all posts in this folder
-title: "Blogs and Writings on Code, TRIZ and other things"
+title: "Case Studies and Talks"
 listing: 
-  type: default
-  contents:
-    - "Modules/TRIZ/*/index.qmd"
-    - "Modules/Talks/*/index.qmd"
-  sort: "date"
-  sort-ui: false
-  filter-ui: false
-  fields: [image, title, date]
-  table-striped: true
-  table-hover: true
-  categories: true
+  - id: projects
+    contents: "TRIZ/*/*.qmd"
+    type: table
+    fields: 
+      - date
+      - title
+    sort: order
+    sort-ui: false
+    filter-ui: false
+  - id: talks
+    contents: "Talks/*/*.qmd"
+    type: table
+    fields: 
+      - date
+      - title
+    sort: order
+    sort-ui: false
+    filter-ui: false
+categories: 
+  - Case Studies
+page-layout: full
+title-block-banner: true
 ---
+
+## Case Studies
+
+::: {#projects}
+:::
+
+## Talks
+
+::: {#talks}
+:::
+

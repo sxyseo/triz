@@ -9,6 +9,11 @@ categories:
 - TRIZ Inventive Principles
 
 ---
+```{r}
+#| label: setup
+#| echo: false
+```
+
 ## Introduction
 To recap: 
 

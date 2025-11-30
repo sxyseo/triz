@@ -102,10 +102,32 @@ extract from the **Play and Playground Encyclopedia**
 
 No, that is not a bad spelling....why not?
 
-Go find me in this picture !! ![Pillar Rock](Pillar.JPG)
+Go find me in this picture !! <br>
 
-## References
+![Pillar Rock](Pillar.JPG)
 
+## {{< iconify fluent-mdl2 decision-solid >}} Conclusions
+
+- Flow is a `Zone of Play` between the rising `Floor of Boredom` and the approaching `Ceiling of Anxiety / Challenge`
+- You need to use the Boredom to push away the Ceiling to stay in Play
+- To do that, you may need to:
+  - Break Rules: Change how you experience things
+  - Understand your Assumptions: ( More on this later)
+  - Use and Create Surprises: Spot the Problem lurking in your Boredom
+
+
+## {{< iconify mingcute thought-line >}} Wait, But Why?
+
+- Flow is a great state to be in when you are working
+- It enables you to experience your work, your problem solving, in a way that is unique and hyper productive
+- And...
+- If you build / design some thing, wouldn't you want flow for the people who use that thing?
+- Flow is your gift to your users / customers / clients / audience !!
+- And so, it is both a beginning, and an end in Design!!
+
+## {{< iconify ooui references-ltr >}} References
+
+1. The National Institute of Play <https://nifplay.org/>
 1.  Scott Eberle, "The Aspects of Play"
     <https://www.journalofplay.org/sites/www.journalofplay.org/files/pdf-articles/6-2-article-elements-of-play.pdf>
 1.  "Platform Creativity: Domain, Field, and Person".

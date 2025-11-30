@@ -3,16 +3,16 @@ title: "TRIZ for Problem Solvers"
 subtitle: "Methods and Process for Creative Thinking and Problem Solving"
 date: 2022/Dec/31
 image: preview.jpeg
-listing: 
-  type: table
-  sort: "order"
-  sort-ui: false
-  filter-ui: false
-  contents: "Modules/*/*.qmd"
-  fields: [image, title,reading-time]
-  table-striped: true
-  table-hover: true
-  categories: numbered
+# listing: 
+#   type: table
+#   sort: "order"
+#   sort-ui: false
+#   filter-ui: false
+#   contents: "Modules/*/*.qmd"
+#   fields: [image, title,reading-time]
+#   table-striped: true
+#   table-hover: true
+#   categories: numbered
 ---
 
 ![Japanese Daisugi Method of Growing
@@ -362,4 +362,3 @@ formalizable, and ~~teachable~~ learnable.
 
 :::
 
-## Course Materials and Modules
