@@ -38,6 +38,7 @@ library(showtext)
 library(blogdown)
 library(marquee)
 library(ggrepel)
+library(ggtext)
 ## Clean the slate
 systemfonts::clear_local_fonts()
 systemfonts::clear_registry()
@@ -374,7 +375,7 @@ ggplot(data, aes(x = x)) +
 
 See this:
 
-{{< youtube tRBOiq-Q6_s >}}
+{{< youtube vlUUrrwcUQw >}}
 
 
 ### PC Examples  
