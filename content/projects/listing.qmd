@@ -4,17 +4,20 @@ title: "Case Studies and Talks"
 listing: 
   - id: projects
     contents: "TRIZ/*/*.qmd"
-    type: table
+    type: grid
     fields: 
+      - image
       - date
       - title
     sort: order
     sort-ui: false
     filter-ui: false
   - id: talks
-    contents: "Talks/*/*.qmd"
-    type: table
+    contents: 
+      - "Talks/*/*.qmd"
+    type: grid
     fields: 
+      - image
       - date
       - title
     sort: order
@@ -23,7 +26,7 @@ listing:
 categories: 
   - Case Studies
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 
 ## Case Studies

@@ -16,8 +16,9 @@ summary: "Blowing Bubbles in the Water"
 abstract: "Plastics are increasingly found in our rivers and in our oceans. How can we clean this up at source? Amsterdam seems to have an answer!"
 ---
 
-<br>
+
 ![](featured.jpg)
+
 
 ```{r, setup, include=FALSE}
 
@@ -46,7 +47,17 @@ Previous research suggested that only a handful of rivers transports
 almost all of the plastic to the sea -- new research suggests this is
 not the case.
 
-![](plastic-rivers.png)
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-height: "300%"
+#| out-width: "150%"
+#| label: fig-rivers
+#| fig-cap: "Rivers of Plastic"
+
+knitr::include_graphics("plastic-rivers.png")
+```
+
 
 > 80% of the world's ocean plastics enter the ocean via rivers and
 > coastlines. The other 20% come from marine sources such as fishing
@@ -132,14 +143,26 @@ For a TRIZ workflow, we proceed as before:
 
 -   Apply these Inventive Principles into your Problem and solve it.
 
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-height: "6%"
+#| out-width: "60%"
+#| label: fig-triz
+#| fig-cap: "TRIZ Method"
 
-    ![](TRIZ.png)
+knitr::include_graphics("triz.png")
+```
+
     
 Here below is a quick *Ishikawa Diagram* to help us identify the
 *Parameters* of this Problem:
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
+```{r}
+#| echo: false
+#| label: fig-ishikawa
+#| fig-cap: "Ishikawa Diagram for Plastics in the Water"
+#| 
 #Cause and Effect Diagram or Fish- bone Sample
 library(qcc)
 library(SixSigma)
@@ -167,7 +190,7 @@ causes[6] <- list(c("Filters", "Nets", "Boats"))
 #
 ss.ceDiag(effect,causes.head,causes, main ="~Smoke~ Plastics on the Water",
           #ss.col = c("", "red"), 
-          sub = paste("Ishikawa Cause-Effect Diagram \n (Made with R)"))
+          sub = paste("Ishikawa Cause-Effect Diagram \n (Made with R packages SixSigma and qcc)"))
 
 
 
@@ -287,28 +310,33 @@ at the list of TRIZ Inventive Principles. Here is the Matrix solution
 for `TC-1` in the figure below; The square for solutions to `TC-1` has
 been circled in red.
 
-![](matrix.png)
+```{r}
+#| echo: false
+#| fig-align: center
+#| out-height: "300%"
+#| out-width: "150%"
+#| label: fig-contradiction-matrix
+#| fig-cap: "Contradiction Matrix"
+
+knitr::include_graphics("matrix.png")
+```
+
+
 
 Here is what the Matrix suggests:
 
 For `TC-1`:
 
 1.  39(Inert Atmosphere)
-
 2.  24(Intermediary)
-
 3.  19(Periodic Action)
-
 4.  27(Cheap Short-Living Objects) (**!!**)
 
-    and with `TC-2`:
+  and with `TC-2`:
 
 5.  5(Merging)
-
 6.  17(Another Dimension)
-
 7.  ~~39(Inert Atmosphere)~~
-
 8.  ~~19(Periodic Action)~~
 
 This is neat list for us to try to use!! Let us apply some these
@@ -388,13 +416,10 @@ please send me a DM! Thanks !
     (2021). More than 1000 rivers account for 80% of global riverine
     plastic emissions into the ocean. Science Advances.
     <https://www.science.org/doi/10.1126/sciadv.aaz5803>
-
 2.  Jack Hipple, The Ideal Result and How to Achieve It. Springer;
     2012th edition (June 26, 2012)
-
 3.  Valery Souchkov, Defining Contradictions.
     <http://www.xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf>
-
 4.  Open Source TRIZ: Making Contradictions.
     <https://www.youtube.com/watch?v=cah0OhCH55k>
 

@@ -1,5 +1,34 @@
 [
   {
+    "listing": "/content/Basics/listing.html",
+    "items": [
+      "/content/Basics/Modules/10-Flow-and-Play/index.html",
+      "/content/Basics/Modules/20-Cultural-Capital/index.html",
+      "/content/Basics/Modules/30-MBTI-Big-5/index.html",
+      "/content/Basics/Modules/35-Domain-Field-Self/index.html",
+      "/content/Basics/Modules/37-What-Am-I-Thinking-Of/index.html",
+      "/content/Basics/Modules/40-Parallel-Thinking/index.html",
+      "/content/Basics/Modules/50-Metaphoric-Thinking/index.html"
+    ]
+  },
+  {
+    "listing": "/content/TRIZ/listing.html",
+    "items": [
+      "/content/TRIZ/Modules/60-Problems-and-Contradictions/index.html",
+      "/content/TRIZ/Modules/70-TRIZ-Resources/index.html",
+      "/content/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.html",
+      "/content/TRIZ/Modules/80-A-Contradictory-Language/index.html",
+      "/content/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.html",
+      "/content/TRIZ/Modules/95-TRIZ-Stories/index.html",
+      "/content/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.html",
+      "/content/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.html",
+      "/content/TRIZ/Modules/400-TRIZ-References/index.html",
+      "/content/TRIZ/Modules/1000-TRIZ-Games/index.html",
+      "/content/TRIZ/Modules/7777-WritingAssignments/index.html",
+      "/content/TRIZ/Modules/2000-FlashCards/index.pdf"
+    ]
+  },
+  {
     "listing": "/content/projects/listing.html",
     "items": [
       "/content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.html",
@@ -7,7 +36,8 @@
       "/content/projects/Modules/TRIZ/30-Wildlife-Crossing/index.html",
       "/content/projects/Modules/TRIZ/40-Owind/index.html",
       "/content/projects/Modules/TRIZ/50-BubbleBarrier/index.html",
-      "/content/projects/Modules/Talks/VizChitra25/index.html"
+      "/content/projects/Modules/Talks/VizChitra25/index.html",
+      "/content/projects/Modules/Talks/TRIZTalkMay2025/index.html"
     ]
   }
 ]

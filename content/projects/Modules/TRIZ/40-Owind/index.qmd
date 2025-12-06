@@ -213,19 +213,14 @@ suggests:
 For `TC-1`:
 
 1.  **17(Another Dimension) !!**
-
 2.  **4( Asymmetry)**
-
 3.  **14(Curvature) !!!**
-
 4.  **10(Preliminary Action)**
 
-    and with `TC-2`:
+and with `TC-2`:
 
 5.  **3(Local Quality)**
-
 6.  **9(Preliminary Anti-Action)**
-
 7.  **35(Parameter Change)**
 
 Hmm...based on the PC, we may have expected a **Separation in Space**

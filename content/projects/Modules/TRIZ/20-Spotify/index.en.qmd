@@ -140,7 +140,7 @@ causes[6] <- list(c("Bike", "Shelves", "Weighing Scales"))
 #Fishbone Diagram
 #
 ss.ceDiag(effect,causes.head,causes, main ="Me, Mom, and the Market",#ss.col = c("", "red"), 
-          sub = "Ishikawa Cause-Effect Diagram")
+          sub = "Ishikawa Cause-Effect Diagram for Boredom\ made with R packages SixSigma and qcc")
 
 
 
@@ -154,15 +154,20 @@ can now specify as an [**Administrative
 Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp) in
 *plain English*:
 
-> <center>**AC**: The YM wants to chill at home but Mom wants him to
-> take her veggie shopping. He has to put up with the *`Waste of Time`*,
-> and being bored, and *`Stress`* at being away from friends.</center>
+:::callout-note
+## Administrative Contradiction
+The YM wants to chill at home but Mom wants him to
+take her veggie shopping. He has to put up with the *`Waste of Time`*,
+and being bored, and *`Stress`* at being away from friends.
+:::
 
 Next, based on this Contradiction and the inspection of the Ishikawa
 Diagram above, we are now ready to define a TRIZ *Ideal Final Result*:
 
-> <center>**IFR**: The YM must go to the Market and not be
-> bored.</center>
+:::callout-note
+## Ideal Final Result
+The YM must go to the Market and not be bored.
+:::
 
 Note again the impossible sounding way of expressing the IFR! One needs
 practice, like the Queen in Alice in Wonderland, who could think of *Six
@@ -177,11 +182,15 @@ the [*TRIZ Contradiction Matrix*
 Parameter we want to improve, while not worsening another. Here is what
 we can obtain. We will analyze each Contradiction both ways[^1]:
 
-> **- TC 1**: Improve `Loss of Time` (26) and not worsen
-> `Effect of External Harmful Factors` (30)
->
-> **- TC 2**: Improve `Increase Productivity` (44) and not worsen
-> `Stress` (19)
+::: callout-note
+## TC 1
+Improve `Loss of Time` (26) and not worsen `Effect of External Harmful Factors` (30)
+:::
+
+::: callout-note
+## TC 2
+Improve `Increase Productivity` (44) and not worsen `Stress` (19)
+:::
 
 Here we choose these Parameters based on our IFR that while going to the
 Market may be unavoidable, Boredom need not ensue. Parameters chosen
@@ -194,8 +203,10 @@ imaginative interpretations of the AC, but using the *language of TRIZ*.
 
 We could also formulate a *Physical Contradiction(PC)*[^2]:
 
-> <center>**PC**: The YM must be in the market and not be in the market
-> at the same time.</center>
+::: callout-note
+## Physical Contradiction
+The YM must be in the market and not be in the market at the same time.
+:::
 
 which is aimed squarely at one of the *Assumptions* in the Problem, that
 the YM simply has to go. Again, if the IFR is formulated differently we
@@ -211,46 +222,34 @@ Let us take the both the TC-s into the Contradiction Matrix and arrive
 at the list of TRIZ Inventive Principles. Here is the Matrix solution
 for TC-1 in the figure below:
 
-```{r, echo = FALSE}
-
+```{r}
+#| echo: false
+#| out-width: "100%"
+#| out-height: "120%"
+#| fig-align: center
+#| fig-cap: "TRIZ Matrix for TC1 and TC2"
 knitr::include_graphics("matrix.png")
 
 ```
 
-<br>
-
-The two squares for the TC1 have been circled in red, solving TC-1.
-
-The Inventive Principles are:(TC1, TC2, both ways)
+The two squares for the TC1 have been circled in red, solving TC-1. The Inventive Principles are:(TC1, TC2, both ways)
 
 1.  1(Segmentation)
-
 2.  35(Parameter Change)
-
 3.  21(Skipping)
-
 4.  18(Mechanical Vibration) (**!!**)
-
 5.  2(Taking Out/Separation)
-
 6.  10(Prior Action)
-
 7.  36(Phase Transitions)
 
-    and with TC2:
+and with TC2:
 
 8.  3(Local Quality)
-
 9.  14(Spheroidality/Curvature)
-
 10. 9(Preliminary Anti-Action)
-
 11. 37(Thermal Expansion)
-
 12. 40(Composite Materials)
-
 13. 25(Self Service)
-
 14. 24(Intermediary)
 
 That is a considerable list for us to try to use!! Let us apply some
@@ -272,9 +271,10 @@ hand:
 One could make decent interpretations of **2(Taking Out/Separation)**,
 and **24(Intermediary)**, but we are already there! The rest are perhaps
 (at least to me!) not very evocative, unless **37(Thermal Expansion)**
-means "throw a temper tantrum at Mom"? Never! So there you have it! The
-[**Cinderella song**](https://www.youtube.com/watch?v=NwdQx2P_ytk)
-played on Spotify becomes not just a *noise canceller* but actually
+means "throw a temper tantrum at Mom"? Never! 
+
+So there you have it! The [**Cinderella song**](https://www.youtube.com/watch?v=NwdQx2P_ytk)
+played on Spotify becomes not just a [*noise canceller*](https://www.ti.com/lit/an/spra337/spra337.pdf) but actually
 seems to substitute the very conversation between Mom and the vendor.
 And the YM has successfully attained Flow ! And the IFR too, since with
 the music in his head, he is effectively "in the marketplace *and* not
@@ -287,21 +287,21 @@ And I attained Flow in writing this!!
 We note in passing that there is more than one way of formulating the
 *Ideal Final Result*. Here are two more examples:
 
-> <center>
->
-> **IFR2**: The veggies should arrive without (the YM) going to the
-> Market
->
-> **IFR3**: Food should be prepared without having to go buy veggies.
->
-> </center>
+::: callout-note
+## IFR2
+The veggies should arrive without (the YM) going to the Market
+:::
+
+::: callout-note
+## IFR3
+Food should be prepared without having to go buy veggies.
+:::
 
 Clearly these are at least as good as the one we have chosen, sounding
 nicely "impossible" in their own right! The point is that in the
 analysis of the Problem, we do need to ask *Who has the Problem,* as we
 did*,* and the IFR needs to stem from there. These alternative IFRs
-could well be the [**Voice of (another)
-Customer**](https://www.mit.edu/~hauser/Papers/Gaskin_Griffin_Hauser_et_al%20VOC%20Encyclopedia%202011.pdf).
+could well be the [**Voice of (another) Customer**](https://www.mit.edu/~hauser/Papers/Gaskin_Griffin_Hauser_et_al%20VOC%20Encyclopedia%202011.pdf).
 
 If there is any interesting situation that could be analyzed with TRIZ,
 please send me a DM! Thanks !

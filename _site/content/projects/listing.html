@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.html" rel="next">
-<link href="../../content/courses/TRIZ4ProbSolving/Modules/7777-WritingAssignments/index.html" rel="prev">
+<link href="../../content/TRIZ/Modules/7777-WritingAssignments/index.html" rel="prev">
 <link href="../../content/materials/icon-park-twotone--concept-sharing.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-listing/list.min.js"></script>
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -114,9 +114,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -166,15 +166,17 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Case Studies and Talks – TRIZ: A Creative Problem-Solving System">
+<meta property="og:image" content="https://teaching-triz.netlify.app/content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/feature.jpg">
 <meta property="og:site_name" content="TRIZ: A Creative Problem-Solving System">
 <meta name="twitter:title" content="Case Studies and Talks – TRIZ: A Creative Problem-Solving System">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://teaching-triz.netlify.app/content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/feature.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -224,7 +226,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/projects/listing.html">Projects and Writings</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/projects/listing.html">Case Studies and Talks</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -234,26 +236,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Case Studies and Talks</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Case Studies</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-body">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -271,7 +254,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/courses/listing.html" class="sidebar-item-text sidebar-link">
+            <a href="../../content/listing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -280,7 +263,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/courses/TRIZ4ProbSolving/listing.html" class="sidebar-item-text sidebar-link">
+            <a href="../../content/Basics/listing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Basic Ideas in Creativity</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -289,43 +272,43 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/10-Flow-and-Play/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/10-Flow-and-Play/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">I am Water</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/20-Cultural-Capital/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/20-Cultural-Capital/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">I yam What I yam</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/30-MBTI-Big-5/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/30-MBTI-Big-5/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Birds of Different Feathers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/35-Domain-Field-Self/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/35-Domain-Field-Self/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">I Connect therefore I am</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/37-What-Am-I-Thinking-Of/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/37-What-Am-I-Thinking-Of/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">I Think, Fast and Slow</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/40-Parallel-Thinking/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/40-Parallel-Thinking/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Art of Parallel Thinking</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/50-Metaphoric-Thinking/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/Basics/Modules/50-Metaphoric-Thinking/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Year of Metaphoric Thinking</span></a>
   </div>
 </li>
@@ -333,7 +316,7 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a href="../../content/TRIZ/listing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ for Problem Solvers</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -342,67 +325,67 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/60-Problems-and-Contradictions/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/60-Problems-and-Contradictions/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - Problems and Contradictions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/70-TRIZ-Resources/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/70-TRIZ-Resources/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - The Unreasonable Effectiveness of Available Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/75-TRIZ-Ideal-Final-Result/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - The Ideal Final Result</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/80-A-Contradictory-Language/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/80-A-Contradictory-Language/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - A Contradictory Language</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/90-TRIZ-Contradiction-Matrix/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - The Contradiction Matrix Workflow</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/95-TRIZ-Stories/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/95-TRIZ-Stories/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - At the Movies</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/100-TRIZ-Laws-of-Evolution/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - The Laws of Evolution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/200-TRIZ-Advanced-Stuff/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - Substance Field Analysis, and ARIZ</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/400-TRIZ-References/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/400-TRIZ-References/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - Reference Documents</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/1000-TRIZ-Games/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/1000-TRIZ-Games/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TRIZ - Games</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/courses/TRIZ4ProbSolving/Modules/7777-WritingAssignments/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/TRIZ/Modules/7777-WritingAssignments/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reading and Writing Assignments</span></a>
   </div>
 </li>
@@ -413,7 +396,7 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/projects/listing.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Projects and Writings</span></a>
+ <span class="menu-text">Case Studies and Talks</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -449,6 +432,12 @@ window.Quarto = {
  <span class="menu-text">The TRIZ Chronicles: the Amsterdam Bubble Barrier</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/projects/Modules/Talks/TRIZTalkMay2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ Talk May2025</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -467,117 +456,157 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Case Studies and Talks</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Case Studies</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta column-body">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="case-studies" class="level2">
 <h2 class="anchored" data-anchor-id="case-studies">Case Studies</h2>
-<div id="listing-projects" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Date
-</th>
-
-<th>
-Title
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="VFJJWiUyQzQ4JTIwVFJJWiUyMFBhcmFtZXRlcnMlMkNJbnZlbnRpdmUlMjBQcmluY2lwbGVzJTJDQ3JlYXRpdml0eSUyMFN5c3RlbXMlMjBNb2RlbCUyQ01ha2luZyUyME1ldGFwaG9ycw==" data-listing-date-sort="1671474600000" data-listing-file-modified-sort="1764508224168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2392" data-listing-title-sort="The TRIZ Chronicles: Lawrence of Arabia" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Dec 20, 2022</span>
-</td>
-<td>
-<a href="../../content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.html" class="title listing-title">The TRIZ Chronicles: Lawrence of Arabia</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="VFJJWg==" data-listing-date-sort="1673202600000" data-listing-file-modified-sort="1764509124983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1671" data-listing-title-sort="The TRIZ Chronicles: a Spotify Ad" data-listing-filename-sort="index.en.qmd">
-<td>
-<span class="listing-date">Jan 9, 2023</span>
-</td>
-<td>
-<a href="../../content/projects/Modules/TRIZ/20-Spotify/index.en.html" class="title listing-title">The TRIZ Chronicles: a Spotify Ad</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="VFJJWiUyMENocm9uaWNsZXMlMkNJbnZlbnRpdmUlMjBQcmluY2lwbGVzJTJDQ29udHJhZGljdGlvbnMlMkNCYW5mZg==" data-listing-date-sort="1688236200000" data-listing-file-modified-sort="1764509004317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1254" data-listing-title-sort="The TRIZ Chronicles: Banff Wildlife Crossings" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Jul 2, 2023</span>
-</td>
-<td>
-<a href="../../content/projects/Modules/TRIZ/30-Wildlife-Crossing/index.html" class="title listing-title">The TRIZ Chronicles: Banff Wildlife Crossings</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="VFJJWiUyMENocm9uaWNsZXMlMkNJbnZlbnRpdmUlMjBQcmluY2lwbGVzJTJDQ29udHJhZGljdGlvbnMlMkNKYW1lcyUyMER5c29uJTIwQXdhcmRz" data-listing-date-sort="1677609000000" data-listing-file-modified-sort="1764509021051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1888" data-listing-title-sort="The TRIZ Chronicles: the O-Wind Turbine" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mar 1, 2023</span>
-</td>
-<td>
-<a href="../../content/projects/Modules/TRIZ/40-Owind/index.html" class="title listing-title">The TRIZ Chronicles: the O-Wind Turbine</a>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="VFJJWiUyMENocm9uaWNsZXMlMkM0OCUyMFRSSVolMjBQYXJhbWV0ZXJzJTJDSWRlYWwlMjBGaW5hbCUyMFJlc3VsdCUyQ0ludmVudGl2ZSUyMFByaW5jaXBsZXMlMkNEZXNpZ24lMjBUaGlua2luZyUyQ0NyZWF0aXZpdHklMjBTeXN0ZW1zJTIwTW9kZWwlMkNNYWtpbmclMjBNZXRhcGhvcnM=" data-listing-date-sort="1675881000000" data-listing-file-modified-sort="1764509062965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2406" data-listing-title-sort="The TRIZ Chronicles: the Amsterdam Bubble Barrier" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Feb 9, 2023</span>
-</td>
-<td>
-<a href="../../content/projects/Modules/TRIZ/50-BubbleBarrier/index.html" class="title listing-title">The TRIZ Chronicles: the Amsterdam Bubble Barrier</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="VFJJWiUyQzQ4JTIwVFJJWiUyMFBhcmFtZXRlcnMlMkNJbnZlbnRpdmUlMjBQcmluY2lwbGVzJTJDQ3JlYXRpdml0eSUyMFN5c3RlbXMlMjBNb2RlbCUyQ01ha2luZyUyME1ldGFwaG9ycw==" data-listing-date-sort="1671474600000" data-listing-file-modified-sort="1764980253294" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2392">
+<a href="../../content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/feature.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The TRIZ Chronicles: Lawrence of Arabia
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2022
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="VFJJWg==" data-listing-date-sort="1673202600000" data-listing-file-modified-sort="1764983455638" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1687">
+<a href="../../content/projects/Modules/TRIZ/20-Spotify/index.en.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="Modules/TRIZ/20-Spotify/sketchplanations-match-challenge-with-skills-for-flow-at-work.jpg" alt="From Sketchplanations" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The TRIZ Chronicles: a Spotify Ad
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jan 9, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="VFJJWiUyMENocm9uaWNsZXMlMkNJbnZlbnRpdmUlMjBQcmluY2lwbGVzJTJDQ29udHJhZGljdGlvbnMlMkNCYW5mZg==" data-listing-date-sort="1688236200000" data-listing-file-modified-sort="1764509004317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1254">
+<a href="../../content/projects/Modules/TRIZ/30-Wildlife-Crossing/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="https://discoverapega.ca/wp-content/uploads/2020/09/AB-BAN-2014-05.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The TRIZ Chronicles: Banff Wildlife Crossings
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 2, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="VFJJWiUyMENocm9uaWNsZXMlMkNJbnZlbnRpdmUlMjBQcmluY2lwbGVzJTJDQ29udHJhZGljdGlvbnMlMkNKYW1lcyUyMER5c29uJTIwQXdhcmRz" data-listing-date-sort="1677609000000" data-listing-file-modified-sort="1764980772468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1884">
+<a href="../../content/projects/Modules/TRIZ/40-Owind/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="Modules/TRIZ/40-Owind/index_files/figure-html/unnamed-chunk-1-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The TRIZ Chronicles: the O-Wind Turbine
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="VFJJWiUyMENocm9uaWNsZXMlMkM0OCUyMFRSSVolMjBQYXJhbWV0ZXJzJTJDSWRlYWwlMjBGaW5hbCUyMFJlc3VsdCUyQ0ludmVudGl2ZSUyMFByaW5jaXBsZXMlMkNEZXNpZ24lMjBUaGlua2luZyUyQ0NyZWF0aXZpdHklMjBTeXN0ZW1zJTIwTW9kZWwlMkNNYWtpbmclMjBNZXRhcGhvcnM=" data-listing-date-sort="1675881000000" data-listing-file-modified-sort="1764980290670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2454">
+<a href="../../content/projects/Modules/TRIZ/50-BubbleBarrier/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="Modules/TRIZ/50-BubbleBarrier/featured.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The TRIZ Chronicles: the Amsterdam Bubble Barrier
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 9, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <section id="talks" class="level2">
 <h2 class="anchored" data-anchor-id="talks">Talks</h2>
-<div id="listing-talks" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Date
-</th>
-
-<th>
-Title
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1751049000000" data-listing-file-modified-sort="1752917033969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4361" data-listing-title-sort="Data, DataViz, and Stats with the Stars" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Jun 28, 2025</span>
-</td>
-<td>
-<a href="../../content/projects/Modules/Talks/VizChitra25/index.html" class="title listing-title">Data, DataViz, and Stats with the Stars</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<div id="listing-talks" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1751049000000" data-listing-file-modified-sort="1752917033969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4361">
+<a href="../../content/projects/Modules/Talks/VizChitra25/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data, DataViz, and Stats with the Stars
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 28, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1765132200000" data-listing-file-modified-sort="1764989808193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="../../content/projects/Modules/Talks/TRIZTalkMay2025/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+TRIZ Talk May2025
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 8, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
@@ -995,7 +1024,7 @@ Title
   </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/courses/TRIZ4ProbSolving/Modules/7777-WritingAssignments/index.html" class="pagination-link" aria-label="Reading and Writing Assignments">
+      <a href="../../content/TRIZ/Modules/7777-WritingAssignments/index.html" class="pagination-link" aria-label="Reading and Writing Assignments">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reading and Writing Assignments</span>
       </a>          
   </div>

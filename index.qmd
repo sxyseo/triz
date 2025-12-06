@@ -30,8 +30,8 @@ To get started, you can check out the Modules on this website.
 My teaching websites are:\
 
 - [TRIZ for Problem Solvers](https://teaching-triz.netlify.app)\ (This one!!)
-- [The Mad Hatter's Guide to Data Viz and Stats in R](https:://madhatterguide.netlify.app)\
-- [Model Thinking in Design](https://arvindvenkatadri.com/teaching/3-order-and-chaos/)\
+- [The Mad Hatter's Guide to Data Viz and Stats in R](https://madhatterguide.netlify.app)\
+- [Model Thinking in Design](https://old-tortoise-taught-us.netlify.app/)\
 - [Literary Jukebox: Design Thinking from Short Fiction](https://literary-jukebox.netlify.app)\
 - [Maths for Creative Coders](https://mathforcoders.netlify.app)\
 - [Intro to Design of Experiments in R](https://doe-a-deer.netlify.app)\ (Extreme Work in Progress!)
