@@ -36,13 +36,13 @@ editor:
    - Is that same aspect of *grounding*, or similar, likely to affect you in the future?
    
 1. [Bird of Different Feathers](../../../Basics/Modules/30-MBTI-Big-5/index.qmd):
-To be Written Up.
+To be Written Up. (May be too much for illiterate SMI Peasants). 
 1. [I Connect therefore I am](../../../Basics/Modules/35-Domain-Field-Self/index.qmd):
-    - Pick up Barbara Ann Kipfer's **Flip Dictionary**, or any other dictionary
-    - Randomly find a few ***Adjectives*** ( e.g. acerbic, diabolic, enchanting, ballistic, incendiary, colonial, motionless...)
-    - Randomly find a few ***Abstract Nouns***) ( e.g. mechanics, solitude, marketing, friendship, justice, ecology, ...)
+    - Pick up Barbara Ann Kipfer's **Flip Dictionary** <https://archive.org/details/flipdictionary0000kipf>, or any other dictionary
+    - Randomly find a few ***Adjectives*** ( e.g. *acerbic, diabolic, enchanting, ballistic, incendiary, colonial, motionless*...)
+    - Randomly find a few ***Abstract Nouns***) ( e.g. *mechanics, solitude, marketing, friendship, justice, ecology*, ...)
     - Again randomly, combine *one adjective with one abstract noun*.
-    - Does the combination make sense, as a `domain` of work? Would the new `domain` have a language? What might a few words be that could be included in this domain-specific language? ( e.g. "forensic art" could, just, mean a science where one looks at paintings and find out precisely the historical period, season, time of year, and the phase of the moon on the day they were painted in, by examining minute details of brush strokes, pigments used, canvas weave, etc. Words in this domain might include: pigment analysis, canvas weave, brush stroke morphology, etc. )
+    - Does the combination make sense, as a `domain` of work? Would the new `domain` have a language? What might a few words be that could be included in this domain-specific language? ( e.g. "*forensic art*" could, just, mean a science where one looks at paintings and find out precisely the historical period, season, time of year, and the phase of the moon on the day they were painted in, by examining minute details of brush strokes, pigments used, canvas weave, etc. Words in this domain might include: pigment analysis, canvas weave, brush stroke morphology, etc. )
     - Make as many combinations as you can, and make `domains + languages` out of them
     - Bonus points if you can ***name*** (with justification!) an expert from the `Field` that belongs with this new? `Domain`. (Expert can be a fictional figure too!)
     
@@ -50,14 +50,14 @@ To be Written Up.
    - Read one of the following (ha!):\
         - Joshua Ferris, **The Market Value of my Father**, a metaphorical Short Story. [(Web Link)](https://www.wealthsimple.com/en-ca/magazine/joshua-ferris)
         - Primo Levi, **Carbon**, a metaphorical Short Story. [(PDF)](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf)
-   - List the Metaphors that are revealed in the work
-   - Describe the *source domain* and the *target domain* for each metaphor you identify
-   - Describe what **attribute** was carried forward from the *source domain* to the *target domain*
-   - Comment, based on your own subjective experience ( aka CC ) whether and why each metaphor *worked for you* or not?
+   - List the `Metaphors` that are revealed in the work
+   - Describe the `source domain` and the `target domain` for each metaphor you identify
+   - Describe what `attribute` was `mapped` / carried forward from the `source domain` to the `target domain`
+   - Comment, based on your own subjective experience ( aka `CC` ) whether and why each metaphor *worked for you* or not?
 
 1. [Problems and Contradictions](../60-Problems-and-Contradictions/index.qmd)
    - Read the article, *What are Problems?*. <https://www.psychologytoday.com/us/blog/pain-loss-and-suffering/202105/what-are-problems>
-   - Trawl through your Insta / Locket / Snapchat / Discord / Twitter timelines ( or whatever you call them), or stand-Up comedy shows, or meme pages, or any other source of short-form social media content
+   - Trawl through your Insta / Locket / Snapchat / Discord / Twitter timelines ( or whatever you call them, peasants), or stand-Up comedy shows, or meme pages, or any other source of short-form social media content
    - Find **3 posts** or stories that especially funny or startling, or have people up in arms
    - Describe if there are two *pole positions* or *contradictory forces* at play in the post. (E.g. look at the Covid Healthcare vs Job Loss related Twitter post, and others, from class)
    - Describe how the posts uses these contradictions to create humour or surprise, or anger
@@ -74,5 +74,35 @@ To be Written Up.
    - If possible, draw the Ishikawa Diagram for each *ploy*: what does the (cartoon) character want to do, and how do they use available Resources to do it?
    - You may include materials that the characters, especially Wile. E. Coyote, may buy from [A Company that Makes Everything](https://fictionalcompanies.fandom.com/wiki/ACME)
    
+1. [Ideal Final Result (IFR)](../75-TRIZ-Ideal-Final-Result/index.qmd)
 
+   - Head off to the Springwise Innovation Database <https://springwise.com/innovation-database/>. 
+   - NOTE: you may need to create a free account ( valid for 1 week.) I have been reading their free newsletter for several years now. 
+   - Pick out 5 innovations in diverse fields. ( E.g Agriculture, Transportation, Healthcare, Education, Energy...)
+   - Clearly state the `PROBLEM` that they claim to have solved
+   - Clearly state the `SOLUTION` that they have provided
+   - Now: Write, from a TRIZ viewpoint, what might have been the `Ideal Final Result (IFR)` for each of these Innovations.
+   - Write some of the `ASSUMPTIONS` that might have been made in arriving at the `SOLUTION`
+   - Finally, comment on how closely the `SOLUTION` approaches the `IFR`
+   - For inspiration, look at the [Case Studies section](../../../projects/listing.qmd) of this course website.
    
+1. [A Contradictory Language](../80-A-Contradictory-Language/index.qmd) and [The Contradiction Matrix Workflow](../90-TRIZ-Contradiction-Matrix/index.qmd)
+
+   - Head off to Google Play and install the **40IP** app. <https://play.google.com/store/apps/details?id=de.trizconsulting.fortyip.android.paid>
+   - Pick say three `Inventive Principles (IP)`
+   - Click on each of these find three Examples of how these `IP`s have been included in real-world products.
+   - Write the `TECHNICAL CONTRADICTION (TC)` that might have been solved using the `IP` mentioned. 
+   - Justify your choice of CONTRADICTION`, specifically the `PARAMETERS` used. How might these have shown up in the Problem in the first place?
+   - Write the `ADMINSTRATIVE CONTRADICTION (AC)` that might have come before the `TC`. ( You could work these in any order, as your intuition works.)
+
+1. Solve Someone Else's Problem
+
+   - Go off and meet the SMI peasants in Y4, who are struggling with their Semester 8 Projects. 
+   - Get their Project Briefs, and whatever Insights they might gleaned as a result of their Research
+   - Write up a [full Article analysing and solving their problem](../../../projects/Modules/TRIZ/20-Spotify/index.en.qmd) with TRIZ. 
+   - Sell it back to them, peasants. 
+   - You grade depends upon the signed Sales Invoice, and Payment Advise you show me in class. 
+   
+1. Bring Your Own Problem
+
+   - Same as above, but for a Problem that you, or someone you care about , may be facing at the moment. 

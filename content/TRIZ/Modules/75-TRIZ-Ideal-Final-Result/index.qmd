@@ -88,15 +88,15 @@ Here is a <u>[first-person story from Art Fry and Spencer Silver](../../../../ma
 
 ( Written after a project discussion with <u>[Aarushi Kakkar](https://in.linkedin.com/in/aarushi-kakkar-8b218a213)</u>, student @ SMI, on 5th August 2024 ).
 
-Consider the following statements:
+Consider the following statements: which Product or Solution might they be indicative of?
 
-1. I believe I can be in office without travelling.\
+1. I believe I can be in office without travelling.
 1. I believe that milk can boil itself and wait for me while I check my Insta.\
 1. I believe a ball can spin in the same direction regardless of the torque applied. 
 1. I believe elephants and monkeys who come into my orchard to raid it can decide by themselves to leave it alone.
 1. I believe I can remove seeds from a capsicum/bell-pepper without cutting it open.
-1. I believe I wear baggy, ill-fitting clothes and still look good.
 1. I believe my bike/car exhaust filter clean itself, without me scrubbing it with soap and water.
+1. I believe I can wear baggy, ill-fitting clothes and still look good.
 1. I believe that in a class/course all students taking the course must:
     - have their own textbook and *write* it too;
     - have 150% attendance;
@@ -104,7 +104,7 @@ Consider the following statements:
 2. I believe it should be possible for any patient anywhere to be operated upon by a surgeon anywhere in the world. 
 3. I believe that in a football/soccer game, each player in a team should be able to play multiple roles simultaneously. 
 4. I believe my shirt must make itself clean after being worn for a while. 
-
+5. I believe my phone must charge itself while I am not using it.
 
 What is our immediate reaction? <u>["It is impossible".](https://youtu.be/bp3wkmCF2cU)</u> ^[Apropos, note this absolute pure genius of a dialogue: <br>
 "This is a bar for British officers!"<br>
@@ -132,7 +132,7 @@ So, with Objects and Situations, we can now do one more thing to unearth hidden 
 1. Stan Kaplan, ***An Introduction to TRIZ*** <u>[(PDF)](pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)</u>
 This is a simple and short introduction to *all* aspects of Classical TRIZ.
 1. Jack Hipple, "The Ideal Result: What it is and how to achieve it", Springer, 2012.
-1. Mark Weiser. <u>[*The Computer for the 21st Century*](https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html)</u>
+1. Mark Weiser. <u>[*The Computer for the 21st Century*](https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html)</u> (Quote: `The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.`)
 1. Humpty Dumpty's Recitation.<br>
 *"The little fishes’ answer was<br>
 ‘We cannot do it, Sir, because – ‘ "*. <br> <u><https://www2.open.ac.uk/openlearn/poetryprescription/humpty-dumptys-recitation.html></u>
