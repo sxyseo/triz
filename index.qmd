@@ -19,7 +19,7 @@ about:
 ---
 
 
-I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), both in Bangalore, INDIA, and a [Certified Level #1 TRIZ Professional](https://www.matriz-official.net) . 
+I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), and Engineering Manager at [MMRFIC](https://mmrfic.com), both in Bangalore, INDIA, and a [Certified Level #1 TRIZ Professional](https://www.matriz-official.net). 
 
 I have a passion for Data Visualization, coding in R / ObservableJS / p5.js, Complexity Science, Literature, and Creative
 Thinking / Problem Solving with TRIZ. On this website, I share and teach
