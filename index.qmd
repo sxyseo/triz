@@ -21,8 +21,7 @@ about:
 
 I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), both in Bangalore, INDIA, and a [Certified Level #1 TRIZ Professional](https://www.matriz-official.net) . 
 
-I have a passion for coding in R / ObservableJS / p5.js, 
-Data Visualization, Complexity Science, Literature, and Creative
+I have a passion for Data Visualization, coding in R / ObservableJS / p5.js, Complexity Science, Literature, and Creative
 Thinking / Problem Solving with TRIZ. On this website, I share and teach
 what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving. 
 To get started, you can check out the Modules on this website. 
@@ -46,4 +45,7 @@ You can find me on
 [LinkedIn](https://www.linkedin.com/in/arvindvenkatadri)! Feel free to
 reach out to me via [mail](mailto:arvind.venkatadri@gmail.com) too!
 
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arvindvenkatadri" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+\center
 

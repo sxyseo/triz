@@ -1,14 +1,15 @@
 ---
-date: "2021-01-22"
 title: "The Art of Parallel Thinking"
-external_link: ""
+date: "2021-01-22"
+date-modified: " `r Sys.Date()`"
 order: 40
-tags:
+categories:
 - Cultural Capital
 - Thinking Hats
 - Edward de Bono
 
 ---
+<br>
 
 ```{r, echo=FALSE, fig.align='center', fig.alt="andreas N on pixabay", out.width="100%", out.height="150%"}
 knitr::include_graphics("featured.jpg")

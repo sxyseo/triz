@@ -15,6 +15,11 @@ tags:
 
 ![](featured.jpg)
 
+```{r}
+#| label: setup
+#| include: false
+```
+
 ## Introduction
 
 Socrates said, "Gnothi seauton"(Γνῶθι σαυτόν), *know thyself*. Let us do that, as we create some novel situations for ourselves in a Game.

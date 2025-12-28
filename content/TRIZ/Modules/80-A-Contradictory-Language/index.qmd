@@ -1,7 +1,7 @@
 ---
+title: "TRIZ - A Contradictory Language"
 date: "2021-01-05"
 date-modified: "`r Sys.Date()`"
-title: "TRIZ - A Contradictory Language"
 order: 80
 categories:
 - Genrikh Altshuller
@@ -9,7 +9,7 @@ categories:
 - 48 Inventive Parameters
 
 ---
-
+<br>
 
 ```{r,echo=FALSE, fig.align='center',fig.alt="Image by Brett Jordan on Unsplash", out.height="440px", out.width="440px"}
 knitr::include_graphics("featured.jpg")
@@ -29,7 +29,7 @@ So: let us use a metaphor for a metaphoric language !!
 ```{r}
 #| label: plot-theme-ggplot4
 #| cache: false
-#| code-fold: true
+#| echo: false
 #| messages: false
 #| warning: false
 #| 

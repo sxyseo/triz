@@ -1,31 +1,17 @@
 ---
-date: "2021-02-12"
-lastmod: " `r Sys.Date()`"
 title: "I Think, Fast and Slow"
-linkTitle: "I Think, Fast and Slow"
-author: "Arvind Venkatadri"
-output: html_document
-external_link: ""
+date: "2021-02-12"
+date-modified: " `r Sys.Date()`"
 order: 37
-links:
-- icon: flask
-  icon_pack: fas
-  name: Games
-  url: labs/Play-and-Invent/Cognitive-Bias-Games.html
-slides: ""
-summary: 
-tags:
+categories:
 - Cognitive Biases
 - Heuristics
 - Priming
 - Confirmation
 - Halo Effect
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
----
 
+---
+<br>
 ```{r, echo=FALSE, out.height= "100%", out.width= "100%", fig.align='center', fig.alt="andreas N on pixabay"}
 knitr::include_graphics("featured.jpg")
 

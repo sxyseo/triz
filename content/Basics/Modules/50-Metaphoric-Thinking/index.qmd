@@ -1,16 +1,16 @@
 ---
-date: "2021-01-26"
 title: "A Year of Metaphoric Thinking"
+date: "2021-01-26"
+date-modified: " `r Sys.Date()` "
 order: 50
-summary: 
-tags:
+categoriess:
 - Guilford 
 - Wallas-Kogan 
 - Cultural Capital 
 - Making Metaphors
 
 ---
-
+<br>
 ```{r, echo=FALSE, fig.align='center', fig.alt="Marc Pascual on pixabay", out.height="70%", out.width="70%"}
 knitr::include_graphics("featured.jpg")
 
@@ -109,8 +109,15 @@ We will divide into two groups (four if necessary) and contemplate <u>[a brief d
 
 
 ### Activity-5: <u>[C'est ne une Pipe](https://www.fusionmagazine.org/why-this-is-not-a-pipe/)</u>
+<br>
+```{r}
+#| echo: false
+#| fig-cap: Rene Magritte's *La Clef des Songes*
+#| out.height: "50%"
+#| out.width: "50%"
+knitr::include_graphics("../../../materials/images/magritte-la-clef-des-songes.jpg")
+```
 
-![Rene Magritte's *La Clef des Songes*](../../../../materials/images/magritte-la-clef-des-songes.jpg){width=200px}
 
 Look at the painting above by Rene Magritte, *La Clef des Songes* (The Key of Dreams). Let us see if we can find a (piece of) a Rene Magritte gene/meme within ourselves. 
 
@@ -172,7 +179,7 @@ Listen to this discussion between Michael Rosen and author James Geary, on the f
 
 <center>
 ```{r, echo = FALSE}
-embedr::embed_audio("../../../../materials/audio/WordOfMouth-20200107-Metaphors.mp3")  
+embedr::embed_audio("../../../materials/audio/WordOfMouth-20200107-Metaphors.mp3")  
 
 ```
 </center>

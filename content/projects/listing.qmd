@@ -25,6 +25,7 @@ listing:
     filter-ui: false
 categories: 
   - Case Studies
+  - Talks
 page-layout: full
 title-block-banner: false
 ---

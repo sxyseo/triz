@@ -1,25 +1,21 @@
 ---
-date: "2021-02-14"
-lastmod: " `r Sys.Date()`"
 title: "I Connect therefore I am"
-subtitle: "I Connect therefore I am"
-external_link: 
+subtitle: ""
+date: "2021-02-14"
+date-modified: " `r Sys.Date()`"
 order: 35
 links:
 slides: 
 summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
-tags:
+categories:
 - Mihaly Csikszentmihalyi
 - Creativity Systems Model
 - Domain
 - Field
 - Self
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
----
 
+---
+<br>
 ```{r,echo=FALSE, fig.align='center',out.height= "150%", out.width="100%",fig.alt="Image by rawpixel.com"}
 knitr::include_graphics("featured.jpg")
 
@@ -39,7 +35,7 @@ knitr::include_graphics("mihaly.jpg")
 
 Mihaly Csikszentmihalyi created what he called a Systems Model for Creativity, shown in the Figure below.
 
-```{r echo=FALSE, out.height="50%", out.width= "50%",fig.align='center'}
+```{r echo=FALSE, out.height="75%", out.width= "75%",fig.align='center'}
 knitr::include_graphics("systems-model.jpg")
 ```
 

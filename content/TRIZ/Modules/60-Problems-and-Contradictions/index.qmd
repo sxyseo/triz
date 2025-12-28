@@ -194,28 +194,28 @@ Let's see this method in action. The `Domain` of work may not be ours, but the c
 
 ## References
 
-1. Dr Rafiq Elmansy. (02/05/2023). *How to Use the Fishbone Diagram in Root Cause Analysis?* <u><https://www.designorate.com/problem-solving-cause-and-effect-diagram/></u>
+1. Dr Rafiq Elmansy. (02/05/2023). *How to Use the Fishbone Diagram in Root Cause Analysis?* <https://www.designorate.com/problem-solving-cause-and-effect-diagram/>
 1.  Ellen Domb (1997). *How to Help TRIZ Beginners Succeed*. <https://www.metodolog.ru/triz-journal/archives/1997/04/a/index.html>
 2.  <https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success>
 3.  <https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success>
 4.  Open Source TRIZ: Contradiction Challenges! <https://www.opensourcetriz.com/images/1_OpenSourceTRIZ_Pictures/1.1_Teaching_Materials/01_Contradictions_Exercises_Actual.pdf>
-5.  <u><https://taproot.com/whats-wrong-with-5-whys-complete-article/>\</u
+5.  <https://taproot.com/whats-wrong-with-5-whys-complete-article/>
 
 ## More Contradictions?
 
 1. If you live in an apartment complex, you might see people walking. Some walk "normally", along the driveways or pathways. Some walk with excruciatingly specific intent along the periphery of every walkable surface, going into far corners and turning and walking around the far edges of building, and near to compound walls and gates. 
 Why are they doing this?
-1. What was the boon requested by <u>[Hiranyakashipu](https://hinduism.en-academic.com/329/Hiranyakashipu)</u>?
-1. Why do most people love landscape paintings such as those by <u>[Ivan Shishkin](https://artsandculture.google.com/entity/ivan-shishkin/m059y1y?hl=en)</u> and <u>[John Constable](https://www.theartstory.org/artist/constable-john/)</u>?
-See this <u>[page](https://landarchconcepts.wordpress.com/what-is-prospect-refuge/)</u> for a well-articulated TRIZ-contradiction in landscape paintings.
+1. What was the boon requested by [Hiranyakashipu](https://hinduism.en-academic.com/329/Hiranyakashipu)?
+1. Why do most people love landscape paintings such as those by [Ivan Shishkin](https://artsandculture.google.com/entity/ivan-shishkin/m059y1y?hl=en) and [John Constable](https://www.theartstory.org/artist/constable-john/)?
+See this [page](https://landarchconcepts.wordpress.com/what-is-prospect-refuge/)for a well-articulated TRIZ-contradiction in landscape paintings.
 1. *Good fences make good neighbours*, it is said. Spot the Contradiction here?
-1. Why do police cars switch on their sirens as they rush to a potential crime site? Isn't it better to arrive swiftly and silently to catch the criminal? (Note: this is also close to the idea of the <u>[IFR in TRIZ.](../75-triz-ideal-final-result/)</u>)
-1. Is this piece of music Disco? Opera? Ballet? Flashmob? College Dance? All o' them at once? And yet...it is one of the <u>[most iconic pieces of **Pop** music](https://en.wikipedia.org/wiki/MacArthur_Park_(song))</u>, that set the tone for generations/genres of music!!
+1. Why do police cars switch on their sirens as they rush to a potential crime site? Isn't it better to arrive swiftly and silently to catch the criminal? (Note: this is also close to the idea of the [IFR in TRIZ.](../75-triz-ideal-final-result/))
+1. Is this piece of music Disco? Opera? Ballet? Flashmob? College Dance? All o' them at once? And yet...it is one of the [most iconic pieces of **Pop** music](https://en.wikipedia.org/wiki/MacArthur_Park_(song)), that set the tone for generations/genres of music!!
       {{< youtube 1UK-MbSJciM >}} <br>
-1. All students say *Bro*, *My Bad*, *fr*, *bussin*, *periodt*, and much much worse, *Think Different* (grammar-challenged *&^%$#@ peasants). [They all sound the same]{style="background-color:yellow;"}, these <u>["Words of Wisdom"](https://youtu.be/UzNDPtIbv6A)</u>. And yet want Faculty to identify, know, and appreciate them individually. Bah. 
+1. All students say *Bro*, *My Bad*, *fr*, *bussin*, *periodt*, and much much worse, *Think Different* (grammar-challenged *&^%$#@ peasants). [They all sound the same]{style="background-color:yellow;"}, these ["Words of Wisdom"](https://youtu.be/UzNDPtIbv6A). And yet want Faculty to identify, know, and appreciate them individually. Bah. 
 1. And finally, what does this even mean!!??!!
 
-      > Always go to other people's funerals, otherwise they won't come to yours.  [<u>[-Yogi Berra](https://www.brainyquote.com/quotes/yogi_berra_161244)</u>]{style="float:right"}
+      > Always go to other people's funerals, otherwise they won't come to yours.  [[-Yogi Berra](https://www.brainyquote.com/quotes/yogi_berra_161244)]{style="float:right"}
       
 
 
@@ -223,8 +223,8 @@ See this <u>[page](https://landarchconcepts.wordpress.com/what-is-prospect-refug
 
 Do glance through these articles and try to form a "contradiction mentality" about things around you:
 
-1.  <u><https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success></u>
-1.  <u><https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success></u>
+1.  <https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success>
+1.  <https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success>
 1. [Open Source TRIZ: Contradiction Challenges!](https://www.opensourcetriz.com/images/1_OpenSourceTRIZ_Pictures/1.1_Teaching_Materials/01_Contradictions_Exercises_Actual.pdf)
 1. Kannada Proverbs: Contradictions? <https://girmitt.wordpress.com/kannada-proverbs>
 

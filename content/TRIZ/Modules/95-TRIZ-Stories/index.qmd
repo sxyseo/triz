@@ -1,7 +1,7 @@
 ---
-date: "2024-02-14"
-date-modified: "`r Sys.Date()"
 title: "TRIZ - At the Movies"
+date: "2024-02-14"
+date-modified: "`r Sys.Date()`"
 order: 95
 categories:
 - Contradictions
@@ -9,9 +9,11 @@ categories:
 - TRIZ Inventive Principles
 
 ---
+
 ```{r}
 #| label: setup
 #| echo: false
+#| 
 ```
 
 ## Introduction
@@ -37,9 +39,10 @@ Your call!!
 ## TRIZ at the Movies
 
 Home Alone\
-{{< youtube 4hbru1nLBeU >}}<br>
+{{< youtube -6ZaHJkqwsI >}}<br>
 
-{{< youtube nBiZu5C6lCo >}} <br>
+Lawrence of Arabia\
+{{< youtube xc0LIqZVhM8 >}} <br>
 
 Castaway:\
 {{< youtube 5qFJDndN9GQ >}} <br>
@@ -50,19 +53,15 @@ Apollo 13:\
 
 ## References
 
-1. <u><https://www.cliohistory.org/thomas-lawrence/akaba></u>
-
-1. Script from Lawrence of Arabia. <u>https://assets.scriptslug.com/live/pdf/scripts/lawrence-of-arabia-1962.pdf</u>
-
-2. Filmsite.org: <u>[Review of Lawrence of Arabia.](https://www.filmsite.org/lawr.html)</u> 
-
-3. <u>https://sheldonkirshner.com/lawrence-of-arabia-the-movie-revisited/</u>
-
-4. <u><https://www.reddit.com/r/TrueFilm/comments/r7r7o4/lawrence_of_arabia_why_everyone_needs_to_watch_it/></u>
+1. <https://www.cliohistory.org/thomas-lawrence/akaba>
+1. Script from Lawrence of Arabia. <https://assets.scriptslug.com/live/pdf/scripts/lawrence-of-arabia-1962.pdf>
+2. Filmsite.org: [Review of Lawrence of Arabia.](https://www.filmsite.org/lawr.html)
+3. <https://sheldonkirshner.com/lawrence-of-arabia-the-movie-revisited>
+4. <https://www.reddit.com/r/TrueFilm/comments/r7r7o4/lawrence_of_arabia_why_everyone_needs_to_watch_it/>
 
 ## More Readings
 
-1. <u>https://medium.com/@arvind.venkatadri</u>
+1. <https://medium.com/@arvind.venkatadri>
 
 ::: {.hidden .unlisted .unnumbered}
 

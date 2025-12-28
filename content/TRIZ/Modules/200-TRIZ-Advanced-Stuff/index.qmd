@@ -11,6 +11,15 @@ tags:
 
 ---
 
+```{r}
+#| label: setup
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(DiagrammeR)
+```
 
 ```{r,echo=FALSE, fig.align='center',fig.alt="Photo by Sunder Muthukumaran on unsplash", out.height="75%",out.width="75%"}
 knitr::include_graphics("featured.jpg")
@@ -102,7 +111,9 @@ knitr::include_url("/slides/PlayAndInvent/TRIZ-SuField-Analysis/index.html")
 ## Examples for Su-Field Models
 To be described
 
-```{r,echo=FALSE}
+```{r}
+#| echo: false
+#| eval: false
 library(DiagrammeR)
 DiagrammeR("
 graph LR
@@ -111,7 +122,8 @@ graph LR
 ")
 ```
 
-```{r, echo=FALSE}
+```{r}
+#| echo: false
 DiagrammeR("
 graph LR
     A(fab:fa-tools Technical System)

@@ -1,6 +1,7 @@
 ---
-date: "2021-01-18"
 title: "TRIZ - The Contradiction Matrix Workflow"
+date: "2021-01-18"
+date-modified: "`r Sys.Date()`"
 order: 90
 links:
 - icon: flask
@@ -25,6 +26,7 @@ url_slides: "slides/PlayAndInvent/TRIZ-Basics/index.html"
 url_video: ""
 ---
 
+<br>
 
 ```{r,echo=FALSE, fig.align='center',fig.alt="Photo by Anirudh on unsplash", out.height="150%", out.width="50%"}
 knitr::include_graphics("featured.jpg")
@@ -63,17 +65,17 @@ Let us get an actual experience of TRIZ methods with these short videos:
 {{< youtube J_O3yR2kk2Q >}}<br>
 
 
-6. How to use the Contradiction Matrix:[(Coursera Video)](https://www.coursera.org/lecture/creative-thinking-techniques-and-tools-for-success/contradiction-matrix-DtEKz>)
+6. How to use the Contradiction Matrix: [(Coursera Video)](https://www.coursera.org/lecture/creative-thinking-techniques-and-tools-for-success/contradiction-matrix-DtEKz>)
 
 ## Discussion
 
-- The <u>[TRIZ Contradiction Matrix](pdf/TRIZ/matrix2003.pdf)</u> gives us 3-4 short, pithy **metaphoric solutions**, called **TRIZ Inventive Principles** that are eminently suited to our problem.\
+- The [TRIZ Contradiction Matrix](pdf/TRIZ/matrix2003.pdf) gives us 3-4 short, pithy **metaphoric solutions**, called **TRIZ Inventive Principles** that are eminently suited to our problem.\
 
 - We need to look at those Inventive Principle metaphors, and translate them back into our problem. Think of this process as, what else, yet another metaphor: *taking the antilogarithm* to arrive at the solution of a complicated multiplication problem. \
 - We use our CC, that we have embedded in the Ishikawa Diagram, to decide which knobs we can turn in accordance with each Inventive Principle. 
 
 
-Here is an example from the movie <u>[Home Alone(2)](https://youtu.be/mz-snPWBQYQ)</u>:
+Here is an example from the movie [Home Alone(2)](https://youtu.be/mz-snPWBQYQ):
 
 {{< youtube h_bUcNjmuSk >}}
 <br>
@@ -102,6 +104,8 @@ Now we will use the TC and find out solutions for it using what is called the **
 ## TRIZ Stories and Case Studies!!
 
 Want to create a good protest or strike? Or simply want to clean up the oceans?
+
+{{< revealjs https://arvindvenkatadri.com/slides/playandinvent/triz-database/#1 >}}
 
 <https://arvindvenkatadri.com/slides/playandinvent/triz-database/#1">
 

@@ -1,6 +1,7 @@
 ---
-date: "2021-02-04"
 title: "TRIZ - The Ideal Final Result"
+date: "2021-02-04"
+date-modified: " `r Sys.Date()` "
 order: 75
 links:
 - icon: flask
@@ -59,9 +60,17 @@ Here are two quotes:
 
 
 
-And from <u>[Alice in Wonderland](https://www.alice-in-wonderland.net)</u>:
+And from [Alice in Wonderland](https://www.alice-in-wonderland.net):
 
-![](https://www.alice-in-wonderland.net/wp-content/uploads/2book25.jpg){height="50%"}
+```{r}
+#| echo: false
+#| out-width: "50%"
+#| out-height: "50%"
+#| fig-align: center
+
+knitr::include_graphics("https://www.alice-in-wonderland.net/wp-content/uploads/2book25.jpg")
+
+```
 
 > “How old are you?” said the queen.\
 > “I’m seven and a half exactly.”\
@@ -81,12 +90,12 @@ Can we try? How about this?
 
 ## The IFR: We Invented the Post-It
 
-Here is a <u>[first-person story from Art Fry and Spencer Silver](../../../../materials/pdfs/Post-it.pdf)</u>, the inventors of the Post-It. Let us quickly read it to find evidence of *"IFR Thinking*!
+Here is a [first-person story from Art Fry and Spencer Silver](../../../../materials/pdfs/Post-it.pdf), the inventors of the Post-It. Let us quickly read it to find evidence of *"IFR Thinking*!
 
 
-## Ideal Final Result: <u>[Believing the Impossible](https://www.youtube.com/watch?v=SvJYbg4zsR0&t=48s)</u>
+## Ideal Final Result: [Believing the Impossible](https://www.youtube.com/watch?v=SvJYbg4zsR0&t=48s)
 
-( Written after a project discussion with <u>[Aarushi Kakkar](https://in.linkedin.com/in/aarushi-kakkar-8b218a213)</u>, student @ SMI, on 5th August 2024 ).
+( Written after a project discussion with [Aarushi Kakkar](https://in.linkedin.com/in/aarushi-kakkar-8b218a213), student @ SMI, on 5th August 2024 ).
 
 Consider the following statements: which Product or Solution might they be indicative of?
 
@@ -106,34 +115,35 @@ Consider the following statements: which Product or Solution might they be indic
 4. I believe my shirt must make itself clean after being worn for a while. 
 5. I believe my phone must charge itself while I am not using it.
 
-What is our immediate reaction? <u>["It is impossible".](https://youtu.be/bp3wkmCF2cU)</u> ^[Apropos, note this absolute pure genius of a dialogue: <br>
+What is our immediate reaction? ["It is impossible".](https://youtu.be/bp3wkmCF2cU) ^[Apropos, note this absolute pure genius of a dialogue: <br>
 "This is a bar for British officers!"<br>
 "That's alright, we are not particular."]
 
 Why do we think so? Most likely because we "know", or rather ***assume that we know***, how things work and these statements may make no sense at all. However, do we actually admit to those **ASSUMPTIONs**? How do we utter and list them? And then, how if we momentarily pretend they were impossibly not true?
 
-Suspending the ***Tyranny of the Assumption***, however momentarily allows us to contemplate, safely within our heads, the possibility of a Design Space that is not available...yet. It may show up things that we have been <u>["living with" all along](https://www.strategy-business.com/article/11109)</u>, without questioning why that is so. And therein, we may find an IFR. 
+Suspending the ***Tyranny of the Assumption***, however momentarily allows us to contemplate, safely within our heads, the possibility of a Design Space that is not available...yet. It may show up things that we have been ["living with" all along](https://www.strategy-business.com/article/11109), without questioning why that is so. And therein, we may find an IFR. 
 
 So, with Objects and Situations, we can now do one more thing to unearth hidden problems that lie within them: look at the Assumptions that make them work.  Let us list the Assumptions for some of the above statements, asserting why the statement cannot be true, but what would happen it it were! And of course, you will find yourself repeatedly asking, "What does that even mean??!!??" 
 
 
 ## Discussion
 
-- Like the Queen in Alice in Wonderland, it is important to conceptualize the Ideal Final Result as one of the <u>[**six impossible things before breakfast.**](http://www.literaturepage.com/read/throughthelookingglass-42.html)</u>. 
-- One of the ways in which this can be done is to check the implicit Assumptions that we make within a Situation, or with regard to an Object. 
-- Making an Assumption momentarily disappear may lead us to what Jack Hipple says in his book *The Ideal Result*(Reference 3)^[Jack Hipple, "The Ideal Result: What it is and how to achieve it", Springer, 2012.], *it's when something performs its function, and does not exist.*
+- Like the Queen in Alice in Wonderland, it is important to conceptualize the Ideal Final Result as one of the [**six impossible things before breakfast.**](http://www.literaturepage.com/read/throughthelookingglass-42.html). 
 
-- In this sense, TRIZ is a foretaste of what was said much later after TRIZ was invented, that <u>[**the best Technologies are those that disappear.**](https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html)</u>
+- One of the ways in which this can be done is to check the implicit Assumptions that we make within a Situation, or with regard to an Object. 
+
+- Making an Assumption momentarily disappear may lead us to what Jack Hipple says in his book *The Ideal Result* (Reference 3)^[Jack Hipple, "The Ideal Result: What it is and how to achieve it", Springer, 2012.], *it's when something performs its function, and does not exist.*
+
+- In this sense, TRIZ is a foretaste of what was said much later after TRIZ was invented, that [**the best Technologies are those that disappear.**](https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html)
 
 
 ## References
 
 1. Titanic Game [(PDF)](pdf/TRIZ/Titanic_Case_Study.pdf)
-1. Stan Kaplan, ***An Introduction to TRIZ*** <u>[(PDF)](pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)</u>
-This is a simple and short introduction to *all* aspects of Classical TRIZ.
+1. Stan Kaplan, ***An Introduction to TRIZ*** [(PDF)](pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf). This is a simple and short introduction to *all* aspects of Classical TRIZ.
 1. Jack Hipple, "The Ideal Result: What it is and how to achieve it", Springer, 2012.
-1. Mark Weiser. <u>[*The Computer for the 21st Century*](https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html)</u> (Quote: `The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.`)
+1. Mark Weiser. [*The Computer for the 21st Century*](https://web.archive.org/web/20141022035044/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html). Quote: *The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.*
 1. Humpty Dumpty's Recitation.<br>
 *"The little fishes’ answer was<br>
-‘We cannot do it, Sir, because – ‘ "*. <br> <u><https://www2.open.ac.uk/openlearn/poetryprescription/humpty-dumptys-recitation.html></u>
+‘We cannot do it, Sir, because – ‘ "*. <br> <https://www2.open.ac.uk/openlearn/poetryprescription/humpty-dumptys-recitation.html>
 
