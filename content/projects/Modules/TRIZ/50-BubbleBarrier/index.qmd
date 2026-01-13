@@ -15,9 +15,16 @@ categories:
 summary: "Blowing Bubbles in the Water"
 abstract: "Plastics are increasingly found in our rivers and in our oceans. How can we clean this up at source? Amsterdam seems to have an answer!"
 ---
+<br>
 
+```{r}
+#| echo: false
+#| out-height: "100%"
+#| out-width: "100%"
+#| fig-align: center
+knitr::include_graphics("featured.jpg")
+```
 
-![](featured.jpg)
 
 
 ```{r, setup, include=FALSE}
@@ -34,14 +41,13 @@ Here we go with another of my *TRIZ Chronicles* !
 
 This is another piece stems from my teaching a course on Creative
 Thinking and Problem Solving based on TRIZ, titled *Play and Invent*,
-over the past 8 years or more at the <u>[**Srishti Manipal Institute of
-Art, Design, and Technology, Bangalore
-INDIA.**](https://srishtimanipalinstitute.in)</u>
+over the past 8 years or more at the [**Srishti Manipal Institute of
+Art, Design, and Technology, Bangalore INDIA.**](https://srishtimanipalinstitute.in)
 
 ## Rivers of Plastic
 
-According to <u>[**Our World in
-Data:**](https://ourworldindata.org/ocean-plastics "Our World in Data")</u>
+According to [**Our World in
+Data:**](https://ourworldindata.org/ocean-plastics "Our World in Data")
 
 Previous research suggested that only a handful of rivers transports
 almost all of the plastic to the sea -- new research suggests this is
@@ -197,10 +203,8 @@ ss.ceDiag(effect,causes.head,causes, main ="~Smoke~ Plastics on the Water",
 ```
 
 Each of the above terms in the Ishikawa can be a **knob** for us.
-<u>[**Turning the *knobs/parameters* in the Ishikawa
-Diagram**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on Youtube")</u>,
-we try to improve a certain Parameter or we try to reduce its effect. In
-doing so we could construct several alternative **Problem
+[**Turning the *knobs/parameters* in the Ishikawa
+Diagram**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on Youtube"), we try to improve a certain Parameter or we try to reduce its effect. In doing so we could construct several alternative **Problem
 Descriptions**. ( Of course not all Parameters may be accessible in a
 given situation )
 
@@ -209,32 +213,28 @@ given situation )
     nearer and into the high seas.
 
 -   Clearly we want the rivers to flow and give us our sense of
-    <u>[**beauty, serenity and movement, and
-    poetry**](https://etc.usf.edu/lit2go/105/the-wind-in-the-willows/1795/the-open-road/ "The Wind in the Willows by Kenneth Grahame")</u>,
+    [**beauty, serenity and movement, and
+    poetry**](https://etc.usf.edu/lit2go/105/the-wind-in-the-willows/1795/the-open-road/ "The Wind in the Willows by Kenneth Grahame"),
     but the same flow should not transport plastics downstream.
 
 -   We also want the plastic, if we can stop it from floating onward, to
     be "accessible" and be easily gathered from the stream.
 
 -   So a simple dam or
-    <u>[**weir-like**](https://en.wikipedia.org/wiki/Weir "Weir on Wikipedia")</u>
-    structure, or a net could work, but would possibly ruin our sense of
-    beauty. For example, we could consider stopping the flow of water in
-    places with weirs, but then that could make the location ugly and be
-    a hindrance to recreation and transportation. The presence of
+    [**weir-like**](https://en.wikipedia.org/wiki/Weir "Weir on Wikipedia") structure, or a net could work, but would possibly ruin our sense of beauty. For example, we could consider stopping the flow of water in places with weirs, but then that could make the location ugly and be a hindrance to recreation and transportation. The presence of
     plastics in the water could also alter the colour of the water.
 
 -   Finally, we are interested in preserving dissolved oxygen in the
     water. We want to prevent *other organic decaying material*
-    accumulating around the plastic and increasing the <u>[**Biological
-    Oxygen Demand**](https://www.usgs.gov/special-topics/water-science-school/science/biological-oxygen-demand-bod-and-water)</u>
+    accumulating around the plastic and increasing the [**Biological
+    Oxygen Demand**](https://www.usgs.gov/special-topics/water-science-school/science/biological-oxygen-demand-bod-and-water)
     Not to mention the smell.
 
 So many problems !!
 
 With all this discussion, we can state at least one of our Problems as
-an <u>[**Administrative
-Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp)</u>
+an [**Administrative
+Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp)
 in *plain English*:
 
 ::: callout-note
@@ -260,7 +260,7 @@ More on this in just a bit!
 
 Let us take our AC and convert it into a *Technical Contradiction(TC)*,
 keeping this IFR in mind. We will look at the *48 TRIZ Parameters* in
-the <u>[**TRIZ Contradiction Matrix**](/pdf/TRIZ/ContradictionMatrix2003.pdf)</u> and see which
+the [**TRIZ Contradiction Matrix**](/pdf/TRIZ/ContradictionMatrix2003.pdf) and see which
 Parameter we want to improve, while not worsening another. Here is what
 we can obtain. We will analyze the Contradiction both ways[^2]:
 
@@ -288,8 +288,8 @@ metaphors*. We could easily have chosen the Parameter
 "metaphoric thing" to improve but the current IFR speaks of the
 **river**. Or we could choose `Aesthetics and Appearance (39)` as our
 target, leading to different solutions perhaps, but in a focussed
-manner. TRIZ tends to <u>[**focus our
-attention**](https://scholar.princeton.edu/sites/default/files/kahneman/files/attention_hi_quality.pdf "Daniel Kahneman")</u>
+manner. TRIZ tends to [**focus our
+attention**](https://scholar.princeton.edu/sites/default/files/kahneman/files/attention_hi_quality.pdf "Daniel Kahneman")
 like no other method that I know of.
 
 We could also formulate a *Physical Contradiction(PC)*[^3]:
@@ -356,7 +356,7 @@ hand:
     short living in the River water? Not fish, surely...wait,
     **BUBBLES**!!!
 
-So, <u>[breathlessly](https://youtu.be/nWeax5joZFw)</u>: we create bubbles in the water and use them as an
+So, [breathlessly](https://youtu.be/nWeax5joZFw): we create bubbles in the water and use them as an
 *Intermediary* to create waves/barriers that nudge the Plastic where we
 want it it to be, for collection. And of course bubbles are both *Inert*
 **and** *Atmosphere*, literally! And they are *Cheap* and *Short-Lived*
@@ -372,8 +372,8 @@ the River flows *horizontally* but the barrier we need to create is
 were) and give us the benefit of purifying the water too, as fountains
 do!!
 
-So there you have it! It seems that <u>[**Going
-Dutch**](https://thegreatbubblebarrier.com/ "The Great Bubble Barrier")</u>
+So there you have it! It seems that [**Going
+Dutch**](https://thegreatbubblebarrier.com/ "The Great Bubble Barrier")
 even with bubbles, is a good idea !
 
 ## Using TRIZ Separation Principles
@@ -384,8 +384,7 @@ for example that lies at the root of our *Technical Contradiction*.
 
 Our IFR states that we want the Plastics to not flow, and the River to
 flow at the same time. But the Plastics are
-<u>[**in**](https://christophertyler.org/CWTyler/AlicePDFs/13treacle.pdf "The Treacle Well ( Alice in Wonderland )")</u>
-the River! This is a sort of a Physical Contradiction!
+[**in**](https://christophertyler.org/CWTyler/AlicePDFs/13treacle.pdf "The Treacle Well ( Alice in Wonderland )") the River! This is a sort of a Physical Contradiction!
 
 Can we make the River "less of a River" in places? Can we make
 **separate** zones in the River that flow and not flow, and allow us to
