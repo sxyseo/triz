@@ -2,7 +2,7 @@
 title: "The Art of Parallel Thinking"
 date: "2021-01-22"
 date-modified: " `r Sys.Date()`"
-order: 40
+order: 60
 categories:
 - Cultural Capital
 - Thinking Hats

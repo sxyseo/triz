@@ -2,7 +2,7 @@
 title: "I Think, Fast and Slow"
 date: "2021-02-12"
 date-modified: " `r Sys.Date()`"
-order: 37
+order: 50
 categories:
 - Cognitive Biases
 - Heuristics
@@ -92,6 +92,10 @@ TBF!
 As Kahneman says, it is good to be wise about our biases. There are ways in which one can be aware of them and try to overcome them, by say taking time and not opting for the first answer that your mind suggests, and doing some counter-factual thinking ("What if this is NOT the answer?").
 
 Doing so will allow us to gather research information better, ask better questions and arrive at better inferences as to the problem that we might be trying to articulate.
+
+## {{< iconify streamline book-reading >}} Reading Writing Assignment
+
+  Head off to [Assignment #5](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-5.-thinking-fast-and-slow) for this Module.
 
  
 ## References

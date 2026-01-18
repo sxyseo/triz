@@ -70,8 +70,9 @@ We will understand **Flow** from:
 
 1.  The book the book by Mihaly Csikszentmihalyi, titled [**Flow: The Psychology of Happiness**](Flow_%20The%20Psychology%20of%20Happiness%20-%20Csikszentmihalyi,%20Mihaly.pdf). First, let us learn to say his name!!
 
+<center>
 `r embedr::embed_audio("https://upload.wikimedia.org/wikipedia/commons/5/59/Mih%C3%A1ly_Cs%C3%ADkszentmih%C3%A1lyi.ogg")` 
-
+</center>
 
   Let us read the relevant pages (pp. 72-76, *Flow Activities*). This section nicely juxtaposes Csikszentmihalyi's ideas of `Flow` and Caillois ideas of `Play`, and states, as a finding of their research, that:
 
@@ -128,6 +129,10 @@ No, that is not a bad spelling....why not? Go find me in this picture !! <br>
 - Flow is your gift to your users / customers / clients / audience !!
 - And so, it is both a beginning, and an end in Design!!
 
+## {{< iconify streamline book-reading >}} Reading Writing Assignment
+
+  Head off to [Assignment #1](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-1.-i-am-water) for this Module.
+
 ## {{< iconify ooui references-ltr >}} References
 
 1. The National Institute of Play <https://nifplay.org/>
@@ -138,6 +143,7 @@ No, that is not a bad spelling....why not? Go find me in this picture !! <br>
 1.  **8 Ways To Create Flow According to Mihaly Csikszentmihalyi**.
     <https://positivepsychology.com/mihaly-csikszentmihalyi-father-of-flow/>
 1. Maria Popova. (April 8, 2016). *Diane Ackerman on the Evolutionary and Existential Purpose of Deep Play*. <u><https://www.themarginalian.org/2016/08/04/diane-ackerman-deep-play/></u>
+1. James Clear. <https://jamesclear.com/stay-focused>
 1.  Ian Bogost, "Play at Anything".
 
 ## Postscript

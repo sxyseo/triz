@@ -2,7 +2,7 @@
 date: "2021-04-22"
 title: "I yam What I yam"
 date-modified: "`r Sys.Date()`"
-order: 10
+order: 20
 image: feature.jpg
 tags:
   - Cultural Capital
@@ -106,7 +106,12 @@ This course is about nothing if not about *serendipity*.
 logo building idea with the idea of Metaphors in TRIZ.
 :::
 
-## References
+## {{< iconify streamline book-reading >}} Reading Writing Assignment
+
+  Head off to [Assignment #2](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-2.-i-yam-what-i-yam) for this Module.
+  
+  
+## {{< iconify ooui references-ltr >}} References
 
 1.  Web Apps for your Makey-Makey.
     <https://makeymakey.com/blogs/how-to-instructions/apps-for-plug-and-play>

@@ -2,7 +2,7 @@
 title: "A Year of Metaphoric Thinking"
 date: "2021-01-26"
 date-modified: " `r Sys.Date()` "
-order: 50
+order: 70
 categoriess:
 - Guilford 
 - Wallas-Kogan 
@@ -134,8 +134,8 @@ Look at the painting above by Rene Magritte, *La Clef des Songes* (The Key of Dr
 
 (Articles: Bookend made of Wood; Aristo Slide Rules; 80-year-old brass mortar and pestle; Node from Elephant Bamboo stem)
 
-
-### Activity-6: Metaphorical Story re-Writing
+::: {.content-hidden when-format="html"}
+### Activity-6: Metaphorical Story re-Writing 
 
 1. Read the story in Ref.7 and/or Ref.8 below.
 2. Understand the metaphors in the story:
@@ -145,6 +145,8 @@ Look at the painting above by Rene Magritte, *La Clef des Songes* (The Key of Dr
 3. Now, choose a (short!) story that you know really well, something that you may have encountered in school.
 4. Re-write this story using language, metaphors, and images from any *domain* (other than what may be in the original story). 
     - For example, in Primo Levi's lyrical story [**Carbon**](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf), a lot of metaphors from Chemistry and atomic physics are used to describe life, and connections with people.
+    
+:::
 
 
 ## Wait, But Why?
@@ -158,7 +160,11 @@ Look at the painting above by Rene Magritte, *La Clef des Songes* (The Key of Dr
 - TRIZ, as we will see very soon, uses metaphors for both *Problem Definition* and *Problem Solution*. Hence the ability to make metaphors and to work them in **both directions** would be a super-power
 - Metaphors help us break out of Functional Fixedness (see Ref. 3 and Ref. 6), by endowing known objects with new *Attributes* and *Purposes*.
 
-## References
+## {{< iconify streamline book-reading >}} Reading Writing Assignment
+
+  Head off to [Assignment #7](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-7.-a-year-of-metaphoric-thinking) for this module. 
+
+## {{< iconify ooui references-ltr >}} References
 
 1.  **Guilford Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d1.html)
 1.  **Wallas-Kogan Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d2.html)

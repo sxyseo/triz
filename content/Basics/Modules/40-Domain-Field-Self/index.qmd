@@ -3,7 +3,7 @@ title: "I Connect therefore I am"
 subtitle: ""
 date: "2021-02-14"
 date-modified: " `r Sys.Date()`"
-order: 35
+order: 40
 links:
 slides: 
 summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
@@ -92,6 +92,10 @@ and other evolutionists looking for a mechanism that explained discontinuous inh
 ![](galileo_manuscript.png)
 The church was definitely the *Field* for Galileo...
 
+## {{< iconify streamline book-reading >}} Reading Writing Assignment
+
+  Head off to [Assignment #4](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-4.-i-connect-therefore-i-am) for this Module.
+  
 ## References
 
 
