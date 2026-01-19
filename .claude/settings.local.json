@@ -12,7 +12,21 @@
       "Bash(wrangler pages deploy:*)",
       "Bash(wrangler pages project create:*)",
       "Bash(ffmpeg:*)",
-      "Bash(CLOUDFLARE_API_TOKEN=\"\" npx wrangler pages deploy:*)"
+      "Bash(CLOUDFLARE_API_TOKEN=\"\" npx wrangler pages deploy:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__web-reader__webReader",
+      "Bash(xargs:*)",
+      "mcp__zread__get_repo_structure",
+      "mcp__zread__read_file",
+      "Bash(git add:*)",
+      "Bash(git push)",
+      "Bash(curl:*)",
+      "Bash(R_HOME=\"\" quarto render:*)",
+      "Bash(brew list:*)",
+      "Bash(brew install:*)",
+      "Bash(chmod:*)",
+      "Bash(Rscript:*)"
     ]
   }
 }

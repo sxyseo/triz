@@ -9,11 +9,11 @@ page-layout: full
 execute:
   enabled: false
   freeze: auto
-  cache: true
+  cache: false
   echo: true
-  warning: true
+  warning: false
   message: false
-  error: true # errors will not stop rendering!
+  error: false # errors will not stop rendering!
 
 website:
   page-navigation: true

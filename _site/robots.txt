@@ -1,1 +1,18 @@
-Sitemap: https://triz.help/sitemap.xml
+# robots.txt for TRIZ Teaching Website
+# https://teaching-triz.netlify.app
+
+User-agent: *
+Allow: /
+
+# Disallow generated files and temporary directories
+Disallow: /_site/
+Disallow: /_freeze/
+Disallow: /_extensions/
+Disallow: /files/
+Disallow: /cache/
+
+# Sitemap location
+Sitemap: https://teaching-triz.netlify.app/sitemap.xml
+
+# Crawl-delay (optional, be polite to servers)
+Crawl-delay: 1

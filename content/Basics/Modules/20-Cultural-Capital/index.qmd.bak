@@ -18,9 +18,9 @@ editor:
 ![](feature.jpg)
 
 ```{r echo=FALSE, eval=FALSE}
-# library(blogdown)
+library(blogdown)
 #devtools::install_github("mccarthy-m-g/embedr")
-# library(embedr) # 在 HTML 文件中嵌入多媒体
+library(embedr) # 在 HTML 文件中嵌入多媒体
 ```
 
 
