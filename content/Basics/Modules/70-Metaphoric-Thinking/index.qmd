@@ -1,0 +1,192 @@
+---
+title: "A Year of Metaphoric Thinking"
+date: "2021-01-26"
+date-modified: " `r Sys.Date()` "
+order: 70
+categoriess:
+- Guilford 
+- Wallas-Kogan 
+- Cultural Capital 
+- Making Metaphors
+
+---
+<br>
+```{r, echo=FALSE, fig.align='center', fig.alt="Marc Pascual on pixabay", out.height="70%", out.width="70%"}
+knitr::include_graphics("featured.jpg")
+
+```
+
+## Introduction
+
+>*The Year of Magical Thinking* is Joan Didion’s account of the year following the death of her husband, writer John Gregory Dunne, and her attempts to make sense of her grief while tending to the severe illness of her adopted daughter, Quintana. As she tries to make sense of John’s death and her own changed identity, Didion discovers that grief is not what she expected it to be. Consumed by memories of the years they lived in Los Angeles, shortly after they married and adopted Quintana, Didion feels that she has entered a state of temporary insanity. Though cool and collected on the surface, she begins to believe that her wishes might have the power to bring John back. To this end, she refuses to give away his clothes and shoes, believing that her husband will need them when he returns to her. She calls this childlike belief that her thoughts and wishes can alter reality “magical thinking.”
+
+Of course we are not embarked on anything like this, but we do want to generate some “magic” in our thoughts! So taking some inspiration from her “childlike belief” that can “alter reality”, let us hark back to our childhoods and see what we can do with these objects below:
+
+## Activities
+
+### Activity-1: Some Objects to Contemplate
+
+How many different uses can you imagine for each of these objects? Can you briefly describe and quickly sketch a few ideas?
+
+```{r echo=FALSE, fig.alt="Images by rawpixel.com", out.height="75%", out.width="75%",fig.align='center'}
+knitr::include_graphics("images/256px-Brick.jpg")
+knitr::include_graphics("images/yellow-bucket-image-22.jpg")
+
+```
+
+### Activity-2: Some Shapes to Contemplate
+
+Where do you reckon you can "see" these shapes ? Can you briefly describe and quickly sketch a few ideas?
+
+```{r echo=FALSE, out.height="40%", out.width="40%", fig.alt="Images by rawpixel.com",fig.align='center'}
+knitr::include_graphics("images/zigzag.jpg")
+knitr::include_graphics("images/star.jpg")
+```
+
+#### Scoring your Ideas
+
+Scoring is comprised of four components:
+
+-   **Fluency** - total. Just add up all the responses.
+-   **Flexibility** - or different categories of ideas or, as Csikszentmihalyi would have us say, DOMAINS. Is your brick a Toy? Can it be used as...a Horticultural support thing? That is two domains, so two points.
+
+![From https://houseplantjoy.com/bonsai-styles-fascinating-facts-about-bonsai-forms/](https://1.bp.blogspot.com/-lYIbXQ8_FiM/Wmvb56fSG6I/AAAAAAAADu8/Pt0WmeKxmuQuVGg6UZaAdwuF73YyBD9lACLcBGAs/s1600/Growing%2Bon%2Ba%2Brock%2BBonsai%2Bstyle%2B%2528Seki-joju%2529.jpg)
+
+-   **Elaboration** - amount of detail (for Example: "in a bonsai" = 0, whereas "in a bonsai to create a root-over-rock structure as an island" = 2 (one for *root-over-rock*, two for further detail about the *island* structure).
+-   **Originality** - each response it compared to the total amount of responses from all of the people you gave the test to. Responses that were given by only 5% of your group are unusual (1 point), responses that were given by only 1% of your group are unique - 2 points). Total all the points. Higher scores indicate creativity.
+
+:::callout-note
+You might have noticed that the higher fluency the higher the originality (if you did, "good for you!") This is a contamination problem and can be corrected by using a corrective calculation for originality (originality = originality/fluency).
+:::
+
+#### Discussion
+
+Both these activities are examples of exercises in divergent thinking. See the references for more information.
+
+-   Did you use the words "as" and "like" to describe your ideas? ( No, not [this](https://www.thelist.com/996131/the-real-reason-younger-people-say-like-so-often/))
+-   Did you not use these words to describe your ideas?
+-   Were there, in your opinion, any outrageous ideas presented? Why were they outrageous?
+-   Are metaphors more interesting when they are surprising?
+-   How did the **attributes of the objects** ( shape , texture, size, weight, orientation...) get embedded in the ideas presented?
+-   Were these "embeddings" meaningful? How and why so? (Ask Bourdieu!)
+
+## So What is a Metaphor?
+
+::: callout-important
+### A brief Etymology
+
+- Meta (μέτα): This means "among," "beyond," "over," or "beside." It's the root for many words meaning "between" or "beside."
+- Pherein (φέρειν): This means "to carry" or "to bring."
+:::
+
+- A metaphor creates a structural similarity or parallel, ( an `Isomorphism`, or "similarity in shape") between two seemingly disparate things, or situations.
+
+- The ***familiar*** thing/situation is called the `Source`.
+- The ***new or just encountered*** thing/situation is called the `Target`
+- The metaphor detects an `Attribute` from the `Source` and ***transfers*** it to the `Target`. An `Attribute` can be thought of grammatically as an abstract noun such as shininess, roughness, height/depth, position, size, weight, orientation, role, etc.
+- The metaphor works by `Mapping` `Attributes` from the Source to the Target. The act of `mapping` gives a new meaning to the `Attribute` in its *new location* in the `Target`. 
+- In its new location, the `Attribute` is ***re-purposed*** and used in a very different way. (E.g. *Weight* can be repurposed as *status*. Look up the etymology of the name "Christopher".)
+- This `re-purposing` leads to `Inference`, where the hitherto new object/situation in the `Target` is understood better using the (pre-purposed and transfered) `Attributes`.
+
+::: callout-important
+### A Working Definition
+
+So we have a mapping of an attribute from a source to a target, where it is re-purposed and used to make inferences about the target.
+
+:::
+
+
+Quickly read the first three paragraphs of Ref.6. 
+
+
+### Activity-3: Gangs of Wasseypur (from Ref. 3)
+
+We will divide into two groups (four if necessary) and contemplate <u>[a brief description of the town of Wasseypur](Metaphors.txt)</u>. There are 4 short questions / problems for you to consider at the end.
+
+### Activity-4: Seymour Papert [Constructionism](http://www.papert.org/articles/SituatingConstructionism.html) Game
+
+{{< revealjs Constructionism/index.html >}}
+
+
+### Activity-5: <u>[C'est ne une Pipe](https://www.fusionmagazine.org/why-this-is-not-a-pipe/)</u>
+<br>
+```{r}
+#| echo: false
+#| fig-cap: Rene Magritte's *La Clef des Songes*
+#| out.height: "50%"
+#| out.width: "50%"
+knitr::include_graphics("../../../materials/images/magritte-la-clef-des-songes.jpg")
+```
+
+
+Look at the painting above by Rene Magritte, *La Clef des Songes* (The Key of Dreams). Let us see if we can find a (piece of) a Rene Magritte gene/meme within ourselves. 
+
+> Magritte’s art has something in common with the rest of the surrealist artists: his art is the juxtaposition of elements that together won’t make a rational sense, but the value of its interpretation lies in the reaction of each spectator’s mind toward the relation of those elements. Magritte’s approach is more conceptual. He exposes how we define things by the word we use to name them creating a word-image ***series of conflicts***. For instance, we think we know what a shoe is because of the definition we give to the word. But what if we replace the name shoe for “moon”? That is what Magritte does in his painting *“La Clef des Sognes II” (1930)*. We see six simple objects and below them it is written a word apparently unrelated to the picture above it, forcing the viewer to think about this relation we have with what we see and what we know. Just like in his painting of “The Treason of Images”, Magritte is trying to show how it doesn’t matter how we name the object, the word will never be one with the object’s physical reality. 
+>
+>In general, not only (did he make) this observation through these types of images, but also he usually gives a title for his paintings that has nothing to do with the literal things you see in the image.(***emphasis** mine*)
+
+1. We will break up into groups of 4-5. 
+1. Each group will be given an [Evocative Object](https://www.sherryturkle.com/evocative-objects), even a household object, perhaps an unusual one. 
+1. You need to imagine a use for it that is *not* what is the common known one.
+1. Market it as a product that serves this new `purpose`. Make an ad. 
+1. Use **only** Gen Z language in your ad. Sigh. 
+1. Ad = Performance + Jingle + Poster
+
+(Articles: Bookend made of Wood; Aristo Slide Rules; 80-year-old brass mortar and pestle; Node from Elephant Bamboo stem)
+
+::: {.content-hidden when-format="html"}
+### Activity-6: Metaphorical Story re-Writing 
+
+1. Read the story in Ref.7 and/or Ref.8 below.
+2. Understand the metaphors in the story:
+    - What is the story about?
+    - What "metaphorical language" has Joshua Ferris used to describe the characters, their actions, and the results of their actions?
+    - What is the *domain* of these metaphors in the story?
+3. Now, choose a (short!) story that you know really well, something that you may have encountered in school.
+4. Re-write this story using language, metaphors, and images from any *domain* (other than what may be in the original story). 
+    - For example, in Primo Levi's lyrical story [**Carbon**](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf), a lot of metaphors from Chemistry and atomic physics are used to describe life, and connections with people.
+    
+:::
+
+
+## Wait, But Why?
+
+- Metaphors are power vehicles that shape our ideas, and even our perception of Reality
+- The way we expressed the situation in the Gangs of Wasseypur activity was based on the metaphors used to describe it. It was also a sample case in Priming. Proof, if you ever wanted it, that your first idea is just that, a first idea. Keep going!
+- We are comparing two objects, or situations, using attributes that transfer from one to another.
+    - (The distinction we make between objects and situations is important! More on this when we learn TRIZ.)
+- Based on the domains that you carry in [your CC](../20-Cultural-Capital/index.qmd), a metaphor may or may not make sense to you. So yes, working in (diversely constructed) teams to make multiple metaphors may enhance how you appreciate of the situation.
+- The outrageous-ness of the metaphor can often add value to Problem Solving.
+- TRIZ, as we will see very soon, uses metaphors for both *Problem Definition* and *Problem Solution*. Hence the ability to make metaphors and to work them in **both directions** would be a super-power
+- Metaphors help us break out of Functional Fixedness (see Ref. 3 and Ref. 6), by endowing known objects with new *Attributes* and *Purposes*.
+
+## {{< iconify streamline book-reading >}} Reading Writing Assignment
+
+  Head off to [Assignment #7](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-7.-a-year-of-metaphoric-thinking) for this module. 
+
+## {{< iconify ooui references-ltr >}} References
+
+1.  **Guilford Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d1.html)
+1.  **Wallas-Kogan Test for Divergent Thinking**: [(Weblink)](https://curtbonk.com/bobweb/d2.html)
+1.  Thibodeau, Paul & Boroditsky, Lera. (2011). **Metaphors We Think With: The Role of Metaphor in Reasoning**. PloS one. 6. e16782. 10.1371/journal.pone.0016782. [**PDF**](Thibodeau-Boroditsky-Role-of-Metaphor.pdf)
+1.  Bobo Hjort. (2003) **Drawing, Knowledge, and Intuitive Thinking: Drawing as a Way to Understand and Solve Complex Problems in Art and Complexity**. J. Casti and A. Karlqvist (editors) © 2003 Published by Elsevier Science B.V.[**PDF**](Hjort.pdf)
+1.  David Chen, **Creative Paradoxical Thinking and Its Implications for Teaching and Learning Motor Skills** [**PDF**](CreativeParadoxicalThinking2011.pdf)
+1.  Holyoak and Thagard, **The Analogical Mind**, [**PDF**](Holyoak-%20Thagard%20-%20Analogical%20Mind.1997pdf.pdf)
+1. Tihamér von Ghyczy (HBR, September 2003). The Fruitful Flaws of Strategy Metaphors.[**PDF**](../../../../materials/pdfs/The Fruitful Flaws of Strategy Metaphors.pdf)
+1.  Joshua Ferris, **The Market Value of my Father**, a metaphorical Short Story. [(Web Link)](https://www.wealthsimple.com/en-ca/magazine/joshua-ferris)
+1. Primo Levi, **Carbon**, a metaphorical Short Story. [**PDF**](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf)
+1.  Martin Weller. *Dangers of tech metaphors in nature – The Ed Techie.* N.p., n.d. Web. 5 Apr. 2024. <https://blog.edtechie.net/books/dangers-of-tech-metaphors-in-nature>.
+1. Edith Ackermann(2001). [*Piaget’s Constructivism, Papert’s Constructionism: What’s the difference?*](https://learning.media.mit.edu/content/publications/EA.Piaget%20_%20Papert.pdf)
+1. Dubnick, R. (1980). *Visible Poetry: Metaphor and Metonymy in the Paintings of Rene Magritte*. Contemporary Literature, 21(3), 407. doi:10.2307/1208249. [**PDF**](dubnick1980.pdf)
+1. Aniket Kittur, Lixiu Yu, Tom Hope, Joel Chan, Hila Lifshitz-Assaf, Karni Gilon, Felicia Ng, Robert E. Kraut, and Dafna Shahaf. (2019). **Scaling up analogical innovation with crowds and AI**. Proceedings of the National Academy of Sciences,Vol. 116, No. 6, February 5, 2019. [**PDF**](kittur-et-al-2019-scaling-up-analogical-innovation-with-crowds-and-ai.pdf)
+1. Robert R. Hoffman. *Monster Analogies*. [**PDF**](../../../../materials/pdfs/Hoffman-Monster Analogies.pdf). AI Magazine, Volume 16, Number 3(1995).
+1. Podcast on Metaphors:
+Listen to this discussion between Michael Rosen and author James Geary, on the former's BBC Podcast [*Words of Mouth*.](https://www.bbc.co.uk/programmes/m000d1z9)
+
+<center>
+```{r, echo = FALSE}
+embedr::embed_audio("../../../materials/audio/WordOfMouth-20200107-Metaphors.mp3")  
+
+```
+</center>
+

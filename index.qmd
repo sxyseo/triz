@@ -1,0 +1,51 @@
+---
+title: "Arvind V." # if using a built-in template, this title appears under your photo
+image: content/materials/images/AV-portrait.jpeg # a great spot for your professional headshot :) 
+toc: false # disable table of contents for this page
+about: 
+  template: trestles 
+  image-shape: round
+  image-width: 20em
+  links: # create buttons
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/arvindvenkatadri/
+    - text: GitHub
+      icon: github
+      href: https://github.com/arvindvenkatadri
+    - text: Email
+      icon: envelope
+      href: mailto:arvind.venkatadri@gmail.com
+---
+
+
+I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), and Engineering Manager at [MMRFIC](https://mmrfic.com), both in Bangalore, INDIA, and a [Certified Level #1 TRIZ Professional](https://www.matriz-official.net). 
+
+I have a passion for Data Visualization, coding in R / ObservableJS / p5.js, Complexity Science, Literature, and Creative
+Thinking / Problem Solving with TRIZ. On this website, I share and teach
+what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving. 
+To get started, you can check out the Modules on this website. 
+
+My teaching websites are:\
+
+- [TRIZ for Problem Solvers](https://triz.help)\ (This one!!)
+- [The Mad Hatter's Guide to Data Viz and Stats in R](https://madhatterguide.netlify.app)\
+- [Model Thinking in Design](https://old-tortoise-taught-us.netlify.app/)\
+- [Literary Jukebox: Design Thinking from Short Fiction](https://literary-jukebox.netlify.app)\
+- [Maths for Creative Coders](https://mathforcoders.netlify.app)\
+- [Intro to Design of Experiments in R](https://doe-a-deer.netlify.app)\ (Extreme Work in Progress!)
+
+My student portfolios are here:\
+<https://we-r-us.netlify.app/portfolio/>\
+<https://form-and-structure.netlify.app/portfolio/>\
+
+You can find me on
+[Twitter](https://twitter.com/arvind_v), or
+[GitHub](https://github.com/arvindvenkatadri), and on
+[LinkedIn](https://www.linkedin.com/in/arvindvenkatadri)! Feel free to
+reach out to me via [mail](mailto:arvind.venkatadri@gmail.com) too!
+
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arvindvenkatadri" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+\center
+

@@ -1,0 +1,42 @@
+---
+# options specified here will apply to all posts in this folder
+title: "Case Studies and Talks"
+listing: 
+  - id: projects
+    contents: "TRIZ/*/*.qmd"
+    type: grid
+    fields: 
+      - image
+      - date
+      - title
+    sort: order
+    sort-ui: false
+    filter-ui: false
+  - id: talks
+    contents: 
+      - "Talks/*/*.qmd"
+    type: grid
+    fields: 
+      - image
+      - date
+      - title
+    sort: order
+    sort-ui: false
+    filter-ui: false
+categories: 
+  - Case Studies
+  - Talks
+page-layout: full
+title-block-banner: false
+---
+
+## Case Studies
+
+::: {#projects}
+:::
+
+## Talks
+
+::: {#talks}
+:::
+

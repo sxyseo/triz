@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(quarto --version:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(quarto render:*)",
+      "Bash(wrangler --version:*)",
+      "Bash(wrangler whoami:*)",
+      "Bash(wrangler login:*)",
+      "Bash(wrangler pages deploy:*)",
+      "Bash(wrangler pages project create:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(CLOUDFLARE_API_TOKEN=\"\" npx wrangler pages deploy:*)"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+---
+title: "Basics of Creativity"
+subtitle: ""
+date: "July 24, 2024"
+date-modified: "`r Sys.Date()` "
+listing:
+  type: grid
+  sort: "order"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "Modules/*/index.qmd"
+  fields: [image, title, subtitle, date]
+  table-striped: true
+  table-hover: true
+  categories: true
+---
+
+
+```{r}
+#| label: nothing
+#| include: false
+
+```
+
+
+
+
