@@ -1,13 +1,13 @@
 ---
 date: "2021-01-20"
-title: "TRIZ - The Unreasonable Effectiveness of Available Resources"
-subtitle: "Thinking Inside the Box"
+title: "TRIZ - 可用资源的不合理有效性"
+subtitle: "在框内思考"
 order: 70
 date-modified: "`r Sys.Date()`"
 categories:
-- Available Resources
-- Functional Fixedness
-- Assumptions
+- 可用资源
+- 功能固着
+- 假设
 
 ---
 
@@ -17,26 +17,26 @@ knitr::include_graphics("featured.jpg")
 
 ```
 
-## Introduction
+## 简介
 
-In the previous Module on **Problems and Contradictions** we understood how to identify an **Administrative Contradiction** in everyday situations. This is the first and most important step in the TRIZ Problem Solving Method. 
+在前一个关于**问题与矛盾**的模块中，我们了解了如何在日常情况中识别**行政矛盾**。这是 TRIZ 问题解决方法的第一步，也是最重要的一步。
 
-Another important idea in TRIZ is that of **Available Resources**. Let us appreciate this idea with the help of two games. But before that, a short trip to ~~the moon~~ NASA this time.
+TRIZ 中的另一个重要概念是**可用资源**。让我们通过两个游戏来理解这个概念。但在那之前，先短暂前往~~月球~~ NASA。
 
 {{< youtube ry55--J4_VQ >}}
 
-## Available Resources: Game #1  
+## 可用资源：游戏 #1
 
-You have to Stick the lighted candle to the Wall in such a way that the melting wax does not drop on to the floor. Your resources are:
+你必须将点燃的蜡烛贴在墙上，使融化的蜡不会滴到地板上。你的资源有：
 
-- Candle
-- Matchbox
-- Thumbtack
+- 蜡烛
+- 火柴盒
+- 图钉
 
 
-## Available Resources: Game #2
+## 可用资源：游戏 #2
 
-Look at the graph below: does it remind you of something you know very well?
+看下面的图表：它是否让你想起你非常熟悉的东西？
 
 ```{r echo=FALSE, message=FALSE,fig.align='center'}
 # Reference: https://rkabacoff.github.io/datavis/Other.html
@@ -46,11 +46,11 @@ library(readr)
 # summarize data
 # library(dplyr)
 # titanic_table <- Titanic %>%
-#   as_tibble() %>% 
+#   as_tibble() %>%
 #   group_by(Class, Sex, Survived) %>%
 #   count()
-# 
-# titanic_table$Survived <- factor(titanic_table$Survived, 
+#
+# titanic_table$Survived <- factor(titanic_table$Survived,
 #                                  levels = c("Yes", "No"))
 
 # Alluvial Plot
@@ -88,8 +88,8 @@ library(ggalluvial)
 #   #      subtitle = "stratified by class, sex, and survival",
 #   #      y = "Frequency") +
 #   theme_minimal() +
-#   theme(legend.position = "none") 
-#   
+#   theme(legend.position = "none")
+#
 #####################################
 titanic_wide <- data.frame(Titanic)
 #head(titanic_wide)
@@ -103,7 +103,7 @@ titanic_wide <- data.frame(Titanic)
 ggplot(data = titanic_wide,
        aes(axis1 = Class, axis2 = Sex, axis3 = Age,
            y = Freq)) +
-  scale_x_discrete(limits = c("Class", "Sex", "Age"), 
+  scale_x_discrete(limits = c("Class", "Sex", "Age"),
                    expand = c(.2, .05)) +
   xlab("Demographic") + ylab("No. of  People") +
   geom_alluvium(aes(fill = Survived),curve_type = "arctangent") +
@@ -113,95 +113,95 @@ ggplot(data = titanic_wide,
 
 ```
 
-What does this graph represent?
+这个图表代表什么？
 
-Let us pretend we are part of this graph and see where our Problem Formulating Skills take us!
-
-
-## Discussion
-
-- Problems and Contradictions
-- All Available Resources 
-- **Assumptions** and **Functional Fixedness**
-
-> A comparable switch of attention occurs in an old joke about a worker in a high security factory, in which the employees were carefully watched when they left at the end of their work day. On a particular day, this worker was stopped at the factory gate as he walked out with a wheelbarrow full of styrofoam packing peanuts. He explained that he had salvaged these from the trash, and was planning to use them in shipping gifts to his grandchildren. Searching through this packing material, the guards found nothing, and so they let the man go home. The following week the same thing happened, and the worker was again stopped. But he offered the very same story, and when the guards searched through the packing peanuts and found nothing, he was allowed to leave. But this continued, week after week, until the guards could no longer believe that one person would want or could make use of so much packing material. Finally, the man was held for interrogation, at which time he admitted that he had absolutely no use for packing peanuts - and that, all these weeks, he had been stealing wheelbarrows.
-
->Hearing this joke, I am reminded of the phrase “part and parcel”, which is a rough equivalent of [**“figure and ground”**](https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3), the Gestalt Principles. Throughout most of it, the packing peanuts occupy center stage as figure (part), while the wheelbarrows (which function merely as containers) are completely ignored as innocuous ground (parcel). At the end of the joke, there is an unexpected twist, a switch of emphasis, a recentering, when we learn that the ***parcel is really the part***. 
-
-This should also remind us of the *Guilford Alternative Uses Exercise* that we did, where we forced ourselves to leave the "regular use" of an object behind and think of it as serving quite another function.
+让我们假装自己是这个图表的一部分，看看我们的问题表述技能会带我们走向何方！
 
 
-## Breaking Assumptions: Making New Worlds
+## 讨论
 
-First, some comic relief about ***assumptions***:
+- 问题与矛盾
+- 所有可用资源
+- **假设**和**功能固着**
+
+> 在一个老笑话中，也发生了类似的注意力转移，讲的是在一个高安全性工厂工作的工人，工人们在下班离开时受到仔细监视。在某个特定的日子，这个工人在推着满载泡沫包装花生的独轮车走出工厂大门时被拦住了。他解释说，这些是他从垃圾中抢救出来的，并计划在寄给孙辈的礼物时使用。守卫搜查了这些包装材料，什么也没发现，于是让这个男人回家了。第二周发生了同样的事情，这个工人再次被拦住。但他提供了完全相同的解释，当守卫搜查包装花生什么也没发现时，他被允许离开。但这持续了一周又一周，直到守卫不再相信一个人会想要或能够使用这么多包装材料。最后，这个男人被扣留审讯，那时他承认他完全不需要包装花生——这些周来，他一直在偷独轮车。
+
+> 听到这个笑话，我想起了"部分和整体"这个词，这是[**"图形和背景"**](https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3)的粗略等价物，即格式塔原则。在大部分时间里，包装花生占据中心舞台作为图形（部分），而独轮车（仅作为容器）被完全忽略为无害的背景（整体）。在笑话的结尾，有一个意想不到的转折，重点的转移，重新定位，当我们发现***整体实际上是部分***时。
+
+这还应该让我们想起我们做过的*吉尔福德替代用途练习*，在那里我们强迫自己放弃物体的"常规用途"，把它想象为完全不同的功能。
+
+
+## 打破假设：创造新世界
+
+首先，一些关于***假设***的漫画缓解：
 
 {{< youtube JKHqjJIdM2w >}}
 
 <br>
 
-Chris Tucker seems to have discovered he had made an assumption! Luckily for him it is not too late!!
+克里斯·塔克似乎发现他做了一个假设！对他来说幸运的是还不算太晚！
 
-We have seen how **material objects** seem to have *functional fixedness* in our minds. There is an equivalent idea that we can relate to *phenomena* and *processes*: we can call it *process fixedness*. What does it entail? It entails being like [Jem, Scout, and Dill](https://novelstoday.com/to-kill-a-mockingbird/page-23.html)
+我们已经看到**物质对象**在我们脑海中似乎有*功能固着*。有一个等价的概念可以与*现象*和*过程*相关联：我们可以称之为*过程固着*。这意味着什么？这意味着像[Jem、Scout 和 Dill](https://novelstoday.com/to-kill-a-mockingbird/page-23.html)那样
 
-Things that are **stated** as unchangeable:
+被陈述为不可改变的事物：
 
-- "We are like this only"
-- "This is the way it has always be done"
-- "That is not possible to change"
+- "我们就是这样"
+- "一直都是这样做的"
+- "那不可能改变"
 
-Sadly, there are things that are **unstated** and mentally unchangeable:
+遗憾的是，有些事物是**未陈述的**，在心理上是不可改变的：
 
-- Have you heard of taboos? 
-- Secrets? 
-- Or things that are unmentionable because someone does not like them?
+- 你听说过禁忌吗？
+- 秘密？
+- 或者因为某人不喜欢而不能提及的事物？
 
-What is the METHOD by which we may discover such ***assumptions on phenomena/process*** that we place on a situation?
+我们用什么方法来发现我们对情况或现象/过程所施加的这些***假设***？
 
-<< TO BE WRITTEN UP IN DETAIL.>>
+<< 待详细撰写。>>
 
-### Case Study Story
+### 案例研究故事
 
-1. Sahil Bloom, on X, May 6 2024:
+1. Sahil Bloom，于 X，2024 年 5 月 6 日：
 
-In 2009, Stanford business professor Tina Seelig split her class into groups and issued a challenge:
-Each group had $5 and 2 hours to make the highest return on the money.
-At the end, they'd give a short presentation on their strategy.
-What happened next was fascinating:
+2009 年，斯坦福商学院教授 Tina Seelig 将她的班级分成小组，并发出一个挑战：
+每个小组有 5 美元和 2 小时的时间来获得最高的资金回报。
+最后，他们将简要介绍自己的策略。
+接下来发生的事情令人着迷：
 
 ![](../../../materials/images/Stanford-SOB-Building.jpeg)
 
-> Most of the groups followed a simple approach:
+> 大多数小组采用了一种简单的方法：
 >
->   - Use the $5 to buy a few items.
->   - Barter or resell those items.
->   - Repeat
->   - Sell final items for (hopefully) more than $5.
-> - These groups made a modest return on their initial $5.
+>   - 使用 5 美元购买几件物品。
+>   - 以物易物或转售这些物品。
+>   - 重复
+>   - 以（希望）高于 5 美元的价格出售最终物品。
+> - 这些小组在最初的 5 美元上获得了适度的回报。
 
-> A few groups ignored the $5. They thought up ways to make the most money in the allotted time:
+> 几个小组忽略了这 5 美元。他们想出了在规定时间内赚取最多钱的方法：
 >
->   - Made/sold reservations at hot restaurants.
->   - Refilled bike tires on campus.
->   - These groups made a good return on the initial USD5.
+>   - 制作/销售热门餐厅的预订。
+>   - 在校园内为自行车轮胎充气。
+>   - 这些小组在最初的 5 美元上获得了良好的回报。
 
-> The winning group took a very different approach: They had three realizations:
+> 获胜的小组采用了一种非常不同的方法：他们有三个认识：
 >
->   - The $5 was a distraction.
->   - The 2 hours of time was not enough to make an attractive, outsized return with a mini-business.
->   - The most valuable "asset" was actually the presentation time in front of a class of Stanford students.
->   - Recognizing the value of the **hidden asset**, they offered the presentation time to Companies looking to recruit Stanford students.
->   - They sold the slot for `$650`, a huge return on the `$5` of initial capital.
+>   - 5 美元是一种干扰。
+>   - 2 小时的时间不足以通过小型企业获得有吸引力的超额回报。
+>   - 最有价值的"资产"实际上是在斯坦福学生班级面前的展示时间。
+>   - 认识到了**隐藏资产**的价值，他们向希望招聘斯坦福学生的公司提供展示时间。
+>   - 他们以 650 美元的价格出售了这个时段，这是对最初 5 美元本金的巨大回报。
 
-The winning group thought differently ( about resources ) and achieved an asymmetric outcome.
+获胜小组以不同的方式思考（关于资源），并实现了不对称的结果。
 
 
-## References
+## 参考资料
 
 1. <https://www.wikiwand.com/en/Candle_problem>
-1. Resources Game [PDF](./pdf/TRIZ/Titanic_Case_Study.pdf) 
+1. 资源游戏 [PDF](./pdf/TRIZ/Titanic_Case_Study.pdf)
 1. <https://thedecisionlab.com/biases/functional-fixedness>
 1. <https://helpfulprofessor.com/functional-fixedness-examples/>
 1. <https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3>
-1. Stan Kaplan, ***An Introduction to TRIZ*** [(PDF)](./pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)
-This is a simple and short introduction to *all* aspects of Classical TRIZ.
-1. Jack Hipple, "The Ideal Result: What it is and how to achieve it", Springer, 2012.
+1. Stan Kaplan，***TRIZ 简介*** [(PDF)](./pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)
+这是对经典 TRIZ *所有*方面的简单而简短的介绍。
+1. Jack Hipple，"理想结果：它是什么以及如何实现它"，Springer，2012 年。

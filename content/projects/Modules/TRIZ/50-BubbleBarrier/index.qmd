@@ -1,19 +1,19 @@
 ---
-title: "The TRIZ Chronicles: the Amsterdam Bubble Barrier"
+title: "TRIZ 编年史：阿姆斯特丹气泡屏障"
 date: "2023-02-09"
 date-modified: "`r Sys.Date()`"
 order: 50
-subtitle: "Plastics in the Water"
-categories: 
-  - TRIZ Chronicles
-  - 48 TRIZ Parameters
-  - Ideal Final Result
-  - Inventive Principles
-  - Design Thinking
-  - Creativity Systems Model
-  - Making Metaphors
-summary: "Blowing Bubbles in the Water"
-abstract: "Plastics are increasingly found in our rivers and in our oceans. How can we clean this up at source? Amsterdam seems to have an answer!"
+subtitle: "水中的塑料"
+categories:
+  - TRIZ 编年史
+  - 48个TRIZ参数
+  - 理想最终结果
+  - 发明原理
+  - 设计思维
+  - 创造力系统模型
+  - 隐喻制作
+summary: "在水中吹气泡"
+abstract: "塑料越来越多地在我们的河流和海洋中被发现。我们如何从源头清理这个问题？阿姆斯特丹似乎有一个答案！"
 ---
 <br>
 
@@ -35,23 +35,17 @@ library(SixSigma)
 
 ```
 
-## Introduction
+## 引言
 
-Here we go with another of my *TRIZ Chronicles* !
+我们继续推出我的*TRIZ 编年史*系列的另一篇文章！
 
-This is another piece stems from my teaching a course on Creative
-Thinking and Problem Solving based on TRIZ, titled *Play and Invent*,
-over the past 8 years or more at the [**Srishti Manipal Institute of
-Art, Design, and Technology, Bangalore INDIA.**](https://srishtimanipalinstitute.in)
+这篇文章源于过去 8 年多来，我在印度班加罗尔的[**Srishti Manipal 艺术、设计与技术学院，印度班加罗尔**](https://srishtimanipalinstitute.in)教授基于 TRIZ 的创造性思维与问题解决课程，题为*游戏与发明*。
 
-## Rivers of Plastic
+## 塑料河流
 
-According to [**Our World in
-Data:**](https://ourworldindata.org/ocean-plastics "Our World in Data")
+根据[**我们的数据世界**](https://ourworldindata.org/ocean-plastics "我们的数据世界")：
 
-Previous research suggested that only a handful of rivers transports
-almost all of the plastic to the sea -- new research suggests this is
-not the case.
+之前的研究表明，只有少数河流将几乎所有的塑料输送到海洋——新的研究表明情况并非如此。
 
 ```{r}
 #| echo: false
@@ -59,64 +53,29 @@ not the case.
 #| out-height: "300%"
 #| out-width: "150%"
 #| label: fig-rivers
-#| fig-cap: "Rivers of Plastic"
+#| fig-cap: "塑料河流"
 
 knitr::include_graphics("plastic-rivers.png")
 ```
 
 
-> 80% of the world's ocean plastics enter the ocean via rivers and
-> coastlines. The other 20% come from marine sources such as fishing
-> nets, ropes, and fleets. To tackle plastic pollution we need to know
-> where these plastics are coming from. Previous studies suggested that
-> a very small number of rivers were responsible for the vast majority
-> of ocean plastics: 60% to 90% of plastics came from only ten rivers.
+> 世界上80%的海洋塑料通过河流和海岸线进入海洋。其他20%来自海洋来源，如渔网、绳索和船队。为了解决塑料污染问题，我们需要知道这些塑料来自哪里。之前的研究表明，很少数的河流造成了绝大多数的海洋塑料：60%到90%的塑料仅来自十条河流。
 >
-> Higher-resolution mapping and consideration for factors such as
-> climate, terrain, land use, and distance to the ocean suggests ***that
-> many smaller rivers play a bigger role than we thought***. It takes
-> 1,600 of the biggest emitting rivers to account for 80% of plastic
-> inputs to the ocean.
+> 更高分辨率的映射和对气候、地形、土地使用和与海洋距离等因素的考虑表明***许多较小的河流比我们想象的发挥着更大的作用***。需要1600条最大的排放河流才能解释80%的塑料输入到海洋。
 >
-> It is estimated that 81% of ocean plastics come from Asian rivers. The
-> Philippines alone contribute around one-third of the global total.
-> Since the number of contributing rivers is much higher than previously
-> thought, we will need ***global efforts*** to improve waste management
-> and plastic collection rather than targeting only a few of the largest
-> rivers.
+> 据估计，81%的海洋塑料来自亚洲河流。仅菲律宾就贡献了全球总量的约三分之一。由于贡献河流的数量比之前认为的要高得多，我们需要***全球努力***来改善废物管理和塑料收集，而不是仅仅针对少数最大的河流。
 >
-> The latest research, which was just published in Science Advances,
-> updates our understanding of how these plastics are distributed.[^1]
-> Lourens Meijer et al. (2021) developed higher-resolution modeling of
-> global riverine plastics. They found that rivers emitted around 1
-> million tonnes of plastics into the oceans in 2015 (with an
-> uncertainty ranging from 0.8 to 2.7 million tonnes). Around one-third
-> of the 100,000 river outlets that they modeled contributed to this.
-> The other two-thirds emitted almost no plastic to the ocean. It's an
-> important point because we might think that most, if not all, rivers
-> are contributing to the problem. This is not the case.
+> 最新研究刚刚发表在《Science Advances》上，更新了我们对这些塑料如何分布的理解。[^1] Lourens Meijer 等人(2021)开发了全球河流塑料的更高分辨率建模。他们发现河流在2015年向海洋排放了约100万吨塑料（不确定性范围为0.8至270万吨）。他们建模的10万个河流出口中约有三分之一对此有所贡献。其余三分之二几乎没有向海洋排放塑料。这是一个重要的点，因为我们可能认为大多数（如果不是全部）河流都在造成这个问题。事实并非如此。
 >
-> But, importantly, the latest research suggests that smaller rivers
-> play a much larger role than previously thought. In the chart we see
-> the comparison of the latest research (in red) with the two earlier
-> studies which mapped global riverine inputs. This chart shows how many
-> of the top-emitting rivers (on the x-axis) make up a given percentage
-> of plastic inputs (y-axis). Note that the number of rivers on the
-> x-axis is given on a logarithmic scale.[***emphasis mine***]
+> 但重要的是，最新研究表明，较小的河流比之前认为的发挥着更大的作用。在图表中，我们看到最新研究（红色）与之前绘制全球河流输入的两项研究的比较。该图表显示多少条顶级排放河流（x轴）构成给定百分比的塑料输入（y轴）。请注意，x轴上的河流数量以对数刻度给出。[***强调我的***]
 
-So the problem is more widespread **at source** and therefore
-distributed local solutions are needed.
+因此，这个问题在**源头**更加广泛，因此需要分布式本地解决方案。
 
-# So, Is there a Solution?
+# 那么，有解决方案吗？
 
-It seems we need to prevent plastics entering the oceans, by preventing
-their flow in our rivers and streams, effectively dealing with the
-problem *at source*. And that such a solution needs to be in widespread
-use ( \>1600 rivers ) in order for it to be successful. So it needs to
-be simple, effective and not terribly costly.
+看来我们需要通过防止塑料在我们的河流和小溪中流动来阻止其进入海洋，有效地从*源头*解决问题。而且这样的解决方案需要得到广泛使用（>1600条河流）才能成功。因此它需要简单、有效且成本不太高。
 
-It seems that the beautiful city of Amsterdam, with its lovely canals,
-has a solution already!
+美丽的阿姆斯特丹城市及其可爱的运河似乎已经有了一个解决方案！
 
 <iframe width="760" height="500" src="https://www.youtube.com/embed/n_KwF-gf0S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
@@ -124,30 +83,19 @@ has a solution already!
 
 <br>
 
-In the following, we will analyze this solution from a TRIZ standpoint.
-We will construct **Contradictions**, specify the **Ideal Final
-Result**, and find solutions using the **Contradiction Matrix**. We will
-then interpret and apply the **Inventive Principles** suggested by the
-matrix into the problem and show how the video above can be depicted as
-yet another TRIZ solution! We will also very briefly foray into using
-another aspect of TRIZ, namely the **Separation Principles** this time.
+在下面，我们将从 TRIZ 的角度分析这个解决方案。我们将构建**矛盾**，指定**理想最终结果**，并使用**矛盾矩阵**找到解决方案。然后，我们将解释和应用矩阵建议的**发明原理**到问题中，并展示上面的视频如何被描绘为另一个 TRIZ 解决方案！我们还将在本文中非常简短地涉足使用 TRIZ 的另一个方面，即**分离原理**。
 
-## A TRIZ Analysis of the Amsterdam Bubble Barrier
+## 阿姆斯特丹气泡屏障的 TRIZ 分析
 
-For a TRIZ workflow, we proceed as before:
+对于 TRIZ 工作流程，我们按照之前的方式进行：
 
--   First, using the method described in [**Open Source
-    TRIZ**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on YouTube")**,**
-    we identify *knobs* or *parameters* within the situation
+-   首先，使用[**开源 TRIZ**](https://www.youtube.com/watch?v=cah0OhCH55k "YouTube 上的开源 TRIZ")中描述的方法，识别情境中的*旋钮*或*参数*
 
--   We see how turning these could lead to identifying a Statement /
-    Cause for a Problem in the form of a *Contradiction*.
+-   观察调整这些参数如何导向识别以*矛盾*形式呈现的问题陈述/原因。
 
--   Re-word the plain English Contradiction into TRIZ Parameters and
-    look it up in the Contradiction Matrix. Obtain the Inventive
-    Principles.
+-   将通俗易懂的矛盾改写为 TRIZ 参数，并在矛盾矩阵中查找。获得发明原理。
 
--   Apply these Inventive Principles into your Problem and solve it.
+-   将这些发明原理应用到您的问题中并解决它。
 
 ```{r}
 #| echo: false
@@ -155,20 +103,19 @@ For a TRIZ workflow, we proceed as before:
 #| out-height: "6%"
 #| out-width: "60%"
 #| label: fig-triz
-#| fig-cap: "TRIZ Method"
+#| fig-cap: "TRIZ 方法"
 
 knitr::include_graphics("triz.png")
 ```
 
-    
-Here below is a quick *Ishikawa Diagram* to help us identify the
-*Parameters* of this Problem:
+
+下面是一个快速的*石川图*，帮助我们识别这个问题的*参数*：
 
 ```{r}
 #| echo: false
 #| label: fig-ishikawa
-#| fig-cap: "Ishikawa Diagram for Plastics in the Water"
-#| 
+#| fig-cap: "水中塑料的石川图"
+#
 #Cause and Effect Diagram or Fish- bone Sample
 library(qcc)
 library(SixSigma)
@@ -195,120 +142,69 @@ causes[6] <- list(c("Filters", "Nets", "Boats"))
 #Fishbone Diagram
 #
 ss.ceDiag(effect,causes.head,causes, main ="~Smoke~ Plastics on the Water",
-          #ss.col = c("", "red"), 
+          #ss.col = c("", "red"),
           sub = paste("Ishikawa Cause-Effect Diagram \n (Made with R packages SixSigma and qcc)"))
 
 
 
 ```
 
-Each of the above terms in the Ishikawa can be a **knob** for us.
-[**Turning the *knobs/parameters* in the Ishikawa
-Diagram**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on Youtube"), we try to improve a certain Parameter or we try to reduce its effect. In doing so we could construct several alternative **Problem
-Descriptions**. ( Of course not all Parameters may be accessible in a
-given situation )
+石川图中的每个术语都可以成为我们的一个**旋钮**。[**转动石川图中的*旋钮/参数***](https://www.youtube.com/watch?v=cah0OhCH55k "YouTube 上的开源 TRIZ")，我们尝试改进某个参数或尝试减少其影响。这样做我们可以构建几个替代的**问题描述**。（当然，并非所有参数在给定情况下都可以访问）
 
--   We want to deal with the (hopefully) smaller quantities of plastic
-    closer to source, rather than the much larger quantities as we get
-    nearer and into the high seas.
+-   我们希望在更接近源头的地方处理（希望）较少量的塑料，而不是当我们接近并进入公海时的大量塑料。
 
--   Clearly we want the rivers to flow and give us our sense of
-    [**beauty, serenity and movement, and
-    poetry**](https://etc.usf.edu/lit2go/105/the-wind-in-the-willows/1795/the-open-road/ "The Wind in the Willows by Kenneth Grahame"),
-    but the same flow should not transport plastics downstream.
+-   显然，我们希望河流流动并给我们[**美丽、宁静和运动，以及诗意**](https://etc.usf.edu/lit2go/105/the-wind-in-the-willows/1795/the-open-road/ "柳林风声 作者 Kenneth Grahame")的感觉，但同样的流动不应该将塑料输送到下游。
 
--   We also want the plastic, if we can stop it from floating onward, to
-    be "accessible" and be easily gathered from the stream.
+-   我们还希望塑料，如果我们能阻止它继续漂浮，能够"可访问"并容易从小溪中收集。
 
--   So a simple dam or
-    [**weir-like**](https://en.wikipedia.org/wiki/Weir "Weir on Wikipedia") structure, or a net could work, but would possibly ruin our sense of beauty. For example, we could consider stopping the flow of water in places with weirs, but then that could make the location ugly and be a hindrance to recreation and transportation. The presence of
-    plastics in the water could also alter the colour of the water.
+-   所以一个简单的堰或[**堰状**](https://en.wikipedia.org/wiki/Weir "维基百科上的堰")结构，或者网可以工作，但可能会破坏我们的美感。例如，我们可以考虑用堰停止某些地方的水流，但这可能会使位置变得丑陋，并阻碍娱乐和交通。水中的塑料也可能改变水的颜色。
 
--   Finally, we are interested in preserving dissolved oxygen in the
-    water. We want to prevent *other organic decaying material*
-    accumulating around the plastic and increasing the [**Biological
-    Oxygen Demand**](https://www.usgs.gov/special-topics/water-science-school/science/biological-oxygen-demand-bod-and-water)
-    Not to mention the smell.
+-   最后，我们有兴趣保持水中的溶解氧。我们要防止*其他有机腐烂材料*在塑料周围堆积并增加[**生化需氧量**](https://www.usgs.gov/special-topics/water-science-school/science/biological-oxygen-demand-bod-and-water)。更不用说气味了。
 
-So many problems !!
+这么多问题！！
 
-With all this discussion, we can state at least one of our Problems as
-an [**Administrative
-Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp)
-in *plain English*:
+通过所有这些讨论，我们可以将我们的至少一个问题陈述为[**行政矛盾(AC)**](https://altshuller.ru/world/eng/triz6.asp)，用*通俗英语*：
 
 ::: callout-note
-### Administrative Contradiction
-**AC**: We wish to pull out plastics from the **river**
-without interrupting other human activities (economic / recreational / transportation )
+### 行政矛盾
+**AC**：我们希望从**河流**中取出塑料，而不干扰其他人类活动（经济/娱乐/交通）
 :::
 
-Next, based on this Contradiction and the inspection of the Ishikawa
-Diagram above, we are now ready to define a TRIZ *Ideal Final Result*:
+接下来，基于这个矛盾和对上面石川图的检查，我们现在准备好定义一个 TRIZ *理想最终结果*：
 
 ::: callout-note
-### Ideal Final Result
-**IFR**: The River must flow. The Plastics must not.
+### 理想最终结果
+**IFR**：河流必须流动。塑料必须不流动。
 :::
 
-Short and pithy.
+简短有力。
 
-We could do alternative Problem Definitions too, depending upon what our
-focus was. (Our focus here is the **river)**. The way we would look at
-the Parameters in the Ishikawa Diagram would be different in each case.
-More on this in just a bit!
+我们也可以做替代的问题定义，这取决于我们的焦点。（我们这里的重点是**河流**）。在每种情况下，我们看待石川图中参数的方式都会不同。稍后会详细介绍！
 
-Let us take our AC and convert it into a *Technical Contradiction(TC)*,
-keeping this IFR in mind. We will look at the *48 TRIZ Parameters* in
-the [**TRIZ Contradiction Matrix**](/pdf/TRIZ/ContradictionMatrix2003.pdf) and see which
-Parameter we want to improve, while not worsening another. Here is what
-we can obtain. We will analyze the Contradiction both ways[^2]:
+让我们将行政矛盾 AC 转换为*技术矛盾(TC)*，同时记住这个理想最终结果。我们要查看[**TRIZ 矛盾矩阵**](/pdf/TRIZ/ContradictionMatrix2003.pdf)中的*48 个 TRIZ 参数*，看看我们想改进哪个参数，而不恶化另一个参数。我们可以得到以下结果。我们将从两个方面分析矛盾[^2]：
 
 ::: callout-note
-### Technical Contradictions
-- **TC 1**: Increase `Volume of Stationary Object`(8) and not worsen `Harmful effects acting on the system`(40)
-- **TC 2**: Improve `Harmful effects acting on the system`(40) and not worsen `Volume of Stationary Object`(8)
+### 技术矛盾
+- **TC 1**：增加`静止物体体积`(8)而不恶化`作用于系统的有害效应`(40)
+- **TC 2**：改进`作用于系统的有害效应`(40)而不恶化`静止物体体积`(8)
 :::
 
-Here we choose these Parameters based on our IFR, which also reflects
-that we choose the make the **river** our focus. We want to increase the
-`volume` of the stationary plastic **in the river**, while not worsening
-the `harmful effects` acting on the **river**. Note how the IFR is
-included here, in using the word **stationary** for the object: the
-plastic must **not** flow, while the river **must**.
+这里我们根据理想最终结果选择这些参数，这也反映了我们选择使**河流**成为我们的焦点。我们希望增加**河流中**静止塑料的`体积`，而不恶化作用于**河流**的`有害效应`。请注意理想最终结果是如何包含在这里的，使用**静止**一词表示物体：塑料必须**不**流动，而河流**必须**流动。
 
-As stated in my previous articles,
-there is considerable flexibility and possibility for imaginative
-interpretations of the AC, using the *language of TRIZ*, the **48
-Parameters** in the Contradiction Matrix. Parameters chosen from the
-TRIZ Matrix can be thought of as *metaphors* for the knobs that lie
-within our AC; Going from the AC to the TC is an act of *making
-metaphors*. We could easily have chosen the Parameter
-`Amount of Substance (10)` i.e. the plastic *on the river*, as the
-"metaphoric thing" to improve but the current IFR speaks of the
-**river**. Or we could choose `Aesthetics and Appearance (39)` as our
-target, leading to different solutions perhaps, but in a focussed
-manner. TRIZ tends to [**focus our
-attention**](https://scholar.princeton.edu/sites/default/files/kahneman/files/attention_hi_quality.pdf "Daniel Kahneman")
-like no other method that I know of.
+正如我在之前的文章中所述，使用*TRIZ 语言*、矛盾矩阵中的**48个参数**，对行政矛盾有相当大的灵活性和想象解释空间。从 TRIZ 矩阵中选择的参数可以被视为行政矛盾中旋钮的*隐喻*；从行政矛盾到技术矛盾是*制造隐喻*的行为。我们本可以轻松地选择参数`物质数量(10)`，即*河流上*的塑料，作为要改进的"隐喻东西"，但当前理想最终结果谈论的是**河流**。或者我们可以选择`美学和外观(39)`作为我们的目标，可能会得出不同的解决方案，但是以专注的方式。TRIZ 倾向于[**集中我们的注意力**](https://scholar.princeton.edu/sites/default/files/kahneman/files/attention_hi_quality.pdf "Daniel Kahneman")，比我认识的任何其他方法都好。
 
-We could also formulate a *Physical Contradiction(PC)*[^3]:
+我们也可以制定*物理矛盾(PC)*[^3]：
 
 ::: callout-note
-### Physical Contradiction
-**PC**: The Plastic must be in the River and not in the River at the same time.
+### 物理矛盾
+**PC**：塑料必须同时在河流中又不在河流中。
 :::
 
-which is aimed at the river, as with the IFR. Again, if the IFR is
-formulated differently we could obtain a very different set of AC and
-PC.
+这针对河流，就像理想最终结果一样。同样，如果理想最终结果表述不同，我们可以获得非常不同的行政矛盾和物理矛盾集。
 
-## Solving the Technical Contradiction
+## 解决技术矛盾
 
-Let us take the both the TC-s into the Contradiction Matrix and arrive
-at the list of TRIZ Inventive Principles. Here is the Matrix solution
-for `TC-1` in the figure below; The square for solutions to `TC-1` has
-been circled in red.
+让我们将两个技术矛盾都带入矛盾矩阵，得出 TRIZ 发明原理列表。下图是 `TC-1` 的矩阵解决方案；`TC-1` 的解决方案的方框已用红色圈出。
 
 ```{r}
 #| echo: false
@@ -316,100 +212,63 @@ been circled in red.
 #| out-height: "300%"
 #| out-width: "150%"
 #| label: fig-contradiction-matrix
-#| fig-cap: "Contradiction Matrix"
+#| fig-cap: "矛盾矩阵"
 
 knitr::include_graphics("matrix.png")
 ```
 
 
 
-Here is what the Matrix suggests:
+以下是矩阵的建议：
 
-For `TC-1`:
+对于 `TC-1`：
 
-1.  39(Inert Atmosphere)
-2.  24(Intermediary)
-3.  19(Periodic Action)
-4.  27(Cheap Short-Living Objects) (**!!**)
+1.  39(惰性气氛)
+2.  24(中介)
+3.  19(周期性行动)
+4.  27(廉价短命对象) (**！！**)
 
-  and with `TC-2`:
+  以及 `TC-2`：
 
-5.  5(Merging)
-6.  17(Another Dimension)
-7.  ~~39(Inert Atmosphere)~~
-8.  ~~19(Periodic Action)~~
+5.  5(合并)
+6.  17(另一维度)
+7.  ~~39(惰性气氛)~~
+8.  ~~19(周期性行动)~~
 
-This is neat list for us to try to use!! Let us apply some these
-Inventive Principles! Viewing these Inventive Principles as we
-*Generalized Solutions* we try to map these back into the Problem at
-hand:
+这是我们可以尝试使用的好清单！让我们应用一些这些发明原理！将这些发明原理视为*广义解决方案*，我们尝试将它们映射到手头的问题：
 
--   `(39)Inert Atmosphere`: Hmm...what can be inert in the River? What
-    could "inert" mean here? The River should be inert...so must not
-    flow! OK, so a place where it must be still, perhaps!!
--   `24(Intermediary)`: OK, something between the River and the
-    Plastic. But...we don't want nets or dams or weirs...then what? Need
-    to think!!
--   `19(Periodic Action)`: What can be "periodic" in the River? Waves?
-    But how do we **make** waves? Need to think some more!!
--   `27(Cheap Short Living Objects)`: What can be cheap short and
-    short living in the River water? Not fish, surely...wait,
-    **BUBBLES**!!!
+-   `(39)惰性气氛`：嗯……河流中什么可以惰性？"惰性"在这里可能意味着什么？河流应该是惰性的……所以必须不流动！好的，所以一个必须静止的地方，也许！！
 
-So, [breathlessly](https://youtu.be/nWeax5joZFw): we create bubbles in the water and use them as an
-*Intermediary* to create waves/barriers that nudge the Plastic where we
-want it it to be, for collection. And of course bubbles are both *Inert*
-**and** *Atmosphere*, literally! And they are *Cheap* and *Short-Lived*
-so we need to regenerate them *Periodically!* We can periodically
-*sweep* the river with a broom made of bubbles and not seriously disturb
-any other activity. Waah TRIZ, waah!
+-   `24(中介)`：好的，在河流和塑料之间的东西。但是……我们不想要网或坝或堰……那么是什么？需要思考！！
 
-`5(Merging)` is quite easy to interpret now, in retrospect.
-`17(Another Dimension)` is also evocative and powerful as a Solution:
-the River flows *horizontally* but the barrier we need to create is
-*vertical*. Yet another interpretation could be that the Bubbles
-*dissolve in the River water* (assuming *another dimension,* as it
-were) and give us the benefit of purifying the water too, as fountains
-do!!
+-   `19(周期性行动)`：河流中什么是"周期性"的？波浪？但我们如何**制造**波浪？需要更多思考！！
 
-So there you have it! It seems that [**Going
-Dutch**](https://thegreatbubblebarrier.com/ "The Great Bubble Barrier")
-even with bubbles, is a good idea !
+-   `27(廉价短命对象)`：河水中什么可以便宜、短命和短寿命？肯定不是鱼……等等，**气泡**！！！
 
-## Using TRIZ Separation Principles
+所以，[急切地](https://youtu.be/nWeax5joZFw)：我们在水中制造气泡并使用它们作为*中介*来创造波浪/屏障，将塑料推向我们想要的位置进行收集。当然，气泡字面上既是*惰性***和** *气氛*！而且它们*便宜*且*短寿命*，所以我们需要*周期性地*再生它们！我们可以定期用气泡制成的扫帚*扫*河流，而不会严重干扰任何其他活动。哇 TRIZ，哇！
 
-As Hipple explains, there is frequently an underlying **physical**
-parameter, such as *length*, *breadth*, *weight*, or *energy, or speed*
-for example that lies at the root of our *Technical Contradiction*.
+`5(合并)`现在很容易解释。`17(另一维度)`也很有启发性和强大的解决方案：河流*水平*流动，但我们需要创造的屏障是*垂直*的。另一种解释可能是气泡*溶解在河水中*（假设*另一维度*，仿佛如此），并给我们净化水的好处，就像喷泉一样！！
 
-Our IFR states that we want the Plastics to not flow, and the River to
-flow at the same time. But the Plastics are
-[**in**](https://christophertyler.org/CWTyler/AlicePDFs/13treacle.pdf "The Treacle Well ( Alice in Wonderland )") the River! This is a sort of a Physical Contradiction!
+所以你拥有了它！看来[**荷兰式**](https://thegreatbubblebarrier.com/ "大气泡屏障")即使使用气泡也是个好主意！
 
-Can we make the River "less of a River" in places? Can we make
-**separate** zones in the River that flow and not flow, and allow us to
-harvest the plastic?Indeed,our Inventive Principles such as `(39)Inert
-Atmosphere` and `24(Intermediary)` suggest such a "spatial"
-separation. So we are applying SEPARATION in SPACE here, to solve a
-Physical Contradiction related to "time". TRIZ offers us a smaller and
-more easily "memorizable" set of metaphoric solutions in the form of
-**Separation Principles**. Here they are:
+## 使用 TRIZ 分离原理
 
--   [Separation in Time]{.smallcaps}
--   [Separation in Space]{.smallcaps}
--   [Separation on Condition]{.smallcaps}
--   [Separation between Parts and the Whole]{.smallcaps}
+正如 Hipple 解释的那样，经常有一个潜在的**物理**参数，如*长度*、*宽度*、*重量*或*能量或速度*，处于我们*技术矛盾*的根源。
 
-Note that while these *Separation Principles* are just a handful to
-memorize, they are in my opinion, a little harder to apply straightway.
-But then practice would help us. Note that all the Inventive Principles
-in the Matrix can be, and have been, classified as to whether they hew
-to a particular kind of *Separation* *Principle.*
+我们的理想最终结果陈述了我们要塑料不流动，而河流同时流动。但塑料[**在**](https://christophertyler.org/CWTyler/AlicePDFs/13treacle.pdf "糖浆井 (爱丽丝梦游仙境)")河流中！这是一种物理矛盾！
 
-If there is any interesting situation that could be analyzed with TRIZ,
-please send me a DM! Thanks !
+我们可以让河流在某些地方"不那么像河流"吗？我们可以在河流中制造流动和不流动的**分离**区域，并让我们收获塑料吗？实际上，我们的发明原理，如`(39)惰性气氛`和`24(中介)`，建议了这种"空间"分离。所以我们在这里应用**空间分离**来解决与"时间"相关的物理矛盾。TRIZ 为我们提供了一组更小且更容易"记忆"的隐喻解决方案，形式为**分离原理**。它们是：
 
-## References
+-   [时间分离]{.smallcaps}
+-   [空间分离]{.smallcaps}
+-   [条件分离]{.smallcaps}
+-   [部分与整体之间的分离]{.smallcaps}
+
+请注意，虽然这些*分离原理*只有少数需要记忆，但在我看来，它们有点难以直接应用。但练习会有所帮助。请注意，矩阵中的所有发明原理都可以并且已经按照它们是否符合特定类型的*分离* **原理**进行了分类。
+
+如果有任何有趣的情况可以用 TRIZ 分析，请给我发私信！谢谢！
+
+## 参考资料
 
 1.  Meijer, J.J.L, Emmerik, T., Ent, R., Schmidt, C., Lebreton, L.
     (2021). More than 1000 rivers account for 80% of global riverine
@@ -422,14 +281,9 @@ please send me a DM! Thanks !
 4.  Open Source TRIZ: Making Contradictions.
     <https://www.youtube.com/watch?v=cah0OhCH55k>
 
-[^1]: The Contradiction Matrix is not quite symmetric, so stating the
-    Contradiction both ways allows us to access a slightly larger set of
-    Inventive Principles from two cells of the Matrix.
+[^1]: 矛盾矩阵不完全对称，因此以两种方式陈述矛盾使我们可以从矩阵的两个单元格访问略大的一组发明原理。
 
-[^2]: The Contradiction Matrix is not quite symmetric, so stating the
-    Contradiction both ways allows us to access a slightly larger set of
-    Inventive Principles from two cells of the Matrix.
+[^2]: 矛盾矩阵不完全对称，因此以两种方式陈述矛盾使我们可以从矩阵的两个单元格访问略大的一组发明原理。
 
-[^3]: Arriving at *Physical Contradictions* is not always easy! If we
-    can, then there are a very crisp set of **TRIZ Separation
-    Principles** that we can apply to solve the Problem.
+[^3]: 得出*物理矛盾*并不总是容易的！如果可以，那么我们可以应用一套非常清晰的**TRIZ 分离原理**来解决问题。
+

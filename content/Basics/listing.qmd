@@ -1,5 +1,5 @@
 ---
-title: "Basics of Creativity"
+title: "创造力基础"
 subtitle: ""
 date: "July 24, 2024"
 date-modified: "`r Sys.Date()` "

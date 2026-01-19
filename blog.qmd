@@ -10,18 +10,12 @@ number-sections: false
 :::
 
 ::: g-col-6
-# Hi, I'm Arvind Venkatadri.
+# 你好，我是Arvind Venkatadri。
 
-I'm external Faculty at the [Srishti Manipal Institute of Art and Design](https://srishtimanipalinstitute.in), both in Bangalore, INDIA, and a [Certified Level #1 TRIZ Professional](https://www.matriz-official.net) . 
+我是[斯里什蒂马尼帕尔艺术与设计学院](https://srishtimanipalinstitute.in)的外部教员，该学院位于印度班加罗尔。我也是[MATRIZ认证的一级TRIZ专业人士](https://www.matriz-official.net)。
 
-I have a passion for coding in R / ObservableJS / p5.js, 
-Data Visualization, Complexity Science, Literature, and Creative
-Thinking / Problem Solving with TRIZ. On this website, I share and teach
-what I learned about TRIZ, a Russian System for Structured, Inventive Problem Solving. I am a Level#1 Certified TRIZ Professional from MATRIZ, the International TRIZ Association.
+我对使用R / ObservableJS / p5.js编程、数据可视化、复杂性科学、文学以及运用TRIZ进行创造性思维/问题解决充满热情。在这个网站上，我分享和教授我所学到的关于TRIZ的知识——这是一种来自俄罗斯的结构化发明问题解决系统。我是国际TRIZ协会（MATRIZ）认证的一级TRIZ专业人士。
 
-To get started, you can check out [my course Modules](./content/listing.qmd). You can also find me on
-[Twitter](https://twitter.com/arvind_v), 
-[GitHub](https://github.com/arvindvenkatadri), and on [Medium](https://medium.com/@arvind.venkatadri). Feel free to
-reach out to me via [email](mailto:arvind.venkatadri@gmail.com) !
+要开始学习，您可以查看[我的课程模块](./content/listing.qmd)。您也可以在[Twitter](https://twitter.com/arvind_v)、[GitHub](https://github.com/arvindvenkatadri)和[Medium](https://medium.com/@arvind.venkatadri)上找到我。欢迎通过[邮件](mailto:arvind.venkatadri@gmail.com)与我联系！
 :::
 :::

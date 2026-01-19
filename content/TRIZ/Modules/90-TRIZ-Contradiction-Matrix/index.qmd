@@ -1,25 +1,25 @@
 ---
-title: "TRIZ - The Contradiction Matrix Workflow"
+title: "TRIZ - 矛盾矩阵工作流程"
 date: "2021-01-18"
 date-modified: "`r Sys.Date()`"
 order: 90
 links:
 - icon: flask
   icon_pack: fas
-  name: TRIZ DataBase
+  name: TRIZ 数据库
   url: slides/PlayAndInvent/TRIZ-Database/index.html
 # - icon: game
 #   icon_pack: fab
-#   name: Game
+#   name: 游戏
 #   url: /pdf/TRIZ/Titanic_Case_Study.pdf
-slides: 
-summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
+slides:
+summary: "本模块是我在班加罗尔 Srishti Manipal 学院开设的创造性问题解决课程的一部分"
 categories:
-- Contradictions
-- Contradiction Matrix
-- 39 TRIZ Parameters
-- 40 Inventive Principles
-- Genrikh Altshuller
+- 矛盾
+- 矛盾矩阵
+- 39个TRIZ参数
+- 40个发明原理
+- 根里奇·阿奇舒勒
 url_code: ""
 url_pdf: ""
 url_slides: "slides/PlayAndInvent/TRIZ-Basics/index.html"
@@ -33,97 +33,104 @@ knitr::include_graphics("featured.jpg")
 
 ```
 
-# Introduction
+# 简介
 
-In the previous Module on **Problems and Contradictions** we understood how to identify a **Technical Contradiction** in everyday situations. This is the first and most important step in the TRIZ Problem Solving Method. 
+在之前关于**问题与矛盾**的模块中，我们了解了如何识别日常生活中的**技术矛盾**。这是 TRIZ 问题解决方法的第一步，也是最重要的一步。
 
-Next we look at two methods to **Resolve Contradictions**:
+接下来我们来看两种**解决矛盾**的方法：
 
-- Using the **Contradiction Matrix** and **Inventive Principles** for **Technical Contradictions (TC)**
+- 使用**矛盾矩阵**和**发明原理**来解决**技术矛盾（TC）**
 
-- Using TRIZ **Separation Principles** for **Physical Contradictions (PC)**
-
-
-## Project TETRIS TRIZ Videos
-Let us get an actual experience of TRIZ methods with these short videos:
+- 使用 TRIZ **分离原理**来解决**物理矛盾（PC）**
 
 
-1. History of TRIZ   
+## 项目 TETRIS TRIZ 视频
+让我们通过这些短视频获得 TRIZ 方法的实际体验：
+
+
+1. TRIZ 历史
 {{< youtube NeDAnftRx8c >}}
 <br>
 
-2. TRIZ Tales: Nina at School   
+2. TRIZ 故事：妮娜在学校
 {{< youtube ouWWuwW21ZI >}} <br>
 
-3. TRIZ Tales: Nina at University   
+3. TRIZ 故事：妮娜在大学
 {{< youtube MxOGaB4OgYc >}}<br>
 
-4. TRIZ Tales: Nina at Work #1 
+4. TRIZ 故事：妮娜在工作 #1
 {{< youtube bXxMf4AX_lE >}}<br>
 
-5. TRIZ Tales: Nina at Work #2 
+5. TRIZ 故事：妮娜在工作 #2
 {{< youtube J_O3yR2kk2Q >}}<br>
 
 
-6. How to use the Contradiction Matrix: [(Coursera Video)](https://www.coursera.org/lecture/creative-thinking-techniques-and-tools-for-success/contradiction-matrix-DtEKz>)
+6. 如何使用矛盾矩阵：[(Coursera 视频)](https://www.coursera.org/lecture/creative-thinking-techniques-and-tools-for-success/contradiction-matrix-DtEKz>)
 
-## Discussion
+## 讨论
 
-- The [TRIZ Contradiction Matrix](pdf/TRIZ/matrix2003.pdf) gives us 3-4 short, pithy **metaphoric solutions**, called **TRIZ Inventive Principles** that are eminently suited to our problem.\
+- [TRIZ 矛盾矩阵](pdf/TRIZ/matrix2003.pdf)为我们提供了 3-4 个简练、深刻的**隐喻解决方案**，称为**TRIZ 发明原理**，这些原理非常适合我们的问题。
 
-- We need to look at those Inventive Principle metaphors, and translate them back into our problem. Think of this process as, what else, yet another metaphor: *taking the antilogarithm* to arrive at the solution of a complicated multiplication problem. \
-- We use our CC, that we have embedded in the Ishikawa Diagram, to decide which knobs we can turn in accordance with each Inventive Principle. 
+- 我们需要查看这些发明原理的隐喻，并将它们转换回我们的问题中。把这个过程想象成——还需要什么——另一个隐喻：*取反对数*来得出复杂乘法问题的解。
+
+- 我们使用嵌入在石川图中的文化资本（CC），来决定我们可以根据每个发明原理调整哪些控制旋钮。
 
 
-Here is an example from the movie [Home Alone(2)](https://youtu.be/mz-snPWBQYQ):
+这里有一个来自电影[小鬼当家(2)](https://youtu.be/mz-snPWBQYQ)的例子：
 
 {{< youtube h_bUcNjmuSk >}}
 <br>
 
-The use of the movie **audio dialogue** by Kevin could be an example of the following *TRIZ Inventive Principles*:\
+凯文对电影**音频对话**的使用可能是以下*TRIZ 发明原理*的例子：
 
-- `Taking Out` ( i.e. taking the essential good/bad part out of something)\
-- `Continuity of Useful Action` (i.e. repeated use of a good solution)
+- `抽取`（即从某物中提取本质的好/坏部分）
+
+- `有用作用的连续性`（即重复使用好的解决方案）
 
 
-## A TRIZ Workflow
+## TRIZ 工作流程
 
-We have seen  
+我们已经了解了
 
-- How to examine a Situation  
-- Use the Ishikawa Diagram to find Knobs and Settings
-- Find one or more Administrative Contradictions  
-- State the Ideal Final Result  
-- Convert the AC into a TC with 39 TRIZ Parameters  
-- (Convert the AC into a PC)  
+- 如何检查情境
 
-Now we will use the TC and find out solutions for it using what is called the **Contradiction Matrix**. Here is a workflow presentation below:  
+- 使用石川图找到控制旋钮和设置
+
+- 找出一个或多个行政矛盾
+
+- 陈述理想最终结果
+
+- 使用 39 个 TRIZ 参数将 AC 转换为 TC
+
+- （将 AC 转换为 PC）
+
+现在我们将使用 TC 并使用所谓的**矛盾矩阵**来找到解决方案。下面是一个工作流程演示：
 <https://arvindvenkatadri.com/slides/playandinvent/triz-basics/#1">
 
 
-## TRIZ Stories and Case Studies!!
+## TRIZ 故事和案例研究！！
 
-Want to create a good protest or strike? Or simply want to clean up the oceans?
+想要组织一场好的抗议或罢工吗？或者只是想清理海洋？
 
 {{< revealjs https://arvindvenkatadri.com/slides/playandinvent/triz-database/#1 >}}
 
 <https://arvindvenkatadri.com/slides/playandinvent/triz-database/#1">
 
-## The TRIZ Contradiction Matrix
+## TRIZ 矛盾矩阵
 
-1. The TRIZ Contradiction Matrix (2003) [(Matrix)](pdf/TRIZ/TRIZ_interactive_contradiction_matrix_2016.xlsx)
+1. TRIZ 矛盾矩阵 (2003) [(矩阵)](pdf/TRIZ/TRIZ_interactive_contradiction_matrix_2016.xlsx)
 
 
 
-## References
+## 参考文献
 
-1. Pizza Box <https://www.metodolog.ru/triz-journal/archives/2008/03/04/>
-1. TRIZ for Dummies Cheat Sheet [(weblink)](https://www.dummies.com/business/management/triz-for-dummies-cheat-sheet/)
-1. TRIZ Inventive Principles in Pics @instagram: <https://www.instagram.com/stories/highlights/17857566926043828/>
-1. Stan Kaplan, ***An Introduction to TRIZ***[(PDF)](pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)
-This is a simple and short introduction to *all* aspects of Classical TRIZ.
-1. Jack Hipple, "The Ideal Result: What it is and how to achive it", Springer, 2012.
-1. Project TETRIS: Chapter 1: Introduction to Classical TRIZ [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_01.pdf)
-1. Project TETRIS: Chapter 5: Techniques  to  Resolve  Contradictions / Resources / Effects [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_05.pdf)
-1. Project TETRIS: Examples of inventive problems: Example 1-5 [(RAR Archive File)](https://innovazionesistematica.it/wp-content/uploads/2020/10/ExamplesEN.rar)
+1. 披萨盒 <https://www.metodolog.ru/triz-journal/archives/2008/03/04/>
+1. TRIZ 超人速查表 [(网页链接)](https://www.dummies.com/business/management/triz-for-dummies-cheat-sheet/)
+1. 图解 TRIZ 发明原理 @instagram: <https://www.instagram.com/stories/highlights/17857566926043828/>
+1. Stan Kaplan, ***TRIZ 导论***[(PDF)](pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf)
+这是对经典 TRIZ *所有*方面的简短介绍。
+1. Jack Hipple, "理想最终结果：它是什么以及如何实现", Springer, 2012.
+1. 项目 TETRIS：第1章：经典 TRIZ 导论 [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_01.pdf)
+1. 项目 TETRIS：第5章：解决矛盾的技巧 / 资源 / 效应 [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_05.pdf)
+1. 项目 TETRIS：发明问题示例：示例 1-5 [(RAR 压缩文件)](https://innovazionesistematica.it/wp-content/uploads/2020/10/ExamplesEN.rar)
 

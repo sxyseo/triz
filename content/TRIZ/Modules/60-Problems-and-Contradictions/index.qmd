@@ -1,14 +1,14 @@
 ---
-title: "TRIZ - Problems and Contradictions"
+title: "TRIZ - 问题与矛盾"
 date: "2021-01-14"
 date-modified: "`r Sys.Date()`"
 order: 60
 image: featured.jpg
 tags:
-- Problem Spotting
-- Contradictions in Daily Life
-- Aspects and Knobs
-- Ishikawa Fishbone Diagram
+- 问题发现
+- 日常生活中的矛盾
+- 方面与旋钮
+- 石川图
 filters:
   - social-share
 share:
@@ -40,23 +40,23 @@ library(hugodown)
 knitr::include_graphics("chesterton-riddle.jpeg")
 ```
 
-## Introduction
+## 简介
 
-*Mary, Mary, quite contrary,*\
-*How does your garden grow?*\
-*With silver bells, and cockle shells,*\
-*And pretty maids all in a row.*\
+玛丽，玛丽，真固执，\
+你的花园如何长得好？\
+银铃，和海贝壳，\
+还有漂亮的少女排成行。
 
 
-Let us take our first step into the world of TRIZ. What did you think of immediately when you saw the first picture on this page?
+让我们迈出进入 TRIZ 世界的第一步。当你看到本页第一张图片时，你首先想到了什么？
 
-In TRIZ, the fundamental way of looking at an Inventive Design Problem is to discover and propose **Contradictions**. These are rendered in as **simple** and **stark** a language as possible...the starker the better!
+在 TRIZ 中，看待创造性设计问题的基本方式是发现并提出**矛盾**。这些矛盾以尽可能**简单**和**鲜明**的语言来表达……越鲜明越好！
 
-Once we have our Contradiction (and there can be *more than one* in a given Design Situation !) we can use TRIZ Principles to solve them **WITHOUT COMPROMISE.**
+一旦我们找到了矛盾（在给定的设计情况中可能有*不止一个*！），我们可以使用 TRIZ 原理来解决它们，**无需妥协**。
 
-What sort of Contradictions do we see in these familiar objects? What is good and what is not so good? Could that be the source of a problem to solve?
+我们在这些熟悉的物体中看到了什么样的矛盾？什么是好的，什么是不太好的？这可能是需要解决的问题的来源吗？
 
-## Some Everyday Objects for us to Contemplate
+## 一些让我们思考的日常物品
 
 ```{r,echo=FALSE, fig.align='center',fig.alt="Image by Etienne Girardet on Unsplash" ,out.height="50%", out.width="50%"}
 knitr::include_graphics("pizza.jpg")
@@ -64,42 +64,42 @@ knitr::include_graphics("wrench.jpg")
 knitr::include_graphics("chain.jpg")
 ```
 
-Contemplate and note down for each Object:
+思考并记录每个物体：
 
--   PURPOSE: What is the Object meant to do? What is its *Main Purpose*?
--   ACCOMPANYING: What are the other *Accompanying Objects* that it works with?
--   KNOBS: What is *One Aspect, or Parameter, or Knob* for each of the Objects that you have listed, that makes the Object useful?
+-   **目的**：这个物体的目的是什么？它的*主要目的*是什么？
+-   **伴随**：与其一起工作的其他*伴随物体*是什么？
+-   **旋钮**：对于你列出的每个物体，*一个方面、参数或旋钮*是什么，它使物体有用？
 
 ```{r,echo=FALSE, fig.align='center',out.height="40%", out.width="40%"}
 knitr::include_graphics("4Pcs-set-New-Guitar-Control-Knobs-Silver-Top-Hat-Bell-For-Gibson-Les-Paul-For-SG.webp")
 
 ```
 
--   SETTING: What are the current *Settings/Values for each Knob*?
--   MEDDLE: Change the *Setting of Each Knob* to its natural opposite extreme. What Happens? Is it a good thing? When?
--   You will see that in many cases, each Knob creates a Certain *Outcome* at one Setting and another *Outcome* at the Opposite Setting.
--   Are both Outcomes desirable? Do you want "eat your cake and have it too?"
--   This could be the source of your **PROBLEM / CONTRADICTION** !!
+-   **设置**：每个旋钮的当前*设置/值*是什么？
+-   **调整**：将*每个旋钮的设置*更改为其自然的相反极端。会发生什么？这是好事吗？什么时候？
+-   你会看到，在许多情况下，每个旋钮在一个设置下产生特定的*结果*，在相反设置下产生另一个*结果*。
+-   两个结果都是可取的吗？你想"既吃蛋糕又保留蛋糕"吗？
+-   这可能是你的**问题/矛盾**的来源！！
 
-In **TRIZ**, this way of expressing a *Problem* as a simple *Contradiction* is referred to as stating an **ADMINISTRATIVE CONTRADICTION (AC).** (<u>[Oh those Russians...](https://youtu.be/x5Oag4hISgU)</u>).
+在 **TRIZ** 中，这种将*问题*表达为简单的*矛盾*的方式被称为陈述**行政矛盾（AC）**。（<u>[噢，那些俄罗斯人……](https://youtu.be/x5Oag4hISgU)</u>）。
 
-Later we will use our experience with making metaphors to convert the AC into a more TRIZ-like Contradiction, using *TRIZ language*.
+稍后，我们将使用制作隐喻的经验，将 AC 转换为更像 TRIZ 的矛盾，使用*TRIZ 语言*。
 
-Let us now consider some examples first and then get some practice at setting up simple *AC*:
+让我们先考虑一些例子，然后练习设置简单的 *AC*：
 
-## Some Example Contradictions...
+## 一些矛盾例子……
 
-We see them everywhere....if one is observant!! Let's see a few:
+如果我们善于观察，到处都能看到它们！让我们看几个：
 
-### C1: Contradiction-1
+### C1: 矛盾-1
 
-How is this for a Contradiction? A shelf in a supermarket carries this placard for a shelf of ***FRESH JUICE***:
+这是一个什么样的矛盾？超市的货架上有一个***鲜榨果汁***货架的标牌：
 
 {{< tweet JoshHochschild 1453536795564683264 >}}
 
 ```{r echo=FALSE, eval=FALSE}
-blogdown::shortcode("tweet", 
-                    user = "JoshHochschild", 
+blogdown::shortcode("tweet",
+                    user = "JoshHochschild",
                     id = "1453536795564683264")
 ```
 
@@ -108,49 +108,49 @@ knitr::include_graphics("Juice.jpeg")
 
 ```
 
-### C2: Contradiction-2
+### C2: 矛盾-2
 
-Here is another: {{< tweet otherliztaylor 1238079127992795137 >}}
+这是另一个：{{< tweet otherliztaylor 1238079127992795137 >}}
 
-### C3: Contradiction-3
+### C3: 矛盾-3
 
-Snails want to stay safe, and there is safety on the ground, but the ground is too hot. On the Ground, a Snail can be by itself, above the ground, they become visible to predators.
+蜗牛想要保持安全，地面是安全的，但地面太热了。在地面上，蜗牛可以独自活动；在地面上方，它们会对捕食者可见。
 
 |                    |                    |
 |--------------------|--------------------|
 | ![](Snails-1.jpeg) | ![](Snails-2.jpeg) |
 
-So...they need to group together.
+所以……它们需要聚集在一起。
 
-### C4: Contradiction-4
+### C4: 矛盾-4
 
-Most people's healthcare is tied to their job....Therefore, every corona-time layoff creates yet another person without health insurance in this country. (*The Corona Pandemic needs healthcare and therefore health Insurance.*)
+大多数人的医疗保健与他们的工作联系在一起……因此，每次疫情期间的裁员都会在这个国家造成另一个人没有健康保险。（* Corona 疫情需要医疗保健，因此也需要健康保险。*）
 
-> This outbreak is highlighting, with extreme clarity, every major ***contradiction*** of this society and its decaying social order. <https://t.co/EtSUY3pPMi>\
-> --- Revolutionary Left Radio (\@RevLeftRadio)
+> 这次疫情极其清晰地凸显了这个社会及其衰落的社会秩序的每一个主要***矛盾***。 <https://t.co/EtSUY3pPMi>\
+> --- 革命左派广播（@RevLeftRadio）
 
 {{< tweet washingtonpost 1237821091680313344 >}}
 
-### C5 - Whiteboard Markers are made wrong!
+### C5 - 白板马克笔设计错了！
 
 ![](https://www.organizingcreativity.com/wp-content/gallery/blog_2021/sketchplanation-example-4.jpg)
 
-Pens need to be stored nib-down, to have ink flow under gravity. But you can't then tell the colour!
+笔需要笔尖向下存放，以便墨水在重力作用下流动。但那样你就无法分辨颜色了！
 
 
-## Contradictory Situations: Houston, We have a Problem!
+## 矛盾情况：休斯顿，我们有问题！
 
 {{< youtube YwG4F-16Tno >}}
 
 <br>
 
-## Contradictory Objects and Situations
+## 矛盾物体和情况
 
-We don't contemplate only *objects* at all times; indeed, as designers/artists/creators, we want to be able to **make** objects. What we more commonly contemplate is a **situation**.
+我们并不总是思考*物体*；实际上，作为设计师/艺术家/创造者，我们希望能够**制作**物体。我们更常思考的是一种**情况**。
 
-How does one figure Parameters/Aspects/Knobs on situations?
+如何找出情况的参数/方面/旋钮？
 
-We use what is called an **Ishikawa Fishbone Diagram**. There are many versions of this diagram depending upon the **DOMAIN** it is applied in; it should be considered more as a process for thinking. You should search for other forms of this diagram and quickly learn to apply them.
+我们使用所谓的**石川图**（鱼骨图）。根据应用的**领域**，这个图有许多版本；它应该更多地被视为一种思考过程。你应该搜索这个图的其他形式，并快速学会应用它们。
 
 ```{r,echo=FALSE,fig.align='center', out.height="150%", out.width="100%"}
 knitr::include_graphics("IshikawaDiagram.png")
@@ -158,73 +158,73 @@ knitr::include_graphics("IshikawaDiagram.png")
 ```
 
 ::: callout-important
-### Design of Experiments
-Deciding which are the Knobs that matter, and how they effect the outcome is not always this simple. It would typically involve research using **structured experimentation** to determine the effects of turning the knobs and deciding which ones matter. This experimentation lies within a DOMAIN called [**Design of Experiments**](https://doe-a-deer.netlify.app/).
+### 实验设计
+决定哪些旋钮很重要以及它们如何影响结果并不总是那么简单。通常需要使用**结构化实验**进行研究来确定转动旋钮的效果并决定哪些旋钮重要。这种实验属于一个称为[**实验设计**](https://doe-a-deer.netlify.app/)的领域。
 :::
 
-## Documenting the Administrative Contradiction
+## 记录行政矛盾
 
-You can document your analysis of the *Situation* using the following questionnaire **5W+H** format:
+你可以使用以下问卷 **5W+H** 格式记录你对*情况*的分析：
 
-1.  **What** does the problem seem to be?
-2.  **Who** has the problem?
-    -   **(Think Knobs!!)**
-3.  **When** does the problem occur? All the time? Under certain circumstances?
-4.  **Where** does the problem occur?
-5.  **Why** does the problem occur?
-    -   ["Ask why 5 times" -- W. Edwards Deming](https://www.mindtools.com/a3mi00v/5-whys)
-6.  **How** does the problem occur?
+1.  **什么**似乎是问题？
+2.  **谁**有问题？
+    -   **（思考旋钮!!）**
+3.  **何时**问题发生？一直？在某些情况下？
+4.  **何地**问题发生？
+5.  **为什么**问题发生？
+    -   ["问五次为什么" -- W. 爱德华兹·戴明](https://www.mindtools.com/a3mi00v/5-whys)
+6.  **如何**问题发生？
 
-> NOTE: This process should remind you of our exercise on the Guilford and Wallach-Kogan Divergent Thinking Game, except that this is of course more structured method, whereas that was simple brainstorming.
+> 注意：这个过程应该让你想起我们在吉尔福德和 Wallach-Kogan 发散思维游戏上的练习，当然这更结构化，而那只是简单的头脑风暴。
 
-With this method you should be able to state an *Administrative Contradiction* in the following (loose!) sentence structure --- Items in `< >` come from the Ishikawa and your 5W + H questions):
+使用这种方法，你应该能够用以下（宽松的）句子结构陈述*行政矛盾*---< > 中的项目来自石川图和你的 5W + H 问题）：
 
-`When we, as < WHO / MANPOWER >, attempt to perform < HOW / METHOD > during <WHEN> on < WHERE / MACHINERY / KNOB>, we improve <EFFECT>, but lose out on <negative EFFECT>.`
+`当我们，作为 < 谁 / 人力 >，在 <何时> 期间试图在 < 何地 / 机械 / 旋钮 > 上执行 < 如何 / 方法 > 时，我们改进了 <效果>，但失去了 <负面效果>。`
 
-Let's see this method in action. The `Domain` of work may not be ours, but the context should be clear enough!
+让我们看看这种方法在实际中如何运作。工作的`领域`可能不是我们的，但背景应该足够清晰！
 
-{{< youtube cah0OhCH55k >}} <br> Let us now apply these ideas to examine the following challenges below.
+{{< youtube cah0OhCH55k >}} <br> 现在让我们应用这些想法来检查以下挑战。
 
-## Contradiction Challenges
+## 矛盾挑战
 
-1.  Challenge #1: [**Web**](https://web.archive.org/web/20200813061353/https://triz-journal.com/triz-challenge-may-2001/) and [**PDF**](TRIZ%20Challenge%20-%20May%202001The%20Triz%20Journal.pdf)
-2.  Challenge #2: [**Web**](https://web.archive.org/web/20200813061945/https://triz-journal.com/triz-challenge-july-2001/) and [**PDF**](TRIZ%20Challenge%20-%20July%202001The%20Triz%20Journal.pdf)
-3.  Challenge #3: [**Web**](https://web.archive.org/web/20200813061928/https://triz-journal.com/triz-challenge-july-2002/) and [**PDF**](TRIZ%20Challenge%20-%20July%202002The%20Triz%20Journal.pdf)
-4.  Challenge #4: [**Web**](https://web.archive.org/web/20200813063906/https://triz-journal.com/triz-challenge-november-2003/) and [**PDF**](TRIZ%20Challenge%20-%20November%202003The%20Triz%20Journal.pdf)
+1.  挑战 #1: [**网页**](https://web.archive.org/web/20200813061353/https://triz-journal.com/triz-challenge-may-2001/) 和 [**PDF**](TRIZ%20Challenge%20-%20May%202001The%20Triz%20Journal.pdf)
+2.  挑战 #2: [**网页**](https://web.archive.org/web/20200813061945/https://triz-journal.com/triz-challenge-july-2001/) 和 [**PDF**](TRIZ%20Challenge%20-%20July%202001The%20Triz%20Journal.pdf)
+3.  挑战 #3: [**网页**](https://web.archive.org/web/20200813061928/https://triz-journal.com/triz-challenge-july-2002/) 和 [**PDF**](TRIZ%20Challenge%20-%20July%202002The%20Triz%20Journal.pdf)
+4.  挑战 #4: [**网页**](https://web.archive.org/web/20200813063906/https://triz-journal.com/triz-challenge-november-2003/) 和 [**PDF**](TRIZ%20Challenge%20-%20November%202003The%20Triz%20Journal.pdf)
 
-## References
+## 参考资料
 
-1. Dr Rafiq Elmansy. (02/05/2023). *How to Use the Fishbone Diagram in Root Cause Analysis?* <https://www.designorate.com/problem-solving-cause-and-effect-diagram/>
-1.  Ellen Domb (1997). *How to Help TRIZ Beginners Succeed*. <https://www.metodolog.ru/triz-journal/archives/1997/04/a/index.html>
+1. Rafiq Elmansy 博士。(02/05/2023). *如何使用鱼骨图进行根本原因分析？* <https://www.designorate.com/problem-solving-cause-and-effect-diagram/>
+1.  Ellen Domb (1997). *如何帮助 TRIZ 初学者成功*。 <https://www.metodolog.ru/triz-journal/archives/1997/04/a/index.html>
 2.  <https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success>
 3.  <https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success>
-4.  Open Source TRIZ: Contradiction Challenges! <https://www.opensourcetriz.com/images/1_OpenSourceTRIZ_Pictures/1.1_Teaching_Materials/01_Contradictions_Exercises_Actual.pdf>
+4.  开源 TRIZ：矛盾挑战！ <https://www.opensourcetriz.com/images/1_OpenSourceTRIZ_Pictures/1.1_Teaching_Materials/01_Contradictions_Exercises_Actual.pdf>
 5.  <https://taproot.com/whats-wrong-with-5-whys-complete-article/>
 
-## More Contradictions?
+## 更多矛盾？
 
-1. If you live in an apartment complex, you might see people walking. Some walk "normally", along the driveways or pathways. Some walk with excruciatingly specific intent along the periphery of every walkable surface, going into far corners and turning and walking around the far edges of building, and near to compound walls and gates. 
-Why are they doing this?
-1. What was the boon requested by [Hiranyakashipu](https://hinduism.en-academic.com/329/Hiranyakashipu)?
-1. Why do most people love landscape paintings such as those by [Ivan Shishkin](https://artsandculture.google.com/entity/ivan-shishkin/m059y1y?hl=en) and [John Constable](https://www.theartstory.org/artist/constable-john/)?
-See this [page](https://landarchconcepts.wordpress.com/what-is-prospect-refuge/)for a well-articulated TRIZ-contradiction in landscape paintings.
-1. *Good fences make good neighbours*, it is said. Spot the Contradiction here?
-1. Why do police cars switch on their sirens as they rush to a potential crime site? Isn't it better to arrive swiftly and silently to catch the criminal? (Note: this is also close to the idea of the [IFR in TRIZ.](../75-triz-ideal-final-result/))
-1. Is this piece of music Disco? Opera? Ballet? Flashmob? College Dance? All o' them at once? And yet...it is one of the [most iconic pieces of **Pop** music](https://en.wikipedia.org/wiki/MacArthur_Park_(song)), that set the tone for generations/genres of music!!
+1. 如果你住在公寓楼里，你可能会看到人们在走路。有些人"正常"行走，沿着车道或小路。有些人极其刻意地沿着每个可步行表面的周边行走，进入远处的角落，转弯并绕过建筑物的远边缘，靠近围墙和大门。
+他们为什么这样做？
+1. [Hiranyakashipu](https://hinduism.en-academic.com/329/Hiranyakashipu)请求的恩赐是什么？
+1. 为什么大多数人喜欢风景画，比如[Ivan Shishkin](https://artsandculture.google.com/entity/ivan-shishkin/m059y1y?hl=en)和[John Constable](https://www.theartstory.org/artist/constable-john/)的画？
+查看这个[页面](https://landarchconcepts.wordpress.com/what-is-prospect-refuge/)，了解风景画中表达明确的 TRIZ 矛盾。
+1. 俗话说，*好篱笆造就好邻居*。在这里发现矛盾了吗？
+1. 为什么警车在赶往潜在犯罪现场时会打开警报器？难道不是快速安静地到达以抓住罪犯更好吗？（注意：这也接近[TRIZ 中理想最终结果的概念。](../75-triz-ideal-final-result/)）
+1. 这段音乐是迪斯科？歌剧？芭蕾舞？快闪？大学舞蹈？同时所有这些都是？然而……这是[最具标志性的**流行**音乐作品之一](https://en.wikipedia.org/wiki/MacArthur_Park_(song))，为几代人/音乐流派奠定了基调！！
       {{< youtube 1UK-MbSJciM >}} <br>
-1. All students say *Bro*, *My Bad*, *fr*, *bussin*, *periodt*, and much much worse, *Think Different* (grammar-challenged *&^%$#@ peasants). [They all sound the same]{style="background-color:yellow;"}, these ["Words of Wisdom"](https://youtu.be/UzNDPtIbv6A). And yet want Faculty to identify, know, and appreciate them individually. Bah. 
-1. And finally, what does this even mean!!??!!
+1. 所有学生都说 *Bro*、*My Bad*、*fr*、*bussin*、*periodt*，以及更糟糕的，*Think Different*（语法 challenged *&^%$#@ 农民）。[他们听起来都一样]{style="background-color:yellow;"}，这些["智慧之词"](https://youtu.be/UzNDPtIbv6A)。然而希望教职员工能够识别、了解并欣赏他们的个性。好吧。
+1. 最后，这到底是什么意思！！！！
 
-      > Always go to other people's funerals, otherwise they won't come to yours.  [[-Yogi Berra](https://www.brainyquote.com/quotes/yogi_berra_161244)]{style="float:right"}
-      
+      > 总是参加别人的葬礼，否则他们不会来参加你的。[[-Yogi Berra](https://www.brainyquote.com/quotes/yogi_berra_161244)]{style="float:right"}
 
 
-## Additional Readings
 
-Do glance through these articles and try to form a "contradiction mentality" about things around you:
+## 延伸阅读
+
+请浏览这些文章，并尝试对周围的事物形成"矛盾心态"：
 
 1.  <https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success>
 1.  <https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success>
-1. [Open Source TRIZ: Contradiction Challenges!](https://www.opensourcetriz.com/images/1_OpenSourceTRIZ_Pictures/1.1_Teaching_Materials/01_Contradictions_Exercises_Actual.pdf)
-1. Kannada Proverbs: Contradictions? <https://girmitt.wordpress.com/kannada-proverbs>
+1. [开源 TRIZ：矛盾挑战！](https://www.opensourcetriz.com/images/1_OpenSourceTRIZ_Pictures/1.1_Teaching_Materials/01_Contradictions_Exercises_Actual.pdf)
+1. 卡纳达语谚语：矛盾？ <https://girmitt.wordpress.com/kannada-proverbs>
 

@@ -1,20 +1,20 @@
 ---
 date: "2021-03-20"
-title: "TRIZ - The Laws of Evolution"
+title: "TRIZ - 演化定律"
 order: 100
- 
+
 categories:
-- TRIZ Laws of Product Evolution
-- Past, Present, and Future
-- Subsystem
-- System
-- Super-System
+- TRIZ 产品演化定律
+- 过去、现在和未来
+- 子系统
+- 系统
+- 超系统
 
 ---
 ```{r setup, include=FALSE}
 library(tidyverse)
 #devtools::install_github("ricardo-bion/ggradar")
-library(ggradar) # Radar Plots
+library(ggradar) # 雷达图
 
 ```
 
@@ -25,28 +25,28 @@ knitr::include_graphics("featured.jpg")
 ```
 
 
-## Introduction
-- Laws of Product Evolution
-- 8 directions
-- Radar Chart in R
-- Find Opportunities based on Radar Chart
+## 简介
+- 产品演化定律
+- 8 个方向
+- R 语言雷达图
+- 基于雷达图发现机会
 
-## Laws of Product Evolution
+## 产品演化定律
 
-- Law of completeness of the system: Systems derive from synthesis of separate parts into a functional system.
-- Law of energy transfer in the system: Shaft, gears, magnetic fields, charged particles, which are the heart of many inventive problems.
-- Law of increasing ideality: Function is created with minimum complexity, which can be considered a ratio of system usefulness to its harmful effects. The ideal system has the desired outputs with no harmful effects, i.e., no machine, just the function(s).
-- Law of harmonization: Transferring energy more efficiently.
-- Law of uneven development of parts: Not all parts evolve at the same pace. The least will limit the overall system
-- Law of transition to a super system: Solution system becomes subsystem of larger system.
-- Law of Transition from Macro to Micro: Using physically smaller solutions, e.g., electronic tubes to chips.
-- Law of Increasing Substance-Field Involvement: Viewing and modeling systems as composed of two substances interacting through a field.
+- 系统完整性定律：系统源于独立部分合成功能系统。
+- 系统内能量传递定律：轴、齿轮、磁场、带电粒子，这是许多发明问题的核心。
+- 理想度增加定律：以最小复杂度创建功能，可以视为系统有用性与其有害效应之比。理想系统具有期望的输出而没有任何有害效应，即没有机器，只有功能。
+- 和谐定律：更高效地传递能量。
+- 部件不均匀发展定律：并非所有部件都以相同的速度演化。最慢的部件将限制整个系统。
+- 向超系统过渡定律：解决系统成为更大系统的子系统。
+- 从宏观向微观过渡定律：使用物理上更小的解决方案，例如从电子管到芯片。
+- 物质-场参与增加定律：将系统和建模为通过场相互作用的两种物质。
 
-## How Would you Redesign this Product
-TBD. Plot a set of Radar charts showing different stages of evolution of well known product lines. Obsolete products are even more interesting. 
+## 如何重新设计这个产品
+待完成。绘制一组雷达图，显示知名产品线的不同演化阶段。过时的产品甚至更有趣。
 
-## References
+## 参考文献
 
-1. Project TETRIS: Chapter 2: Laws of System Evolution [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_02.pdf)
-1. Project TETRIS: Chapter 5: Techniques  to  Resolve  Contradictions / Resources / Effects [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_05.pdf)
-1. Project TETRIS: Examples of inventive problems: Example 1-5 [(RAR Archive File)](https://innovazionesistematica.it/wp-content/uploads/2020/10/ExamplesEN.rar)
+1. 项目 TETRIS：第2章：系统演化定律 [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_02.pdf)
+1. 项目 TETRIS：第5章：解决矛盾的技巧 / 资源 / 效应 [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_05.pdf)
+1. 项目 TETRIS：发明问题示例：示例 1-5 [(RAR 压缩文件)](https://innovazionesistematica.it/wp-content/uploads/2020/10/ExamplesEN.rar)

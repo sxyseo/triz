@@ -1,14 +1,14 @@
 ---
-title: "I Think, Fast and Slow"
+title: "思考,快与慢"
 date: "2021-02-12"
 date-modified: " `r Sys.Date()`"
 order: 50
 categories:
-- Cognitive Biases
-- Heuristics
-- Priming
-- Confirmation
-- Halo Effect
+- 认知偏差
+- 启发式
+- 启动效应
+- 确认偏差
+- 晕轮效应
 
 ---
 <br>
@@ -17,91 +17,86 @@ knitr::include_graphics("featured.jpg")
 
 ```
 
-## Introduction
+## 引言
 
-Often times we swiftly come to conclusions or decisions, without being aware that\
+很多时候我们快速得出结论或做出决定,却没有意识到:
 
-a) we are making a big mistake based on the information that is available,\
-b) we are looking for our fondest beliefs to be true, or worse\
-c) we are being manipulated !\
+a) 我们正在根据可用信息犯下大错,
+b) 我们在寻找自己最相信的是真实的,或者更糟糕的是
+c) 我们正在被操纵!
 
-Hence, one of the important points of view we need to retain is to be aware of our Cognitive Biases. Being aware of this may be the first step to check ourselves and therefore arrive a more nuanced "appreciation of the situation", that would then allow us to formulate our Innovative Problems better.
+因此,我们需要保持的一个重要观点就是意识到我们的认知偏差。意识到这一点可能是检查自己的第一步,从而对情况形成更细致的"理解",这将使我们能够更好地表述我们的创新问题。
 
-Let us now engage in some simple activities that show off! to us, our Cognitive Biases!
+现在让我们进行一些简单的活动,来向我们要展示我们的认知偏差!
 
-## Some Simple Cognitive Bias Games
+## 一些简单的认知偏差游戏
 
-## Bias #1: Cognitive Miserliness
+## 偏差 #1: 认知吝啬
 
-### Game
-Let us start with a set of relatively easy games. Here [**PDF**](files/Cognitive-Misers.pdf) are some questions for you. Please write or call out the answers as you see them.
+### 游戏
+让我们从一组相对简单的游戏开始。这里[**PDF**](files/Cognitive-Misers.pdf)有一些问题请你回答。请写下或大声说出你看到的答案。
 
-### Interpretation
+### 解读
 
-### References for Further Reading
-TBF!
+### 延伸阅读参考
+待补充!
 
-## Bias #2 Halo Effect
+## 偏差 #2: 晕轮效应
 
-### Game
+### 游戏
 
-Look at the set of words given here
-[**PDF**](files/Solomon%20Asch%20Test%20-%20Halo%20Effect.pdf). We have a
-set of words arranged in a series; each word-set describing a person.
-Please look at these and then write a brief description of that person.
+查看这里给出的一组单词
+[**PDF**](files/Solomon%20Asch%20Test%20-%20Halo%20Effect.pdf)。我们有
+一组按系列排列的单词;每组单词描述一个人。
+请查看这些,然后写下对那个人的简要描述。
 
-Let us now compare what different people wrote about the persons
-described the respective word-sets.
+现在让我们比较不同的人对相应单词组所描述的人写下的内容。
 
-### Interpretation
+### 解读
 
-What we saw was that the word-set are the same but in reverse order. The
-SEQUENCE in which we encounter them colours our opinion of the person
-whom they describe. So *first impressions do seem to be last
-impressions!* This is a Cognitive Bias the **Halo Effect** at work. We
-formulate decisions based on first impressions. What can we do to over
-come this bias?
+我们看到的是,单词组是相同的,但顺序相反。我们遇到它们的**顺序**会影响我们对它们所描述的人的看法。所以*第一印象似乎就是最终印象!*这就是**晕轮效应**这种认知偏差在起作用。我们根据第一印象做出决策。我们能做些什么来克服这种偏差?
 
 
-### References for Further Reading
+### 延伸阅读参考
 
-## Bias #3 Priming
+## 偏差 #3: 启动效应
 
-### Game
-You will be given a small questionnaire [**PDF**](files/Priming Exercises.pdf), with a single multiple-choice question. Please enter your answer at the appropriate location.
+### 游戏
+你将获得一个小型问卷[**PDF**](files/Priming Exercises.pdf),其中包含一个单一的多选题。请在适当的位置输入你的答案。
 
-### Intepretation
+### 解读
 
-**The Marvels of Priming**
+**启动效应的奇迹**
 
-As is common in science, the first big breakthrough in our understanding of the mechanism of association was an improvement in a method of measurement. Until a few decades ago, the only way to study associations was to ask many people questions such as, “What is the first word that comes to your mind when you hear the word DAY?” The researchers tallied the frequency of responses, such as “night,” “sunny,” or “long.” In the 1980s, psychologists discovered that exposure to a word causes immediate and measurable changes in the ease with which many related words can be evoked. If you have recently seen or heard the word EAT, you are temporarily more likely to complete the word fragment SO_P as SOUP than as SOAP. The opposite would happen, of course, if you had just seen WASH. We call this a **priming effect** and say that the idea of EAT primes the idea of SOUP, and that WASH primes SOAP.
+在科学中常见的情况是,我们对联想机制理解的第一个重大突破是测量方法的改进。直到几十年前,研究联想的唯一方法是问许多人这样的问题:"当你听到 DAY 这个词时,你脑海中出现的第一个词是什么?"研究人员统计了回答的频率,如"night"(夜晚)、"sunny"(晴朗)或"long"(漫长)。在1980年代,心理学家发现,接触一个词会导致许多相关词汇的唤起难易程度发生即时且可测量的变化。如果你最近看到或听到 EAT 这个词,你暂时更有可能将 SO_P 这个词片段补全为 SOUP 而不是 SOAP。当然,如果你刚刚看到 WASH,情况就会相反。我们称之为**启动效应**,并说 EAT 的概念启动了 SOUP 的概念,而 WASH 启动了 SOAP 的概念。
 
-Priming effects take many forms. If the idea of EAT is currently on your mind (whether or not you are conscious of it), you will be quicker than usual to recognize the word SOUP when it is spoken in a whisper or presented in a blurry font. And of course you are primed not only for the idea of soup but also for a multitude of food-related ideas, including fork, hungry, fat, diet, and cookie. If for your most recent meal you sat at a wobbly restaurant table, you will be primed for wobbly as well. Furthermore, the primed ideas have some ability to prime other ideas, although more weakly. Like ripples on a pond, activation spreads through a small part of the vast network of associated ideas. The mapping of these ripples is now one of the most exciting pursuits in psychological research.
+启动效应有多种形式。如果 EAT 的概念目前在你脑海中(无论你是否意识到),当 SOUP 这个词低声说出或以模糊字体呈现时,你将比平时更快地识别它。当然,你不仅被汤的概念启动,还被大量与食物相关的概念启动,包括叉子、饥饿、脂肪、节食和饼干。如果你最近的一顿饭坐在摇摇晃晃的餐厅桌子上,你也会被"摇晃"启动。此外,被启动的概念在一定程度上有能力启动其他概念,尽管较弱。就像池塘上的涟漪,激活通过巨大联想网络的一小部分传播。绘制这些涟漪现在是心理学研究中最令人兴奋的追求之一。
 
-**The Ideomotor Effect**
-Another major advance in our understanding of memory was the discovery that priming is not restricted to *concepts and words*. You cannot know this from conscious experience, of course, but you must accept the alien idea that your *actions and your emotions can be primed by events of which you are not even aware*. 
+**意动效应**
 
-In an experiment that became an instant classic, the psychologist John Bargh and his collaborators asked students at New York University --- most aged eighteen to twentytwo --- to assemble four-word sentences from a set of five words (for example, “finds he it yellow instantly”). For one group of students, half the scrambled sentences contained words associated with the elderly, such as Florida, forgetful, bald, gray, or wrinkle. When they had completed that task, the young participants were sent out to do another experiment in an office down the hall. That short walk was what the experiment was about. The researchers unobtrusively measured the time it took people to get from one end of the corridor to the other. As Bargh had predicted, the young people who had fashioned a sentence from words with an elderly theme walked down the hallway significantly more slowly than the others.
+我们对记忆理解的另一个重大进步是发现启动不仅限于*概念和词汇*。你当然无法从有意识的体验中知道这一点,但你必须接受这个陌生的概念:*你的行动和情感可以被你甚至没有意识到的事件所启动*。
+
+在一个成为经典实验的研究中,心理学家约翰·巴尔格(John Bargh)和他的合作者要求纽约大学的学生——大多数年龄在18到22岁之间——从一组五个单词中组装四个单词的句子(例如,"finds he it yellow instantly")。对于一组学生,一半的打乱句子包含与老年人相关的单词,如佛罗里达、健忘、秃头、灰色或皱纹。当他们完成这项任务后,年轻的参与者被送去做另一个实验,地点是走廊另一端的办公室。那段短距离的行走才是实验的重点。研究人员不显眼地测量人们从走廊一端走到另一端所需的时间。正如巴尔格所预测的那样,用与老年人相关的单词组成句子的年轻人走下走廊的速度明显比其他人慢。
 
 
-### References for Further Reading
-TBF!
+### 延伸阅读参考
+待补充!
 
-## Wait, But Why?
+## 等等,为什么?
 
-As Kahneman says, it is good to be wise about our biases. There are ways in which one can be aware of them and try to overcome them, by say taking time and not opting for the first answer that your mind suggests, and doing some counter-factual thinking ("What if this is NOT the answer?").
+正如卡尼曼(Daniel Kahneman)所说,对我们的偏差保持明智是好事。有几种方法可以意识到它们并试图克服它们,比如花时间而不是选择你大脑建议的第一个答案,并进行一些反事实思考("如果这不是答案会怎样?")。
 
-Doing so will allow us to gather research information better, ask better questions and arrive at better inferences as to the problem that we might be trying to articulate.
+这样做将使我们能够更好地收集研究信息,提出更好的问题,并就我们可能试图表达的问题得出更好的推断。
 
-## {{< iconify streamline book-reading >}} Reading Writing Assignment
+## {{< iconify streamline book-reading >}} 读写作业
 
-  Head off to [Assignment #5](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-5.-thinking-fast-and-slow) for this Module.
+  前往[作业 #5](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-5.-thinking-fast-and-slow)完成本模块的作业。
 
- 
-## References
 
-1.  Kahneman, Daniel. “Thinking Fast and Slow”
-2.  Benson, Nigel C.; Ginsburg, Joannah; Grand, Voula; Lazyan, Merrin & Weeks, Marcus; Collin, Catherine, “The Psychology Handbook: Big Ideas Simply Explained”
-3.  Pashler, Harold. “Encyclopedia of the Mind”
-4.  Holyoak, Keith J.& Morrison, Robert G., “The Cambridge Handbook of Thinking and Reasoning”
+## 参考文献
+
+1.  Kahneman, Daniel. "Thinking Fast and Slow"(《思考,快与慢》)
+2.  Benson, Nigel C.; Ginsburg, Joannah; Grand, Voula; Lazyan, Merrin & Weeks, Marcus; Collin, Catherine, "The Psychology Handbook: Big Ideas Simply Explained"(《心理学手册:简单解释大概念》)
+3.  Pashler, Harold. "Encyclopedia of the Mind"(《心灵百科全书》)
+4.  Holyoak, Keith J.& Morrison, Robert G., "The Cambridge Handbook of Thinking and Reasoning"(《剑桥思维与推理手册》)
 5.  Quality Enhancement Program (**QEP cafe**) <https://sites.google.com/site/qepcafe/#training-modules>

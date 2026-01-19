@@ -1,12 +1,12 @@
 ---
-title: "TRIZ - A Contradictory Language"
+title: "TRIZ - 一种矛盾语言"
 date: "2021-01-05"
 date-modified: "`r Sys.Date()`"
 order: 80
 categories:
-- Genrikh Altshuller
+- 根里奇·阿奇舒勒
 - TRIZ
-- 48 Inventive Parameters
+- 48 个发明参数
 
 ---
 <br>
@@ -18,9 +18,9 @@ knitr::include_graphics("featured.jpg")
 
 
 
-## An Interdisciplinary <u>[Esperanto](https://www.youtube.com/watch?v=whGSkjXTPjU)</u>
+## 跨学科<u>[世界语](https://www.youtube.com/watch?v=whGSkjXTPjU)</u>
 
-So: let us use a metaphor for a metaphoric language !!
+所以：让我们用一个隐喻来表达一种隐喻性语言！！
 
 <br>
 {{< youtube whGSkjXTPjU >}}
@@ -32,7 +32,7 @@ So: let us use a metaphor for a metaphoric language !!
 #| echo: false
 #| messages: false
 #| warning: false
-#| 
+#
 library(systemfonts)
 library(showtext)
 library(blogdown)
@@ -51,37 +51,37 @@ font_add_google("Schoolbell", "bell")
 
 showtext_auto(enable = TRUE) #enable showtext
 ##
-theme_custom <- function(){ 
+theme_custom <- function(){
 
-    theme_bw(base_size = 10) + 
-    
-    # theme(panel.widths = unit(11, "cm"), 
+    theme_bw(base_size = 10) +
+
+    # theme(panel.widths = unit(11, "cm"),
     #       panel.heights = unit(6.79, "cm")) + # Golden Ratio
-    
+
     theme(plot.margin = margin_auto(t = 1, r = 2, b = 1, l = 1, unit = "cm"),
           plot.background = element_rect(fill = "bisque",
                                          colour = "black",
-                                         linewidth = 1)) + 
-            
-    theme_sub_axis(title = element_text(family = "Roboto Condensed", 
+                                         linewidth = 1)) +
+
+    theme_sub_axis(title = element_text(family = "Roboto Condensed",
                                        size = 10),
-                   text = element_text(family = "Roboto Condensed", 
-                                       size = 8)) + 
-    
-    theme_sub_legend(text = element_text(family = "Roboto Condensed", 
+                   text = element_text(family = "Roboto Condensed",
+                                       size = 8)) +
+
+    theme_sub_legend(text = element_text(family = "Roboto Condensed",
                                          size = 6),
-                     title = element_text(family = "Alegreya", 
-                                          size = 8)) + 
-    
-    theme_sub_plot(title = element_text(family = "Alegreya", 
+                     title = element_text(family = "Alegreya",
+                                          size = 8)) +
+
+    theme_sub_plot(title = element_text(family = "Alegreya",
                                         size = 14, face = "bold"),
                    title.position = "plot",
-                   subtitle = element_text(family = "Alegreya", 
+                   subtitle = element_text(family = "Alegreya",
                                            size = 10),
-                   caption = element_text(family = "Alegreya", 
+                   caption = element_text(family = "Alegreya",
                                           size = 6),
-                   caption.position = "plot") 
-    
+                   caption.position = "plot")
+
 }
 
 ## Use available fonts in ggplot text geoms too!
@@ -144,36 +144,36 @@ flextable::set_flextable_defaults(font.family = "Roboto Condensed")
 
 ```
 
-## Metaphors for our Contradictions
+## 我们矛盾的隐喻
 
-Recall that you considered several familiar *Objects* in the earlier module on Problems and Contradictions. And also considered a few sample *Situations* to find *Administrative Contradictions* in them.
+回想一下，你在早期关于问题与矛盾的模块中考虑了几个熟悉的*物体*。还考虑了一些示例*情况*来发现其中的*行政矛盾*。
 
-We used the method of:
+我们使用的方法是：
 
-- Finding Knobs in Objects and Situations using the Ishikawa Diagram
-- Turning the Knobs both ways
-- Finding what improves or worsens in each case
-- Deciding upon an *Administrative Contradiction*
+- 使用石川图在物体和情况中寻找旋钮
+- 双向转动旋钮
+- 发现在每种情况下改进或恶化的因素
+- 决定*行政矛盾*
 
-Now that we know how problems can be stated as simple *Administrative Contradictions (AC)*, we need to take the next step and make what TRIZ calls **Technical Contradictions (TC)** and **Physical Contradictions (PC)**. To do this, we will use a set of *metaphoric phrases* that are an integral part of (classical) TRIZ. These metaphoric phrases are simple enough and provide rich troves for imaginative problem solving.
+现在我们知道了如何将问题陈述为简单的*行政矛盾（AC）*，我们需要采取下一步，制定 TRIZ 所谓的**技术矛盾（TC）**和**物理矛盾（PC）**。为此，我们将使用一组*隐喻短语*，这些短语是（经典）TRIZ 的组成部分。这些隐喻短语足够简单，并为富有想象力的问题解决提供了丰富的宝库。
 
-Before we study this [*TRIZ Contradiction Language*]{style="background-color:yellow;"} however, we need to obtain a quick understanding of its history.
+在研究这个[*TRIZ 矛盾语言*]{style="background-color:yellow;"}之前，我们需要快速了解它的历史。
 
 
 
-## The History of TRIZ
+## TRIZ 的历史
 
 ```{r echo=FALSE, fig.align='center', out.height = "350px", out.width="250px"}
 knitr::include_graphics("Altshuller.454.png")
 ```
 
-The creator of TRIZ, **Genrich Altshuller**, was born in Russia in 1926, made his first invention at age 14 (9th Grade), and was later educated as a mechanical engineer. At the time he started working on TRIZ, in 1946, he was employed in the patent department of the Soviet navy, assisting inventors in filing their patents, in Baku, Azerbaijan.  
+TRIZ 的创造者**根里奇·阿奇舒勒**于 1926 年出生在俄罗斯，14 岁（九年级）时做出了他的第一个发明，后来接受机械工程师教育。当他开始研究 TRIZ 时，即 1946 年，他在苏联海军专利部门工作，协助发明人在阿塞拜疆巴库提交专利。
 
-While there he became intrigued by the question of how an invention happens:  
+在那里，他对发明是如何产生的问题产生了兴趣：
 
-> `Is it a matter of luck? The result of a mental “light bulb” turning on, as in the comics? Or can inventions be seen as the result of systematic patterns of inventive thinking?`  
+> `这是运气的问题吗？就像漫画中那样，是精神"灯泡"亮起的结果？还是可以将发明视为系统性的发明思维模式的结果？`
 
-Altshuller adopted an *empirical approach* to answering this question. He **studied thousands of patents, looking for commonalities, repetitive patterns, and principles of inventive thought**. As he found them he codified and documented them, as shown below. His results, when eventually published, attracted many enthusiasts who continued and expanded the work over the years, reviewing what is now estimated to be more than two million patents worldwide. 
+阿奇舒勒采用*经验方法*来回答这个问题。他**研究了数千项专利，寻找共性、重复模式和发明思维原理**。当他发现它们时，他将它们编纂并记录下来，如下所示。他的结果最终发表时，吸引了许多爱好者，他们在接下来的几年里继续和扩展这项工作，审查了现在估计超过全球 200 万项专利。
 
 
 ```{r echo=FALSE, fig.align='center', out.height="300px", out.width="480px"}
@@ -195,7 +195,7 @@ data <- tibble(
 )
 
 # pie(slices, labels = lbls, main="Levels of Invention",clockwise = TRUE, init.angle = 90)
-ggplot(data, aes(x = Levels, y = pp, fill = Levels)) + 
+ggplot(data, aes(x = Levels, y = pp, fill = Levels)) +
   geom_col(colour = "black") +
   geom_text( y = 10,
     aes(x = Levels, label = paste0(pp, "%")),
@@ -209,10 +209,10 @@ ggplot(data, aes(x = Levels, y = pp, fill = Levels)) +
     nudge_y = 3.5,inherit.aes = FALSE,
     size = 6
   ) +
-  coord_flip() + 
+  coord_flip() +
   scale_fill_brewer(palette = "Spectral",
-                    guide = guide_legend(reverse = TRUE)) +     ggplot2::theme_set(new = theme_custom()) + 
-  labs(title = "Soviet Patents and their Innovation Levels", 
+                    guide = guide_legend(reverse = TRUE)) +     ggplot2::theme_set(new = theme_custom()) +
+  labs(title = "Soviet Patents and their Innovation Levels",
        subtitle = "Analyzed by Genrikh Altshuller") +
   theme(
     axis.text.y = element_text(size = 16),
@@ -221,50 +221,49 @@ ggplot(data, aes(x = Levels, y = pp, fill = Levels)) +
     legend.position = "none")
 ```
 
-***Level 1: Apparent Solution***. This level requires no real invention; it consists of minor adaptations of existing concepts. Simple improvement of a technical system. They require knowledge available within an industry relevant to that system.
+***等级 1：明显解决方案***。此等级不需要真正的发明；它由现有概念的小改进组成。对技术系统的简单改进。它们需要与该系统相关的行业内可用的知识。
 
-***Level 2: Improvement***. This level makes small improvements to existing approaches. Inventions include the resolution of a **technical contradiction**(TC). They require knowledge from different areas within an industry relevant to the system.  
+***等级 2：改进***。此等级对现有方法进行小改进。发明包括解决**技术矛盾**（TC）。它们需要与系统相关的行业不同领域的知识。
 
-***Level 3: Invention Inside the Paradigm***. This level uses methods from other fields and improves previous approaches. This is an invention containing a resolution of a **physical contradiction**(PC). It requires knowledge from other industries. 
+***等级 3：范式内的发明***。此等级使用其他领域的方法并改进以前的方法。这是一个包含解决**物理矛盾**（PC）的发明。它需要来自其他行业的知识。
 
-*Levels #2 & #3 solve contradictions and therefore are innovative by definition.*
+*等级 #2 和 #3 解决矛盾，因此根据定义是创新的。*
 
-**Level 4. Invention Outside the Paradigm**. This level involves a new design that is based on modifications of existing principles but in a manner not previously used. This level involves development a **new technology**. It is developed by using breakthrough solutions that requires knowledge from different fields of science. This fourth level also improves upon a technical system, but without solving an existing technical problem. Instead, it improves the function by replacing the original technology with a new technology. For example a mechanical system is replaced with a chemical system to perform the function.
+**等级 4. 范式外的发明**。此等级涉及基于现有原理的修改但以以前未使用的方式的新设计。此等级涉及开发**新技术**。它通过使用需要来自不同科学领域知识的突破性解决方案来开发。这第四个等级也改进了技术系统，但不解决现有的技术问题。相反，它通过用新技术替换原始技术来改进功能。例如，用化学系统替换机械系统以执行功能。
 
-**Level 5: Discovery**. This is the highest invention level. It consists of completely new concepts using **new principles**, and involves the discovery of new phenomena. The new phenomenon is discovered that allows pushing the existing technology to a higher level.
+**等级 5：发现**。这是最高的发明等级。它由使用**新原理**的全新概念组成，并涉及发现新现象。发现了新现象，允许将现有技术推向更高水平。
+
+阿奇舒勒从他的研究中得出结论，大量专利（77%）仅属于等级 #1 和 #2。TRIZ 方法论的实际应用可以帮助发明人将他们的创新解决方案提升到等级 #3 和 #4。由于这项工作，已经发表了许多技术论文和许多关于 TRIZ 的书籍，包括阿奇舒勒本人撰写的 14 本书。
+
+TRIZ 在**波音、普利司通、伊士曼柯达、福特汽车公司、哈雷戴维森摩托车公司、惠普、伊利诺伊工具工程公司、Inficon、英格索兰、金佰利、乐金电子、朗讯科技、米其林、国家半导体、NASA、飞利浦、劳斯莱斯、三星、西门子、西部数据**和**施乐**等公司中得到了积极应用。
 
 
-Altshuller concluded from his research that a large number of patents (77%) belong only to Levels #1 and #2. The practical utilization of TRIZ methodology can help inventors elevate their innovative solutions to Levels #3 and #4. As a result of this work, hundreds of technical papers and many books on TRIZ have been published, including 14 books by Altshuller himself.
+## 讲 TRIZ
 
-TRIZ is actively used in Companies such as **Boeing, Bridgestone, Eastman Kodak, Ford Motor Company, Harley-Davidson Motor Company, Hewlett-Packard, Illinois Tool Works, Inficon, Ingersoll Rand, Kimberly-Clark, L.G. Electronics, Lucent Technologies, Michelin, National Semiconductor, NASA, Philips, Rolls-Royce, Samsung, Siemens, Western Digital**, and **Xerox** among others.
+阿奇舒勒基于他对苏联专利的研究又做出了两项发现（至少！）！
 
+ - 当专利中解决的问题**被表达为矛盾**时，只有少数*标准短语*可用于构建这些矛盾。这些短语的数量惊人地少，只有**48**个！每个问题都可以使用这些 48 个参数的某一对来描述为矛盾。我们将这些称为**48 个 TRIZ 参数**[^1]。
 
-## Speaking TRIZ
+- 当检查**专利中的解决方案**时，它们都可以简单地表示为**40**个抽象名词或短语之一。只有……40 个！我们将这些称为**40 个 TRIZ 发明原理**
 
-Altshuller made two more discoveries (at least!) based on his study of Soviet Patents:
+一些例子：
 
- - That when the the problems solved in the patents were **expressed as Contradictions**, there were only a few *standard phrases* using which these Contradictions could be constructed. These were an astonishingly small **48** in number!! Every problem could be described as a contradiction using some pair of these 48 parameters. We will call these the **48 TRIZ Parameters**[^1].
- 
-- When the **solutions in the Patents** were examined, they could all be expressed simply as one of **40** abstract nouns or phrases. Just...40! We will call these the **40 TRIZ Inventive Principles**
+- TRIZ 参数：`静止物体的重量`、`物质损失`和`温度`。
+- TRIZ 发明原理：`不对称`、`参数变化`和`反过来`。
 
-Some examples:  
+所以任务是：
 
-- TRIZ Parameters: `Weight of an stationary Object`, `Loss of Substance`, and `Temperature`.  
-- TRIZ Inventive Principles: `Asymmetry`, `Parameter Change` and `The Other Way Around`. 
+- 拿你的*行政矛盾（AC）*
+- 通过使用一对*48 个 TRIZ 参数*，将 AC 的"每一方"（即术语）转换为 TRIZ *技术矛盾*。
+- 确保你能够向自己证明 AC 的术语与所选的一对 TRIZ 参数之间的**隐喻联系**。例如，*"物质损失"*可能意味着*"金钱损失"*！为你的 AC 的双方写下来。
+- 在这个时候，当我们检查石川旋钮时，我们可能还能够创建*物理矛盾*。
 
-So the task is:  
+## 一些矛盾例子
 
-- Take your *Administrative Contradiction (AC)*  
-- Convert "each side" (i.e terms) of the AC into a TRIZ *Technical Contradiction* by using a pair of the *48 TRIZ Parameters*.   
-- Make sure that you are able to justify to yourself the **metaphorical connection** between the terms of AC and the chosen pair of TRIZ Parameters. For example, *"Loss of substance"* could mean *"loss of money"*!! Write this down, for both sides of your AC.    
-- We may be able to also create a *Physical Contradiction* at this time, when we are examining the Ishikawa knobs.
+*TC 例子*：
 
-## Some Contradiction Examples
-
-*TC Examples*:  
-
-- Increasing the power of an engine (positive improvement) requires an increase in the size of the engine (negative effect). So, an inventor considers increasing the power partially in order to reduce the negative effect (compromise solution).  
-- To increase the speed of an airplane, a new and more powerful engine is installed. This increases the weight of the airplane so the wings can no longer support it during takeoff. Increasing the wing size produces more drag, slowing the airplane down.
+- 增加发动机的功率（正面改进）需要增加发动机的尺寸（负面效果）。因此，发明人考虑部分增加功率以减少负面效果（妥协解决方案）。
+- 为了提高飞机的速度，安装了一个新的、更强大的发动机。这增加了飞机的重量，因此机翼在起飞时无法再支撑它。增加机翼尺寸会产生更多的阻力，减慢飞机的速度。
 
 
 ```{r,echo=FALSE, eval=FALSE, warning=FALSE, fig.align='center', out.height="240px", out.width="360px"}
@@ -272,8 +271,8 @@ library(ggplot2)
 library(ggtext)
 eq = function(x){(x-25)*(x-25)}
 ggplot(data.frame(x=c(0, 50)), aes(x=x)) +
-  stat_function(fun=eq) + 
-  geom_abline(slope = -12, intercept = 600, colour = "skyblue") + 
+  stat_function(fun=eq) +
+  geom_abline(slope = -12, intercept = 600, colour = "skyblue") +
   geom_abline(slope = 12, intercept = 0, colour = "pink") +
   labs(ylab = "Likelihood of losing a Wheel",
        title =  "Automobile Wheel Bolts (*A Contradiction*)") +
@@ -322,34 +321,34 @@ library(ggtext)
 eq = function(x){(x-25)*(x-25)}
 data <- data.frame(x=c(0, 50))
 
-ggplot(data, aes(x = x)) + 
-  stat_function(fun=eq) + 
-  geom_abline(slope = -12, intercept = 600, colour = "skyblue") + 
+ggplot(data, aes(x = x)) +
+  stat_function(fun=eq) +
+  geom_abline(slope = -12, intercept = 600, colour = "skyblue") +
   geom_abline(slope = 12, intercept = 0, colour = "pink") +
   geom_richtext(
     data = data,
     x = 40, y = 600,
     label = "Effort in Removing Bolts",
     hjust = 0.5, vjust = 0.5,fill = "pink"
-  ) + 
+  ) +
   geom_richtext(
-    data = data, 
+    data = data,
     x = 10, y = 600,
     label = "Likelihood of losing a Wheel",
     hjust = 0.5, vjust = 0.4, fill = "skyblue"
-  ) + 
-  
+  ) +
+
    geom_richtext(
-    data = data, 
+    data = data,
     x = 25, y = 50,
     label = "Ideality??",
     hjust = 0.5, vjust = 0.5
-  )  + 
+  )  +
   labs(title =  "Automobile Wheel Bolts",
-       subtitle = "*A Contradiction*",  
+       subtitle = "*A Contradiction*",
   y = "Likelihood of losing a Wheel / Effort",
-  x = "Number of Bolts") + 
-  
+  x = "Number of Bolts") +
+
   # annotate("text", x = 6, y = 25, label = "Effort to Remove Wheel Bolts",size = 12) +
   # annotate("text", x = 45, y = 100, label = "Number of Wheel Bolts", size = 12) +
   # annotate("text", x = 45, y = 450, label = "Ideality") +
@@ -373,42 +372,42 @@ ggplot(data, aes(x = x)) +
 ```
 
 
-See this:
+看看这个：
 
 {{< youtube vlUUrrwcUQw >}}
 
 
-### PC Examples  
+### PC 例子
 
-- Landing gear must be present on an airplane in order to land and takeoff. It should not be present during flight because of an increase in air drag. The physical contradiction is that **the landing gear must be both present and absent**. This contradiction is resolved by separating the requirements in time — make the landing gear retractable.   
+- 起落架必须存在于飞机上以便着陆和起飞。它在飞行期间不应存在，因为会增加空气阻力。物理矛盾是**起落架必须同时存在和不存在**。这个矛盾通过在时间上分离要求来解决——使起落架可收放。
 
-- For high water diving, water must be “hard” to support the diver and “soft” so as not to injure the diver. The physical contradiction: **The water must be hard and soft at the same time**. This contradiction is resolved by separating the requirements in space: Saturate the water with air bubbles — the pool contains both air and water.   
+- 对于高台跳水，水必须"硬"以支撑跳水者，并且"软"以免伤害跳水者。物理矛盾：**水必须同时既硬又软**。这个矛盾通过在空间上分离要求来解决：用水泡饱和水——池子既包含空气也包含水。
 
-- ... an inherent contradiction in takeout pizza products. The customer wants the pizza to be hot, but hot pizza gives off steam. As a result, the cardboard box lid absorbs the steam, softens, and collapses down on the pizza. When the customer lifts the lid of the pizza box after arriving home, some of the pizza, which has stuck to the lid, attaches to the raised lid and the customer is not pleased because a significant amount of the cheese that he paid for is not edible. **We want the pizza to be hot for one reason (an enjoyable pizza) and we want it to be cold for another** (preventing the lid from becoming soggy and collapsing due to steam and water absorption). The little plastic tripod that is in the center of many takeout pizzas was the subject of the talk I heard. Such a simple invention! It resolves the contradiction of the pizza being hot and cold at the same time. (Jack Hipple, The Ideal Result)
+- ...外卖披萨产品中存在固有的矛盾。顾客希望披萨是热的，但热披萨会释放蒸汽。结果，纸箱盖吸收蒸汽，变软，并在披萨上塌陷。当顾客到家后抬起披萨箱盖时，一些粘在盖子上的披萨附着在抬起的盖上，顾客不高兴，因为他支付的大量奶酪不可食用。**我们希望披萨因为一个原因（美味的披萨）是热的，我们希望它因为另一个原因（防止盖子因蒸汽和水吸收而变湿和塌陷）是冷的。** 许多外卖披萨中心的小塑料三脚架是我听到的谈话的主题。如此简单的发明！它解决了披萨同时既热又冷的矛盾。（Jack Hipple，理想结果）
 
-## Thinking, Problem Solving, and Language
+## 思维、问题解决和语言
 
-Here is Albert Einstein speaking on **The Language of Science**. The transcript is here.[**PDF**](albert-einstein-the-common-language-of-science.pdf).
+这是阿尔伯特·爱因斯坦关于**科学语言**的演讲。文字记录在这里。[**PDF**](albert-einstein-the-common-language-of-science.pdf)。
 
-One quote from this short reading seems very apposite here:
+这个简短阅读中的一段引言在这里似乎非常贴切：
 
-> "The super-national character of scientific concepts and scientific language is due to the fact that they have been set up by the best brains of all countries and all times. In solitude, and yet in cooperative effort as regards the final effect, they created the spiritual tools for the technical revolutions which have transformed the life of mankind in the last centuries. Their system of concepts has served as a guide in the bewildering chaos of perceptions so that we learned to grasp general truths from particular observations."
+> "科学概念和科学语言的超国家特征是由于它们是由所有国家和所有时代的最优秀的大脑建立的。在孤独中，但就最终效果而言在合作努力中，他们创造了在过去几个世纪中改变人类生活的技术革命的精神工具。他们的概念体系在令人困惑的感知混乱中充当了指南，以便我们从特定的观察中掌握一般真理。"
 
 {{< youtube iEtQ-gQ0Bq8 >}}
 
-## References
+## 参考资料
 
-1. Valeri Souchkov, **Differentiating Among the Five Levels of Solutions**,[**Web**](https://www.metodolog.ru/triz-journal/archives/2007/07/02/index.html)  
-1. Valeri Souchkov, **"How to Define a Contradiction"**, [**Web**](https://xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf) and [**PDF**](TRIZ_DefineContradiction_Tutorial.pdf)  
-1. Open Source TRIZ: **TRIZ Power Tools: Formulating Contradictions**: [Webpage](https://www.opensourcetriz.com/triz-books/triz-skills/resolving-contradictions.html)
+1. Valeri Souchkov，**区分解决方案的五个等级**，[**网页**](https://www.metodolog.ru/triz-journal/archives/2007/07/02/index.html)
+1. Valeri Souchkov，**"如何定义矛盾"**，[**网页**](https://xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf) 和 [**PDF**](TRIZ_DefineContradiction_Tutorial.pdf)
+1. 开源 TRIZ：**TRIZ 动力工具：制定矛盾**：[网页](https://www.opensourcetriz.com/triz-books/triz-skills/resolving-contradictions.html)
 
 
 
-## Additional Readings
+## 延伸阅读
 
 1. <https://www.bbc.com/worklife/article/20201109-why-the-paradox-mindset-is-the-key-to-success>
 1. <https://hbr.org/2008/06/the-contradictions-that-drive-toyotas-success>
 
 
-[^1]:Classical TRIZ started off with ***39 Inventive Parameters***. In recent years, the parameters have been increased to 48, after a study of an ever-increasing body of patent literature.
+[^1]: 经典 TRIZ 最初有***39 个发明参数***。近年来，在对不断增加的专利文献进行研究后，参数已增加到 48 个。
 

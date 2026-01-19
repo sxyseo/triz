@@ -1,10 +1,10 @@
 ---
-title: "Data, DataViz, and Stats with the Stars"
+title: "与明星一起学数据、数据可视化和统计"
 author: "Arvind V."
-date: 28-June-2025
+date: 2025年6月28日
 order: 1
-format: 
-  revealjs: 
+format:
+  revealjs:
     theme: [default, styles.css]
     chalkboard: false
     incremental: false
@@ -16,12 +16,12 @@ format:
     touch: true
     controls: true
     controls-layout: edges
-    footer: "Arvind V.| VizChitra2025 | June 2025"
+    footer: "Arvind V.| VizChitra2025 | 2025年6月"
     html-math-method: katex
-    # include-in-header: 
+    # include-in-header:
     #   - text: '<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>'
 ###
-    # webcam: 
+    # webcam:
     #   toggleKey: "W" # Change the key to toggle the video
     #   enabled: false # Enable the video stream directly at startup. Pressing [W] will still allow you to toggle it.
     #   persistent: false # Keep the stream open (the camera active) after opening it once. If it is enabled the plugin will keep the camera on even if the video is not used. This avoids repeat permission request dialogs.
@@ -44,25 +44,25 @@ revealjs-plugins:
 #  - spotlight
 #  - subtitles # works, but not needed
 
-filters: 
+filters:
    - highlight-text #colour #bg-colour #fg
    - gadenbuie/tachyons
 ---
 
-## Agenda!
+## 议程！
 
--   Orange? What is this Orange stuff, anyhow?
--   Throwing it All Away with Brad Pitt: Data Summaries
--   Counting Letters with Sherlock Holmes: Bar Charts
--   Nursery Rhymes with Ben Affleck: Line Charts
--   Being a Mermaid with Katie Ledecky: Box Plots
--   Jack and Rose lived happily ever after: Mosaic Plots
--   The Art of Surprise with Gabbar Singh: Permutation Tests
+-   Orange？这 Orange 是什么玩意儿？
+-   与布拉德·皮特一起把一切抛之脑后：数据汇总
+-   与夏洛克·福尔摩斯一起数字母：柱状图
+-   与本·阿弗莱克一起唱童谣：折线图
+-   与凯蒂·莱德基一起当美人鱼：箱线图
+-   杰克和罗丝从此过上了幸福的生活：马赛克图
+-   与加巴尔·辛格一起掌握惊喜的艺术：排列检验
 
-{{< downloadthis data/penguins.csv dname="penguins.csv" label="Download the Penguins data" icon="database-fill-down" type="info" >}}
+{{< downloadthis data/penguins.csv dname="penguins.csv" label="下载企鹅数据" icon="database-fill-down" type="info" >}}
 
 ::: notes
-datasaurus_dozen %\>% download_this(output_name = "datasaurus",
+datasaurus_dozen %>% download_this(output_name = "datasaurus",
 output_extension = ".csv", button_label = "DataSaurus Dirty Dozen",
 button_type = "default", icon = "fa fa-save", class =
 "hvr-sweep-to-left")
@@ -70,7 +70,7 @@ button_type = "default", icon = "fa fa-save", class =
 
 ------------------------------------------------------------------------
 
-## Setup {visibility="hidden"}
+## 设置 {visibility="hidden"}
 
 ```{r}
 #| echo: false
@@ -89,24 +89,24 @@ library(downloadthis)
 
 ------------------------------------------------------------------------
 
-## Orange? What is this Orange stuff, anyhow? {.smaller}
+## Orange？这 Orange 是什么玩意儿？{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
-**Orange** is a visual drag-and-drop tool for
+**Orange** 是一个可视化的拖放式工具，用于
 
--   Data visualization\
--   Statistical Tests
--   Machine Learning\
--   Data mining
+-   数据可视化\
+-   统计检验
+-   机器学习\
+-   数据挖掘
 
-and much more. You can download and install Orange from here:
+等等。你可以从这里下载和安装 Orange：
 
 <https://orangedatamining.com/download/>
 :::
 
 ::: {.column width="\"45%"}
-![Orange Data Mining
+![Orange 数据挖掘
 GUI](https://orangedatamining.com/screenshots/tree-explorative.png){#fig-orange-datamining-gui
 height="400" width="760"}
 :::
@@ -114,7 +114,7 @@ height="400" width="760"}
 
 ------------------------------------------------------------------------
 
-## Basic Usage of Orange
+## Orange 的基本用法
 
 ::::: columns
 ::: {.column width="45%"}
@@ -128,7 +128,7 @@ height="400" width="760"}
 
 ------------------------------------------------------------------------
 
-## Widgets and Channels
+## 小部件和通道
 
 ::::: columns
 ::: {.column width="45%"}
@@ -142,44 +142,40 @@ height="400" width="760"}
 
 ------------------------------------------------------------------------
 
-## The Orange Visual Interface
+## Orange 的可视化界面
 
-Let us create some simple visualizations using Orange.
+让我们用 Orange 创建一些简单的可视化。
 
--   Use the `File Widget` to import the `iris` dataset into your session
--   Use the `Data Table Widget` to look at the data, and note its
-    variable names
--   Use the `Visualization Widgets` ( Scatter Plot, Bar Plot, and
-    Distributions) to look at the properties of the variables, and
-    examine relationships between them.
+-   使用 `文件小部件` 将 `iris` 数据集导入到你的会话中
+-   使用 `数据表小部件` 查看数据，并注意其变量名
+-   使用 `可视化小部件`（散点图、柱状图和分布图）查看变量的属性，并检查它们之间的关系。
 
 ------------------------------------------------------------------------
 
-## What does Data Look like?
+## 数据看起来是什么样的？
 
 ::::: columns
 ::: {.column width="45%"}
-![Variable
-Types](../../../../materials/images/fig-variables-1.png){height="440"}
+![变量
+类型](../../../../materials/images/fig-variables-1.png){height="440"}
 :::
 
 ::: {.column width="45%"}
-![Tidy Data](../../../../materials/images/tidydata.jpg){height="440"}
+![整洁数据](../../../../materials/images/tidydata.jpg){height="440"}
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## Orange Practice Session#1 {.smaller}
+## Orange 练习环节 #1 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   Let's use the `Datasets` widget
--   Click on it to select one of the built-in CSV files : `Auto MPG`
--   Let's look at the Data using the `Data Table` widget
--   And create a Scatter Plot with the `Scatter Plot` widget (Horsepower
-    vs Displacement)
--   Try the menu options on the left side to see how they alter the plot
+-   让我们使用 `数据集` 小部件
+-   点击它选择一个内置的 CSV 文件：`Auto MPG`
+-   让我们使用 `数据表` 小部件查看数据
+-   并使用 `散点图` 小部件创建散点图（马力 vs 排量）
+-   尝试左侧的菜单选项，看看它们如何改变图表
 :::
 
 ::: {.column width="45%"}
@@ -188,41 +184,36 @@ Types](../../../../materials/images/fig-variables-1.png){height="440"}
 :::::
 
 ::: notes
-Look at the data table to see the variable names, and the data types.
+查看数据表以了解变量名和数据类型。
 :::
 
 ------------------------------------------------------------------------
 
-## Brad Pitt: Throwing it All Away {.center}
+## 布拉德·皮特：把一切抛之脑后 {.center}
 
 ------------------------------------------------------------------------
 
-## Brad Pitt: Throwing it All Away
+## 布拉德·皮特：把一切抛之脑后
 <center>
 {{< video https://youtu.be/PlKDQqKh03Y height=540 width=820 title='None of them!'>}}
 </center>
 
 ::: notes
-What was Brad Pitt throwing away? He was throwing away the individuality
-of the measures, subsuming them to one summary. This is a big idea in
-statistics, and it is called aggregation.
+布拉德·皮特在扔掉什么？他扔掉的是测量值的个体性，将它们归并到一个汇总中。这是统计学中的一个重要概念，称为聚合。
 :::
 
 ------------------------------------------------------------------------
 
-## A Pillar of Statistical Wisdom {.smaller}
+## 统计智慧的支柱 {.smaller}
 
 ::::: columns
 ::: {.column width="65%"}
-Steven Stigler (2016) in “The Seven Pillars of Statistical Wisdom”:
+史蒂文·斯蒂格勒（Steven Stigler, 2016）在《统计智慧的七大支柱》中写道：
 
--   One of the Big Ideas in Statistics is: ***Aggregation***
--   How is it revolutionary?
--   By stipulating that, given a number of observations, [you can
-    actually gain information by throwing information
-    away]{.bg-light-red .black}
--   In taking a simple arithmetic mean, we discard the individuality of
-    the measures, subsuming them to one summary.
+-   统计学的重要思想之一是：***聚合***
+-   它为什么具有革命性？
+-   通过规定，给定多个观察值，[你实际上可以通过丢弃信息来获得信息]{.bg-light-red .black}
+-   在计算简单的算术平均值时，我们丢弃了测量值的个体性，将它们归并到一个汇总中。
 :::
 
 ::: {.column width="30%"}
@@ -232,90 +223,82 @@ Steven Stigler (2016) in “The Seven Pillars of Statistical Wisdom”:
 
 ------------------------------------------------------------------------
 
-## Brad Pitt: Throwing it All Away {.smaller}
+## 布拉德·皮特：把一切抛之脑后 {.smaller}
 
-### What was he throwing away?
+### 他在扔掉什么？
 
 ::::::: columns
 :::: {.column width="45%"}
 ::: callout-note
-### All the "Variables"
+### 所有"变量"
 
--   Age
--   Previous Seasons
--   Waist Size
--   Treadmill Test Score
--   Bat Speed?
--   Smoke Weed?
--   Girlfriend?
--   Girlfriend Looks Rating?
--   Waddles like a Duck?
--   Looks Weird?
+-   年龄
+-   之前的赛季
+-   腰围
+-   跑步机测试分数
+-   挥棒速度？
+-   抽大麻？
+-   女朋友？
+-   女朋友外貌评分？
+-   走路像鸭子？
+-   看起来很怪？
 :::
 ::::
 
 :::: {.column width="45%"}
 ::: callout-note
-### And he was looking ONLY at...
+### 他只看...
 
-![OBP Data](../../../../materials/images/OBP.png){height="300"}
+![OBP 数据](../../../../materials/images/OBP.png){height="300"}
 :::
 ::::
 :::::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify fe beginner >}} How do we throw away data? {.smaller}
+## {{< iconify fe beginner >}} 我们如何丢弃数据？{.smaller}
 
 <center>{{< iconify material-symbols table-chart-outline size=3x >}}
 {{< iconify tabler ruler-measure size=3x >}}
 {{< iconify lucide square-sigma size=3x >}}</center>
 
-Before we plot a single chart, it is wise to take a look at several
-numbers that summarize the dataset under consideration. What might these
-be? Some obviously useful numbers are:
+在绘制单个图表之前，最好先查看一些汇总所考虑数据集的数字。这些可能是什么？一些明显有用的数字是：
 
--   Dataset length: How many rows/observations?
--   Dataset breadth: How many columns/variables?
--   How many Quant variables?
--   How many Qual variables?
--   Quant variables: min, max, mean, median, sd
--   Qual variables: levels, counts per level
--   Both: means, medians for each level of a Qual variable...
+-   数据集长度：多少行/观察值？
+-   数据集宽度：多少列/变量？
+-   多少个定量变量？
+-   多少个定性变量？
+-   定量变量：最小值、最大值、均值、中位数、标准差
+-   定性变量：水平、每个水平的计数
+-   两者：定性变量每个水平的均值、中位数...
 
 ------------------------------------------------------------------------
 
-## Orange Practice Session #2 {.smaller}
+## Orange 练习环节 #2 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   So what do ***we*** throw away now? And how?
+-   那么现在 ***我们*** 要丢弃什么？如何丢弃？
 :::
 
 ::: {.column width="45%"}
--   Let's look at the existing dataset, `Auto MPG`
--   Pull in the `Feature Statistics` widget
--   Connect the `Datasets` widget to the `Feature Statistics` widget
--   Appreciate the Summary Statistics that are generated
+-   让我们查看现有的数据集 `Auto MPG`
+-   拖入 `特征统计` 小部件
+-   将 `数据集` 小部件连接到 `特征统计` 小部件
+-   欣赏生成的汇总统计信息
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify mingcute thought-line >}} Wait, But Why? {.smaller}
+## {{< iconify mingcute thought-line >}} 等等，为什么？{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   **To summarize is to understand**.
--   Add to that the fact that our [Working Memories can hold maybe 7
-    items](https://www.wikiwand.com/en/The_Magical_Number_Seven,_Plus_or_Minus_Two),
-    so it means information retention too.
--   Borges wrote, “To think is to **forget details, generalize, make
-    abstractions**. In the teeming world of [“Funes the
-    Memorious,”](https://www.sas.upenn.edu/~cavitch/pdf-library/Borges_FunesTheMemorious.pdf),
-    there were only details.”
--   Brad Pitt aka Billy Beane was throwing away the details, and looking
-    at the **aggregated** picture to pick his future Oakland A's team.
+-   **汇总就是理解**。
+-   加上这个事实，我们的[工作记忆只能容纳大约 7 个项目](https://www.wikiwand.com/en/The_Magical_Number_Seven,_Plus_or_Minus_Two)，所以也意味着信息保留。
+-   博尔赫斯写道，"思考就是**忘记细节，概括，做出抽象**。"在["《记忆广博的富内斯》"的](https://www.sas.upenn.edu/~cavitch/pdf-library/Borges_FunesTheMemorious.pdf)熙攘世界里，只有细节。
+-   布拉德·皮特 aka 比利·比恩（Billy Beane）正在丢弃细节，查看**聚合后的**图景来挑选他未来的奥克兰运动家队。
 :::
 
 ::: {.column width="45%"}
@@ -328,72 +311,66 @@ be? Some obviously useful numbers are:
 
 ------------------------------------------------------------------------
 
-## {{< iconify game-icons sherlock-holmes >}} Counting Letters with Sherlock Holmes {.center}
+## {{< iconify game-icons sherlock-holmes >}} 与夏洛克·福尔摩斯一起数字母 {.center}
 
 ------------------------------------------------------------------------
 
-## {{< iconify game-icons sherlock-holmes >}} Sherlock Holmes: The Adventure of the Dancing Men
+## {{< iconify game-icons sherlock-holmes >}} 夏洛克·福尔摩斯：跳舞人之谜
 
 ::::: columns
 ::: {.column width="40%"}
-In the Sherlock Holmes story, [The Adventure of the Dancing
-Men](https://www.gutenberg.org/files/108/108-h/108-h.htm#chap03), a
-criminal known to one of the characters communicates with her using a
-childish/child-like drawing which looks like this:
+在夏洛克·福尔摩斯的故事[《跳舞的人》](https://www.gutenberg.org/files/108/108-h/108-h.htm#chap03)中，一个角色认识的罪犯使用像这样的孩子气/稚嫩的图画与她交流：
 :::
 
 ::: {.column width="60%"}
 ![Am Here, Abe
 Slaney](../../../../materials/images/holmes-message-1.jpg)
 
-How would Holmes decipher this message?
+福尔摩斯会如何破解这条消息？
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify game-icons sherlock-holmes >}} Sherlock Holmes: The Adventure of the Dancing Men {.smaller}
+## {{< iconify game-icons sherlock-holmes >}} 夏洛克·福尔摩斯：跳舞人之谜 {.smaller}
 
 ::::: columns
 ::: {.column width="55%"}
--   Using Conjectures:
--   Symbols -\> Letters
--   Based on well-known ***Counts*** of letters (Zipf's Law)
--   Holmes deduces that the most common letter in the message is "E"
--   He then deduces that the second most common letter is "T"
+-   使用推测：
+-   符号 -> 字母
+-   基于众所周知的字母***计数***（齐普夫定律）
+-   福尔摩斯推断出消息中最常见的字母是 "E"
+-   然后他推断出第二常见的字母是 "T"
 :::
 
 ::: {.column width="40%"}
-![Zipf's Law](../../../../materials/images/zipf.png){height="380"}
+![齐普夫定律](../../../../materials/images/zipf.png){height="380"}
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## What Charts work for counting? {.smaller}
+## 哪些图表适合计数？{.smaller}
 
-| Variable #1 | Variable #2 | Chart Names |              Chart Shape              |
+| 变量 #1 | 变量 #2 | 图表名称 |              图表形状              |
 |:------------:|:------------:|:------------:|:-----------------------------:|
-|    Qual     |    None     |  Bar Chart  | {{< iconify ion bar-chart size=4x >}} |
+|    定性     |    无     |  柱状图  | {{< iconify ion bar-chart size=4x >}} |
 
--   Bar charts are used to show "counts" and "tallies" with respect to
-    Qual variables.
--   For instance, in a survey, how many people vs Gender?
--   In a Target Audience survey on *Weekly Consumption*, how many low,
-    medium, or high expenditure people?
--   NOTE: we count with Qual variables! (Why? We count labels, like
-    letters.)
--   Which is why the Bars are not touching each other.
+-   柱状图用于显示定性变量的"计数"和" tally"。
+-   例如，在调查中，多少人与性别？
+-   在*每周消费*的目标受众调查中，有多少低、中或高消费人群？
+-   注意：我们用定性变量计数！（为什么？我们计算标签，比如字母。）
+-   这就是为什么柱子互不接触。
 
 ------------------------------------------------------------------------
 
-## Orange Practice Session #3
+## Orange 练习环节 #3
 
-#### Banned Books!!!
+#### 被禁书籍！！！
 
 ::::: columns
 ::: {.column width="45%"}
-OK, Let's get some data to count:
+好的，让我们获取一些数据进行计数：
 
 ```{r, echo = FALSE}
 banned <- read_csv("./data/banned-author-title.csv")
@@ -401,49 +378,49 @@ banned %>% download_this(output_name = "banned", output_extension = ".csv", butt
 
 ```
 
-And let's for now use a pre-set Workflow in Orange
+现在让我们在 Orange 中使用预设的工作流
 
 <a href="https://www.dropbox.com/scl/fi/43nt7gaf67x3hxoql88qu/barchart.ows?rlkey=5d1wd1kja2i1kv6eazi1k3z6v&st=7rjtcejp&dl=0"><i class="fas fa-save"></i>
-Download the Orange Barchart Workflow </a>
+下载 Orange 柱状图工作流 </a>
 :::
 
 ::: {.column width="45%"}
--   We will look at the data
--   Make a Data dictionary
--   Identify the Qual and Quant variables
--   Prepare Counts and Bar Charts wrt Qual variables
--   In Orange! Point, Click, and See!
+-   我们将查看数据
+-   制作数据字典
+-   识别定性和定量变量
+-   准备计数和针对定性变量的柱状图
+-   在 Orange 中！点击，查看！
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify streamline dictionary-language-book-solid >}} Data Dictionary {.smaller}
+## {{< iconify streamline dictionary-language-book-solid >}} 数据字典 {.smaller}
 
-#### Qualitative Variables
+#### 定性变量
 
--   `Author`: Author of the book (Qual)
--   `Title`: Title of the book (Qual)
--   `Origin`: Origin of the Challenge (Qual)
--   `Type of Ban`: Type of ban on the book (Qual)
--   `State`: State in which the book was banned (Qual)
--   `District`: District in which the book was banned (Qual)
--   `Origin`: Origin of the Challenge (Qual)
+-   `Author`：书籍作者（定性）
+-   `Title`：书名（定性）
+-   `Origin`：挑战来源（定性）
+-   `Type of Ban`：书籍禁令类型（定性）
+-   `State`：书籍被禁的州（定性）
+-   `District`：书籍被禁的地区（定性）
+-   `Origin`：挑战来源（定性）
 
-#### Quantitative Variables
+#### 定量变量
 
--   None
+-   无
 
 ------------------------------------------------------------------------
 
-## {{< iconify material-symbols query-stats >}} Counting our Data {.smaller}
+## {{< iconify material-symbols query-stats >}} 统计我们的数据 {.smaller}
 
 ::::::: columns
 :::: {.column width="45%"}
 ::: callout-note
-### Research Question
+### 研究问题
 
-Do some States ban more books than some others?
+某些州是否比其他州禁更多书？
 :::
 
 ```{r}
@@ -451,8 +428,8 @@ Do some States ban more books than some others?
 #| message: false
 #| fig-height: 7
 banned <- read_csv("data/banned-author-title.csv")
-banned %>% group_by(State) %>% summarise(Count = n()) %>% 
-gf_col(Count ~ reorder(State, desc(Count)), color = "black", 
+banned %>% group_by(State) %>% summarise(Count = n()) %>%
+gf_col(Count ~ reorder(State, desc(Count)), color = "black",
        alpha = 0.5) %>%
   gf_labs(title = "Banned Books by State", x = "State") %>%
   gf_theme(theme_classic()) %>%
@@ -463,29 +440,28 @@ gf_col(Count ~ reorder(State, desc(Count)), color = "black",
 
 :::: {.column width="45%"}
 ::: callout-note
-#### What is the Story Here?
+#### 这里的故事是什么？
 
--   Texas is the worst at book banning!
--   Texas, Florida, Oklahoma, Kansas, Indiana,..are next in line
--   Is there a "Bible Belt" story here?
+-   德克萨斯州是禁书最严重的！
+-   德克萨斯州、佛罗里达州、俄克拉荷马州、堪萨斯州、印第安纳州...紧随其后
+-   这里有"圣经地带"的故事吗？
 
-![Bible
-Belt](../../../../materials/images/BibleBelt.png){#fig-bible-belt}
+![圣经
+地带](../../../../materials/images/BibleBelt.png){#fig-bible-belt}
 :::
 ::::
 :::::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify material-symbols query-stats >}} Counting our Data
+## {{< iconify material-symbols query-stats >}} 统计我们的数据
 
 ::::::: columns
 :::: {.column width="45%"}
 ::: callout-note
-### Research Question
+### 研究问题
 
-What are the kinds of bans that are being imposed on books? How many
-books banned by each type of ban?
+对书籍实施的禁令有哪些类型？每种禁令类型禁了多少本书？
 :::
 
 ```{r}
@@ -493,9 +469,9 @@ books banned by each type of ban?
 #| message: false
 #| fig-height: 7
 banned <- read_csv("data/banned-author-title.csv")
-banned %>% group_by(`Type of Ban`) %>% summarise(Count = n()) %>% 
-gf_col(Count ~ reorder(`Type of Ban`, desc(Count)), 
-       color = "black", 
+banned %>% group_by(`Type of Ban`) %>% summarise(Count = n()) %>%
+gf_col(Count ~ reorder(`Type of Ban`, desc(Count)),
+       color = "black",
        alpha = 0.5) %>%
   gf_labs(title = "Banned Books by Reason", x = "Reason") %>%
   gf_theme(theme_classic()) %>%
@@ -506,47 +482,40 @@ gf_col(Count ~ reorder(`Type of Ban`, desc(Count)),
 
 :::: {.column width="45%"}
 ::: callout-note
-#### What is the Story Here?
+#### 这里的故事是什么？
 
--   Four reasons for banning books
--   "Investigation" is the commonest kind of ban
--   How does one "investigate" a book???
+-   禁书有四个原因
+-   "调查"是最常见的禁书类型
+-   如何"调查"一本书？？？
 :::
 ::::
 :::::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify mingcute thought-line >}} Wait, But Why?
+## {{< iconify mingcute thought-line >}} 等等，为什么？
 
--   Counts first give you **an absolute sense of how much data you
-    have**.
--   Counts by different Qual variables give you a sense of the
-    **combinations** you have in your data:
+-   计数首先给你**你有多少数据的绝对感觉**。
+-   按不同定性变量计数给你数据中**组合**的感觉：
     $(State) * (District) * (Ban)$
--   Counts then give an idea whether your data is lop-sided
--   Since the X-axis in bar charts is *Qualitative* (the bars don't
-    touch, remember!) it is possible to sort the bars at will.
+-   计数然后给出你的数据是否不平衡的想法
+-   由于柱状图中的 x 轴是*定性*的（柱子不接触，记得！），因此可以随意对柱子进行排序。
 
 ------------------------------------------------------------------------
 
-## Nursery Rhymes with Ben Affleck {.center}
+## 与本·阿弗莱克一起唱童谣 {.center}
 
 ------------------------------------------------------------------------
 
-## Nursery Rhymes with Ben Affleck {.smaller}
+## 与本·阿弗莱克一起唱童谣 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   In "The Accountant," Christian Wolff is heard reciting "Solomon
-    Grundy,"
--   The nursery rhyme tells the life and death of a man named Solomon
-    Grundy, **all within a single week**.
--   It was innocently used to help children learn their days of the
-    week.
--   However, when we look into the fact that Thursday through Sunday
-    detail the tragic end of Mr. Grundy due to an unspecified illness...
--   it's hard to ignore the dark undertones.
+-   在《会计刺客》中，克里斯蒂安·沃尔夫被听到背诵"所罗门·格伦迪"，
+-   这首童谣讲述了一个名叫所罗门·格伦迪的人的一生和死亡，**都在一周内**。
+-   它最初是用来帮助孩子们学习一周几天的。
+-   然而，当我们考虑到周四到周日详细说明了格伦迪先生因某种不明疾病而悲惨地结束...
+-   很难忽视黑暗的暗示。
 :::
 
 ::: {.column width="45%"}
@@ -557,35 +526,34 @@ width="500"}
 
 ------------------------------------------------------------------------
 
-## What is the Data here? And the Chart? {.smaller}
+## 这里的数据是什么？图表呢？{.smaller}
 
 :::::: columns
 :::: {.column width="45%"}
--   The data is the **days of the week**.
--   The data is **the number of events that happen on each day**.
--   The y-variable is a Quant variable, a number
--   The x-variable is also Quant variable, a ***time*** variable
+-   数据是**一周的日子**。
+-   数据是**每天发生的事件数量**。
+-   y 变量是定量变量，一个数字
+-   x 变量也是定量变量，一个***时间***变量
 
 ::: callout-note
-Tourist: Any famous people born around here?<br> Guide: No sir, best we
-can do is babies.
+游客：这附近出生过什么名人吗？<br> 导游：没有先生，我们最多只能生产婴儿。
 :::
 ::::
 
 ::: {.column width="45%"}
-![Line Chart for Time
-Series](images/R17XS-the-rise-of-google-chrome.png){height="400"
+![时间序列的折线图
+](images/R17XS-the-rise-of-google-chrome.png){height="400"
 width="500"}
 :::
 ::::::
 
 ------------------------------------------------------------------------
 
-## Timing our Data
+## 为我们的数据计时
 
 ::::: columns
 ::: {.column width="45%"}
-OK, Let's get some data to chart:
+好的，让我们获取一些数据进行绘图：
 
 ```{r, echo = FALSE}
 births <- read_csv("./data/births.csv")
@@ -593,39 +561,39 @@ births %>% download_this(output_name = "births", output_extension = ".csv", butt
 
 ```
 
-And let's for now use a pre-set Workflow in Orange
+现在让我们在 Orange 中使用预设的工作流
 
 <a href="https://www.dropbox.com/scl/fi/pvklo0vwn6eruiqobvtzf/time-series.ows?rlkey=0gtv4gc9c6vfafd8us1ilc0s1&st=i88q99c3&dl=0"><i class="fas fa-save"></i>
-Download Orange Time Series Workflow </a>
+下载 Orange 时间序列工作流 </a>
 :::
 
 ::: {.column width="45%"}
--   We will look at the data
--   Make a Data dictionary
--   Identify the Qual and Quant variables
--   Prepare Time Series Charts with Quant variables, and Qual variables
+-   我们将查看数据
+-   制作数据字典
+-   识别定性和定量变量
+-   准备定量变量和定性变量的时间序列图表
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify streamline dictionary-language-book-solid >}} Data Dictionary
+## {{< iconify streamline dictionary-language-book-solid >}} 数据字典
 
 ::::::: columns
 ::::: {.column width="45%"}
 ::: callout-note
-#### Qualitative Variables
+#### 定性变量
 
--   `year`: Year of birth (Qual)
--   `month`: Month of the year (Qual)
--   `day_of_month`: Day of the month (Qual)
--   `day_of_week`: Day of the week (Qual)
+-   `year`：出生年份（定性）
+-   `month`：一年中的月份（定性）
+-   `day_of_month`：月份中的日子（定性）
+-   `day_of_week`：一周中的日子（定性）
 :::
 
 ::: callout-note
-#### Quantitative Variables
+#### 定量变量
 
--   `births`: Number of births on that day (Quant)
+-   `births`：当天的出生数量（定量）
 :::
 :::::
 
@@ -640,52 +608,50 @@ head(births)
 
 ------------------------------------------------------------------------
 
-## Orange Practice Session#4 {.smaller}
+## Orange 练习环节 #4 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   The data is the number of births in the USA, by day, month, and year
--   Let us use the `Group By` widget to group by `day_of_week`
--   AND compute the `mean(births)` in the same widget
--   We plot the `mean(births)` vs `month`, and colour by `day_of_week`
+-   数据是美国每天、每月、每年的出生数量
+-   让我们使用 `分组` 小部件按 `day_of_week` 分组
+-   并在同一小部件中计算 `mean(births)`
+-   我们绘制 `mean(births)` vs `month`，并按 `day_of_week` 着色
 :::
 
 ::: {.column width="45%"}
-![Mean Births Time Series](images/births-time-series.png){height="400"
+![平均出生时间序列](images/births-time-series.png){height="400"
 width="500"}
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## Wait, But Why? {.smaller}
+## 等等，为什么？{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   Time series data is a special kind of Quantitative data, where the
-    x-variable is a time variable.
--   The y-variable is a Quant variable, a number.
--   The x-variable is a Quant variable, a ***time*** variable.
--   By colouring by `day_of_week`, we can see how the number of births
-    varies by day of the week.
+-   时间序列数据是一种特殊的定量数据，其中 x 变量是时间变量。
+-   y 变量是定量变量，一个数字。
+-   x 变量是定量变量，一个***时间***变量。
+-   通过按 `day_of_week` 着色，我们可以看到出生数量如何在一周的日子里变化。
 :::
 
 ::: {.column width="45%"}
-#### What is the Story Here?
+#### 这里的故事是什么？
 
--   Could there be a staffing shortage at hospitals on weekends?
--   Is this a "revealed preference" thing?
--   Or should we watch Grey's Anatomy, or even House?
+-   周末医院可能会人手不足吗？
+-   这是"显示偏好"的事情吗？
+-   还是应该看《实习医生格蕾》，或者《豪斯医生》？
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## Being a Mermaid with Katie Ledecky {.center}
+## 与凯蒂·莱德基一起当美人鱼 {.center}
 
 ------------------------------------------------------------------------
 
-## Being a Mermaid with Katie Ledecky {.smaller}
+## 与凯蒂·莱德基一起当美人鱼 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
@@ -694,29 +660,24 @@ width="500"}
 :::
 
 ::: {.column width="45%"}
--   Katie Ledecky is a swimmer, and a mermaid.
--   She has won 7 Olympic gold medals, and 15 World Championship gold
-    medals.
--   She is the world record holder in the 400, 800, and 1500 meter
-    freestyle events, and in the 4x100 meter freestyle relay, and the
-    4x200 meter freestyle relay.
--   What does that make her? ***An Outlier***...
+-   凯蒂·莱德基是一名游泳运动员，也是美人鱼。
+-   她赢得了 7 枚奥运金牌和 15 枚世锦赛金牌。
+-   她是 400、800 和 1500 米自由泳，以及 4x100 米自由泳接力和 4x200 米自由泳接力的世界纪录保持者。
+-   这让她成为什么？***异常值***...
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## So how do we find, and show, outliers? {.smaller}
+## 那么我们如何找到并显示异常值？{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   Outliers are data points that are significantly different from the
-    rest of the data.
--   They can be identified using ***box plots***, which show the
-    distribution of the data.
--   Box plots show the median, quartiles, and outliers of the data.
--   Of course, Ledecky was ***in*** the water! [Well
-    in](https://www.open-bks.com/alice-87-88.html).
+-   异常值是与其余数据显著不同的数据点。
+-   它们可以使用***箱线图***来识别，箱线图显示数据的分布。
+-   箱线图显示数据的中位数、四分位数和异常值。
+-   当然，莱德基***在***水里！[好
+   在](https://www.open-bks.com/alice-87-88.html)。
 :::
 
 ::: {.column width="45%"}
@@ -736,11 +697,11 @@ MKdescr::illustrate.boxplot(data)
 
 ------------------------------------------------------------------------
 
-## Being an Outlier with Katie Ledecky {.smaller}
+## 与凯蒂·莱德基一起成为异常值 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   Let's get some data to plot:
+-   让我们获取一些数据进行绘图：
 
 ```{r, echo = FALSE}
 salaries <- read_csv("./data/salaries.csv")
@@ -750,112 +711,109 @@ salaries %>% download_this(output_name = "salaries", output_extension = ".csv", 
 :::
 
 ::: {.column width="45%"}
--   And let's use a pre-set Workflow in Orange
+-   让我们在 Orange 中使用预设的工作流
     <a href="https://www.dropbox.com/scl/fi/ylzcmochmyqgeoxdq141u/boxplots.ows?rlkey=izturtlnmnuw0oe96e1utmsar&st=tyisfg1a&dl=0"><i class="fas fa-save"></i>
-    Download the Orange Box Plot Workflow </a>
+    下载 Orange 箱线图工作流 </a>
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## {{< iconify streamline dictionary-language-book-solid >}} Data Dictionary {.smaller}
+## {{< iconify streamline dictionary-language-book-solid >}} 数据字典 {.smaller}
 
 ::::::: columns
 ::::: {.column width="45%"}
 ::: callout-note
-#### Qualitative Variables
+#### 定性变量
 
--   `rank`: Rank of the academic (Qual)
--   `discipline`: Discipline of the academic (Qual)
--   `sex`: Male / Female
+-   `rank`：学术职级（定性）
+-   `discipline`：学术学科（定性）
+-   `sex`：男/女
 :::
 
 ::: callout-note
-#### Quantitative Variables
+#### 定量变量
 
--   `yrs.since.phd`: Years since PhD (Quant). Can be Qual??
--   yrs.service\`: Years of service (Quant)
--   `salary`: Salary of the academic (Quant)
+-   `yrs.since.phd`：获得博士学位后的年限（定量）。可以是定性？？
+-   yrs.service\`：服务年限（定量）
+-   `salary`：学术薪水（定量）
 :::
 :::::
 
 ::: {.column width="45%"}
-![Salaries Data
-Table](../../../../materials/images/Orange/salaries-data-table.png){#fig-salaries-data-table
+![薪水数据
+表](../../../../materials/images/Orange/salaries-data-table.png){#fig-salaries-data-table
 height="500" width="450"}
 :::
 :::::::
 
 ------------------------------------------------------------------------
 
-## Research Question#1
+## 研究问题 #1
 
 :::: callout-note
-## Question
+## 问题
 
-Q1. What is the distribution of `salary`? If we split by `sex`?
+Q1. `salary` 的分布是什么？如果我们按 `sex` 分割呢？
 
 ::: {layout-ncol="2"}
-![Salaries Box
-Plot](../../../../materials/images/Orange/salaries-boxplot-single.png){#fig-salaries-boxplot
+![薪水箱线图
+](../../../../materials/images/Orange/salaries-boxplot-single.png){#fig-salaries-boxplot
 height="320" width="500"}
 
-![Salaries Box Plot by
-Sex](../../../../materials/images/Orange/salaries-boxplot-by-sex.png){#fig-salaries-by-sex
+![按性别分组的薪水箱线图
+](../../../../materials/images/Orange/salaries-boxplot-by-sex.png){#fig-salaries-by-sex
 height="320" width="500"}
 :::
 ::::
 
 ------------------------------------------------------------------------
 
-## Research Question#2
+## 研究问题 #2
 
 ::: callout-note
-## Question
+## 问题
 
-Q2. What is the distribution of `salary`, when we split by other Qual
-variables, such as `rank`?
+Q2. 当我们按其他定性变量（如 `rank`）分割时，`salary` 的分布是什么？
 
-![Salaries Box Plot by
-Rank](../../../../materials/images/Orange/salaries-by-rank.png){#fig-salaries-by-rank
+![按职级分组的薪水箱线图
+](../../../../materials/images/Orange/salaries-by-rank.png){#fig-salaries-by-rank
 height="320" width="580"}
 :::
 
 ------------------------------------------------------------------------
 
-## Wait, But Why? {.smaller}
+## 等等，为什么？{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   Box Plots tell us distributions of Quant variables, and show us
-    outliers.
--   They show us the median, quartiles, and outliers of the data.
--   They are useful for comparing distributions of Quant variables
-    across Qual variables. ( E.g Sex or Rank)
+-   箱线图告诉我们定量变量的分布，并显示异常值。
+-   它们显示数据的中位数、四分位数和异常值。
+-   它们用于比较定性变量之间的定量变量分布。（例如性别或职级）
 :::
 
 ::: {.column width="45%"}
-#### What is the Story Here?
+#### 这里的故事是什么？
 
--   Could there be a systemic bias in salaries?
--   A statistical `t-test / ANOVA` would tell us if that is true.
--   Look in the figures for a `t-test` and `ANOVA` report at the bottom.
+-   薪水中可能存在系统性偏差吗？
+-   统计 `t 检验 / 方差分析` 会告诉我们这是否属实。
+-   在图中查找底部的 `t 检验`和`方差分析`报告。
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## Jack and Rose lived happily ever after {.center}
+## 杰克和罗丝从此过上了幸福的生活 {.center}
 
 ------------------------------------------------------------------------
 
-## Jack and Rose lived happily ever after?
+## 杰克和罗丝从此过上了幸福的生活？
 
 ::::: columns
 ::: {.column width="45%"}
--   The Titanic sank on 15 April 1912, after hitting an iceberg.
--   What are the chances that Jack survived too?
--   What did his chances depend on?
+-   泰坦尼克号于 1912 年 4 月 15 日沉没，撞击冰山后。
+-   杰克幸存的机会有多大？
+-   他的机会取决于什么？
 :::
 
 ::: {.column width="50%"}
@@ -865,36 +823,36 @@ height="320" width="580"}
 
 ------------------------------------------------------------------------
 
-## Jack and Rose lived happily ever after?
+## 杰克和罗丝从此过上了幸福的生活？
 
--   Let's get the `titanic` data, using the `Datasets` widget in Orange.
+-   让我们使用 Orange 中的 `数据集` 小部件获取 `titanic` 数据。
 
--   There were 2201 passengers, as per this dataset.
+-   根据此数据集，有 2201 名乘客。
 
--   And let's use a pre-set Workflow in Orange
+-   让我们在 Orange 中使用预设的工作流
 
 <a href="https://www.dropbox.com/scl/fi/a5zgvao3v2fir257wq2he/mosaic-chart.ows?rlkey=kl7hw5v5tzvdt9y97pwvadjsi&st=rnx0urbx&dl=0"><i class="fas fa-save"></i>
-Download the Orange Mosaic Chart Workflow </a>
+下载 Orange 马赛克图工作流 </a>
 
 ------------------------------------------------------------------------
 
-### {{< iconify streamline dictionary-language-book-solid >}} Data Dictionary: `titanic`{.smaller}
+### {{< iconify streamline dictionary-language-book-solid >}} 数据字典：`titanic`{.smaller}
 
 ::::::: columns
 ::::: {.column width="45%"}
 ::: callout-note
-### Quantitative Data
+### 定量数据
 
-None.
+无。
 :::
 
 ::: callout-note
-### Qualitative Data
+### 定性数据
 
--   `survived`: (chr) yes or no
--   `status`: (chr) Class of Travel, else "crew"
--   `age`: (chr) Adult, Child
--   `sex`: (chr) Male / Female.
+-   `survived`：(chr) 是或否
+-   `status`：(chr) 旅行舱位，否则是"船员"
+-   `age`：(chr) 成人，儿童
+-   `sex`：(chr) 男/女。
 :::
 :::::
 
@@ -906,23 +864,22 @@ width="500"}
 
 ------------------------------------------------------------------------
 
-## {{< iconify tabler variable >}} What kind of Data Variables will we choose?
+## {{< iconify tabler variable >}} 我们将选择什么样的数据变量？
 
-| Variable #1 | Variable #2 | Chart Names | Chart Shape |
+| 变量 #1 | 变量 #2 | 图表名称 | 图表形状 |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Qual | Qual | ~~Pies~~, Mosaic Charts | {{< iconify carbon chart-marimekko size=4x >}} |
+| 定性 | 定性 | ~~饼图~~，马赛克图 | {{< iconify carbon chart-marimekko size=4x >}} |
 
-Here, $area \sim count$, so the area of the tile is proportional to the
-count of observations in that tile.
+这里，$area \sim count$，所以图块的面积与该图块中的观察值计数成比例。
 
 ------------------------------------------------------------------------
 
-### {{< iconify material-symbols query-stats >}} Research Question #1 {.smaller}
+### {{< iconify material-symbols query-stats >}} 研究问题 #1 {.smaller}
 
 ::::::: columns
 :::: {.column width="45%"}
 ::: callout-note
-What is the dependence of `survived` upon `sex`?
+`survived` 对 `sex` 的依赖性是什么？
 :::
 
 ![](../../../../materials/images/Orange/titanic-sex-survived.png)
@@ -930,25 +887,24 @@ What is the dependence of `survived` upon `sex`?
 
 :::: {.column width="45%"}
 ::: callout-note
--   Note the huge imbalance in `survived` with `sex`
--   Men have clearly perished in larger numbers than women.
--   Colouring shows large [*positive* residuals]{style="color: blue;"}
-    for men who died, and large [*negative*
-    residuals]{style="color: red;"} for women who died.
+-   注意 `sex` 的 `survived` 巨大不平衡
+-   男性死亡人数明显多于女性。
+-   着色显示死亡男性的巨大[*正*残差]{style="color: blue;"}，以及死亡女性的巨大[*负*
+    残差]{style="color: red;"}
 
-So sadly Jack is far more likely to have died than Rose.
+所以遗憾的是，杰克死亡的可能性远高于罗丝。
 :::
 ::::
 :::::::
 
 ------------------------------------------------------------------------
 
-### {{< iconify material-symbols query-stats >}} Research Question #2 {.smaller}
+### {{< iconify material-symbols query-stats >}} 研究问题 #2 {.smaller}
 
 ::::::: columns
 :::: {.column width="45%"}
 ::: callout-note
-### How does `survived` depend upon `status`?
+### `survived` 如何依赖于 `status`？
 :::
 
 ![](../../../../materials/images/Orange/titanic-mosaic-survived-status.png)
@@ -956,40 +912,34 @@ So sadly Jack is far more likely to have died than Rose.
 
 :::: {.column width="45%"}
 ::: callout-note
--   Crew has seen deaths in large numbers,
-    -   as seen by the large [*negative* residual]{style="color: red;"}
-        for crew-survivals.
--   [First Class passengers have had speedy access to the
-    boats](https://youtu.be/kQ8WsD9AGX4) and have survived in larger
-    proportions than say second or third class.
--   There is a large [*positive* residual]{style="color: blue;"} for
-    first-class survivals.
--   Rose travelled `first class` and Jack was `third class`. So again
-    the odds are stacked against him.
+-   船员大量死亡，
+    -   如船员幸存的巨大[*负残差]{style="color: red;"}
+        所示。
+-   [头等舱乘客能够快速到达船只](https://youtu.be/kQ8WsD9AGX4)，幸存比例高于二等或三等舱。
+-   头等舱幸存者有巨大的[*正*残差]{style="color: blue;"。
+-   罗丝乘坐`头等舱`，杰克乘坐`三等舱`。所以几率再次对他不利。
 :::
 ::::
 :::::::
 
 ------------------------------------------------------------------------
 
-## What are these Residuals anyhow? {.smaller}
+## 这些残差到底是什么？{.smaller}
 
-When differences between the actual and expected counts are large, we
-deduce that one Qual variable has an effect on the other Qual variable.
-(speaking counts-wise or ratio-wise)
+当实际计数与预期计数之间的差异很大时，我们推断一个定性变量对另一个定性变量有影响。（从计数角度或比率角度）
 
 ```{r}
 #| echo: false
 #| layout-ncol: 3
 #| fig-height: 12
-#| fig-subcap: 
+#| fig-subcap:
 #|  - "Actual Counts"
 #|  - "Expected Counts!!"
 #|  - "Tile-Wise Differences = Residuals"
 data("titanic", package = "ggmosaic")
 
 counts_table <- mosaic::tally(Survived ~ Sex, data = titanic) # No margins added
-vcd::mosaic(counts_table,gp = shading_max, 
+vcd::mosaic(counts_table,gp = shading_max,
             main = "Titanic Mosaic Chart")
 vcd::mosaic(counts_table, gp = shading_max, type = "expected", main = "Titanic Mosaic Chart, Expected")
 vcd::assoc(counts_table, gp = shading_max)
@@ -998,23 +948,20 @@ vcd::assoc(counts_table, gp = shading_max)
 
 ---
 
-## Wait, But Why?
--   Mosaic Charts are used to show the relationship between two Qual
-    variables.
--   They show the counts of observations in each combination of the two
-    Qual variables.
--   The area of each tile is proportional to the count of observations in that tile
--  The colour of the tile shows the residuals, which are the differences
-    between the actual and expected counts.
+## 等等，为什么？
+-   马赛克图用于显示两个定性变量之间的关系。
+-   它们显示两个定性变量的每个组合中的观察值计数。
+-   每个图块的面积与该图块中的观察值计数成比例
+-   图块的颜色显示残差，这是实际计数与预期计数之间的差异。
 
 
 ---
 
-## The Art of Surprise with Gabbar Singh {.center}
+## 与加巴尔·辛格一起掌握惊喜的艺术 {.center}
 
 ------------------------------------------------------------------------
 
-## The Art of Surprise with Gabbar Singh
+## 与加巴尔·辛格一起掌握惊喜的艺术
 
 <center>
 {{< video https://youtu.be/chi9hsfYcDE height=480 width=680 title='Kamaal ho Gaya!' >}}
@@ -1022,13 +969,13 @@ vcd::assoc(counts_table, gp = shading_max)
 
 ------------------------------------------------------------------------
 
-## The Art of Surprise with Gabbar Singh {.smaller}
+## 与加巴尔·辛格一起掌握惊喜的艺术 {.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   What was the "data" Gabbar was looking at?
+-   加巴尔看到的"数据"是什么？
 
-| Chamber | Bullet |
+| 弹膛 | 子弹 |
 |---------|--------|
 | 1       | Y / N  |
 | 2       | Y / N  |
@@ -1037,36 +984,32 @@ vcd::assoc(counts_table, gp = shading_max)
 :::
 
 ::: {.column width="45%"}
--   The number of people in the village, and the number of people who
-    were armed. (Quant)
--   The number of bullets in the gun (Quant)
--   The ID of the pistol chamber which contains a bullet (Qual)
+-   村庄的人数和持有武器的人数。（定量）
+-   枪中的子弹数量（定量）
+-   包含子弹的手枪弹膛 ID（定性）
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-## The Art of Surprise with Gabbar Singh{.smaller}
+## 与加巴尔·辛格一起掌握惊喜的艺术{.smaller}
 
-And Gabbar's Hypothesis?
+那么加巴尔的假设呢？
 
--   That three bullets would never line up just ready to be fired,
-    especially after he had fired three off!!
--   So he could claim "ignorance"!
--   "Ignorance" == "Fairness" == "Justice" !
--   But he was ***pretend-surprised*** when the three bullets were lined up, and he
-    could fire them all off at once!
--   But no one could accuse him of anything, because he was "ignorant"
-    of the fact that the bullets were lined up!
+-   三颗子弹永远不会排成一队准备发射，特别是他已经发射了三颗之后！！
+-   所以他可以声称"无知"！
+-   "无知" == "公平" == "正义"！
+-   但当三颗子弹排成一队时，他***假装惊讶***，并且可以一下子把它们全部发射！
+-   但没有人能指责他任何事情，因为他"不知道"子弹排成一队的事实！
 
 ------------------------------------------------------------------------
 
-## Gabbar's Gun Chamber Permutations
+## 加巴尔的枪弹膛排列
 
 ```{r}
 #| echo: false
 #| message: false
-#| 
+#
 library(ggformula)
 library(ggforce)
 library(mosaic)
@@ -1075,52 +1018,48 @@ t <- seq(0, 2*pi- pi/3, by = pi/3)
 
 # bullets <- rep(c("A", "B"), 3)
 # combn(bullets,3) %>% as_tibble()
-gun <- 
+gun <-
   expand_grid(x = 0:1, y = 0:1, z = 0:1, p = 0:1, q = 0:1, r = 0:1) %>%
   rowwise() %>%
-  mutate(sum = sum(c_across(x:r))) %>% 
-  filter(sum == 3) %>% select(-sum) %>% 
-data.table::transpose() %>% 
-  mutate(x = cos(t), y = sin(t)) %>% 
-  pivot_longer(cols = -c(x,y), 
-               names_to = "loadings", 
-               values_to = "chamber_full") %>% 
+  mutate(sum = sum(c_across(x:r))) %>%
+  filter(sum == 3) %>% select(-sum) %>%
+data.table::transpose() %>%
+  mutate(x = cos(t), y = sin(t)) %>%
+  pivot_longer(cols = -c(x,y),
+               names_to = "loadings",
+               values_to = "chamber_full") %>%
   mutate(chamber_full = as_factor(chamber_full),
          loadings = as_factor(loadings))
 
 ##
-ggplot(gun, aes(x = x, y = y, colour = chamber_full, group = loadings)) + 
+ggplot(gun, aes(x = x, y = y, colour = chamber_full, group = loadings)) +
   geom_point(size = 6) +
   coord_fixed() +
   theme_void() +
-  facet_wrap(~ loadings, ncol = 5) + 
+  facet_wrap(~ loadings, ncol = 5) +
   xlim(-1.5, 1.5) +
   ylim(-1.5, 1.5) +
   geom_mark_circle(aes(colour = "black"), show.legend = FALSE) +
    geom_mark_circle(data = gun %>% filter(loadings == "V4"), aes(colour = "black", fill = "grey")) +
   theme(legend.position = "none")
-  
-  
+
+
 ```
 
 ---
 
-## So how do we become Gabbar Singh?{.smaller}
+## 那么我们如何成为加巴尔·辛格？{.smaller}
 
 :::::: columns
 :::: {.column width="50%"}
 ::: callout-note
-### [Are Emily and Greg more Employable than Lakisha and Jamal?](https://vincentarelbundock.github.io/Rdatasets/doc/AER/ResumeNames.html)
+### [艾米丽和格雷格是否比拉基莎和贾迈尔更容易受雇？](https://vincentarelbundock.github.io/Rdatasets/doc/AER/ResumeNames.html)
 
-Is ethnicity (as revealed by first names) a basis for racial
-discrimination, in the US?
+在美国，种族（通过名字揭示）是否是种族歧视的基础？
 
-This dataset was generated as part of a landmark research study done by
-[Marianne Bertrand and Senthil
-Mullainathan](https://sci-hub.se/10.1257/0002828042002561).
+此数据集是由[玛丽安·伯特兰和森蒂尔·穆拉伊纳森](https://sci-hub.se/10.1257/0002828042002561)进行的一项里程碑式研究的一部分生成的。
 
-Read the description therein to really understand how you can ***prove
-causality*** with a well-crafted research experiment.
+阅读其中的描述，以真正了解如何通过精心设计的研究实验来***证明因果关系***。
 :::
 ::::
 
@@ -1129,8 +1068,8 @@ causality*** with a well-crafted research experiment.
 #| echo: false
 #| messsage: false
 #| warning: false
-resumes <- read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/AER/ResumeNames.csv") %>% 
-  select(name, ethnicity, call) %>% 
+resumes <- read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/AER/ResumeNames.csv") %>%
+  select(name, ethnicity, call) %>%
   mutate(call = factor(call,labels = c("yes", "no"), levels = c("yes", "no")))
 head(resumes, 6)
 
@@ -1146,16 +1085,14 @@ diffprop(ethnicity ~ call, data = resumes)
 
 ---
 
-## The Art of Surprise with Gabbar Singh{.smaller}
+## 与加巴尔·辛格一起掌握惊喜的艺术{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
--   So it appears the call percentage is different for the two
-    ethnicities, `afam` and `cauc`
--   But is it statistically significant? Would Gabbar be surprised?
--   Let us pretend `ethnicity` ***does not matter*** and spin the
-    revolver!!
--   We mess with the ethnicity variable, some 5000 times
+-   因此，两个种族 `afam` 和 `cauc` 的电话百分比似乎不同
+-   但这在统计上显著吗？加巴尔会感到惊讶吗？
+-   让我们假装 `ethnicity` ***无关紧要***并旋转左轮手枪！！
+-   我们搞乱种族变量大约 5000 次
 :::
 
 ::: {.column width="45%"}
@@ -1165,15 +1102,15 @@ diffprop(ethnicity ~ call, data = resumes)
 #| fig-height: 7
 null <- do(4999)*diffprop(call ~ shuffle(ethnicity), data = resumes)
 names(null)
-gf_histogram(~ diffprop, data = null, 
-             fill = "lightblue", color = "black", 
-             binwidth = 0.005) %>% 
+gf_histogram(~ diffprop, data = null,
+             fill = "lightblue", color = "black",
+             binwidth = 0.005) %>%
   gf_vline(xintercept = 0.108199, inherit = FALSE,
            linetype = "dotted", linewidth = 2, color = "red") %>%
   gf_labs(title = "Null Distribution of Difference in Proportions",
        x = "Difference in Proportions (Call)",
-       y = "Count") %>% 
-  
+       y = "Count") %>%
+
   gf_theme(theme_minimal())
 
 ```
@@ -1182,17 +1119,14 @@ gf_histogram(~ diffprop, data = null,
 
 ------------------------------------------------------------------------
 
-## The Art of Surprise with Gabbar Singh{.smaller}
+## 与加巴尔·辛格一起掌握惊喜的艺术{.smaller}
 
 ::::: columns
 ::: {.column width="45%"}
-- We are not able to ***mimic Mother Nature aka Reality***{{< iconify fluent-emoji-flat:weary-cat >}}
-- The red line is the observed difference in proportions, and it is
-  way out of the null distribution.
-- So we can reject the NULL Hypothesis that `ethnicity` does not
-  matter.
-- Hence we infer that there was bias in the hiring process, and
-  that `afam` candidates were discriminated against.
+- 我们无法***模仿大自然母亲 aka 现实***{{< iconify fluent-emoji-flat:weary-cat >}}
+- 红线是观察到的比例差异，它远远超出了零分布。
+- 所以我们可以拒绝 `ethnicity` 无关紧要的零假设。
+- 因此我们推断招聘过程中存在偏见，并且 `afam` 候选人受到歧视。
 :::
 ::: {.column width="45%"}
 ```{r}
@@ -1201,42 +1135,42 @@ gf_histogram(~ diffprop, data = null,
 #| fig-height: 7
 null <- do(4999)*diffprop(call ~ shuffle(ethnicity), data = resumes)
 names(null)
-gf_histogram(~ diffprop, data = null, 
-             fill = "lightblue", color = "black", 
-             binwidth = 0.005) %>% 
+gf_histogram(~ diffprop, data = null,
+             fill = "lightblue", color = "black",
+             binwidth = 0.005) %>%
   gf_vline(xintercept = 0.108199, inherit = FALSE,
            linetype = "dotted", linewidth = 2, color = "red") %>%
   gf_labs(title = "Null Distribution of Difference in Proportions",
        x = "Difference in Proportions (Call)",
-       y = "Count") %>% 
-  
+       y = "Count") %>%
+
   gf_theme(theme_minimal())
 
 ```
 :::
-::::
+:::::
 
 ---
 
-## {{< iconify noto rolling-on-the-floor-laughing >}} Gabbar viv-a-vis a Stats Teacher{.smaller}
+## {{< iconify noto rolling-on-the-floor-laughing >}} 加巴尔与统计学老师{.smaller}
 
-| Gabbar | Stats Teacher |
+| 加巴尔 | 统计学老师 |
 |------------------------------------|------------------------------------|
-| “Kitne aadmi thay?” | How many observations do you have? n \< 30 is a joke. |
-| Kya Samajh kar aaye thay? Gabbar khus hoga? Sabaasi dega kya? | What are the levels in your Factors? Are they binary? Don’t do ANOVA just yet! |
-| (Fires off three rounds ) Haan, ab theek hai! | Yes, now the dataset is balanced wrt the factor (Treatment and Control). |
-| Is pistol mein teen zindagi aur teen maut bandh hai. Dekhte hain kisko kya milega. | This is our Research Question, for which we will Design an Experiment. |
-| Hume kuchh nahi pataa! | Let us perform a non-parametric Permutation Test for this Factor! |
-| Kamaal ho gaya! | Fantastic! Our p-value is so small that we can reject the NULL Hypothesis!! |
+| "有多少人？" | 你有多少观察值？n < 30 是个笑话。 |
+| 你明白什么来的吗？加巴尔会高兴吗？会表扬吗？ | 你的因子有哪些水平？它们是二元的吗？暂时不要做方差分析！ |
+| （开了三枪）是的，现在好了！ | 是的，现在数据集相对于因子（处理和对照）是平衡的。 |
+| 这把手枪里有三条命和三条死。看看谁得到什么。 | 这是我们的研究问题，我们将为此设计一个实验。 |
+| 我们什么都不知道！ | 让我们对此因子进行非参数排列检验！ |
+| 太棒了！ | 太棒了！我们的 p 值太小，可以拒绝零假设！！ |
 
 ------------------------------------------------------------------------
 
-## Thank You!!{.center}
+## 谢谢！！{.center}
 
-### Questions? Comments? Suggestions?
+### 问题？评论？建议？
 
 #### arvind.venkatadri@gmail.com
 
-#### This Presentation: <https://av-quarto.netlify.app/content/projects/modules/talks/vizchitra25/>
+#### 此演讲：<https://av-quarto.netlify.app/content/projects/modules/talks/vizchitra25/>
 
-#### Data and Workflow files are available at <https://www.dropbox.com/scl/fo/15ha6pmtqd3t17c39idxi/AEviMggAcido-xQHiD82dH4?rlkey=h9xj09pdtx3st9basdfljwwyw&st=06dvqnbb&dl=0>
+#### 数据和工作流文件可在 <https://www.dropbox.com/scl/fo/15ha6pmtqd3t17c39idxi/AEviMggAcido-xQHiD82dH4?rlkey=h9xj09pdtx3st9basdfljwwyw&st=06dvqnbb&dl=0> 获得

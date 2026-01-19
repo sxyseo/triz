@@ -1,16 +1,16 @@
 ---
-title: "The TRIZ Chronicles: Lawrence of Arabia"
+title: "TRIZ 编年史:阿拉伯的劳伦斯"
 date: '2022-12-20'
 date-modified: "`r Sys.Date()`"
 order: 10
 image: feature.jpg
 categories:
   - TRIZ
-  - 48 TRIZ Parameters
-  - Inventive Principles
-  - Creativity Systems Model
-  - Making Metaphors
-abstract: 'The Attack on Aqaba: A TRIZ Analysis'
+  - 48个 TRIZ 参数
+  - 发明原理
+  - 创造力系统模型
+  - 制造隐喻
+abstract: '攻击亚喀巴:TRIZ 分析'
 ---
 
 ```{r, setup, include=FALSE}
@@ -21,54 +21,26 @@ library(SixSigma)
 
 ```
 
-## Introduction
+## 简介
 
 ![](feature.jpg)
 
-The movie *Lawrence of Arabia* is justly famous for its terrific story,
-great cast of characters and actors, and some truly legendary scenes.
-Here I take one of the iconic scenes from the movie, the attack on the
-port town of Aqaba and interpret the entire event and the build up to it
-from a **TRIZ** viewpoint.
+电影*《阿拉伯的劳伦斯》*因其精彩的故事、伟大的角色和演员阵容,以及一些真正传奇的场景而理所当然地闻名。在这里,我从电影中选取一个标志性场景,即对港口城市亚喀巴的攻击,从 **TRIZ** 角度解释整个事件及其准备工作。
 
-I will give a short description of the movie plot first.
+我将首先简要描述电影情节。
 
-I then discuss the source of the problem, how it occurred to Lawrence,
-and how he went about solving it in this dramatic fashion. I give an
-analysis of the Problem from a (classical) TRIZ perspective, including
-the formulation of the **Contradiction**, **Identification of Causes**,
-the statement of the **Ideal Final Result**, and finally using the
-**TRIZ Contradiction Matrix** to find **Inventive Principles** that
-inform Lawrence's solution. I also dwell in passing upon aspects of how
-this story can be interpreted as a manifestation of Mihaly
-Csikszentmihalyi's **Creativity Systems Model**.
+然后我讨论问题的来源,它是如何出现在劳伦斯的脑海中的,以及他是如何以这种戏剧性的方式着手解决它的。我从(经典)TRIZ 角度给出问题分析,包括**矛盾**的表述、**原因的识别**、**理想最终结果**的陈述,最后使用**TRIZ 矛盾矩阵**找到告知劳伦斯解决方案的**发明原理**。我还顺便论述了如何将这个故事解释为米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi) 的**创造力系统模型**的体现。
 
-This piece stems from my teaching a course on Creative Thinking and
-Problem Solving based on TRIZ, titled *Play and Invent*, over the past 8
-years or more at the *Srishti Manipal Institute of Art, Design, and
-Technology, Bangalore, India*. (<https://srishtimanipalinstitute.in>).
+这篇文章源于我过去8年或更长时间在印度班加罗尔的*Srishti Manipal 艺术、设计与技术学院*(<https://srishtimanipalinstitute.in>)教授一门基于 TRIZ 的创造性思维和问题解决课程,题为*游戏与发明*。
 
-## Lawrence of Arabia: a Summary
+## 阿拉伯的劳伦斯:摘要
 
-The movie is the story of T.E. Lawrence, the English officer who
-successfully united and led the diverse, often warring, Arab tribes
-during World War I in order to fight the Turks. The stellar cast
-includes Peter O'Toole as Lawrence, Omar Sharif as Ali, Alec Guinness as
-Prince Feisal, Anthony Quinn as Auda Abu Tayi, Claude Raines as Dryden,
-and Anthony Quayle as Col. Brighton. The director was David Lean. The
-editing of the film by Anne Coates is also much admired. (
+这部电影是 T.E. 劳伦斯的故事,他是英国军官,在第一次世界大战期间成功团结并领导了不同、经常交战的阿拉伯部落以对抗土耳其人。明星阵容包括彼得·奥图尔饰演劳伦斯,奥马尔·沙里夫饰演阿里,亚历克·吉尼斯饰演费萨尔王子,安东尼·奎恩饰演奥达·阿布·塔伊,克劳德·雷恩斯饰演德莱登,安东尼·奎尔饰演布赖顿上校。导演是大卫·里恩。安妮·科茨对电影的剪辑也非常令人钦佩。(
 <https://womenfilmeditors.princeton.edu/tag/lawrence-of-arabia/> )
 
-Lawrence is a complex, talented, and yet simple man, who is extremely
-well read (Greek philosophy and the Koran, for example) and is also an
-expert in Arab affairs and has considerable skill at map-making. Due to
-his being interpreted as insolent and insubordinate , he is given a
-lowly job at the HQ in Cairo. Dryden manages to convince the General
-that Lawrence should be allowed to go into Arabia and to find out what
-kind of long-term plans Prince Feisal is making for Arabia.
+劳伦斯是一个复杂、有才华而简单的人,他博览群书(例如希腊哲学和古兰经),也是阿拉伯事务专家,在制图方面具有相当技能。由于他被解释为傲慢和不服从,他被给予在开罗总部的低级工作。德莱登设法说服将军,允许劳伦斯进入阿拉伯并找出费萨尔王子为阿拉伯制定的长期计划。
 
-Here is the map of the events that are unfolding in the movie at this
-time.[^1]
+这是电影此时正在展开的事件地图。[^1]
 
 <center>
 
@@ -80,34 +52,13 @@ time.[^1]
 
 <br>
 
-Lawrence encounters Ali in dramatic fashion at the Masturah Well, on the
-way to meet Feisal, and his Arab guide is shot by Ali, a direct
-experience for Lawrence of inter-tribe rivalry in Arabia. (Ali is a
-Harith, and Tafas the guide was a Hashemi). Lawrence peremptorily
-rejects an offer of help from Ali, and finds his way alone to Wadi
-Safra, where Feisal is camped. He is met by Col. Brighton as he nears
-the camp. Both enter camp just in time to witness another bombing raid
-by Turkish airplanes.
+劳伦斯在去会见费萨尔的途中,在马斯图拉井 (Masturah Well) 以戏剧性的方式遇到了阿里,他的阿拉伯向导被阿里射杀,这是劳伦斯对阿拉伯部落间竞争的直接体验。(阿里是哈里斯人,向导塔法斯是哈希米人)。劳伦斯断然拒绝了阿里的帮助提议,独自找到了通往瓦迪萨弗拉 (Wadi Safra) 的路,费萨尔在那里扎营。当他接近营地时,他遇到了布赖顿上校。两人都正好进入营地,目睹了土耳其飞机的又一次轰炸袭击。
 
-Later in the meeting with Feisal, Brighton tries to convince Feisal to
-retreat to Yenbo (Yanbu) and be out of range for the Turks, and where
-the British Army would supply them, train them to fight against the
-Turks. Feisal reluctantly accepts this plan, though he would rather the
-British navy take the port city of Aqaba and supply his army from there.
-Brighton simply scoffs at that idea, because *the Turkish have 12 inch
-guns at Aqaba* and *the British have other things to do*.
+在与费萨尔的会面中,布赖顿试图说服费萨尔回撤到延布 (Yenbo/Yanbu),并远离土耳其人的射程,在那里英国军队将供应他们,训练他们对抗土耳其人。费萨尔不情愿地接受了这个计划,尽管他更希望英国海军占领港口城市亚喀巴并从那里供应他的军队。布赖顿只是嘲笑这个想法,因为*土耳其人在亚喀巴有12英寸的火炮*,*英国人还有其他事情要做*。
 
-Lawrence has already intrigued Feisal by completing a verse from the
-Koran as it was being read by Selim, the cleric. At the end of the
-meeting, Feisal confronts Lawrence alone, as to *his* intentions in
-Arabia and finds out, to his astonishment, that Lawrence has his own
-interpretation of what his tasks and loyalties were, and these did not
-necessarily coincide with those of Brighton. In fact, Lawrence is *not*
-in favour of the Arab Army's retreat to Yenbo, as *it would become one
-small part of the British Army*. As a parting remark, Feisal says to
-Lawrence that the Arabs *need what no man can provide, a miracle*.
+劳伦斯已经通过在 cleric Selim 阅读古兰经时完成了一节经文而引起了费萨尔的兴趣。在会议结束时,费萨尔单独与劳伦斯对质,关于*他*在阿拉伯的意图,并惊讶地发现,劳伦斯对自己的任务和忠诚有自己的解释,这些并不一定与布赖顿的相符。事实上,劳伦斯*不*赞成阿拉伯军队撤退到延布,因为*它将成为英国军队的一小部分*。作为临别赠言,费萨尔对劳伦斯说,阿拉伯人*需要没有人能提供的东西,一个奇迹*。
 
-Here is the video of that terrific tent meeting scene.
+这是那个精彩的帐篷会议场景的视频。
 
 <center>
 
@@ -117,23 +68,13 @@ Here is the video of that terrific tent meeting scene.
 
 </center>
 
-## Lawrence's Problem
+## 劳伦斯的问题
 
-Lawrence does not sleep that night. Provoked by Feisal's parting remark,
-he sits up all night on a sand dune close to the camp, thinking about
-how Aqaba could be taken, since he wants the Arabs to continue fighting
-from where they were, and even advance if possible with British help.
-His detailed understanding of the Arabian geography, his knowledge of
-the Aqaba port and its fortifications, all come to the fore here. Aqaba
-is a port at the head end of a narrow gulf to the east of the Sinai
-Peninsula.
+那天晚上劳伦斯没有睡觉。被费萨尔的临别赠言激怒,他整夜坐在靠近营地的沙丘上,思考亚喀巴如何被占领,因为他希望阿拉伯人从他们所在的地方继续战斗,如果可能的话在英国帮助下推进。他对阿拉伯地理的详细理解、他对亚喀巴港口及其防御工事的知识,在这里都展现出来。亚喀巴是位于西奈半岛以东狭窄海湾顶端的港口。
 
-In the early morning, seemingly in a [eureka
-moment](https://en.wikipedia.org/wiki/Eureka_effect), he decides that
-attacking Aqaba from the landward side would be a good solution, since
-the guns there could not be turned around.
+清晨,似乎在[顿悟时刻](https://en.wikipedia.org/wiki/Eureka_effect),他决定从陆地一侧攻击亚喀巴将是一个好的解决方案,因为那里的火炮无法转向。
 
-Here is Lawrence trying to convince Ali about this plan:
+这里是劳伦斯试图说服阿里接受这个计划:
 
 <center>
 
@@ -143,29 +84,17 @@ Here is Lawrence trying to convince Ali about this plan:
 
 </center>
 
-Lawrence does not inform Brighton of his plans, nor even Feisal. It is
-Ali who informs Feisal of this enterprise. Clearly, Lawrence does not
-consider Brighton as a member of his *Field* (as defined by
-Csikszentmihalyi in his [Creativity Systems
-Model](https://medium.com/call4/domain-8a22b6b486f4)), but Feisal is a
-Field Member to Ali.
+劳伦斯没有通知布赖顿他的计划,甚至没有通知费萨尔。是阿里向费萨尔通报了这项事业。显然,劳伦斯不认为布赖顿是他*场域*的成员(正如契克森米哈赖在他的[创造力系统模型](https://medium.com/call4/domain-8a22b6b486f4)中所定义的),但费萨尔是阿里的场域成员。
 
-Apropos, the act of sitting up all night can be seen as the Incubation
-and Elaboration stages of the [5 Stages of
-Creativity](https://pearce.caah.clemson.edu/the-5-step-creative-process/)
-from Csikszentmihalyi (Preparation, Incubation, Insight, Elaboration,
-Execution).
+顺便说一句,整夜坐着的行为可以被看作是契克森米哈赖[创造力5个阶段](https://pearce.caah.clemson.edu/the-5-step-creative-process/)的孵化期和精致阶段(准备、孵化、洞察、精致、执行)。
 
-## A TRIZ Analysis of the Plan to Take Aqaba
+## 占领亚喀巴计划的 TRIZ 分析
 
-For a TRIZ workflow, we proceed as follows:
+对于 TRIZ 工作流程,我们进行如下操作:
 
-First, using the method described in *Open Source TRIZ*,
-(<https://www.youtube.com/watch?v=cah0OhCH55k>), we identify *knobs* or
-*parameters* within the situation and see how turning these could lead
-to identifying a Cause for a Problem in the form of a **Contradiction**.
+首先,使用*开源 TRIZ*中描述的方法,(<https://www.youtube.com/watch?v=cah0OhCH55k>),我们识别情况中的*旋钮*或*参数*,看看转动这些如何可能导致识别**矛盾**形式问题原因。
 
-Here below is a quick *Ishikawa Diagram* for this purpose:
+下面是一个用于此目的的快速*石川图*:
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -174,105 +103,82 @@ library(qcc)
 library(SixSigma)
 
 #Effect
-effect <- "Cannot take Aqaba"
+effect <- "无法占领亚喀巴"
 
 #Causes
-causes.head <- c("Measurement", "Material", "Methods", "Environment", "Manpower", "Machines")
+causes.head <- c("测量", "材料", "方法", "环境", "人力", "机器")
 
 #Individual Causes
 causes <- vector(mode =  "list", length = length(causes.head))
-causes[1] <- list(c("Guns point at the Sea",  ""))
+causes[1] <- list(c("火炮指向海洋",  ""))
 
-causes[2] <- list(c("Big Guns at Aqaba", "Small Arms Only", "Water", "Sand"))
+causes[2] <- list(c("亚喀巴的大火炮", "只有轻武器", "水", "沙"))
 
-causes[3] <- list(c("Attack from Sea won't work", "Time of Attack", " No Element of Surprise"))
+causes[3] <- list(c("从海上攻击不起作用", "攻击时间", "没有出其不意的元素"))
 
-causes[4] <- list(c("Nefud Desert","Narrow Gulf"))
+causes[4] <- list(c("内夫德沙漠","狭窄的海湾"))
 
-causes[5] <- list(c("Small Army", "No Tribal Unity"))
-causes[6] <- list(c("No Vehicles", "Loss of Warships"))
+causes[5] <- list(c("小军队", "没有部落团结"))
+causes[6] <- list(c("没有车辆", "失去战舰"))
 
 #Fishbone Diagram
 #
-ss.ceDiag(effect,causes.head,causes, 
-          main ="The Taking of Aqaba",
- # ss.col = c("#666666", 
- #            "#BBBBBB", 
- #            "#CCCCCC", 
- #            "#DDDDDD", 
- #            "#EEEEEE", 
+ss.ceDiag(effect,causes.head,causes,
+          main ="占领亚喀巴",
+ # ss.col = c("#666666",
+ #            "#BBBBBB",
+ #            "#CCCCCC",
+ #            "#DDDDDD",
+ #            "#EEEEEE",
  #            "white", # Background
  #            "red"), # Headings and Main Title
-          sub = "Ishikawa Cause-Effect Diagram\n(made with R packages SixSigma and qcc)")
+          sub = "石川因果图\n(使用 R 包 SixSigma 和 qcc 制作)")
 
 
 
 ```
 
-Turning the *knobs/parameters* in the Ishikawa Diagram, it seems that if
-the British allies attack Aqaba, they may win, BUT they may lose a few
-warships. If the Arabs want to attack, they are too small in number and
-have no warships, and hence their chances of success are very slim.
-Herein lies the Contradiction, which we can now specify as an
-[**Administrative
-Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp) in
-*plain English*:
+转动石川图中的*旋钮/参数*,似乎如果英国盟军攻击亚喀巴,他们可能会赢,但他们可能会失去几艘战舰。如果阿拉伯人想要攻击,他们的数量太少,没有战舰,因此成功的机会非常渺茫。这就是矛盾所在,我们现在可以用*通俗英语*将其指定为[**行政矛盾 (AC)**](https://altshuller.ru/world/eng/triz6.asp):
 
 ::: callout-note
-## Administrative Contradictions
-**AC**: The Arabs need the British to supply them via Aqaba port. Aqaba has huge guns and they will sink the British ships in that narrow gulf if they try a naval attack. So the Arabs need to take Aqaba without losing British ships.
+## 行政矛盾
+**AC**: 阿拉伯人需要英国人通过亚喀巴港口供应他们。亚喀巴有巨大的火炮,如果他们尝试海军攻击,它们将在那个狭窄的海湾中击沉英国船只。所以阿拉伯人需要在不失去英国船只的情况下占领亚喀巴。
 :::
 
 
-Next, based on this Contradiction and the inspection of the Ishikawa
-Diagram above, we are now ready to define the *Ideal Final Result*:
+接下来,基于这个矛盾和对上述石川图的检查,我们现在准备定义*理想最终结果*:
 
 ::: callout-note
-## Ideal Final Result
-**IFR**: The Arabs need to attack and take Aqaba port, and the big guns there should have no effect.
+## 理想最终结果
+**IFR**: 阿拉伯人需要攻击并占领亚喀巴港口,那里的大火炮应该没有影响。
 :::
 
-Note how the tone of this IFR is like a "eat my cake and have it too".
-Very typical for IFRs, this impossible-sounding tone!
+注意这个 IFR 的基调就像"吃蛋糕又拥有它"。非常典型于 IFR,这种听起来不可能的基调!
 
-Let us take the AC and convert it into a *Technical Contradiction(TC)*.
-We will look at the *48 TRIZ Parameters* in the [*TRIZ Contradiction
-Matrix* **(PDF)**](../../materials/ContradictionMatrix2003.pdf) and see
-which Parameter we want to improve, while not worsening another. Here is
-what we can attempt, stating the Contradiction both ways[^2]:
+让我们采用 AC 并将其转换为*技术矛盾 (TC)*。
+我们将查看 [*TRIZ 矛盾矩阵**(PDF)**](../../materials/ContradictionMatrix2003.pdf) 中的 *48个 TRIZ 参数*,看看我们想要改善哪个参数而不恶化另一个参数。以下是我们可以尝试的,两种方式都陈述矛盾[^2]:
 
 ::: callout-note
-## Technical Contradictions
-**- TC 1**: Increase `Duration of Action of a Moving Object` (12) and not worsen `Stability of Objects Composition` (21)\
+## 技术矛盾
+**- TC 1**: 增加`移动物体的作用持续时间`(12)而不恶化`物体组成的稳定性`(21)\
 
-**- TC 2**: Increase `Stability of Objects Composition` (21) and not worsen `Duration of Action of a Moving Object` (12)
+**- TC 2**: 增加`物体组成的稳定性`(21)而不恶化`移动物体的作用持续时间`(12)
 :::
 
 
-Here we choose these Parameters based on our IFR that the guns at Aqaba
-should not affect the Arab attack at all. The Parameters chosen from the
-TRIZ Matrix can be thought of as **metaphors** for the knobs that lie
-within our AC. Going from the AC to the TC is an act of *making
-metaphors*. We could easily have chosen the Parameter `Power(18)` or
-`Illumination Intensity(23)` to "metaphorize" the effectiveness of the
-attack, if our imaginations run in that direction. There is here a
-considerable flexibility and possibility for imaginative interpretations
-of the AC, but using the **language of TRIZ**.
+这里我们根据我们的 IFR 选择这些参数,即亚喀巴的火炮根本不应该影响阿拉伯攻击。从 TRIZ 矩阵中选择的参数可以被看作是我们 AC 中旋钮的**隐喻**。从 AC 到 TC 是*制造隐喻*的行为。我们很容易可以选择参数`功率(18)`或`照明强度(23)`来"隐喻化"攻击的有效性,如果我们的想象力朝那个方向运行。在这里,对 AC 有相当大的灵活性和想象性解释的可能性,但使用 **TRIZ 的语言**。
 
-We could even stretch to making a *Physical Contradiction(PC)*[^3]
-happen:
+我们甚至可以拉伸以产生*物理矛盾 (PC)*[^3]:
 
 ::: callout-note
-## Physical Contradictions
-**PC**: The Ships must be near the guns but not be near enough to be shot at. (They must be near and not near at the same time)
+## 物理矛盾
+**PC**: 船只必须靠近火炮但不能足够近以至于被射击。(它们必须同时靠近和不靠近)
 :::
 
 
-## Solving the Technical Contradiction
+## 解决技术矛盾
 
-Let us take the both the TC-s into the Contradiction Matrix and arrive
-at the list of TRIZ Inventive Principles. Here is the Matrix solution
-for TC-1 in the figure below:
+让我们将两个 TC 都带入矛盾矩阵并得出 TRIZ 发明原理列表。下图是 TC-1 的矩阵解决方案:
 
 ```{r, echo = FALSE,out.height="125%", out.width="125%"}
 
@@ -280,68 +186,41 @@ knitr::include_graphics("matrix.png")
 
 ```
 
-The Inventive Principles are:(TC1)
+发明原理是:(TC1)
 
-1.  IP 13 (The Other Way Around)\
-2.  IP 35 (Parameter Change)\
-3.  IP 24 (Intermediary)\
-4.  IP 40 (Composite Materials)
+1.  IP 13 (倒置)
+2.  IP 35 (参数变化)
+3.  IP 24 (中介)
+4.  IP 40 (复合材料)
 
-and (TC2)
+以及 (TC2)
 
-5.  IP 10 (Preliminary Action)\
-6.  IP 5 (Merging)
-7.  ~~IP 35 (Parameter Change)~~\
-8.  ~~IP 13 (The Other Way Around)~~
+5.  IP 10 (预先作用)
+6.  IP 5 (合并)
+7.  ~~IP 35 (参数变化)~~
+8.  ~~IP 13 (倒置)~~
 
-How are we to apply these Inventive Principles? Here again is an
-imaginative exercise as we map these **Generalized Solutions** back into
-the Problem at hand:
+我们如何应用这些发明原理?这里又是一个想象力的练习,我们将这些**广义解决方案**映射回手头的问题:
 
--   **IP 13: The Other Way Around**. Change the Direction? Of what? Two
-    aspects have "direction" as attributes: the attack, and the guns,
-    which Lawrence can't control. So how does he use this? Not attack by
-    sea? Wait...**ATTACK BY LAND**!! Change the **DIRECTION** of Attack!
-    So attack from the other side, the land side!! (We could
-    retrospectively add this parameter to the Ishikawa Diagram too).
-    Will this work? Yes, the guns can't turn around!!
+-   **IP 13: 倒置**。改变方向?什么的?两个方面具有"方向"作为属性:攻击和火炮,劳伦斯无法控制。那么他如何使用这个?不从海上攻击?等等...**从陆地攻击**!!改变攻击的**方向**!
+    所以从另一侧,从陆地侧攻击!!(我们也可以追溯地将此参数添加到石川图中)。
+    这会起作用吗?是的,火炮无法转向!!
 
--   **IP 35: Parameter Change**. But "ships" on land?? Note, *the desert
-    is an ocean into which no oar is dipped*. Sand and Water are both
-    **Resources** in the problem, as we have duly noted in the Ishikawa
-    Diagram. So a different kind of ocean and therefore a different kind
-    of ship? At a stretch, we can say the warships of the British Navy
-    are being substituted with the use of ....Camels!! And,
-    metaphorically speaking, it is *still* an attack using ships....*The
-    Ships of the Desert*!! So water becomes sand, and the warships
-    become camels using Parameter Change !
+-   **IP 35: 参数变化**。但是陆地上的"船只"?注意,*沙漠是一片不浆汲的海洋*。沙和水都是问题中的**资源**,正如我们在石川图中正确注意到的那样。所以一种不同类型的海洋,因此一种不同类型的船?可以这么说,英国海军的战舰正在被....骆驼的使用所取代!!而且,隐喻地说,这*仍然*是使用船只的攻击....*沙漠之船*!!所以水变成沙,战舰使用参数变化变成骆驼!
 
--   **IP 10: Prior Action**. How? Lawrence and Ali are far from Aqaba
-    and cannot do anything "in advance". What could this be?
+-   **IP 10: 预先作用**。如何?劳伦斯和阿里远离亚喀巴,无法"提前"做任何事情。这可能是什么?
 
--   **IP 5: Merging**. However, on the way to Aqaba, Lawrence and Ali
-    must **recruit the Howeitat tribe "in advance" of their attack** !!
-    As Lawrence tells Ali, *If 50 men came out of the Nefud Desert, they
-    might be 50 men other men would join*. This is in accordance with
-    what IP 10 is suggesting, to get other tribes to join in, *in
-    advance* of the attack.
+-   **IP 5: 合并**。然而,在去亚喀巴的路上,劳伦斯和阿里必须**提前招募 Howeitat 部落**以进行攻击!!
+    正如劳伦斯告诉阿里,*如果50人从内夫德沙漠出来,可能是50人,其他人会加入*。这符合 IP10 的建议,让其他部落加入,攻击*提前*。
 
--   **IP 40: Composite Materials**. What object within the situation can
-    we reconstitute with smaller pieces of different types? The British
-    Army...so an army made up of pieces? Yes! The Tribes need to unite
-    into one *composite* army.\
-    And, instead of large warships, the Arabs switch to a *composite*
-    force with camels...
+-   **IP 40: 复合材料**。在情况中我们可以用不同类型的小块重新构成什么物体?英国军队...所以由部分组成的军队?是的!部落需要联合成一个*复合*军队。
+    而且,代替大型战舰,阿拉伯人切换到带骆驼的*复合*部队...
 
-So IP 13 works nicely now, along with IP 35 and IP 40, to give us a
-*camel-borne attack from the landward side*. IP 10 also teams up with IP
-40 and IP 5 to give the idea of *tribe unification*.
+所以 IP13 现在很好地工作,与 IP35 和 IP40 一起,给我们一个*骆驼承载的从陆地侧攻击*。IP10 也与 IP40 和 IP5 组合,给出*部落统一*的想法。
 
-And so Lawrence and Ali, with the help of Auda Abu Tayi, attack Aqaba
-port from the landward side by crossing the Nefud desert on camels, and
-take it! And we have justified their decision using TRIZ !!
+所以劳伦斯和阿里,在奥达·阿布·塔伊的帮助下,骑着骆驼穿越内夫德沙漠从陆地侧攻击亚喀巴港口,并占领了它!我们用 TRIZ 证明了他们的决定!!
 
-Here is the final solution in action !!
+这里是最终解决方案在行动中!!
 
 <center>
 
@@ -351,40 +230,25 @@ Here is the final solution in action !!
 
 </center>
 
-<br> I hope that was as much fun to read as it was for me to write it up
-!!
+<br> 我希望你阅读这篇文章像我写它一样有趣!!
 
-## Points to Ponder
+## 思考要点
 
--   Do we each of us need a Dryden to vouch for us and help us get
-    access to the Field?
--   Does TRIZ work in both mundane and industrial contexts? (Yes of
-    course!)
--   Can we just take the 40 Inventive Principles directly and throw them
-    at every Problem, without necessarily going through the process of
-    creating Contradictions and IFR? Hipple's book has a remark in this
-    direction.
+-   我们每个人是否都需要德莱登为我们担保并帮助我们进入场域?
+-   TRIZ 在平凡和工业环境中都有效吗?(当然!)
+-   我们能否直接采用40个发明原理并将它们扔给每个问题,而不必经历创建矛盾和 IFR 的过程?Hipple 的书在这方面有一个评论。
 
-## References
+## 参考文献
 
-1.  Lawrence of Arabia at the Internet Movie Data Base
+1.  互联网电影数据库中的阿拉伯的劳伦斯
     <https://www.imdb.com/title/tt0056172/>
-2.  Mihaly Csikszentmihalyi, Creativity, Flow, and the Psychology of
-    Discovery and Invention. Harper Perennial; Reprint edition (August
-    6, 2013)
-3.  Jack Hipple, The Ideal Result and How to Achieve It. Springer;
-    2012th edition (June 26, 2012)
-4.  Valery Souchkov, Defining Contradictions.
+2.  米哈里·契克森米哈赖,创造力、心流以及发现和发明的心理学。Harper Perennial; 重印版(2013年8月6日)
+3.  Jack Hipple,理想结果以及如何实现它。Springer; 2012版(2012年6月26日)
+4.  Valery Souchkov,定义矛盾。
     <http://www.xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf>
 
-[^1]: I was not able to ascertain who is the author of this map. I would
-    be happy to write to obtain permission and use it with
-    acknowledgement.
+[^1]: 我无法确定这张地图的作者是谁。我很乐意写信获得许可并在确认后使用它。
 
-[^2]: The Contradiction Matrix is not quite symmetric, so stating the
-    Contradiction both ways allows us to access a slightly larger set of
-    Inventive Principles from two cells of the Matrix.
+[^2]: 矛盾矩阵不完全对称,所以两种方式陈述矛盾允许我们从矩阵的两个单元格访问稍微大一点的发明原理集合。
 
-[^3]: Arriving at *Physical Contradictions* is not always easy! If we
-    can, then there are a very crisp set of **TRIZ Separation
-    Principles** that we can apply to solve the Problem.
+[^3]: 得到*物理矛盾*并不总是容易的!如果我们能,那么我们可以应用一套非常清晰的**TRIZ 分离原理**来解决问题。

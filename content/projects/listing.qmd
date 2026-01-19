@@ -1,11 +1,11 @@
 ---
 # options specified here will apply to all posts in this folder
-title: "Case Studies and Talks"
-listing: 
+title: "案例研究与演讲"
+listing:
   - id: projects
     contents: "TRIZ/*/*.qmd"
     type: grid
-    fields: 
+    fields:
       - image
       - date
       - title
@@ -13,29 +13,29 @@ listing:
     sort-ui: false
     filter-ui: false
   - id: talks
-    contents: 
+    contents:
       - "Talks/*/*.qmd"
     type: grid
-    fields: 
+    fields:
       - image
       - date
       - title
     sort: order
     sort-ui: false
     filter-ui: false
-categories: 
-  - Case Studies
-  - Talks
+categories:
+  - 案例研究
+  - 演讲
 page-layout: full
 title-block-banner: false
 ---
 
-## Case Studies
+## 案例研究
 
 ::: {#projects}
 :::
 
-## Talks
+## 演讲
 
 ::: {#talks}
 :::

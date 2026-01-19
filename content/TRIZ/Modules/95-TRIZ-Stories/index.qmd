@@ -1,71 +1,78 @@
 ---
-title: "TRIZ - At the Movies"
+title: "TRIZ - 电影中的应用"
 date: "2024-02-14"
 date-modified: "`r Sys.Date()`"
 order: 95
 categories:
-- Contradictions
-- Reel World Problems
-- TRIZ Inventive Principles
+- 矛盾
+- 现实世界问题
+- TRIZ 发明原理
 
 ---
 
 ```{r}
 #| label: setup
 #| echo: false
-#| 
+#|
 ```
 
-## Introduction
-To recap: 
+## 简介
+回顾一下：
 
-We have seen:\
+我们已经了解了：
 
-- How to examine an Object or a Situation 
-- Use the Ishikawa Diagram to find Knobs and Settings
-- Find one or more Administrative Contradictions(AC)  
-- State the Ideal Final Result(IFR) to focus our attention  
-- Convert the AC into a TC with 39 TRIZ Parameters  
-- (Convert the AC into a PC)  
-- Read the  TRIZ Inventive Principles(IPs) from the Contradiction Matrix
-- Apply the TRIZ Inventive Principles to solve the Problem.
+- 如何检查对象或情境
 
-Here are a few iconic movies that we may consider as embodying very significant use of TRIZ Principles!! But here is a [***very very*** Administrative Contradiction for you to consider]{style="background-color:yellow;"}:
+- 使用石川图找到控制旋钮和设置
 
->We watch the movie and have fun, but we then have a monster of an Assignment to follow. 
+- 找出一个或多个行政矛盾（AC）
 
-Your call!!
+- 陈述理想最终结果（IFR）以集中我们的注意力
 
-## TRIZ at the Movies
+- 使用 39 个 TRIZ 参数将 AC 转换为 TC
 
-Home Alone\
+- （将 AC 转换为 PC）
+
+- 从矛盾矩阵中读取 TRIZ 发明原理（IPs）
+
+- 应用 TRIZ 发明原理来解决问题。
+
+这里有几部标志性的电影，我们可以认为它们体现了 TRIZ 原理的重要应用！！但这里有一个[***非常非常***大的行政矛盾供你考虑]{style="background-color:yellow;"}：
+
+>我们看电影并享受乐趣，但随后我们要完成一个艰巨的作业。
+
+你的选择！！
+
+## 电影中的 TRIZ
+
+小鬼当家
 {{< youtube -6ZaHJkqwsI >}}<br>
 
-Lawrence of Arabia\
+阿拉伯的劳伦斯
 {{< youtube xc0LIqZVhM8 >}} <br>
 
-Castaway:\
+荒岛余生：
 {{< youtube 5qFJDndN9GQ >}} <br>
 
-Apollo 13:\
+阿波罗13号：
 {{< youtube 7RJnMME0XAw >}} <br>
 
 
-## References
+## 参考文献
 
 1. <https://www.cliohistory.org/thomas-lawrence/akaba>
-1. Script from Lawrence of Arabia. <https://assets.scriptslug.com/live/pdf/scripts/lawrence-of-arabia-1962.pdf>
-2. Filmsite.org: [Review of Lawrence of Arabia.](https://www.filmsite.org/lawr.html)
+1. 阿拉伯的劳伦斯剧本 <https://assets.scriptslug.com/live/pdf/scripts/lawrence-of-arabia-1962.pdf>
+2. Filmsite.org: [阿拉伯的劳伦斯评论](https://www.filmsite.org/lawr.html)
 3. <https://sheldonkirshner.com/lawrence-of-arabia-the-movie-revisited>
 4. <https://www.reddit.com/r/TrueFilm/comments/r7r7o4/lawrence_of_arabia_why_everyone_needs_to_watch_it/>
 
-## More Readings
+## 延伸阅读
 
 1. <https://medium.com/@arvind.venkatadri>
 
 ::: {.hidden .unlisted .unnumbered}
 
-## Links {.hidden .unlisted .unnumbered}
+## 链接 {.hidden .unlisted .unnumbered}
 
 1. <u><https://youtu.be/4hbru1nLBeU></u>
 

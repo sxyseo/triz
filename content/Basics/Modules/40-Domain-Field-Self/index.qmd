@@ -1,18 +1,18 @@
 ---
-title: "I Connect therefore I am"
+title: "我连接故我在"
 subtitle: ""
 date: "2021-02-14"
 date-modified: " `r Sys.Date()`"
 order: 40
 links:
-slides: 
-summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
+slides:
+summary: "本模块是我在班加罗尔 Srishti Manipal 学院开设的创造性问题解决课程的一部分"
 categories:
-- Mihaly Csikszentmihalyi
-- Creativity Systems Model
-- Domain
-- Field
-- Self
+- 米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi)
+- 创造力系统模型
+- 领域
+- 场域
+- 自我
 
 ---
 <br>
@@ -26,80 +26,75 @@ knitr::include_graphics("featured.jpg")
 library(blogdown)
 ```
 
-## The Creativity Systems Model
+## 创造力系统模型
 
-```{r echo=FALSE, out.height= "50%", out.width="50%", fig.cap= "Mihaly Csikszentmihalyi",fig.align='center'}
+```{r echo=FALSE, out.height= "50%", out.width="50%", fig.cap= "米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi)",fig.align='center'}
 knitr::include_graphics("mihaly.jpg")
 
 ```
 
-Mihaly Csikszentmihalyi created what he called a Systems Model for Creativity, shown in the Figure below.
+米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi) 创建了他所谓的创造力系统模型，如下所示。
 
 ```{r echo=FALSE, out.height="75%", out.width= "75%",fig.align='center'}
 knitr::include_graphics("systems-model.jpg")
 ```
 
-Here are some brief extracts from his book[Reference 1]
+以下是他书[参考文献 1]的一些简要摘录
 
-> Many of these books and articles have tried to
-answer what has been thought to be the most fundamental question: What is creativity? But no one has raised the simple question that should precede attempts at defining, measuring, or enhancing, namely: Where is creativity?
-On hearing this question, most people would answer “Why, in the creative person’s head, of course”. 
+> 这些书籍和文章中有许多试图回答被认为是最根本的问题：什么是创造力？但是没有人提出一个简单的、应该先于定义、测量或增强尝试的问题，即：创造力在哪里？
+> 听到这个问题，大多数人会回答"为什么，当然是在有创造力的人的脑子里"。
 
-> After studying creativity on and off for almost a quarter of a century, I have come to the reluctant conclusion that this is not the case. We cannot study creativity by isolating individuals and their works from the social and historical milieu in which their actions are carried out. 
+> 在断断续续地研究了创造力近四分之一个世纪之后，我不得不得出不情愿的结论，情况并非如此。我们不能通过将个人及其作品与他们行动所在的社会和历史环境隔离开来来研究创造力。
 
->This is because what we call creative is never the result of individual action alone; it is the product of three main shaping forces:  
+> 这是因为我们所谓的创造性从来不是个人行动的结果；它是三个主要塑造力量的产物：
 >
-- a set of social institutions, or **field**, that selects from the variations produced by individuals those that are worth preserving;  
-- a stable cultural **domain** that will preserve and transmit the selected new ideas or forms to the following generations;  
-- and finally the **individual**, who brings about some change in the domain, a change that the field will consider to be creative.  
+> - 一套社会机构，或**场域**，从个人产生的变体中选择那些值得保存的；
+> - 一个稳定的文化**领域**，将 selected 新想法或形式保存并传递给后代；
+> - 最后是**个人**，他在领域带来某种变化，场域将认为这种变化是创造性的。
 
->So the question “Where is creativity?” cannot be answered solely with reference to the person and the person’s work. Creativity is a phenomenon that results from interaction between these three systems. Without a culturally defined domain of action in which innovation is possible, the person cannot even get started. And without a group of peers to *evaluate and confirm* the adaptiveness of the innovation, it is impossible to differentiate what is creative from what is simply statistically improbable or bizarre.
+> 所以"创造力在哪里？"这个问题不能仅参考人和人的工作来回答。创造力是这三个系统之间相互作用产生的现象。没有一个可能的创新的文化定义的行动领域，人甚至无法开始。没有一群同龄人来*评估和确认*创新的适应性，就不可能区分什么是创造性的，什么仅仅是统计上不太可能的或怪异的。
 
->If we think about it, the reason we believe that Leonardo or Einstein was creative is that we have read that that is the
-case, we have been told it is true; our opinions about who is creative and why ultimately are based on faith. We have faith in the domains of art and science, and we trust the judgment of the field, that is, of the artistic and scientific establishments. There is nothing wrong with this, because it is an inevitable situation. But by recognizing it, we must also accept some of its consequences, namely, that any attribution of creativity must be relative, grounded only in social agreement.
+> 如果我们考虑一下，我们相信莱昂纳多或爱因斯坦有创造力的原因是我们要读到情况如此，我们要被告知这是真的；我们对谁有创造力以及为什么的 opinion 最终是基于信仰。我们对艺术和科学领域有信心，我们信任场域的判断，即艺术和科学机构。这没有什么错，因为这是一种不可避免的情况。但通过认识到这一点，我们也必须接受它的一些后果，即，任何创造力的归属都必须是相对的，仅仅基于社会协议。
 
-## Discussion
+## 讨论
 
-What are the salient points in this model?
+这个模型中的突出点是什么？
 
-- A rather "societal" view of creativity! Rather than a psychic view!  
-- The influence of environment and people around the individual  
-- A *defined* domain of work, with a *defined* language to discuss its ideas and concepts. 
-- The **"evaluation"** of the creative act by field members, who act as gatekeepers  
+- 一个相当"社会"的创造力观！而不是心理观！
+- 环境和个人周围的人的影响
+- 工作*定义的*领域，以及*定义的*语言来讨论其想法和概念。
+- 场域成员对创造性行为的**"评估"**，他们充当守门人
 
-Is this nonplussing? Contrary to what you believe? Outright disturbing?
+这是令人困惑的吗？与你的信念相反？完全令人不安？
 
-I think this is *immensely reassuring* and *humbling* at the same time: reassuring because a creative act can be performed by anybody, not some arbitrarily defined "gifted individual", and humbling, because if field members don't like your act, or if you don't *have access* to the field, you might not make it. It is fair and unfair, but immensely real. 
+我认为这同时是*令人极大安慰*和*令人谦卑*的：令人安慰，因为创造性行为可以由任何人执行，而不是任意定义的"有天赋的个人"，令人谦卑，因为如果场域成员不喜欢你的行为，或者如果你不*有机会接触*场域，你可能无法成功。它是公平和不公平的，但非常真实。
 
-## Why this Model matters to us
+## 为什么这个模型对我们很重要
 
-As we will see later in this course, classical TRIZ was developed by Genrikh Altshuller based on an evaluation of more than 25000 patents. He found "design patterns" that had been repeatedly used across patents and classified them for our use. There is a strong sense of history and society right at the heart of TRIZ. 
+正如我们将在本课程后面看到的那样，经典的 TRIZ 由根里奇·阿奇舒勒 (Genrikh Altshuller) 基于对超过 25000 项专利的评估而开发。他发现了在专利中反复使用的"设计模式"，并对它们进行了分类供我们使用。在 TRIZ 的核心有一种强烈的历史和社会意识。
 
-Further, the patents the study of which helped Altshuller create TRIZ in the first place belong with *domains* that we may not necessarily encounter. And yet, the Principles of TRIZ straddle domains and help "cross-domain" solutions to happen: the use of principles in one domain in another, unrelated, domain. (More when we enter TRIZ proper)
+此外，帮助阿奇舒勒首先创建 TRIZ 的专利研究属于我们可能不一定会遇到的*领域*。然而，TRIZ 的原理跨越领域，帮助实现"跨领域"解决方案：在一个领域中使用原理到另一个不相关的领域。（当我们进入真正的 TRIZ 时会详细介绍）
 
-## Some Examples from History
+## 历史上的一些例子
 
-### Botticelli
-> Botticelli was for centuries considered to be a coarse painter, and the women he painted “sickly” and “clumsy”. Only in the mid-nineteenth century did some critics begin to reevaluate his work and see in it creative anticipations of modern sensibility. To what extent was creativity contained in Botticelli’s canvases, and to what extent did it emerge
-from the interpretive efforts of critics like Ruskin?
+### 波提切利
+> 波提切利几个世纪以来被认为是一个粗俗的画家，他画的女性"病态"和"笨拙"。直到 19 世纪中叶，一些评论家才开始重新评估他的作品，并从中看到对现代感性的创造性预期。创造力在多大程度上包含在波提切利的画布中，又在多大程度上从拉斯金等评论家的解释努力中出现？
 
-### Gregor Mendel
-> ...our view of Mendel’s contribution to genetics is generally quite wrong. The impression we have is that Mendel made a series of epochal experiments in the genetic transmission of traits in the 1860s, but that his creativity was not recognized by the scientific community until about 40 years later. This view is radically mistaken in a subtle but essential respect. (Brannigan) argues that Mendel’s experiments were not and could not have been contributions
-to genetics **at the time they were made**. Their implications for the theory of variation and natural selection were discovered only in 1900 by William Bateson
-and other evolutionists looking for a mechanism that explained discontinuous inheritance. Within their theoretical framework, Mendel’s work suddenly acquired an importance that it had lacked before, even in the mind of Mendel himself.
+### 格雷戈尔·孟德尔
+> ...我们对孟德尔对遗传学的贡献的看法通常是相当错误的。我们的印象是，孟德尔在 1860 年代进行了一系列关于性状遗传传递的划时代实验，但他的创造力直到大约 40 年后才被科学界认识到。这种观点在一个微妙但基本的方面是根本错误的。(布兰尼根)认为，孟德尔的实验在当时不是也不可能是对遗传学的贡献。它们对变异理论和自然选择的影响只是在 1900 年才由威廉·贝特森 (William Bateson) 和其他寻找解释不连续遗传机制的进化论者发现。在他们的理论框架内，孟德尔的工作突然获得了以前所没有的重要性，甚至在孟德尔自己的脑海中也是如此。
 
-### Galileo Galilei
+### 伽利略·伽利莱
 ![](galileo_manuscript.png)
-The church was definitely the *Field* for Galileo...
+教会绝对是伽利略的*场域*...
 
-## {{< iconify streamline book-reading >}} Reading Writing Assignment
+## {{< iconify streamline book-reading >}} 读写作业
 
-  Head off to [Assignment #4](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-4.-i-connect-therefore-i-am) for this Module.
-  
-## References
+  前往本模块的[作业 #4](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-4.-i-connect-therefore-i-am)。
+
+## 参考文献
 
 
-1. Mihaly Csikszentmihalyi, **The Systems Model of Creativity: The Collected Works of Mihaly Csikszentmihalyi**, ISBN:9789401790857, Springer, 2015.
-1. Oliver Ding, "**Platform Creativity: Domain, Field, and Person**", <https://medium.com/call4/domain-8a22b6b486f4>
-1. Jessica Wolf,UCLA Newsroom, **The truth about Galileo and his conflict with the Catholic Church**, <https://newsroom.ucla.edu/releases/the-truth-about-galileo-and-his-conflict-with-the-catholic-church>
+1. 米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi)，**创造力系统模型：米哈里·契克森米哈赖著作集**，ISBN:9789401790857，Springer，2015。
+1. Oliver Ding，"**平台创造力：领域、场域和个人**"，<https://medium.com/call4/domain-8a22b6b486f4>
+1. Jessica Wolf，UCLA 新闻室，**关于伽利略及其与天主教会冲突的真相**，<https://newsroom.ucla.edu/releases/the-truth-about-galileo-and-his-conflict-with-the-catholic-church>
 

@@ -1,14 +1,14 @@
 ---
 title: "Eureka on Demand"
-subtitle: "Creative Problem Solving using TRIZ"
+subtitle: "运用TRIZ进行创造性问题解决"
 date: "July 24, 2024"
 date-modified: "`r Sys.Date()` "
-# listing: 
+# listing:
 #   type: table
 #   sort: "order"
 #   sort-ui: false
 #   filter-ui: false
-#   contents: 
+#   contents:
 #     - "TRIZ4ProbSolving/listing.qmd"
 #   fields: [image, title, subtitle, date]
 #   table-striped: true
@@ -24,15 +24,12 @@ date-modified: "`r Sys.Date()` "
 ```
 
 
-![Japanese Daisugi Method of Growing
-Timber](/content/materials/images/daisugi.jpg){fig-align="center"}
+![日本台杉种植法
+](/content/materials/images/daisugi.jpg){fig-align="center"}
 
-## Inspiration
+## 灵感
 
-This is an extracted "kagga" from the famous <u>[Mankutimmmana
-Kagga](https://translationtreasure.blogspot.com)</u> by D V Gundappa.
-(Quoted to me in 1989 at Horanadu, by my late friend B.S.Nagesh Rao,
-Digital Systems Division, ISRO Satellite Centre (ISAC), Bangalore)
+这是著名的D.V. Gundappa所著的<u>[Mankutimmmana Kagga](https://translationtreasure.blogspot.com)</u>中的一节摘录。（1989年，我在Horanadu由我已故的朋友B.S.Nagesh Rao——班加罗尔ISRO卫星中心（ISAC）数字系统部门——引用给我）
 
 > hosa chiguru haLE bEru kUDiralu mara sogasu\|<br> hosa yukti haLe
 > tatva-doDagUDe dharma\|\|<br> RuShivaakyadoDane vij\~jaanakale
@@ -40,138 +37,68 @@ Digital Systems Division, ISRO Satellite Centre (ISAC), Bangalore)
 
 ![](materials/images/kagga10.png)
 
-## Introduction
+## 简介
 
 
-*Creative Problem Solving is a Process and can be taught and learnt. Brainstorming is utter BS. Post-Its are a great Invention, but a complete waste of time*.
+*创造性问题解决是一个过程，可以被教授和学习。头脑风暴纯属胡扯。便利贴是个伟大的发明，但完全是浪费时间*。
 
-This is a [(very opinionated)]{.black .bg-gold} Contextual Enquiry Course on [Creative Problem Solving]{.black .bg-gold}, designed for
-the Foundation (freshman) year of a Bachelor's Degree in Art and Design, at the Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India. (It is occasionally offered as a General Studies Course for senior undergraduate Art and Design Students). 
+这是一门[带有强烈观点]{.black .bg-gold}的[创造性问题解决]{.black .bg-gold}情境探究课程，专为印度班加罗尔斯里什蒂马尼帕尔艺术、设计与技术学院艺术设计学士学位的基础（大一）学年设计。（偶尔也会作为高年级艺术设计学生的通识课程提供）。
 
-## Abstract
+## 摘要
 
-This Unit takes students on a journey of understanding the process of
-Personal Creativity and Structured Innovation.
+本单元将带领学生踏上理解个人创造力和结构化创新过程的旅程。
 
-We begin by using the idea of Flow, as a pathway between ever-increasing
-(creative) Complexity and Boredom as defined by Csikszentmihalyi.
-Childhood Games will be examined to understand the aspects of Play and
-linked to and the idea of "Infinite Games" by James Carse and how
-Rule-Breaking in Play is an important step in enhancing personal
-creativity.
+我们首先使用心流（Flow）的概念，这是Csikszentmihalyi定义的在不断增长的（创造性）复杂性和无聊之间的路径。将通过检查童年游戏来理解游戏的各个方面，并将其与James Carse的"无限游戏"概念联系起来，以及游戏中的规则打破如何成为增强个人创造力的重要步骤。
 
-Bourdieu's concept of Cultural Capital will be interpreted as one of the
-primary sources for an individual's ideas, along with Csikzentmihalyi's
-idea of the Creative Domain, Field and the Creative Individual. Tools
-for enhancing Cultural Capital will be introduced. The MBTI / Big 5 Tool
-will be used to understanding ourselves, our abilities, strengths,
-traits and differences from others.
+Bourdieu的文化资本概念将被解释为个人思想的主要来源之一，同时结合Csikzentmihalyi的创造性领域、领域和创造性个体的概念。将引入增强文化资本的工具。MBTI/五大人格工具将用于了解我们自己、我们的能力、优势、特征以及与他人的差异。
 
-Structured heuristic techniques based on de Bono's 6 Hat method will
-help us see how to perform Situational Analysis and Idea Generation, to
-help us take ideas from conception to execution. Reference will be made
-to Alex Osborn's "Applied Imagination" methods and tied to the Big 5
-results.
+基于de Bono六顶思考帽方法的结构化启发式技术将帮助我们了解如何进行情境分析和想法生成，帮助我们将想法从概念变为执行。将参考Alex Osborn的"应用想象力"方法，并将其与大五人格结果联系起来。
 
-Aspects of the Systematic Russian Process of innovation and problem
-solving, ***TRIZ (Teoriya Resheniya Izobretatelskhikh Zadatch)***
-invented by Genrikh Altshuller will be introduced. Alshuller's idea of
-Generalized Problem Solving by borrowing ideas/memes from other Domains,
-his 8 Laws of Evolution of Products, and ( a few of ) the 40 Inventive
-Principles derived from his analysis of patents, will be covered in
-gamified fashion. These will be linked to with David Perkin's (Harvard
-Project Zero) ideas and Edward de Bono's methods to interpret, and
-design for, existing situations and products.
+将介绍Genrikh Altshuller发明的系统化俄罗斯创新和问题解决过程***TRIZ（Teoriya Resheniya Izobretatelskhikh Zadatch）***的各个方面。Altshuller通过从其他领域借用想法/模因来概括性解决问题的思想、他的8个产品演化定律，以及（40个发明原则中的部分，这些原则源于他对专利的分析）将以游戏化的方式涵盖。这些将与David Perkin（哈佛零项目）的想法和Edward de Bono的方法联系起来，用于解释和设计现有情况和产品。
 
-Advanced aspects of TRIZ such as Su-Field Analysis, the Laws of Product
-Evolution, and ARIZ will be introduced in gamefied fashion.
+将以游戏化的方式介绍TRIZ的高级方面，如物场分析、产品演化定律和ARIZ。
 
-Field visits to product, food preparation, solar energy, and logistics
-companies will be used to bolster and demonstrate the unity of these
-concepts acquired in class. Technological assignments, and non-tech
-making and presenting tasks will also be used in class to create
-gamefied experiences for all of these.
+将安排对产品、食品制备、太阳能和物流公司的实地考察，以加强和展示在课堂上学到的这些概念的统一性。技术作业和非技术的制作与展示任务也将在课堂上用于创建所有这些内容的游戏化体验。
 
-The students will finally use the methods and ideas they have learnt and
-apply them in creating a project, artifact or performance of their own.
+学生们最终将使用他们学到的方法和想法，应用在创建自己的项目、制品或表演中。
 
-## Course Contents
+## 课程内容
 
-The course will have some basic foundations from psychological and
-cognitive science foundations, on top of which will be built the edifice
-of <u>[Big Understandings, Dispostions, and
-Skills](https://arvindvenkatadri.com/slides/fspmanifesto)</u>.
+本课程将以心理学和认知科学的一些基础为基础，在此基础上建立<u>[大理解、倾向和技能](https://arvindvenkatadri.com/slides/fspmanifesto)</u>的大厦。
 
--   Fundamentals of [Flow and Play]{.black .bg-gold}  as defined by Mihaly
-    Csikszentmihalyi
--   Thinking Styles and how one appreciates the Problem Situation
--   [Cultural Capital]{.black .bg-gold}  as a source of one's Ideas
--   Genes and [Memes]{.black .bg-gold} 
--   Cognitive Biases and Functional Fixedness
--   Cultivating a Mentality of Resource(fulness)
--   Metaphors as Gateways
--   [The Six Thinking Hats Method]{.black .bg-gold}  and how to apply them
-    in practice
--   Innovative Problems Solving Methods like [TRIZ]{.black .bg-gold} , its
-    philosophy, and techniques such as the [TRIZ Contradiction
-    Matrix]{.black .bg-gold}  and [40 Inventive Principles]{.black .bg-gold}
--   Advanced TRIZ methods such as [Substance-Field
-    Analysis]{.black .bg-gold} , [76 Scientific Principles]{.black .bg-gold} , and the [Laws of Product Evolution]{.black .bg-gold} 
--   Analysis of Hollywood Movies for manifestations of metaphoric
-    problems and TRIZ methods
--   ***Bring your own Problem***: A Final Culminating Problem-Solving
-    Project
+-   Mihaly Csikszentmihalyi定义的[心流与游戏]{.black .bg-gold}基础
+-   思维风格以及如何理解问题情境
+-   [文化资本]{.black .bg-gold}作为想法的来源
+-   基因和[模因]{.black .bg-gold}
+-   认知偏差和功能固着
+-   培养资源（丰富性）心态
+-   隐喻作为门户
+-   [六顶思考帽方法]{.black .bg-gold}以及如何在实践中应用
+-   创新问题解决方法，如[TRIZ]{.black .bg-gold}、其哲学和技术，如[TRIZ矛盾矩阵]{.black .bg-gold}和[40个发明原则]{.black .bg-gold}
+-   高级TRIZ方法，如[物场分析]{.black .bg-gold}、[76个科学原理]{.black .bg-gold}和[产品演化定律]{.black .bg-gold}
+-   分析好莱坞电影中隐喻性问题和TRIZ方法的体现
+-   ***自带问题***：最终的总结性问题解决项目
 
-### Why all this "Structure" to a course on Creativity?
+### 为什么创造力课程需要这么多"结构"？
 
-Isn't [Empathy Mapping-Brainstorming-Ideation-Iteration-Test]{.black .bg-gold}  the core of the Design process? What is this new(?)-fangled structured TRIZ process thing?
+[共情映射-头脑风暴-创意生成-迭代-测试]{.black .bg-gold}不是设计过程的核心吗？这个新的（？）结构化TRIZ过程是什么东西？
 
-Let us see some short extracts from Herbert Simon's landmark book,
-**Sciences of the Artificial**: (emphasis everywhere in the following is
-mine)
+让我们看看Herbert Simon里程碑式著作**人工科学**中的一些简短摘录：（以下所有强调均为我所加）
 
-> Chapter 5: *The Science of Design: Creating the Artificial*
-> Historically and traditionally, it has been the task of the science
-> disciplines to teach about **natural things**: how they are and how
-> they work. It has been the task of engineering schools to teach about
-> **artificial things**: how to make artifacts that have desired
-> properties and how to design.
+> 第5章：*设计科学：创造人工制品*
+> 从历史上和传统上，自然科学的任务是教授关于**自然事物**：它们是什么以及如何工作。工程学院的任务是教授关于**人工事物**：如何制造具有所需属性的人工制品以及如何设计。
 
-> Engineers are not the only professional designers. Everyone designs
-> who devises courses of action aimed at changing existing situations
-> into preferred ones. The intellectual activity that produces material
-> artifacts is no different fundamentally from the one that prescribes
-> remedies for a sick patient or the one that devises a new sales plan
-> for a company or a social welfare policy for a state. Design, so
-> construed, is the core of all professional training; it is the
-> principal mark that **distinguishes the professions from the
-> sciences**. Schools of engineering, as well as schools of
-> architecture, business, education, law, and medicine, are all
-> centrally concerned with the process of design.
+> 工程师不是唯一的专业设计师。每个设计旨在将现有情况改变为首选情况的行动方案的人都是设计师。产生物质人工制品的智力活动与为病人开处方或为公司制定新销售计划或为国家制定社会福利政策的智力活动没有根本区别。这样理解的设计是所有专业培训的核心；它是**区分专业与科学**的主要标志。工程学院以及建筑、商业、教育、法律和医学院都主要关注设计过程。
 
-> In view of the key role of design in professional activity, it is
-> ironic that in this century the natural sciences almost drove the
-> sciences of the artificial from professional school curricula, a
-> development that peaked about two or three decades after the Second
-> World War. Engineering schools gradually became schools of physics and
-> mathematics; medical school became schools of biological science;
-> business schools became schools of finite mathematics.
+> 鉴于设计在专业活动中的关键作用，具有讽刺意味的是，本世纪自然科学几乎将人工科学从专业学校课程中驱逐出去，这一发展在第二次世界大战后两三十年达到顶峰。工程学院逐渐变成了物理和数学学院；医学院变成了生物科学学院；商学院变成了有限数学学院。
 
-> Such a universal phenomenon must have had a basic cause. It did have a
-> very obvious one. As professional schools, including the independent
-> engineering schools, were more and more absorbed into the general cul-
-> ture of the university, they hankered after academic respectability.
+> 这样一个普遍现象必然有一个基本原因。它确实有一个非常明显的原因。随着专业学校，包括独立的工程学院，越来越多地被吸收到大学的一般文化中，它们渴望学术尊重。
 
-> ***In terms of the prevailing norms, academic respectability calls for
-> subject matter that is intellectually tough, analytic, formalizable,
-> and teachable***.
+> ***根据流行的规范，学术尊重需要的是在智力上严谨、分析性、可形式化和可教授的题材***。
 
-> ***In the past much, if not most, of what we knew about design and
-> about the artificial sciences was intellectually soft, intuitive,
-> informal, and cookbooky***.
+> ***过去，即使不是大部分，我们所知道的关于设计和人工科学的大部分内容在智力上都是软的、直观的、非正式的和像烹饪书一样的***。
 
-Yeah. That's why this course exists. To make Design tough, analytic,
-formalizable, and ~~teachable~~ learnable.
+是的。这就是为什么这门课程存在。为了让设计变得严谨、分析性、可形式化和~~可教授~~可学习的。
 
 ## References
 

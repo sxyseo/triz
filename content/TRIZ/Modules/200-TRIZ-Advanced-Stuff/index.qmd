@@ -1,13 +1,13 @@
 ---
 date: "2024-02-14"
-title: "TRIZ - Substance Field Analysis, and ARIZ"
+title: "TRIZ - 物质-场分析和 ARIZ"
 order: 200
 tags:
-- TRIZ Laws of Product Evolution
-- Past, Present, and Future
-- Subsystem
-- System
-- Super-System
+- TRIZ 产品演化定律
+- 过去、现在和未来
+- 子系统
+- 系统
+- 超系统
 
 ---
 
@@ -27,89 +27,100 @@ knitr::include_graphics("featured.jpg")
 ```
 
 
-# Introduction
-What if there is more than one Contradiction?
+# 简介
+如果有多个矛盾怎么办？
 
+如果当前问题中的材料和过程之间存在复杂的相互作用怎么办？是否有分析方法能够让我们科学地找到这些之间的关系并识别我们问题的根源？我们如何利用现有的科学解决方案，这些解决方案比隐喻性的发明原理更直接地指向答案？
 
-What if there are complex interactions between materials and processes in the problem at hand? Is there an analysis method that allows us to scientifically find the relationships between these and identify to source of our problems? How do we leverage existing scientific solutions, that point us even more directly than a metaphoric Inventive Principle?
+## 物质-场分析：世界之间的碰撞
 
-## Substance Field Analysis: Collisions between Worlds
+回想一下，TRIZ 发明原理是隐喻性的，我们需要*将它们落实到现实*并实现<u>[我们劳动的成果](https://palani.org/purana.htm)</u>。正如我们所讨论的，这是利用了来自*前几代和当代*发明者的[文化资本](../20-Cultural-Capital/index.html)，汲取人类智慧的结晶。阿奇舒勒似乎预见到了这里的困难：我们可能不具备许多其他领域中科学解决方案的百科全书式知识，而在这些领域中，相同的问题（隐喻地）表现出来。
 
-Recall that the TRIZ Inventive Principles are metaphoric and we need to *bring them down to earth* and realise <u>[the fruit of our labours](https://palani.org/purana.htm)</u>. This, as we discussed, is a leveraging of [Cultural Capital](../20-Cultural-Capital/index.html) from *previous and current generations* of inventors, of dipping into the distilled wisdom of the human race. Altshuller seems to have anticipated the difficulty here: we may not have the encyclopaediac knowledge of scientific solutions from many other domains, where the same problem as the one at hand (metaphorically) manifested itself. 
+因此，他还记录了**76 个科学解决方案**，或与解决矛盾相关的*效应*。为了促进这种关系，他还提出了一种广泛使用的科学 TRIZ 方法，**物质-场分析（Substance-Field，或 Su-Field）**。现在我们将学习这个 TRIZ 方法来完成我们的 TRIZ 工具包。
 
-Hence he also documented **76 Scientific Solutions**, or *effects* that are related to solving Contradictions. In order to facilitate that relationship, he also proposed a much-used scientific TRIZ Method, **Substance-Field, or Su-Field, Analysis**. We will now acquire this TRIZ method to complete our TRIZ Toolkit. 
+## 游戏 #1
 
-## Game #1
+这个游戏想法是 2022 年 FSP 班级与学生 Ira Patil 偶然交谈的结果。
 
-This game idea is the result of a chance conversation in class with student Ira Patil, FSP 2022. 
+你需要的东西：
 
-Things you need:
+- Makey-Makey（每组一个）
 
-- Makey-Makey ( one per group )
-- Laptop
-- An App or a Game on the laptop (*"Inner Game"*)
-- Some board game with pieces. Can use a non-board game also. (*"Outer Game"*)
-- Paper and pencil/graphite pieces
-- Classroom Furniture
-- Cellophane tape to anchor "contact areas". (See below)
+- 笔记本电脑
 
-Good to have:
+- 笔记本电脑上的应用程序或游戏（*"内在游戏"*）
 
-- Additional Wire, metal foil, metal scales, keys, coins, spoons, and miscellaneous small light metallic items if you can get them
+- 一些带有棋子的桌面游戏。也可以使用非桌面游戏。（*"外在游戏"*）
 
-Instructions:
+- 纸和铅笔/石墨片
 
-- Connect your Makey-Makey to the laptop over USB
-- Fire up a the chosen "inner game" app on the laptop. Ensure that the game uses UP/DOWN/LEFT/RIGHT/CLICK to make things happen. E.g. <u><https://www.youtube.com/watch?v=hCnGTnr7eqQ></u>. A not-too-violent arcade or RPG is also ok. 
-- Set up your board / non-board outer game close by. 
-- Connect the GND and the 5 other signals from your Makey-Makey to a variety of objects, both living and non-living, from your board game. 
-- If you are using a non-board "outer game", which involves only human movement, then ensure that the floor or wall has *contact areas* to each of the 5 signals. These can be made, for example, with a paper stuck to the wall, a metal foil stuck on the paper itself, with a wire extended from there to the Makey-Makey.
-- Play ***both*** games simultaneously. This is related to Arthur Koestler's idea of a *bisociation* [^1], where we experience a *collision* between two frames of reference. 
+- 教室家具
+
+- 玻璃纸胶带用于固定"接触区域"。（见下文）
+
+最好有：
+
+- 额外的电线、金属箔、金属尺、钥匙、硬币、勺子以及你可以弄到的各种小件轻金属物品
+
+说明：
+
+- 通过 USB 将你的 Makey-Makey 连接到笔记本电脑
+
+- 在笔记本电脑上启动选定的"内在游戏"应用程序。确保游戏使用上/下/左/右/点击来使事情发生。例如：<u><https://www.youtube.com/watch?v=hCnGTnr7eqQ></u>。不太暴力的街机或角色扮演游戏也可以。
+
+- 在附近设置你的桌面/非桌面外在游戏。
+
+- 将你的 Makey-Makey 的 GND 和其他 5 个信号连接到各种物体，包括有生命和无生命的，从你的桌面游戏中。
+
+- 如果你使用的是非桌面"外在游戏"，只涉及人体运动，那么确保地板或墙壁对这 5 个信号都有*接触区域*。这些可以例如通过将纸贴在墙上、在纸上贴金属箔、然后从那里延伸电线到 Makey-Makey 来制作。
+
+- 同时玩***两个***游戏。这与亚瑟·凯斯特勒（Arthur Koestler）的*双重联想* [^1] 的想法有关，我们在其中体验到两个参考框架之间的*碰撞*。
 
 [^1]: <https://www.themarginalian.org/2013/05/20/arthur-koestler-creativity-bisociation/>
 
-Questions to contemplate:
+需要思考的问题：
 
-1. Does the competitive aspect of the external game allow itself to be included in the inner game?
+1. 外在游戏的竞争方面允许被包含在内在游戏中吗？
 
-2. Does the inner game influence movements, strategies, and plays in the outer game?
+2. 内在游戏是否影响外在游戏中的动作、策略和玩法？
 
-3. Can *other senses* (hearing, for example), be included in the game(s) in a hitherto unknown way? 
+3. 能否以一种前所未有的方式将*其他感官*（例如，听觉）包含在游戏（们）中？
 
-4. Can the normal use of senses within the game ( e.g. sight, of course) be altered?
+4. 游戏内感官的正常使用（例如，当然包括视觉）是否可以被改变？
 
-5. What other **parameters** and **forces** can you include in this collision between two Game-Worlds?
+5. 你还可以在这个两个游戏世界之间的碰撞中包括哪些其他**参数**和**力**？
 
-6. Opinions: Was some interaction between the two Games ***undesirable***? Were others highly ***desirable***? Describe these.
-
-
-## Discussion
-
-1. The Game we played was a simulation for what is called the **Substance Field Model** in TRIZ. 
-
-2. In both directions, we can imagine that the two Games (and the players) project some kind of *Force* on the *Substance* of the **other game**. Examples:
-
-   - If movement direction in the *outer game* was linked to creating a particular sound or shape on the *inner game*?
-   - If you *inner game* used/made sounds, did use of this "new" sense (hearing) affect outcomes in the *outer game*?
-
-3. We should look at the pair of Games and their paraphernalia, pieces, moves, movements etc **mutually representing** [**Substances**]{style="background-color: yellow;"} and [**Fields**]{style="background-color: yellow;"}: each Game exerts a **Field** on the **Substance** of the other game. 
-
-   - Were **Fields** entirely physical (i.e. Newtonian) in nature? Did *intent*, emotions such as *delight*, *dismay*, *disappointment*, and *surprise* show up as Fields?
-
-   - Were all *Fields* intentional?
-
-   - Were all Fields beneficial or were some harmful?
+6. 意见：两个游戏之间的某些交互是否***不可取***？其他的是否高度***可取***？描述这些。
 
 
-## Models in Su-Field Analysis
-To be described
+## 讨论
+
+1. 我们玩的游戏是 TRIZ 中所谓的**物质-场模型**的模拟。
+
+2. 在两个方向上，我们可以想象两个游戏（和玩家）对**另一个游戏**的**物质**施加某种*力*。例子：
+
+   - 如果*外在游戏*中的运动方向与在*内在游戏*中创建特定声音或形状相关联？
+
+   - 如果你的*内在游戏*使用/制作声音，这种"新"感官（听觉）的使用是否影响*外在游戏*中的结果？
+
+3. 我们应该看这对游戏及其装备、棋子、移动、动作等**相互代表** [**物质**]{style="background-color: yellow;"} 和 [**场**]{style="background-color: yellow;"}：每个游戏对另一个游戏的**物质**施加一个**场**。
+
+   - **场**完全是物理的（即牛顿力学）吗？*意图*，如*喜悦*、*沮丧*、*失望*和*惊讶*等情绪是否表现为场？
+
+   - 所有*场*都是故意的吗？
+
+   - 所有场都是有益的还是有些是有害的？
+
+
+## Su-Field 分析中的模型
+待描述
 ```{r, echo=FALSE}
 knitr::include_url("/slides/PlayAndInvent/TRIZ-SuField-Analysis/index.html")
 ```
 
 
-## Examples for Su-Field Models
-To be described
+## Su-Field 模型的示例
+待描述
 
 ```{r}
 #| echo: false
@@ -126,16 +137,16 @@ graph LR
 #| echo: false
 DiagrammeR("
 graph LR
-    A(fab:fa-tools Technical System)
-    E(fa:fa-shapes Su-Field Model of Problem)
-    F(fa:fa-chevron-up Su-Field Model of Solution)
-    G(fa:fa-comment-dots No Model)
-    H(fa:fa-arrow-left Technical Solution)
-    I(fa:fa-code Text)
-    J(fa:fa-arrow-left Type Mermaid syntax)
+    A(fab:fa-tools 技术系统)
+    E(fa:fa-shapes 问题的 Su-Field 模型)
+    F(fa:fa-chevron-up 解决方案的 Su-Field 模型)
+    G(fa:fa-comment-dots 无模型)
+    H(fa:fa-arrow-left 技术解决方案)
+    I(fa:fa-code 文本)
+    J(fa:fa-arrow-left 输入 Mermaid 语法类型)
 
-    A -- Su-Field Analysis --> E --> F --> H
-    A -- Use **normal** methods --> G --> H
+    A -- Su-Field 分析 --> E --> F --> H
+    A -- 使用**普通**方法 --> G --> H
 
     style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF
     style G color:#FFFFFF, stroke:#00C853, fill:red
@@ -144,19 +155,20 @@ graph LR
 
 ")
 
+
 ```
 
 
-## The 76 Standard Solutions
-To be described
+## 76 个标准解决方案
+待描述
 
-## How does it Work??
-To be described
+## 它是如何工作的？？
+待描述
 
 
-## References
+## 参考文献
 
 1. <https://the-trizjournal.com/altshullers-greatest-discovery-beyond/>
-1. Project TETRIS: Chapter 3: Short Review of ARIZ: Algorithm for Innovative Problem Solving and a Case Study [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_03.pdf)
-1. Project TETRIS: Chapter 4: Substance-Field ( "Su-Field" ) Analysis and Standard Solutions basic notions and rules [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_04.pdf)
+1. 项目 TETRIS：第3章：ARIZ 简要回顾：创新问题解决算法及案例研究 [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_03.pdf)
+1. 项目 TETRIS：第4章：物质-场（"Su-Field"）分析和标准解决方案的基本概念和规则 [(PDF)](https://innovazionesistematica.it/wp-content/uploads/2020/10/EN_04.pdf)
 

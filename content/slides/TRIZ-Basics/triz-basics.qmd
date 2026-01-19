@@ -1,6 +1,6 @@
 ---
-title: TRIZ - A Very Contradictory Method
-subtitle: "A Workflow for Students"
+title: TRIZ - 一种非常矛盾的方法
+subtitle: "学生工作流程"
 format:
   clean-revealjs:
     self-contained: true
@@ -51,23 +51,21 @@ showtext::showtext.auto()
 
 ```
 
-## Classical TRIZ
+## 经典 TRIZ
 
 :::::: columns
 ::: {.column width="40%"}
--   ***Big Idea :*** Generalized Problem: "Your Problem has been solved
-    somewhere else" in a different DOMAIN in a different LANGUAGE
+-   ***核心思想：*** 广义问题："你的问题已经在其他地方解决过了"，在不同的领域，用不同的语言
 
--   ***Modelling/Applying :*** "Metaphorize" your Problem using 48 TRIZ
-    Parameters
+-   ***建模/应用：*** 使用 48 个 TRIZ 参数"隐喻化"你的问题
 
--   ***Taxonomy / Tools :***
+-   ***分类/工具：***
 
--   The 8 TRIZ Laws of Evolution of a Product;
+-   产品演化的 8 个 TRIZ 定律；
 
--   TRIZ Contradictions Matrix;
+-   TRIZ 矛盾矩阵；
 
--   TRIZ 40 Inventive Principles
+-   TRIZ 40 个发明原理
 :::
 
 ::: {.column width="30%"}
@@ -84,7 +82,7 @@ knitr::include_graphics("https://the-trizjournal.com/wp-content/uploads/2018/03/
 :::
 ::::::
 
-## A Well Known TRIZ example !!
+## 一个著名的 TRIZ 例子！！
 
 ::::: columns
 ::: {.column width="50%"}
@@ -96,7 +94,7 @@ knitr::include_graphics("https://the-trizjournal.com/wp-content/uploads/2018/03/
 :::
 :::::
 
-## A Generalized Solution
+## 一个广义的解决方案
 
 ```{r,echo=FALSE, fig.align='center'}
 knitr::include_graphics("images/quadratic-analogy.png")
@@ -105,116 +103,101 @@ knitr::include_graphics("images/quadratic-analogy.png")
 .footnote[Stan Kaplan, "An Introduction to TRIZ - The Russian System of
 Inventive Problem Solving", Ideation International Inc]
 
-## Even Quadratic Equations are Still Researched!!
+## 二次方程仍在研究中！！
 
 <center>
 <iframe width="950" height="500" src="https://www.youtube.com/embed/ZBalWWHYFQc?list=PLqv4sKOD1bsUoSs-SbzlA2BE1tML4A33u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </center>
 
-## TRIZ: A Quick Workflow
+## TRIZ：快速工作流程
 
--   Find a **PROBLEM**
+-   找到一个**问题**
 
--   Formulate a **CONTRADICTION** (a trade-off or a compromise)
+-   构思一个**矛盾**（权衡或妥协）
 
--   Specify an **IDEAL FINAL RESULT**
+-   指定一个**理想最终结果**
 
--   Convert/metaphorize the **CONTRADICTION** into **TRIZ PARAMETER**s
+-   将**矛盾**转换/隐喻为**TRIZ 参数**
 
--   Look up the **CONTRADICTION MATRIX**
+-   查阅**矛盾矩阵**
 
--   Discover the **INVENTIVE PRINCIPLES** you might apply
+-   发现你可能应用的**发明原理**
 
--   *Un-metaphorize* the **INVENTIVE PRINCIPLES** to apply them in a
-    specific way in your problem and solve it
+-   *非隐喻化***发明原理**，以特定方式将它们应用到你的问题中并解决它
 
-Now let us look at these steps in pictorial detail 🖼
+现在让我们以图形方式详细了解这些步骤 🖼
 
-## TRIZ Workflow: Formulate a Problem Description
+## TRIZ 工作流程：构思问题描述
 
 ::::: columns
 ::: {.column width="50%"}
--   Use your [**CULTURAL
-    CAPITAL**](https://culturallearningalliance.org.uk/what-is-cultural-capital/)
-    and your **DOMAINs** to write a PROBLEM in simple English
--   Ask: **5W+H**
-    -   **What** does the problem seem to be?
-    -   **Who** has the problem?
-    -   **When** does the problem occur? All the time? Under certain
-        circumstances?
-    -   **Where** does the problem occur?
-    -   **Why** does the problem occur?["Ask why 5 times"
-        -- W. Edwards Deming]{.bg style="--col: yellow"} - **How** does the problem occur?
+-   使用你的[**文化资本**](https://culturallearningalliance.org.uk/what-is-cultural-capital/)
+    和你的**领域**用简单的英语写一个问题
+-   问：5W+H
+    -   **什么**似乎是问题？
+    -   **谁**有问题？
+    -   **何时**出现问题？一直？在某些情况下？
+    -   **何地**出现问题？
+    -   **为什么**会出现问题？["问五次为什么"
+        -- W. 爱德华兹·戴明]{.bg style="--col: yellow"} - **如何**出现问题？
 :::
 
 ::: {.column width="50%"}
 
-- Ellen Domb, ["How to help TRIZ Beginners Succeed"](https://www.metodolog.ru/triz-journal/archives/1997/04/a/index.html) 
-- Adobe Workfront Blog, ["The 5 Ws (and 1 H) that should be asked of every project!"](https://www.workfront.com/blog/project-management-101-the-5-ws-and-1-h-that-should-be-asked-of-every-project) 
-- [Cultural Learning Alliance: "What is Cultural
-Capital?"](https://culturallearningalliance.org.uk/what-is-cultural-capital/) 
-- ["Platform Creativity: Domain, Field, and
-Person"](https://medium.com/call4/domain-8a22b6b486f4) 
-- [Rudyard Kipling, "I Keep Six Honest Serving
-Men"](https://allpoetry.com/I-Keep-Six-Honest-Serving-Men)
+-   Ellen Domb, ["如何帮助 TRIZ 初学者成功"](https://www.metodolog.ru/triz-journal/archives/1997/04/a/index.html)
+-   Adobe Workfront 博客, ["应该为每个项目问的 5 个 W（和 1 个 H）！"](https://www.workfront.com/blog/project-management-101-the-5-ws-and-1-h-that-should-be-asked-of-every-project)
+-   [文化学习联盟："什么是文化资本？"](https://culturallearningalliance.org.uk/what-is-cultural-capital/)
+-   ["平台创造力：领域、场域和人"](https://medium.com/call4/domain-8a22b6b486f4)
+-   [拉迪亚德·吉卜林, "我保持六个诚实的仆人"](https://allpoetry.com/I-Keep-Six-Honest-Serving-Men)
 :::
 :::::
 
-## TRIZ Workflow: Look the "Resources" and Causes
+## TRIZ 工作流程：查看"资源"和原因
 
 ::::: columns
 ::: {.column width="50%"}
-To refine our Problem, what Resources do we have? 
+为了完善我们的问题，我们有什么资源？
 
-- One Good way to do
-this is using the **Ishikawa Diagram** 
-- Man, Material, Method,
-Management, Machinery (Ishikawa) 
-- This diagram is used **primarily** to
-assign **CAUSES** 
-- But it conveniently lists all the **Resources**. 
--
-What things create the compromise/tradeoff?
+-   一个好的方法是使用**石川图**
+-   人、材料、方法、管理、机器（石川）
+-   此图**主要**用于分配**原因**
+-   但它方便地列出了所有**资源**。
+-   什么创造了权衡/妥协？
 :::
 
 ::: {.column width="50%"}
--   The Ishikawa Diagram is also called the **Fishbone Diagram** or
-    **Cause-and-Effect Diagram**.
+-   石川图也称为**鱼骨图**或**因果图**。
 
-![[Ishikawa Diagram](https://www.investopedia.com/terms/i/ishikawa-diagram.asp)](images/IshikawaDiagram2-386e9108096f4149b67cb5a803c45dd0.webp)
+![[石川图](https://www.investopedia.com/terms/i/ishikawa-diagram.asp)](images/IshikawaDiagram2-386e9108096f4149b67cb5a803c45dd0.webp)
 
 
 :::
 :::::
 
-## TRIZ Workflow: Inspect the Ishikawa Diagram
+## TRIZ 工作流程：检查石川图
 
 ::::: columns
 ::: {.column width="50%"}
--   From the Ishikawa Diagram
-    -   What is **One Parameter or Knob** for each of the **Causes**
-        that you have listed therein?
--   Let us make a list for each Knob/Object:
-    -   What is the **Knob** meant to do? What is its main Purpose?
-    -   What are the other Accompanying Objects that it works with?
+-   从石川图
+    -   对于你在其中列出的每个**原因**，**一个参数或旋钮**是什么？
+-   让我们为每个旋钮/对象做一个列表：
+    -   **旋钮**的目的是什么？它的主要目的是什么？
+    -   它一起工作的其他伴随对象是什么？
 :::
 
 ::: {.column width="50%"}
--   What are the **current Settings** for each Knob?
--   Change the Setting of Each Knob to its **natural opposite extreme**.
-    What Happens?
-    -   You will see that in many cases, each Knob creates a Certain
-        Outcome at one Setting and another Outcome at the Opposite
-        Setting.
--   This is the Source of your Administrative Contradiction !! \]\
-    What sort of Contradictions do we see in these familiar objects?
-    What is good and what is not so good? Could that be the source of a
-    problem to solve?
+-   每个旋钮的**当前设置**是什么？
+-   将每个旋钮的设置更改为其**自然相反极端**。
+    会发生什么？
+    -   你会看到，在许多情况下，每个旋钮在一个设置下产生某些结果，在相反设置下产生另一个结果。
+-   这是你的行政矛盾的来源！！
+    -   我们在这些熟悉的物体中看到什么样的矛盾？
+    -   什么是好的，什么不是那么好？这可能是要解决的问题的来源吗？
 :::
 :::::
 
-## TRIZ Workflow: Example - Find a Problem
+## TRIZ 工作流程：示例 - 找到一个问题
 
 ::::: columns
 ::: {.column width="50%"}
@@ -225,20 +208,16 @@ knitr::include_graphics("https://media.istockphoto.com/photos/milk-boiling-over-
 :::
 
 ::: {.column width="50%"}
--   I like Tea in the Mornings..and Afternoons and Evenings..and...
--   Comes forth from your...**Cultural Capital** and **Domains**. Thanks
-    to [Pierre
-    Bourdieu](https://culturallearningalliance.org.uk/what-is-cultural-capital/)
-    and [Mihaly
-    Csikszentmihalyi](https://medium.com/call4/domain-8a22b6b486f4) for
-    giving us those two Words!!
--   Possible Problem Statements
-    -   Milk Boils Over
-    -   I am Bored Watching the Milk boil
+-   我喜欢在早晨喝茶...还有下午和晚上...还有...
+-   来自你的...**文化资本**和**领域**。感谢[皮埃尔·布迪厄](https://culturallearningalliance.org.uk/what-is-cultural-capital/)
+    和[米哈里·契克森米哈赖](https://medium.com/call4/domain-8a22b6b486f4)给了我们这两个词！！
+-   可能的问题陈述
+    -   牛奶溢出
+    -   我看着牛奶沸腾很无聊
 :::
 :::::
 
-## TRIZ Workflow: Example - Develop an AC
+## TRIZ 工作流程：示例 - 开发行政矛盾
 
 ::::: columns
 ::: {.column width="50%"}
@@ -249,17 +228,16 @@ knitr::include_graphics("https://media.istockphoto.com/photos/milk-boiling-over-
 :::
 
 ::: {.column width="50%"}
--   Use the **Ishikawa Diagram** to Refine the AC
--   Again use your **Cultural Capital** and **Domains**
-    -   *Watching the Milk is a Bore!!Can I do something else in the
-        meantime?*
-    -   *But: the Milk will boil over...*
--   **AC**:
-    -   **I can either boil Milk, OR do something else, NOT both.**
+-   使用**石川图**来完善行政矛盾
+-   再次使用你的**文化资本**和**领域**
+    -   *看着牛奶沸腾很无聊！！我能在这段时间做别的事吗？*
+    -   *但是：牛奶会溢出...*
+-   **行政矛盾**：
+    -   **我可以要么煮牛奶，要么做别的事，不能同时做。**
 :::
 :::::
 
-## TRIZ Workflow: Example - Refine the AC
+## TRIZ 工作流程：示例 - 完善行政矛盾
 
 ::::: columns
 ::: {.column width="50%"}
@@ -270,52 +248,49 @@ knitr::include_graphics("https://media.istockphoto.com/photos/milk-boiling-over-
 :::
 
 ::: {.column width="50%"}
--   Use the Ishikawa Diagram:
--   Man: Me?
--   Method :
-    -   Operating the Stove
-    -   Wanting/Doing Two Things at the Same Time
--   Material: Milk, Vessel, Stove, Gas, Time, Heat
-    -   Milk boils over when it is heated
+-   使用石川图：
+-   人：我？
+-   方法：
+    -   操作炉子
+    -   想要/同时做两件事
+-   材料：牛奶、容器、炉子、煤气、时间、热量
+    -   牛奶在加热时溢出
 :::
 :::::
 
--   *Watching the Milk is a Bore!! Can I do something else in the
-    meantime? But, the Milk will boil over...*
+-   *看着牛奶沸腾很无聊！！我能在这段时间做别的事吗？但是，牛奶会溢出...*
 
 ------------------------------------------------------------------------
 
 class: center, middle
 
-##TRIZ Workflow: Example - State the AC
+##TRIZ 工作流程：示例 - 陈述行政矛盾
 
-.fancy.large.orange\[I can operate the stove and save the Milk, but I
-will be bored and waste Time doing it\*\*\]
+.fancy.large.orange\[我可以操作炉子并保住牛奶，但我会很无聊并浪费时间做这件事***\]
 
 ------------------------------------------------------------------------
 
-## TRIZ Workflow: Specify the Ideal Final Result (IFR)
+## TRIZ 工作流程：指定理想最终结果 (IFR)
 
 ::::: columns
 ::: {.column width="50%"}
--   State an **Ideal Final Result**
--   A basic principle of TRIZ is that systems evolve towards increased
-    **ideality**, where ideality is defined as
+-   陈述一个**理想最终结果**
+-   TRIZ 的一个基本原则是系统向增加**理想性**的方向演化，其中理想性定义为
 
-$$Ideality = Benefits / (Harm + Costs)$$ - **Evolution** is in the
-direction of - ⬆ Increasing benefits - ⬇ Decreasing costs - ⬇ Decreasing
-harm - IFR allows us to **invert the direction of the problem**: to come
-backwards from Solution towards the Situation
+$$理想性 = 收益 / (危害 + 成本)$$ - **演化**的方向是
+    - ⬆ 增加收益
+    - ⬇ 降低成本
+    - ⬇ 减少危害
+-   IFR 允许我们**反转问题的方向**：从解决方案回到情境
 :::
 
 ::: {.column width="50%"}
-The ***extreme result*** of this evolution is the Ideal Final Result: -
-It has all the benefits,\
-- none of the harm, and - none of the costs of the original problem. -
-The Ideal Final Result describes the solution to a technical problem,
-**independent of the mechanism or constraints of the original
-problem**. - It occupies no space, has no weight, requires no labour,
-requires no maintenance.
+这种演化的***极端结果***是理想最终结果：
+-   它具有所有收益，
+-   没有危害，
+-   没有原始问题的成本。
+-   理想最终结果描述了技术问题的解决方案，**独立于原始问题的机制或约束**。
+-   它不占空间，没有重量，不需要劳动力，不需要维护。
 :::
 :::::
 
@@ -323,48 +298,41 @@ requires no maintenance.
 
 class: center, middle
 
-## TRIZ Workflow: Example - State the IFR
+## TRIZ 工作流程：示例 - 陈述 IFR
 
-.fancy.large.blue\[IFR: The Milk must "boil itself" and wait for me
-without overflowing.\]
+.fancy.large.blue\[IFR：牛奶必须"自己沸腾"并等待我，不会溢出。\]
 
-Any other <u>*even more unreasonable*</u> way of saying this?
+还有其他 <u>*甚至更不合理*</u> 的说法吗？
 
-## TRIZ Workflow: Example - State the TC(s)
+## TRIZ 工作流程：示例 - 陈述技术矛盾
 
--   Choose from the 48 TRIZ Parameters to "metaphorize" your AC, into a
-    TC.
-    -   Milk: 21-Stability? ~~10-Amount of Substance?~~ 25-Loss of
-        Substance?
-    -   Stove: 27-Loss of Energy? 17-Energy Usage by Stationary Object
-    -   Me: 26-Loss of Time?
+-   从 48 个 TRIZ 参数中选择以"隐喻化"你的行政矛盾，使其成为技术矛盾。
+    -   牛奶：21-稳定性？~~10-物质数量？~~ 25-物质损失？
+    -   炉子：27-能量损失？17-静止物体的能量消耗
+    -   我：26-时间损失？
 
-There can be more than one TC that you can set up !!
+你可以设置不止一个技术矛盾！！
 
--   TC #1: Improve **21-Stability** of Milk - without worsening
-    **17-Energy Usage by Stationary Object**
+-   技术矛盾 #1：改善牛奶的**21-稳定性** - 而不恶化**17-静止物体的能量消耗**
 
--   TC #2: Improve **25-Loss of Substance** of Milk - without worsening
-    **26-Loss of Time**
+-   技术矛盾 #2：改善牛奶的**25-物质损失** - 而不恶化**26-时间损失**
 
 ------------------------------------------------------------------------
 
 class: center, middle, inverse
 
-## TRIZ Workflow: Example - State the TC
+## TRIZ 工作流程：示例 - 陈述技术矛盾
 
-.fancy.large.orange\[AC: I can operate the stove and save the Milk, but
-I will be bored and waste Time doing it.\]
+.fancy.large.orange\[行政矛盾：我可以操作炉子并保住牛奶，但我会很无聊并浪费时间做这件事。\]
 
-.fancy.large.blue\[IFR: The Milk must "boil itself" and wait for me.\]
+.fancy.large.blue\[IFR：牛奶必须"自己沸腾"并等待我。\]
 
-.fancy.large.red\[ - TC #1: 21-Stability of Milk without worsening
-17-Energy Usage by Stationary Object - TC #2: Improve 25-Loss of
-Substance of Milk without worsening 26-Loss of Time\]
+.fancy.large.red\[ - 技术矛盾 #1：21-牛奶稳定性而不恶化 17-静止物体的能量消耗
+- 技术矛盾 #2：改善 25-牛奶物质损失而不恶化 26-时间损失\]
 
 ------------------------------------------------------------------------
 
-## TRIZ Workflow: Use the Contradiction Matrix
+## TRIZ 工作流程：使用矛盾矩阵
 
 ::::: columns
 ::: {.column width="30%"}
@@ -374,40 +342,39 @@ knitr::include_graphics("images/boiling-pan-mini-case.png")
 :::
 
 ::: {.column width="70%"}
--   One Worsening Parameter: **17: Energy Usage by Stationary Object**
-    (Stove is ON !!)
+-   一个恶化参数：**17：静止物体的能量消耗**
+    （炉子开着！！）
 
--   One Parameter to Improve: **21: Stability** ( Milk must NOT boil
-    over !!)
+-   一个要改善的参数：**21：稳定性**（牛奶绝不能溢出！！）
 
--   **INVENTIVE PRINCIPLES** from the Matrix:
+-   矩阵中的**发明原理**：
 
--   35: Parameter Change
+-   35：参数变化
 
--   18: Mechanical Vibration
+-   18：机械振动
 
--   24: Intermediary
+-   24：中介
 
--   9: Prior Counteraction
+-   9：预先反作用
 
--   3: The Other Way Around
+-   3：反向
 
--   35: Parameter Change
+-   35：参数变化
 
--   15: Dynamization
+-   15：动态化
 
--   2: Taking Out
+-   2：抽取
 
--   18: Mechanical Vibration
+-   18：机械振动
 :::
 :::::
 
-.footnote\[The TRIZ Contradiction Matrix, 2003,
+.footnote\[TRIZ 矛盾矩阵，2003，
 http://www.systematic-innovation.com/assets/matrix2003.pdf\]
 
 ------------------------------------------------------------------------
 
-## TRIZ Workflow: IP-24: **INTERMEDIARY**
+## TRIZ 工作流程：IP-24：**中介**
 
 ::::: columns
 ::: {.column width="30%"}
@@ -421,49 +388,44 @@ knitr::include_graphics("images/boiling-pan-mini-case.png")
 :::
 :::::
 
-Also we can use two vessels, one inside the other. The inner one with
-milk and the other one with water!
+我们也可以使用两个容器，一个在另一个里面。里面的装牛奶，另一个装水！
 
-## TRIZ Workflow: IP-18: **Mechanical Vibration**
+## TRIZ 工作流程：IP-18：**机械振动**
 
 ::::: columns
 ::: {.column width="50%"}
-![A Milk
-Watcher](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Anti-monte-lait_en_inox_06.jpg/2880px-Anti-monte-lait_en_inox_06.jpg)
+![牛奶监视器](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Anti-monte-lait_en_inox_06.jpg/2880px-Anti-monte-lait_en_inox_06.jpg)
 :::
 
 ::: {.column width="50%"}
-**A Milk Watcher Device** - This is dropped into the vessel before
-pouring the milk - It vibrates when the milk is boiling and prevents
-spillage - And of course, there is a patent. Yes , in Russia, where else
-!!
+**牛奶监视器设备** - 在倒牛奶之前将其放入容器中
+-   当牛奶沸腾时它会振动并防止溢出
+-   当然，有专利。是的，在俄罗斯，还能在哪里！！
 
-[Milk Saver Patent Web
-Page!!](https://findpatent.ru/patent/1/10362.html)
+[牛奶保护器专利网页
+！！](https://findpatent.ru/patent/1/10362.html)
 :::
 :::::
 
-## TRIZ Workflow: IP-35: Parameter Change
+## TRIZ 工作流程：IP-35：参数变化
 
 ::::: columns
 ::: {.column width="50%"}
--   What "Parameter" can we change?
-    -   Temperature?
+-   我们可以改变什么"参数"？
+    -   温度？
 
-    -   Rate of Gas?
+    -   煤气速率？
 
-    -   Kind of metal used in Vessel?
+    -   容器中使用的金属种类？
 
-    -   Smoothness of the Vessel finish?
+    -   容器表面的光滑度？
 :::
 
 ::: {.column width="50%"}
-Here are some solutions using Parameter Change - Sprinkle Water on the
-Froth...Umm
+这里有一些使用参数变化的解决方案 - 在泡沫上撒水...嗯
 
--   **Apply butter to the rim of the vessel beforehand !!**
--   This is also a solution derivable from **IP-9: Prior Counter
-    Action**
+-   **事先在容器边缘涂抹黄油！！**
+-   这也是一个可从**IP-9：预先反作用**推导出的解决方案
 :::
 :::::
 
@@ -471,33 +433,31 @@ Froth...Umm
 
 ------------------------------------------------------------------------
 
-## TRIZ Workflow: IP - 13: The Other Way Around
+## TRIZ 工作流程：IP - 13：反向
 
-What do you think?
+你怎么看？
 
--   Cold Milk poured into an already hot vessel? Wild...
+-   将冷牛奶倒入已经很热的容器中？狂野...
 
--   How about the Two Vessel Trick, from earlier: one inside the other.
-    The inner one with milk and the other one with water! Can the Water
-    be hot before hand?
+-   前面提到的双容器技巧怎么样：一个在另一个里面。里面的装牛奶，另一个装水！水可以事先热吗？
 
--   Not all IPs may strike you as applicable!
+-   并非所有发明原理都可能让你觉得适用！
 
--   Try and leverage somebody's else's **Cultural Capital** !!
+-   尝试利用别人的**文化资本**！！
 
-## Thanks!
+## 谢谢！
 
 ::::: columns
 ::: {.column width="50%"}
 ![](https://roundlearning.files.wordpress.com/2017/10/dartagnan-musketeers.jpg)
 
-Maurice Leloir (1851-1940)
+莫里斯·勒洛瓦 (Maurice Leloir) (1851-1940)
 :::
 
 ::: {.column width="50%"}
-#### Slides made
+#### 幻灯片制作
 
-###### with
+###### 使用
 
 ##### `r anicon::faa("r-project", animate="vertical")`
 :::

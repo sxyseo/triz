@@ -1,231 +1,231 @@
 ---
-title: "TRIZ - Games"
+title: "TRIZ - 游戏"
 date: "2025-11-16"
 date-modified: " `r Sys.Date()` "
 order: 1000
-summary: "This Module is part of a Creative Problem Solving course I offer at Srishti Manipal Institute, Bangalore"
-categories: 
-   - Games
-   - Activities
+summary: "本模块是我在班加罗尔 Srishti Manipal Institute 教授的创造性问题解决课程的一部分"
+categories:
+   - 游戏
+   - 活动
    - Shireen
 
 ---
 
-## Introduction
+## 简介
 ```{r}
 #| label: nothing
 #| include: false
 
 ```
-I have used my Readwise (<https://readwise.io>) highlights to create a set of Games that can bring the experience of TRIZ Principles into the classroom. These games are designed to be engaging and educational, allowing participants to explore TRIZ concepts in a hands-on manner. They lean on my highlights about forms enabling creativity and clear goals in play ([forms as engines of creativity](https://readwise.io/bookreview/2018165/?highlight=418453120), [clear goals each step](https://readwise.io/bookreview/2018256/?highlight=497152462)), and use head-fake learning via games ([indirect learning](https://readwise.io/bookreview/2017765/?highlight=545366404)).
+我使用了我的 Readwise (<https://readwise.io>) 高亮来创建一组可以将 TRIZ 原理体验带入课堂的游戏。这些游戏旨在引人入胜且富有教育意义,允许参与者以动手实践的方式探索 TRIZ 概念。它们依赖于我关于形式实现创造力和游戏中有明确目标的高亮([形式作为创造力的引擎](https://readwise.io/bookreview/2018165/?highlight=418453120), [每一步都有明确目标](https://readwise.io/bookreview/2018256/?highlight=497152462)),并通过游戏使用间接学习([间接学习](https://readwise.io/bookreview/2017765/?highlight=545366404))。
 
-### GAME 1: Resource Hunt Sprint
+### 游戏 1:资源搜寻冲刺
 
-Goal: Train eyes for available resources (fields, substances, structures, time, space).
+目标:培养对可用资源(场、物质、结构、时间、空间)的洞察力。
 
-Round 1: 
+第1轮:
 
-   1) Give a simple `Object` system and a harm, preferably a picture.: (e.g., paper airplane: wing angle, weight, nose stiffness; or a website button: size, color, copy). 
-   2) Teams list all internal/external resources in 3 minutes, then propose which of the resources listed are `controllable` or `uncontrollable`.
+   1) 给出一个简单的`对象`系统和一个危害,最好是图片。(例如,纸飞机:机翼角度、重量、鼻部刚度;或网站按钮:大小、颜色、文案)。
+   2) 团队在3分钟内列出所有内部/外部资源,然后提议列出的哪些资源是`可控制的`或`不可控制的`。
 
-Why: Reinforces fundamentals before “fancy stuff” [get fundamentals down](https://readwise.io/bookreview/2017765/?highlight=310844306) and encourages breadth first [produce many ideas](https://readwise.io/bookreview/2018256/?highlight=574963219), [many different ideas](https://readwise.io/bookreview/2018256/?highlight=497152467).
+原因:在"花哨的东西"之前加强基础[掌握基础](https://readwise.io/bookreview/2017765/?highlight=310844306)并鼓励首先产生广度[产生许多想法](https://readwise.io/bookreview/2018256/?highlight=574963219),[许多不同的想法](https://readwise.io/bookreview/2018256/?highlight=497152467)。
 
-Output: Put the Resources down in an Ishikawa Diagram.
+输出:将资源放入石川图中。
 
-Round 2: Repeat with a more complex `Situation`
+第2轮:用更复杂的`情况`重复。
 
-### GAME 2: Turn the Knobs (Contradiction Discovery)
+### 游戏 2:转动旋钮(矛盾发现)
 
-Goal: To surface a TRIZ adminstrative/technical/physical contradiction by “turning the knobs,” stating it accurately via rapid A/B experiments using DOE basics.
+目标:通过"转动旋钮",使用 DOE 基础知识通过快速 A/B 实验准确陈述来暴露 TRIZ 行政/技术/物理矛盾。
 
-Setup: 
+设置:
 
-   - Pick the simple `Object` system with tunable “knobs” / resources that are `controllable`
-   - Define two outcome metrics/situations that tend to move in opposite directions when knobs are changed (e.g., speed vs. stability; conversion vs. time-on-page). 
+   - 选择具有可调"旋钮"/`可控制`资源的简单`对象`系统
+   - 定义两个结果指标/情况,当改变旋钮时倾向于向相反方向移动(例如,速度 vs. 稳定性;转化率 vs. 页面停留时间)。
 
-Round 1: 
+第1轮:
 
-1) Teams vary one knob at a time across extremes (turn-to-max-and-min). Observe how Metric A improves while Metric B degrades, forcing a TRIZ-style contradiction statement: “We need X high and X low simultaneously.” 
-   - ⁠Quick A/B test design with goal/metric ([A/B to optimize](https://readwise.io/bookreview/12341321/?highlight=260298073)).
-   - ⁠DOE mini: vary 2 factors at low/high (2^2), measure outcome ([factorials](https://readwise.io/bookreview/11437011/?highlight=293327732); [DOE principles](https://readwise.io/bookreview/11437011/?highlight=293324518)).
-   - Confounding variable, if found, can lead to TRIZ Physical Contradiction
-   - The note linking confounders to a “Physical Contradiction in TRIZ” fits well here ([Art of Statistics](https://readwise.io/bookreview/12341321/?highlight=260307553)).
-   - This mirrors how confounders and splits can reverse associations, as in the note on contradictions and [Simpson’s paradox](https://readwise.io/bookreview/12341321/?highlight=260307830).
+1) 团队在极端之间一次改变一个旋钮(转到最大和最小)。观察指标 A 如何改善,而指标 B 恶化,迫使产生 TRIZ 风格的矛盾陈述:"我们需要 X 高和 X 低同时。"
+   - ⁠具有目标/指标的快速 A/B 测试设计[A/B 测试以优化](https://readwise.io/bookreview/12341321/?highlight=260298073)。
+   - ⁠DOE 迷你:在低/高改变2个因子(2^2),测量结果[因子设计](https://readwise.io/bookreview/11437011/?highlight=293327732); [DOE 原理](https://readwise.io/bookreview/11437011/?highlight=293324518)。
+   - 混淆变量,如果发现,可能导致 TRIZ 物理矛盾
+   - 将混淆因素与"TRIZ 中的物理矛盾"联系起来的笔记很适合在这里[统计学的艺术](https://readwise.io/bookreview/12341321/?highlight=260307553)。
+   - 这反映了混淆因素和分割如何逆转关联,就像关于矛盾和[辛普森悖论](https://readwise.io/bookreview/12341321/?highlight=260307830)的笔记一样。
 
-2) Teams articulate the contradiction clearly.
-3) Obtain a max of 3 Contradictions.
+2) 团队清楚地阐述矛盾。
+3) 最多获得3个矛盾。
 
-Round 2: Repeat with a more complex `Situation`
+第2轮:用更复杂的`情况`重复。
 
-### GAME 3: Contradiction Duel / Auction (Engineering contradictions)
+### 游戏 3:矛盾决斗/拍卖(工程矛盾)
 
-#### Cards:
+#### 卡片:
 
-   A. TRIZ Parameter Cards (49 parameters (print multiple))
-   B. Contradiction Prompts
+   A. TRIZ 参数卡(49个参数(打印多份))
+   B. 矛盾提示
 
-   - ⁠Improve X but worsens Y. Name X, Y in your problem.
-   - ⁠Physical contradiction: need hot and cold; large and small; fast and slow. Identify your pair.
-   - ⁠Hidden confounder: two metrics move together because of Z. Find Z ([confounding insight](https://readwise.io/bookreview/12341321/?highlight=260307553)). A confounding parameter is often like a TRIZ Physical Contradiction.(PC)
-
-   
-1) Each Team gets randomly picked 4 Cards containing TRIZ Parameters. 
-2) Each team proposes two Technical Contradictions (A vs. B) that embody the Contradiction, using these 4 Parameters.
-3) Each Team has to make the metaphors apparent to others.
-4) The `most surprising` Technical Contradiction wins the auction!
-5) Bonus for finding the Confounding Factor Z!
-   
-
-### GAME 4: TRIZ 40 Principles Sprint
-
-Cards to print (front = Title; back = Prompt)
-
-A: Inventive Principles
-
-1. ⁠Segmentation
-   - ⁠Back: Break object/process into parts. Name 3 useful splits.
-1. ⁠Taking out
-   - ⁠Back: Remove a problematic component. What value remains?
-1. ⁠Local quality
-   - ⁠Back: Make one area different. Where should properties vary?
-1. ⁠Asymmetry
-   - ⁠Back: Introduce intentional imbalance. What improves?
-1. ⁠Merging
-   - ⁠Back: Combine functions/components. What becomes redundant?
-1. ⁠Universality
-   - ⁠Back: One part, many jobs. Which part can do 2+ roles?
-1. ⁠Nested doll
-   - ⁠Back: Place inside another. What protection or leverage arises?
-1. ⁠Anti-weight
-   - ⁠Back: Counterbalance or buoyancy. What cancels load?
-1. ⁠Preliminary action
-   - ⁠Back: Do work in advance. What can be pre-staged?
-1. ⁠Preliminary anti-action
-   - ⁠Back: Pre-empt harm. How to neutralize before it occurs?
-1. ⁠Cushion in advance
-   - ⁠Back: Add buffers. What fails safely?
-1. ⁠Equipotentiality
-   - ⁠Back: Keep level potentials. Where to remove gradients?
-1. ⁠The other way round
-   - ⁠Back: Invert roles/flows. What benefit appears
-1. ⁠Spheroidality
-   - ⁠Back: Prefer curves/rotation. What moves smoother?
-1. ⁠Dynamics
-   - ⁠Back: Make adjustable. What parameter should vary?
-1. ⁠Partial/excessive actions
-   - ⁠Back: Do a bit more/less. What threshold flips outcome?
-1. ⁠Another dimension
-   - ⁠Back: Add direction/layer/time. What unlocks?
-1. ⁠Mechanical vibration
-   - ⁠Back: Oscillate/pulse. What becomes easier?
-1. ⁠Periodic action
-   - ⁠Back: Intermittent instead of continuous. What saves energy?
-1. ⁠Continuity of useful action
-   - ⁠Back: Keep value flowing. Where are idle gaps?
-1. ⁠Rushing through
-   - ⁠Back: Pass quickly to avoid issues. What to blitz?
-1. ⁠Blessing in disguise
-   - ⁠Back: Use a harm as resource. How to repurpose the “waste”?
-1. ⁠Feedback
-   - ⁠Back: Add fast feedback. What to sense and adjust?
-1. ⁠Intermediary
-   - ⁠Back: Add a mediator. Who/what bridges incompatibilities?
-1. ⁠Self-service
-   - ⁠Back: Let system maintain itself. What can self-clean/tune?
-1. ⁠Copying
-   - ⁠Back: Use a cheap replica. Where is a “digital twin” enough?
-1. ⁠Cheap short life
-   - ⁠Back: Disposable beats durable. Where is throwaway better?
-1. ⁠Mechanics substitution
-   - ⁠Back: Replace with fields/chemistry. What to dematerialize?
-1. ⁠Pneumatics/hydraulics
-   - ⁠Back: Use fluids. What benefits from compliance?
-1. ⁠Flexible shells/films
-   - ⁠Back: Thin layers. What wraps/seals/adapts?
-1. ⁠Porous materials
-   - ⁠Back: Add pores. What filters/cools/lightens?
-1. ⁠Color changes
-   - ⁠Back: Encode with color. What visibility alerts?
-1. ⁠Homogeneity
-   - ⁠Back: Same materials interact better. What to unify?
-1. ⁠Discarding and recovering
-   - ⁠Back: Throw away or reclaim. What to detach?
-1. ⁠Parameter changes
-   - ⁠Back: Tune size/temp/speed. Which single knob matters most?
-1. ⁠Phase transitions
-   - ⁠Back: Exploit state change. What thresholds help?
-1. ⁠Thermal expansion
-   - ⁠Back: Use expansion. What could self-actuate?
-1. ⁠Strong oxidants
-   - ⁠Back: Use active environments. What accelerates?
-1. ⁠Inert environment
-   - ⁠Back: Prevent reactions. Where to isolate?
-1. ⁠Composite materials
-   - ⁠Back: Combine materials. What hybrid wins?
-   
-One-page rules:
-
-   - ⁠Players: 3–6. Time: 20–30 min.
-   - ⁠Setup: Each team gets two challenges from the previous round.
-   - ⁠Play: 3 rounds x 5 minutes. Draw 3 Principle cards per round. Generate at least 1 idea per card for each challenge.
-   - ⁠Scoring: Each round, teams star their best idea; swap with neighbors for peer “field” validation per my creativity notes ([gatekeepers/field](https://readwise.io/bookreview/2018256/?highlight=738946144)). Peers award 0–2 points for novelty/usefulness. Use `Fluency`, `Flexibility`, `Elaboration`. Highest total wins.
-   - ⁠Debrief: Note surprises and how you surprised others ([surprise diaries](https://readwise.io/bookreview/2018256/?highlight=341698525)).
-
-Round 1: A/B to Probe the Space
-
-4) Split Teams into 2: Randomize who tests A or B first; collect outcomes quickly. 
-5) Multiple teams can work on A and on B respectively for replication. This mirrors web A/B practices with rapid iteration and large-N sensitivity in principle ([A/B testing overview](https://readwise.io/bookreview/12341321/?highlight=260298073)) and uses DOE fundamentals like `randomization` and `replication` ([DOE principles](https://readwise.io/bookreview/11437011/?highlight=293324518)).
+   - ⁠改善 X 但恶化 Y。在你的问题中命名 X, Y。
+   - ⁠物理矛盾:需要热和冷;大和小;快和慢。识别你的配对。
+   - ⁠隐藏的混淆因素:两个指标因为 Z 一起移动。找到 Z[混淆洞察](https://readwise.io/bookreview/12341321/?highlight=260307553)。混淆参数通常像 TRIZ 物理矛盾。(PC)
 
 
-Facilitation tips:
+1) 每个团队随机获得4张包含 TRIZ 参数的卡片。
+2) 每个团队提出两个体现矛盾的技术矛盾(A vs. B),使用这4个参数。
+3) 每个团队必须使隐喻对其他人明显。
+4) `最令人惊讶的`技术矛盾赢得拍卖!
+5) 发现混淆因素 Z 加分!
 
-- Force crisp hypotheses before testing to avoid post hoc stories, aligning with conjectures-and-refutations discipline ([Popper via Taleb](https://readwise.io/bookreview/2017652/?highlight=303505216)).
-- Keep tests short, playful, and disciplined—creativity plus rigor ([playfulness and discipline](https://readwise.io/bookreview/2018256/?highlight=401381388)).
-- Encourage phrasing alternatives as questions to reduce defensiveness during design debates ([phrase alternatives as questions](https://readwise.io/bookreview/2017765/?highlight=283022312)).
 
-### GAME 3: 20Q to Random Forests for TRIZ Patterns
+### 游戏 4:TRIZ 40原理冲刺
 
-Cards
+打印卡片(正面=标题;背面=提示)
 
-   - ⁠Target Deck: 20 common product/service problems (e.g., “Fragile device in transit,” “Slow onboarding”).
-   - ⁠Question Cards (blank): Players write yes/no questions that partition possibilities, inspired by TRIZ categories (materials, time, control, intermediaries, separation).
-   - ⁠Insight Cards:
-   
-      - “Change dimension”
-      - “Intermediary”
-      - “Preliminary action”
-      - “Self-service”
-      - “Parameter change”
-(each nudges question design)
+A: 发明原理
 
-Rules
+1. ⁠分割
+   - ⁠背面:将对象/过程分解为部分。命名3个有用的分割。
+1. ⁠抽取
+   - ⁠背面:移除有问题的组件。剩下什么价值?
+1. ⁠局部质量
+   - ⁠背面:使一个区域不同。属性应该在哪里变化?
+1. ⁠不对称
+   - ⁠背面:引入故意的不平衡。什么改善了?
+1. ⁠合并
+   - ⁠背面:组合功能/组件。什么变得多余?
+1. ⁠通用性
+   - ⁠背面:一个部分,多项工作。哪个部分可以做2+个角色?
+1. ⁠套娃
+   - ⁠背面:放置在另一个里面。产生什么保护或杠杆作用?
+1. ⁠反重量
+   - ⁠背面:平衡或浮力。什么抵消负载?
+1. ⁠预先作用
+   - ⁠背面:提前做工作。什么可以预先准备?
+1. ⁠预先反作用
+   - ⁠背面:预先危害。如何在发生前中和?
+1. ⁠预先缓冲
+   - ⁠背面:添加缓冲区。什么安全地失败?
+1. ⁠等位性
+   - ⁠背面:保持水平电位。在哪里消除梯度?
+1. ⁠倒置
+   - ⁠背面:反转角色/流。出现什么好处
+1. ⁠球体化
+   - ⁠背面:更喜欢曲线/旋转。什么移动更平滑?
+1. ⁠动态性
+   - ⁠背面:使可调。什么参数应该变化?
+1. ⁠部分/过度作用
+   - ⁠背面:多做一点/少一点。什么阈值翻转结果?
+1. ⁠另一维度
+   - ⁠背面:添加方向/层/时间。什么解锁?
+1. ⁠机械振动
+   - ⁠背面:振荡/脉冲。什么变得更容易?
+1. ⁠周期性作用
+   - ⁠背面:间歇而不是连续。什么节省能量?
+1. ⁠有效作用的连续性
+   - ⁠背面:保持价值流动。空闲间隙在哪里?
+1. ⁠ rushing through
+   - ⁠背面:快速通过以避免问题。什么要突袭?
+1. ⁠变害为利
+   - ⁠背面:使用伤害作为资源。如何重新利用"废物"?
+1. ⁠反馈
+   - ⁠背面:添加快速反馈。什么要感知和调整?
+22. ⁠中介
+   - ⁠背面:添加中介。谁/什么桥接不相容性?
+23. ⁠自服务
+   - ⁠背面:让系统自我维护。什么可以自清洁/自调?
+24. ⁠复制
+   - ⁠背面:使用便宜的复制品。哪里"数字孪生"就够了?
+25. ⁠廉价短寿命
+   - ⁠背面:一次性胜过耐用。哪里一次性更好?
+26. ⁠机械替代
+   - ⁠背面:用场/化学替代。什么去物质化?
+27. ⁠气动/液压
+   - ⁠背面:使用流体。什么受益于柔顺性?
+28. ⁠柔性壳/薄膜
+   - ⁠背面:薄层。什么包裹/密封/适应?
+29. ⁠多孔材料
+   - ⁠背面:添加孔隙。什么过滤/冷却/减轻?
+30. ⁠颜色变化
+   - ⁠背面:用颜色编码。什么可见性警报?
+31. ⁠同质性
+   - ⁠背面:相同材料更好地相互作用。什么要统一?
+32. ⁠丢弃和恢复
+   - ⁠背面:扔掉或回收。什么要分离?
+33. ⁠参数变化
+   - ⁠背面:调整大小/温度/速度。哪个旋钮最重要?
+34. ⁠相变
+   - ⁠背面:利用状态变化。什么阈值有帮助?
+35. ⁠热膨胀
+   - ⁠背面:使用膨胀。什么可以自驱动?
+36. ⁠强氧化剂
+   - ⁠背面:使用活性环境。什么加速?
+37. ⁠惰性环境
+   - ⁠背面:防止反应。在哪里隔离?
+38. ⁠复合材料
+   - ⁠背面:组合材料。什么混合获胜?
 
-   - ⁠Players: 3–6. Time: 20 min.
-   - ⁠One chooser draws a Target, others ask up to 20 yes/no questions to identify the problem type. After reveal, each player proposes 1 TRIZ-inspired fix from their Insight card. Link to my 20Q-as-decision-tree highlight ([20Q ~ decision trees](https://readwise.io/bookreview/12341321/?highlight=264773179)).
-   - ⁠Score: Guessing team 1 point for identify; +1 if at least one fix earns peer upvote for feasibility.
-   - ⁠Debrief patterns found across rounds.
+单页规则:
 
-### GAME 5: Blessing-in-Disguise Hack
+   - ⁠玩家:3–6。时间:20–30分钟。
+   - ⁠设置:每个团队从上一轮获得两个挑战。
+   - ⁠玩法:3轮 x 5分钟。每轮抽3张原理卡。为每个挑战的每张卡至少产生1个想法。
+   - ⁠评分:每一轮,团队标出他们最好的想法;与邻居交换以进行同行"场域"验证,根据我的创造力笔记([把关者/场域](https://readwise.io/bookreview/2018256/?highlight=738946144))。同行给予0-2分的新颖性/有用性。使用`流畅性`、`灵活性`、`精致性`。总分最高者获胜。
+   - ⁠ debrief:记录惊喜以及你如何让别人惊喜[惊喜日记](https://readwise.io/bookreview/2018256/?highlight=341698525)。
 
-Cards:
+第1轮:A/B 探索空间
 
-⁠“Waste” Deck: latency, heat, noise, byproduct, queue, scrap, error logs, failed sessions.
-   
-⁠Converts Deck:
+4) 将团队分成2组:随机化谁先测试 A 或 B;快速收集结果。
+5) 多个团队可以分别在 A 和 B 上工作以进行复制。这反映了使用快速迭代和大 N 敏感性的网络 A/B 实践[A/B 测试概述](https://readwise.io/bookreview/12341321/?highlight=260298073),并使用 DOE 基本原理,如`随机化`和`复制`[DOE 原理](https://readwise.io/bookreview/11437011/?highlight=293324518)。
 
-  - Energy harvesting
-  - Signaling/telemetry
-  - Secondary market
-  - Catalyst/seed
-  - User delight
-  - Training data
-  
-Rules:
 
-   - ⁠Draw 1 Waste + 2 Converts; pitch how the harm becomes resource ([blessing in disguise](https://readwise.io/bookreview/2018256/?highlight=497152462)). 2-minute turns; peers vote novelty/usefulness.
+促进技巧:
 
-Printing layout tips
+- 在测试之前强制清晰的假设,以避免事后故事,与猜测和反驳纪律一致[Popper via Taleb](https://readwise.io/bookreview/2017652/?highlight=303505216)。
+- 保持测试简短、有趣和纪律——创造力加上严谨[顽皮和纪律](https://readwise.io/bookreview/2018256/?highlight=401381388)。
+- 鼓励将替代方案表述为问题,以减少设计辩论期间的防御性[将替代方案表述为问题](https://readwise.io/bookreview/2017765/?highlight=283022312)。
 
-   - ⁠Card size: 3.5 x 2.5 in (Poker) or 2.75 x 4.25 in (bridge). 8 per page fits Letter/A4. Use duplex short-edge flip.
-   - ⁠Color codes by set for easy sorting; keep plain-style text for teaching clarity ([plain style for teaching](https://readwise.io/bookreview/2018165/?highlight=315555820)).
-   - ⁠Add “round goals” on card bottoms for clear stepwise flow ([clear goals](https://readwise.io/bookreview/2018256/?highlight=497152462)).
+### 游戏 3:从20Q到 TRIZ 模式的随机森林
+
+卡片
+
+   - ⁠目标牌组:20个常见产品/服务问题(例如,"运输中的易碎设备","缓慢的入职")。
+   - ⁠问题卡(空白):玩家编写是/否问题,受 TRIZ 类别启发,以分割可能性(材料、时间、控制、中介、分离)。
+   - ⁠洞察卡:
+
+      - "改变维度"
+      - "中介"
+      - "预先作用"
+      - "自服务"
+      - "参数变化"
+(每个推动问题设计)
+
+规则
+
+   - ⁠玩家:3–6。时间:20分钟。
+   - ⁠一个选择者抽一张目标,其他人问多达20个是/否问题来识别问题类型。揭示后,每个玩家从他们的洞察卡提出一个 TRIZ 启发的修复。链接到我的20Q作为决策树高亮[20Q ~ 决策树](https://readwise.io/bookreview/12341321/?highlight=264773179)。
+   - ⁠得分:猜测团队识别1分;如果至少有一个修复获得同行可行性投票,则+1分。
+   - ⁠ debrief跨轮找到的模式。
+
+### 游戏 5:变害为利破解
+
+卡片:
+
+⁠"废物"牌组:延迟、热量、噪声、副产物、队列、废料、错误日志、失败的会话。
+
+⁠转换牌组:
+
+  - 能量收集
+  - 信号/遥测
+  - 二级市场
+  - 催化剂/种子
+  - 用户喜悦
+  - 训练数据
+
+规则:
+
+   - ⁠抽1张废物+2张转换;推销伤害如何成为资源[变害为利](https://readwise.io/bookreview/2018256/?highlight=497152462)。2分钟回合;同行投票新颖性/有用性。
+
+打印布局提示
+
+   - ⁠卡片尺寸:3.5 x 2.5英寸(扑克)或2.75 x 4.25英寸(桥牌)。每页8张适合 Letter/A4。使用短边翻转双面打印。
+   - ⁠按套装颜色编码以便于分类;保持简单风格文本以用于教学清晰度[教学的简单风格](https://readwise.io/bookreview/2018165/?highlight=315555820)。
+   - ⁠在卡片底部添加"轮次目标",以获得清晰的逐步流程[明确目标](https://readwise.io/bookreview/2018256/?highlight=497152462)。

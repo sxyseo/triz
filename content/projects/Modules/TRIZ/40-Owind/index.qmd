@@ -1,14 +1,14 @@
 ---
-title: 'The TRIZ Chronicles: the O-Wind Turbine'
+title: 'TRIZ 编年史：O-Wind 风力涡轮机'
 date: "2023-03-01"
 date-modified: "`r Sys.Date()`"
 order: 40
-subtitle: "A Wind in the Door"
-abstract: "Is there a cheap and effective way to generate power using the Wind, right in your home?"
+subtitle: "门缝里的风"
+abstract: "有没有一种便宜有效的方法利用风能在家里发电？"
 categories:
-- TRIZ Chronicles
-- Inventive Principles
-- Contradictions
+- TRIZ 编年史
+- 发明原理
+- 矛盾
 - James Dyson Awards
 ---
 
@@ -21,19 +21,15 @@ library(SixSigma)
 
 ```
 
-## Introduction
+## 引言
 
-Here we go with another of my *TRIZ Chronicles* ! 
+我们继续推出我的*TRIZ 编年史*系列的另一篇文章！
 
-This is another piece stems from my teaching a course on Creative
-Thinking and Problem Solving based on TRIZ, titled *Play and Invent*,
-over the past 8 years or more at the [**Srishti Manipal Institute of
-Art, Design, and
-Technology**](https://www.srishtimanipalinstitute.in/ "https://www.srishtimanipalinstitute.in/") in Bangalore, INDIA.
+这篇文章源于过去 8 年多来，我在印度班加罗尔的[**Srishti Manipal 艺术、设计与技术学院**](https://www.srishtimanipalinstitute.in/ "https://www.srishtimanipalinstitute.in/")教授基于 TRIZ 的创造性思维与问题解决课程，题为*游戏与发明*。
 
-## Power from your Balcony
+## 阳台上的电力
 
-What do you think of this innovation?
+您如何看待这个创新？
 
 ![](https://uploads-ssl.webflow.com/61582c79a4c757037f07d954/619f661b6eb56f4b40e1f5fc_uk-o-wind-turbine-3_digi-p-1080.jpeg)
 
@@ -41,47 +37,22 @@ What do you think of this innovation?
 
 {{< video https://www.youtube.com/embed/9HHJ0rt5xwg >}}
 
-This solution to urban "micro-power" generation has won numerous awards,
-most notably the [James Dyson Award in
-2018](https://www.jamesdysonaward.org/2018/project/o-wind-turbine/). The
-inventors are [Nicolas
-Orellana](https://www.linkedin.com/in/nicorellana/) and [Yaseen
-Noorani](https://www.linkedin.com/in/yaseen-noorani-b5402a79/?originalSubdomain=uk).
+这个城市"微型电力"发电解决方案获得了众多奖项，最著名的是[2018 年詹姆斯·戴森奖](https://www.jamesdysonaward.org/2018/project/o-wind-turbine/)。发明者是[Nicolas Orellana](https://www.linkedin.com/in/nicorellana/)和[Yaseen Noorani](https://www.linkedin.com/in/yaseen-noorani-b5402a79/?originalSubdomain=uk)。
 
-Without further ado, let us do a TRIZ Analysis of this remarkable
-invention.
+话不多说，让我们对这一杰出发明进行 TRIZ 分析。
 
-## A TRIZ Analysis of the Dyson O-Wind Generator
+## 戴森 O-Wind 发电机的 TRIZ 分析
 
-For a TRIZ workflow, we proceed as
-[**before**](https://arvindvenkatadri.com/project/2022-12-20-triz-lawrence-of-arabia/ "https://arvindvenkatadri.com/project/2022-12-20-triz-lawrence-of-arabia/"):
+对于 TRIZ 工作流程，我们按照[**之前**](https://arvindvenkatadri.com/project/2022-12-20-triz-lawrence-of-arabia/ "https://arvindvenkatadri.com/project/2022-12-20-triz-lawrence-of-arabia/")的方式进行：
 
--   First, using the method described in [**Open Source
-    TRIZ**](https://www.youtube.com/watch?v=cah0OhCH55k "Open Source TRIZ on YouTube")**,**
-    we identify *knobs* or *parameters* within the situation
--   We see how turning these could lead to identifying a Statement /
-    Cause for a Problem in the form of a *Contradiction*.
--   Re-word the plain English Contradiction into TRIZ Parameters and
-    look it up in the Contradiction Matrix. Obtain the Inventive
-    Principles.
--   Apply these Inventive Principles into your Problem and solve it.
+-   首先，使用[**开源 TRIZ**](https://www.youtube.com/watch?v=cah0OhCH55k "YouTube 上的开源 TRIZ")中描述的方法，识别情境中的*旋钮*或*参数*
+-   观察调整这些参数如何导向识别以*矛盾*形式呈现的问题陈述/原因
+-   将通俗易懂的矛盾改写为 TRIZ 参数，并在矛盾矩阵中查找。获得发明原理
+-   将这些发明原理应用到您的问题中并解决它
 
-In the video itself, we heard about how electrical power **consumption
-centers** are the urban areas and these are far away from the
-**generation sites**. This leads to capital costs in HT Transmission
-equipment; we go to HT transmission to reduce losses on the way. This is
-already a *Contradiction*, which we might solve using **Segmentation**
-to arrive at *Local Generation of Power*. Local generation is a good
-idea to reduce these costs. This leads easily to Solar Panels on
-rooftops for example. Again while this *may* be cheaper than the
-electrical distribution system, it still uses a fair bit of capex and
-space and is centralized per building. Can we take **Segmentation** even
-further and think of a hyper-local *household-based* power generation
-unit, using the Wind?
+在视频本身中，我们听到电力**消费中心**是如何位于城市地区，而这些地区远离**发电场所**。这导致高压输电设备的资本成本；我们采用高压输电是为了减少沿途的损耗。这已经是一个*矛盾*，我们可以使用**分割**来解决它，实现*电力本地发电*。本地发电是降低这些成本的好主意。这很容易导致例如屋顶上的太阳能电池板。虽然这*可能*比电力配电系统便宜，但它仍然使用相当多的资本支出和空间，并且按建筑物集中。我们可以进一步采用**分割**，并考虑使用风能的超本地*基于家庭的*发电单元吗？
 
-What would be the problems with using Wind based power generation around
-the home? Here below is a quick *Ishikawa Diagram* to help us identify
-the *Parameters* of this Problem:
+在家里使用风力发电会遇到什么问题？下面是一个快速的*石川图*，帮助我们识别这个问题的*参数*：
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -111,210 +82,113 @@ causes[6] <- list(c("Mech Arrangements", "Electrical"))
 #Fishbone Diagram
 #
 ss.ceDiag(effect,causes.head,causes, main ="Where is the Wind?",
-          #ss.col = c("", "red"), 
+          #ss.col = c("", "red"),
           sub = paste("Ishikawa Cause-Effect Diagram \n (Made with R)"))
 
 
 
 ```
 
-Looking at this Diagram, with the aspects identified, we could pair them
-off and see how they affect one another. In doing so, we could make up
-several problem. Let us state at some of our Problems: I have marked
-some of these with question marks since I am using imagination here and
-not direct primary research or information to formulate these. Note that
-some these may sound *naive*, but that is exactly way to start!
+观察这个图，结合已识别的各个方面，我们可以将它们配对，看看它们如何相互影响。这样做可以构成多个问题。让我们陈述一些我们的问题：其中一些我标记了问号，因为我在这里使用想象力，而不是直接的主要研究或信息来制定这些。请注意，其中一些可能听起来*天真*，但这正是开始的方式！
 
-1.  I would like to have access my generator, but it needs to be not too
-    close to the walls for it to harness the wind.
-2.  How to tap the power from the generator? What if the connection
-    wires get twisted?
-3.  Do I need a conventional
-    [Commutator](https://en.wikipedia.org/wiki/Commutator_(electric))?
-    Won't that be heavy?
-4.  What voltage and current will I get? Will it be compatible with my
-    230V AC mains?
+1.  我希望能够访问我的发电机，但它不能太靠近墙壁，以便利用风。
+2.  如何从发电机获取电力？如果连接线缠绕了怎么办？
+3.  我需要传统的[换向器](https://en.wikipedia.org/wiki/Commutator_(electric))吗？那不会很重吗？
+4.  我会得到什么电压和电流？它会与我 230V 交流市电兼容吗？
 
-As you can see, many different problems and contradictions await our
-attention. Let us cut to the chase and state perhaps the most
-interesting problem (to me!) that the inventors have solved as
-demonstrated in the video above. We will state this as an
-[**Administrative
-Contradiction(AC)**](https://altshuller.ru/world/eng/triz6.asp "https://altshuller.ru/world/eng/triz6.asp")
-in *plain English*:
+如您所见，许多不同的问题和矛盾等待我们的注意。让我们切入正题，陈述上面视频中演示的发明者解决的最有趣的问题（对我来说！）！我们将用*通俗英语*将其陈述为[**行政矛盾(AC)**](https://altshuller.ru/world/eng/triz6.asp "https://altshuller.ru/world/eng/triz6.asp")：
 
 ::: callout-note
-## Administrative Contradiction
+## 行政矛盾
 
-**AC**: Winds help to generate power by making something rotate, but
-winds can change direction and slow down the existing rotation.
+**AC**：风通过使物体旋转来帮助发电，但风可以改变方向并减慢现有的旋转。
 :::
 
-What would an IFR be in this situation? How "unreasonable" can we be?
-Let us try:
+在这种情况下，理想最终结果会是什么？我们可以多么"不合理"？让我们试试：
 
 ::: callout-important
-## Ideal Final Result
+## 理想最终结果
 
-Torque must be in one direction only (irrespective of wind direction)
+扭矩必须仅在一个方向（无论风向如何）
 :::
 
 ::: callout-caution
-## Unidirectional Assumption
+## 单向假设
 
-I have made a strong assumption here about the the unidirectional
-movement: the main intent is for the rotating generator to be able to
-harness winds from any direction to establish or continue rotation in
-one direction (CW or CCW). Alternating current power generation is in
-principle immune to direction of rotation.
+我在这里对单向运动做了一个强有力的假设：主要意图是使旋转发电机能够利用来自任何方向的风来建立或继续向一个方向（顺时针或逆时针）旋转。交流发电原则上不受旋转方向的影响。
 :::
 
-Let us take our AC and convert it into a *Technical Contradiction(TC)*,
-keeping this IFR in mind. We will look at the *48 TRIZ Parameters* in
-the [**TRIZ**](/pdf/TRIZ/ContradictionMatrix2003.pdf)
-[**Contradiction**](/pdf/TRIZ/ContradictionMatrix2003.pdf "Download PDF of TRIZ Contradiction Matrix 2003")
-[**Matrix(PDF)**](/pdf/TRIZ/ContradictionMatrix2003.pdf) and see which
-Parameter we want to improve, while not worsening another. Here is what
-we can obtain. We will analyze the Contradiction both ways[^1]:
+让我们将行政矛盾 AC 转换为*技术矛盾(TC)*，同时记住这个理想最终结果。我们要查看[**TRIZ**](/pdf/TRIZ/ContradictionMatrix2003.pdf)[**矛盾**](/pdf/TRIZ/ContradictionMatrix2003.pdf "下载 TRIZ 矛盾矩阵 2003 PDF")[**矩阵(PDF)**](/pdf/TRIZ/ContradictionMatrix2003.pdf)中的*48 个 TRIZ 参数*，看看我们想改进哪个参数，而不恶化另一个参数。我们可以得到以下结果。我们将从两个方面分析矛盾[^1]：
 
 ::: callout-note
-## Technical Contradictions
+## 技术矛盾
 
--   **TC 1**: Improve `(15)Force/Torque` while not worsening
-    `(3)Angle/Length of Moving Object`
--   **TC 2**: Improve `(3)Angle/Length of Moving Object` while not
-    worsening `(15)Force/Torque`
+-   **TC 1**：改进`(15)力/扭矩`而不恶化`(3)运动物体的角度/长度`
+-   **TC 2**：改进`(3)运动物体的角度/长度`而不恶化`(15)力/扭矩`
 :::
 
-Again we have chosen the TRIZ Parameters based on our IFR. Other
-metaphoric TRIZ Parameters that may suggest themselves are
-`12(Duration of Action on a Moving Object)`, `14(Speed)`, and
-`(40)Harmful Effects Acting on the System`.
+我们再次根据理想最终结果选择了 TRIZ 参数。其他可能出现的隐喻 TRIZ 参数是`12(运动物体作用持续时间)`、`14(速度)`和`(40)作用于系统的有害效应`。
 
-Is there a *Physical Contradiction(PC)*[^2] possible here?
+这里是否存在*物理矛盾(PC)*[^2]？
 
 ::: callout-warning
-## Physical Contradiction
+## 物理矛盾
 
-The Rotor must yield and not yield to the Wind at the same time. In
-other words, the rotor must be "porous and non-porous"[^3] to the wind
-at the same time.
+转子必须同时对风屈服和不对风屈服。换句话说，转子必须同时对风"多孔和非多孔"。
 :::
 
-Let us now apply the TCs to the Contradiction Matrix and obtain the TRIZ
-Inventive Principles.
+现在让我们将技术矛盾应用到矛盾矩阵并获得 TRIZ 发明原理。
 
-## Solving the Technical Contradiction
+## 解决技术矛盾
 
-Let us take the both the TC-s into the Contradiction Matrix and arrive
-at the list of TRIZ Inventive Principles. Here is what the Matrix
-suggests:
+让我们将两个技术矛盾都带入矛盾矩阵，得出 TRIZ 发明原理列表。以下是矩阵的建议：
 
-For `TC-1`:
+对于 `TC-1`：
 
-1.  **17(Another Dimension) !!**
-2.  **4( Asymmetry)**
-3.  **14(Curvature) !!!**
-4.  **10(Preliminary Action)**
+1.  **17(另一维度)！！**
+2.  **4(不对称)**
+3.  **14(曲率)！！！**
+4.  **10(预先行动)**
 
-and with `TC-2`:
+以及 `TC-2`：
 
-5.  **3(Local Quality)**
-6.  **9(Preliminary Anti-Action)**
-7.  **35(Parameter Change)**
+5.  **3(局部质量)**
+6.  **9(预先反作用)**
+7.  **35(参数变化)**
 
-Hmm...based on the PC, we may have expected a **Separation in Space**
-solution, suggested by *Curvature, Another Dimension and Asymmetry*.
-Viewing these Inventive Principles as we [*Generalized
-Solutions*]{.underline}*,* we try to map these back into the Problem at
-hand. In keeping with the metaphoric/analogic way of thinking that TRIZ
-embodies, I deliberately use many visual hints here from math, physics,
-geography, and biology.
+嗯……基于物理矛盾，我们可能期望**空间分离**解决方案，由*曲率、另一维度和不对称*建议。将这些发明原理视为[*广义解决方案*]{.underline}*，我们尝试将它们映射到手头的问题。为了保持 TRIZ 体现的隐喻/类比思维方式，我故意在这里使用了许多来自数学、物理、地理和生物的视觉提示。
 
-1.  **(14)Curvature**: Hmm...nothing new here, or is there? Of course
-    the rotor has to be curved and kind of sphere-like....
+1.  **(14)曲率**：嗯……这里没有什么新东西，或者是吗？当然，转子必须是弯曲的，有点像球体……
 
-2.  **17(Another Dimension)**: A near-spherical thing has really only
-    one dimension..the radius. And that points in all directions /
-    dimensions! Should there be changes in radius then? Should the
-    radius change create bumps ( positive change ) or depressions (
-    negative change?) Should the bump be like a welt, and the depression
-    like a groove? How can a bump or a depression *itself* be curved, as
-    **14(Curvature)** suggests?
+2.  **17(另一维度)**：近球体真的只有一个维度……半径。它指向所有方向/维度！那么半径应该有变化吗？半径变化应该产生凸起（正变化）还是凹陷（负变化）？凸起应该像肿胀，凹陷像沟槽吗？凸起或凹陷本身如何弯曲，正如**14(曲率)**建议的那样？
 
-3.  **4(Asymmetry)**: The bumps or depressions.....they have to be
-    asymmetric? So....not like *longitudes* and nor *latitudes*, but may
-    be like those [**great
-    circles**](https://mathworld.wolfram.com/GreatCircle.html "https://mathworld.wolfram.com/GreatCircle.html").
+3.  **4(不对称)**：凸起或凹陷……它们必须是不对称的？所以……不像*经度*也不像*纬度*，而可能像那些[**大圆**](https://mathworld.wolfram.com/GreatCircle.html "https://mathworld.wolfram.com/GreatCircle.html")。
 
-4.  **3(Local Quality)**: OK, the bumps or depressions are already
-    "local"....can we go further? Here is where I stretch and go
-    *hyper-local*: Should there be structures on or inside them, like
-    flaps or fins or vanes? How can these be *asymmetric*, then? By
-    acting like miniature flaps or
-    [trapdoors](https://www.youtube.com/watch?v=mxLfrZrXC-g "https://www.youtube.com/watch?v=mxLfrZrXC-g"),
-    that yield / fall flat when pushed in one direction and stand up /
-    resist when pushed in the other direction...somewhat like a dog or
-    cat's fur? Then *push* and *pull* work differently...
+4.  **3(局部质量)**：好的，凸起或凹陷已经是"局部的"……我们可以更进一步吗？这就是我伸展并进入*超局部*的地方：它们上面或里面应该有结构，如襟翼、鳍或叶片吗？这些如何*不对称*？通过像微型襟翼或[活动门](https://www.youtube.com/watch?v=mxLfrZrXC-g "https://www.youtube.com/watch?v=mxLfrZrXC-g)一样行动，当向一个方向推时屈服/平放，当向另一个方向推时站立/抵抗……有点像狗或猫的毛？那么*推*和*拉*的工作方式不同……
 
     ::: callout-tip
-    ## From Flaps to ....Funnels!
+    ## 从襟翼到……漏斗！
 
-    Making these flaps *movable* as the above paragraph seems to suggest
-    would probably not be a good idea, from an engineering standpoint.
-    But once we have the image of *wind + flaps / fins / vanes* and
-    *differences in pressure or movement*, the **Bernoulli Principle**
-    and **Venturi effect** suggest themselves immediately!! So what
-    could this vane-fin-fur-flap thingy be then? Oh good heavens, a
-    [**funnel**](https://www.youtube.com/watch?v=1TQL1ju3RoQ "https://www.youtube.com/watch?v=1TQL1ju3RoQ")
-    !!!
+    从工程角度来看，按照上面段落建议使这些襟翼*可移动*可能不是一个好主意。但一旦我们有了*风+襟翼/鳍/叶片*和*压力或运动差异*的图像，**伯努利原理**和**文丘里效应**就会立即自我暗示！那么这个叶片-鳍-毛-襟翼东西可能是什么？哦，天哪，[**漏斗**](https://www.youtube.com/watch?v=1TQL1ju3RoQ "https://www.youtube.com/watch?v=1TQL1ju3RoQ)！！！
     :::
 
-    ![Venturi
-    Effect](https://upload.wikimedia.org/wikipedia/commons/4/4b/Venturi5.svg){HappyApple,
-    Public domain, via Wikimedia Commons}
+    ![文丘里效应](https://upload.wikimedia.org/wikipedia/commons/4/4b/Venturi5.svg){HappyApple, Public domain, via Wikimedia Commons}
 
-    So each of those bumps are **segmented** into funnel-like structures
-    that cause differences in air pressure when the wind blow. These
-    differences are *unidirectional* and create movement/rotation! And
-    because the bumps are curved along the surface of the sphere, *and
-    they are not parallel to one another* (**asymmetry**), at least some
-    of the internal funnels will always be "in the wind" [^4], and
-    capable of creating rotation using Bernoulli/Venturi effect!
+    因此，每个凸起都被**分割**成漏斗状结构，当风吹过时产生气压差。这些差异是*单向的*并产生运动/旋转！而且由于凸起沿球面弯曲，*并且它们彼此不平行*（**不对称**），至少一些内部漏斗将始终"在风中"[^4]，并且能够利用伯努利/文丘里效应产生旋转！
 
-5.  **9(Preliminary Anti-Action)**: What do we wish to guard against?
-    Counter acting wind forces. Well, the funnel structures work only
-    with wind blowing into the broad opening and so we are fine!
+5.  **9(预先反作用)**：我们要防范什么？反作用风力。嗯，漏斗结构仅在风吹向宽开口时有效，所以我们没问题！
 
-So finally we could just imagine a spherical object, mounted on a
-spindle, with spiral arc-like bumps at different places on the surfaces.
-Within the arc-like bumps are funnel-like structures that create
-differentials in pressure when subject to the wind, and that creates
-rotation. Since the funnels are asymmetric by nature, our final rotation
-is unidirectional. Whew! ( Yes, that "whew" is also very suggestive here
-😃!)
+所以最后我们可以想象一个球体，安装在主轴上，表面不同位置有螺旋状弧形凸起。在弧形凸起内部是漏斗状结构，当受到风作用时产生压力差，从而产生旋转。由于漏斗天生不对称，我们的最终旋转是单向的。呼！（是的，这里的"呼"也非常令人联想到😃！）
 
-## Using TRIZ Separation Principles
+## 使用 TRIZ 分离原理
 
-As Hipple explains, there is frequently an underlying **physical**
-parameter, such as *length*, *breadth*, *weight*, or *energy, or speed*
-for example that lies at the root of our *Technical Contradiction*.
+正如 Hipple 解释的那样，经常有一个潜在的**物理**参数，如*长度*、*宽度*、*重量*或*能量或速度*，处于我们*技术矛盾*的根源。
 
-Our IFR states that we want the rotor to yield one way and to not yield
-when pushed the other way so it needs to be both hard and soft at the
-same time. This is a Physical Contradiction! In this case we can easily
-see and application of [**Separation in Space**]{.smallcaps} and also
-[**Separation on Condition**.]{.smallcaps} However I think in this case,
-it would not be easy to arrive at the Solution using just these.
+我们的理想最终结果陈述了我们要转子向一个方向屈服，当向另一个方向推时不对风屈服，所以它需要同时既硬又软。这是一个物理矛盾！在这种情况下，我们可以很容易地看到[**空间分离**]{.smallcaps}以及[**条件分离**]{.smallcaps}的应用。但我认为在这种情况下，仅使用这些不容易得出解决方案。
 
-That's a wrap! In the next episode of the *#TRIZ Chronicles*, I wish to
-step even further out of my area of expertise and dabble in HR! I think
-looking at some of the institution-building ideas in Ricardo Semler's
-book,
-[**Maverick**](https://www.goodreads.com/en/book/show/32994 "https://www.goodreads.com/en/book/show/32994")
-would be a good idea!
+这就是全部内容！在*#TRIZ 编年史*的下一集中，我希望进一步走出我的专业领域，涉足人力资源领域！我认为看看 Ricardo Semler 的书[**Maverick**](https://www.goodreads.com/en/book/show/32994 "https://www.goodreads.com/en/book/show/32994")中的一些机构建设想法会是个好主意！
 
-## References
+## 参考资料
 
 1.  Jack Hipple, The Ideal Result and How to Achieve It. Springer;
     2012th edition (June 26, 2012)
@@ -323,16 +197,11 @@ would be a good idea!
 3.  Open Source TRIZ: Making Contradictions.
     <https://www.youtube.com/watch?v=cah0OhCH55k>
 
-[^1]: The Contradiction Matrix is not quite symmetric, so stating the
-    Contradiction both ways allows us to access a slightly larger set of
-    Inventive Principles from two cells of the Matrix.
+[^1]: 矛盾矩阵不完全对称，因此以两种方式陈述矛盾使我们可以从矩阵的两个单元格访问略大的一组发明原理。
 
-[^2]: Arriving at *Physical Contradictions* is not always easy! If we
-    can, then there are a very crisp set of **TRIZ Separation
-    Principles** that we can apply to solve the Problem.
+[^2]: 得出*物理矛盾*并不总是容易的！如果可以，那么我们可以应用一套非常清晰的**TRIZ 分离原理**来解决问题。
 
-[^3]: So the Rotor must have...holes? How do holes "work in one
-    direction only"? We will see...
+[^3]: 所以转子必须有……洞？洞如何"仅在一个方向工作"？我们将看到……
 
-[^4]: Mathematically, the Wind direction vector will be (nearly) normal
-    to the aperture of some funnel.
+[^4]: 数学上，风向向量将（几乎）垂直于某个漏斗的孔径。
+

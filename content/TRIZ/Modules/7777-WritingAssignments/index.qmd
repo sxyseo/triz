@@ -1,15 +1,15 @@
 ---
-title: "Reading and Writing Assignments"
-subtitle: "The Thirteen Tasks of Hercules"
+title: "阅读和写作作业"
+subtitle: "赫拉克勒斯的十三项任务"
 date: "2025-11-30"
 date-modified: "`r Sys.Date()`"
 order: 7777
 image: featured.jpg
 tags:
-- Reading
-- Writing
-editor: 
-  markdown: 
+- 阅读
+- 写作
+editor:
+  markdown:
     wrap: 72
 ---
 
@@ -19,105 +19,105 @@ editor:
 ```
 
 
-## Reading and Writing Assignments
+## 阅读和写作作业
 
-### Assignment-1. [I am Water](../../../Basics/Modules/10-Flow-and-Play/index.qmd):
-   - Read  Chapter 2, titled *Classification of Games*, from Roger Caillois' book ***Man, Play, and Games***. <https://annas-archive.org/md5/b367135626629104fffa66c32d91defb>
-   - Think of several everyday experiences that you might have several times during the course of a week, e.g. Cooking, Cleaning, Doing Groceries, Reading, Listening to Music, Singing, Exercising, Commuting...
-   - Describe one or more instances of such life experiences where you **experienced** each of `agon`, `alea`, `mimicry`, and `ilinx`
-   - Did you **modify** such an experience, by infusing it with any of these elements? (e.g. mapping an *exhausted letter* in [Antakshari](https://greengroundsports.com/know-about-antakshari-game-and-how-to-prepare-play-it/) to a relatively unused one, to make the game more challenging and interesting)
-   - What were your realizations on such experiences and/or their modification?
-   - What can you create with that Modification? A product, a service, a game, or a piece of art?
-   
-### Assignment-2. [I yam What I yam](../../../Basics/Modules/20-Cultural-Capital/index.qmd):
-   - Re-read carefully the article from class, *What is Cultural Capital?*. <https://culturallearningalliance.org.uk/what-is-cultural-capital>
-   - Think of a Life Experience where you were completely dumb-founded, you simply could not comprehend what (almost) everybody was doing or choosing to do. Think ceremony, dress, gesture, behaviour, choice of word or phrase ( "think different". Bah.) 
-   - What might have been the *cultural grounding* that you embody, that might have prevented you from (at least initially) comprehending?
-   - How might you, in retrospect, modify your *grounding* to arrive at a better, and more rapid, understanding of what happened?
-   - Is that same aspect of *grounding*, or similar, likely to affect you in the future?
-   
-### Assignment-3. [Bird of Different Feathers](../../../Basics/Modules/30-MBTI-Big-5/index.qmd):
-- (May be too much for illiterate SMI Peasants). But let's try:
-- Watch any biopic: Linked here are two examples:  
-   - **The Theory of Everything** ( about Stephen Hawking) [(Trailer)](https://www.youtube.com/watch?v=Salz7uGp72c)  
-   - **A Beautiful Mind** ( about John Nash) [(Trailer)](https://www.youtube.com/watch?v=aS_d0Ayjw4o)
-   - **Lawrence of Arabia** (about T.E. Lawrence) <https://www.youtube.com/watch?v=2qci5XIktoU>
-- Pretend you are them and do an MBTI on them
-- Justify with examples from the movie
-- How did they *change their default preference?* Give examples. 
+### 作业-1. [我是水](../../../Basics/Modules/10-Flow-and-Play/index.qmd):
+   - 阅读 Roger Caillois 的著作 ***Man, Play, and Games*** (《人、游戏和玩耍》) 中的第2章,标题为 *游戏的分类*。<https://annas-archive.org/md5/b367135626629104fffa66c32d91defb>
+   - 思考几个你在一周内可能会有多次的日常体验,例如:烹饪、清洁、买菜、阅读、听音乐、唱歌、锻炼、通勤...
+   - 描述一个或多个这样的生活体验实例,其中你**体验**到了 `agon`(竞技)、`alea`(运气)、`mimicry`(模仿) 和 `ilinx`(眩晕) 中的每一个
+   - 你是否通过注入这些元素中的任何一种来**修改**过这样的体验?(例如,在 [Antakshari](https://greengroundsports.com/know-about-antakshari-game-and-how-to-prepare-play-it/) 中将一个*已耗尽的字母*映射到一个相对未使用的字母,以使游戏更具挑战性和趣味性)
+   - 你对这样的体验和/或它们的修改有什么领悟?
+   - 你能用这种修改创造什么?一个产品、一项服务、一个游戏,还是一件艺术品?
 
-### Assignment-4. [I Connect therefore I am](../../../Basics/Modules/40-Domain-Field-Self/index.qmd):
-   - Pick up Barbara Ann Kipfer's **Flip Dictionary** <https://archive.org/details/flipdictionary0000kipf>, or any other dictionary
-   - Randomly find a few ***Adjectives*** ( e.g. *acerbic, diabolic, enchanting, ballistic, incendiary, colonial, motionless*...)
-   - Randomly find a few ***Abstract Nouns***) ( e.g. *mechanics, solitude, marketing, friendship, justice, ecology*, ...)
-   - Again randomly, combine *one adjective with one abstract noun*.
-   - Does the combination make sense, as a `domain` of work? Would the new `domain` have a language? What might a few words be that could be included in this domain-specific language? ( e.g. "*forensic art*" could, just, mean a science where one looks at paintings and find out precisely the historical period, season, time of year, and the phase of the moon on the day they were painted in, by examining minute details of brush strokes, pigments used, canvas weave, etc. Words in this domain might include: pigment analysis, canvas weave, brush stroke morphology, etc. )
-   - Make as many combinations as you can, and make `domains + languages` out of them
-   - Bonus points if you can ***name*** (with justification!) an expert from the `Field` that belongs with this new? `Domain`. (Expert can be a fictional figure too!)
+### 作业-2. [我就是这样](../../../Basics/Modules/20-Cultural-Capital/index.qmd):
+   - 重新仔细阅读课堂文章, *What is Cultural Capital?* (什么是文化资本?)。<https://culturallearningalliance.org.uk/what-is-cultural-capital>
+   - 想一想你完全茫然不知所措的生活体验,你简直无法理解(几乎)每个人都在做什么或选择做什么。想想仪式、着装、手势、行为、词语或短语的选择("think different"。呸。)
+   - 你体现的*文化根基*可能是什么,这可能阻碍你(至少最初)理解?
+   - 回想起来,你可能会如何修改你的*根基*以便更好、更快地理解发生的事情?
+   - *根基*的同一方面或类似方面是否可能会在未来影响你?
 
-### Assignment-5. [Thinking Fast and Slow](../../../Basics/Modules/50-Thinking-Fast-Slow/index.qmd):
-- To be Written Up. 
+### 作业-3. [羽毛不同的鸟](../../../Basics/Modules/30-MBTI-Big-5/index.qmd):
+- (对于不识字的 SMI 平民来说可能太多了)。但让我们试试:
+- 观看任何传记片:这里链接两个例子:
+   - **《万物理论》** (关于斯蒂芬·霍金) [(预告片)](https://www.youtube.com/watch?v=Salz7uGp72c)
+   - **《美丽心灵》** (关于约翰·纳什) [(预告片)](https://www.youtube.com/watch?v=aS_d0Ayjw4o)
+   - **《阿拉伯的劳伦斯》** (关于 T.E. 劳伦斯) <https://www.youtube.com/watch?v=2qci5XIktoU>
+- 假装你是他们,并为他们做 MBTI 测试
+- 用电影中的例子证明你的选择
+- 他们是如何*改变默认偏好的?* 给出例子。
 
-### Assignment-6. [The Art of Parallel Thinking](../../../Basics/Modules/60-Parallel-Thinking/index.qmd):
-- To be Written Up. 
+### 作业-4. [我连接故我在](../../../Basics/Modules/40-Domain-Field-Self/index.qmd):
+   - 拿起 Barbara Ann Kipfer 的 **Flip Dictionary** (翻转词典) <https://archive.org/details/flipdictionary0000kipf>, 或任何其他词典
+   - 随机找到几个***形容词***(例如:*尖锐的、恶魔般的、迷人的、弹道学的、煽动性的、殖民的、静止的*...)
+   - 随机找到几个***抽象名词***(例如:*力学、孤独、营销、友谊、正义、生态*...)
+   - 再次随机,将*一个形容词与一个抽象名词*组合。
+   - 这个组合作为工作的`领域`有意义吗?这个新`领域`会有一种语言吗?可能有哪些词可以包含在这个特定领域的语言中?(例如,"*司法艺术*"可能仅意味着一门科学,通过检查笔触、使用的颜料、画布编织等的微小细节,观察绘画并精确找出其历史时期、季节、一年中的时间以及绘制日期的月相。这个领域的词可能包括:颜料分析、画布编织、笔触形态学等。)
+   - 尽可能多地组合,并从中制作`领域+语言`
+   - 如果你能***命名**(并证明!)属于这个新`领域`的`场域`的专家(可以是虚构的人物!),则加分!
 
-### Assignment-7. [A Year of Metaphoric Thinking](../../../Basics/Modules/70-Metaphoric-Thinking/index.qmd)
-   - Read one of the following (ha!):\
-        - Joshua Ferris, **The Market Value of my Father**, a metaphorical Short Story. [(Web Link)](https://www.wealthsimple.com/en-ca/magazine/joshua-ferris)
-        - Primo Levi, **Carbon**, a metaphorical Short Story. [(PDF)](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf)
-   - List the `Metaphors` that are revealed in the work
-   - Describe the `source domain` and the `target domain` for each metaphor you identify
-   - Describe what `attribute` was `mapped` / carried forward from the `source domain` to the `target domain`
-   - Comment, based on your own subjective experience ( aka `CC` ) whether and why each metaphor *worked for you* or not?
+### 作业-5. [快思慢想](../../../Basics/Modules/50-Thinking-Fast-Slow/index.qmd):
+- 待编写。
 
-### Assignment-8. [Problems and Contradictions](../60-Problems-and-Contradictions/index.qmd)
-   - Read the article, *What are Problems?*. <https://www.psychologytoday.com/us/blog/pain-loss-and-suffering/202105/what-are-problems>
-   - Trawl through your Insta / Locket / Snapchat / Discord / Twitter timelines ( or whatever you call them, peasants), or stand-up comedy shows, or meme pages, or any other source of short-form social media content
-   - Find **3 posts** or stories that especially funny or startling, or have people up in arms
-   - Describe if there are two *pole positions* or *contradictory forces* at play in the post. (E.g. look at the Covid Healthcare vs Job Loss related Twitter post, and others, from class)
-   - Describe how the posts uses these contradictions to create humour or surprise, or anger
-   - Quote/Screenshot the Post ( or link to it if possible) in each case
-   - Reflect on how you might use such contradictions
-   - Create a ( Oh sweet God..) a reel, a post, or a story of your own
-   - [`Less than 3`](https://www.reddit.com/r/criticalrole/comments/6icuva/no_spoilers_origin_of_less_than_three/?rdt=61440) to you if you can create a meme that becomes viral in class, including your (elderly) Teaching Faculty.
-   
-### Assignment-9. [TRIZ Resources](../70-TRIZ-Resources/index.qmd):
+### 作业-6. [平行思维的艺术](../../../Basics/Modules/60-Parallel-Thinking/index.qmd):
+- 待编写。
 
-   - Watch any (number of) episodes of your favourite cartoon. Choose ones that have a lot of action / running around. (***Spy vs Spy*** (especially!!), ***Tom and Jerry***, ***Beep-beep the Roadrunner***, the ***Beagle Boys*** ... would fit the bill).
-   - Keep an eye on the kind of things / objects / situations that they make use of in their ploys
-   - Describe these using the terminology of the metaphor that we have acquired.
-   - If possible, draw the Ishikawa Diagram for each *ploy*: what does the (cartoon) character want to do, and how do they use available Resources to do it?
-   - You may include materials that the characters, especially Wile. E. Coyote, may buy from [A Company that Makes Everything](https://fictionalcompanies.fandom.com/wiki/ACME)
-   
-### Assignment-10. [Ideal Final Result (IFR)](../75-TRIZ-Ideal-Final-Result/index.qmd)
+### 作业-7. [隐喻思维的一年](../../../Basics/Modules/70-Metaphoric-Thinking/index.qmd)
+   - 阅读以下(之一) 吧!):
+        - Joshua Ferris, **我父亲的市场价值**, 一篇隐喻短篇小说。[(网页链接)](https://www.wealthsimple.com/en-ca/magazine/joshua-ferris)
+        - Primo Levi, **碳**, 一篇隐喻短篇小说。[(PDF)](https://www.arvindguptatoys.com/arvindgupta/periodic-primo.pdf)
+   - 列出作品中揭示的`隐喻`
+   - 描述你识别的每个隐喻的`源领域`和`目标领域`
+   - 描述什么`属性`从`源领域``映射`/带到`目标领域`
+   - 根据你自己的主观体验(也称为`CC`)评论每个隐喻是否以及为什么*对你有效*?
 
-   - Head off to the Springwise Innovation Database <https://springwise.com/innovation-database/>. 
-   - NOTE: you may need to create a free account ( valid for 1 week.) I have been reading their free newsletter for several years now. 
-   - Pick out 5 innovations in diverse fields. ( E.g Agriculture, Transportation, Healthcare, Education, Energy...)
-   - Clearly state the `PROBLEM` that they claim to have solved
-   - Clearly state the `SOLUTION` that they have provided
-   - Now: Write, from a TRIZ viewpoint, what might have been the `Ideal Final Result (IFR)` for each of these Innovations.
-   - Write some of the `ASSUMPTIONS` that might have been made in arriving at the `SOLUTION`
-   - Finally, comment on how closely the `SOLUTION` approaches the `IFR`
-   - For inspiration, look at the [Case Studies section](../../../projects/listing.qmd) of this course website.
-   
-### Assignment-11. [A Contradictory Language](../80-A-Contradictory-Language/index.qmd) and [The Contradiction Matrix Workflow](../90-TRIZ-Contradiction-Matrix/index.qmd)
+### 作业-8. [问题和矛盾](../60-Problems-and-Contradictions/index.qmd)
+   - 阅读文章, *What are Problems?* (什么是问题?)。<https://www.psychologytoday.com/us/blog/pain-loss-and-suffering/202105/what-are-problems>
+   - 浏览你的 Insta / Locket / Snapchat / Discord / Twitter 时间线(或任何你称呼它们的东西,平民们),或脱口秀、表情包页面,或任何其他短篇社交媒体内容来源
+   - 找到**3个帖子**或故事,特别有趣或令人震惊,或让人们愤怒
+   - 描述帖子中是否有两个*极点位置*或*对立力量*在起作用。(例如,看看课堂上的 Covid 医疗保健与失业相关的 Twitter 帖子和其他帖子)
+   - 描述帖子如何使用这些矛盾来创造幽默或惊喜或愤怒
+   - 在每种情况下引用/截图帖子(或尽可能链接到它)
+   - 反思你可能会如何使用这些矛盾
+   - 创建一个(哦,天哪..)卷轴、帖子或你自己的故事
+   - 如果你能创建一个在课堂上疯传的表情包,包括你的(年迈)教学人员,给你`<3`(不到3分)[`Less than 3`](https://www.reddit.com/r/criticalrole/comments/6icuva/no_spoilers_origin_of_less_than_three/?rdt=61440)。
 
-   - Head off to Google Play and install the **40IP** app. <https://play.google.com/store/apps/details?id=de.trizconsulting.fortyip.android.paid>
-   - Pick say three `Inventive Principles (IP)`
-   - Click on each of these find three Examples of how these `IP`s have been included in real-world products.
-   - Write the `TECHNICAL CONTRADICTION (TC)` that might have been solved using the `IP` mentioned. 
-   - Justify your choice of CONTRADICTION`, specifically the `PARAMETERS` used. How might these have shown up in the Problem in the first place?
-   - Write the `ADMINISTRATIVE CONTRADICTION (AC)` that might have come before the `TC`. ( You could work these in any order, as your intuition works.)
+### 作业-9. [TRIZ 资源](../70-TRIZ-Resources/index.qmd):
 
-### Assignment-12. Solve Someone Else's Problem
+   - 观看你最喜欢的卡通片的任何(数量的)集。选择那些有很多动作/到处跑的。(***间谍对间谍***(尤其是!!)、***汤姆和杰瑞***、***哔哔啵啵大鸟***、***比格尔兄弟***...都符合要求)。
+   - 注意他们在计谋中利用的东西/物体/情况的种类
+   - 使用我们获得的隐喻术语描述这些。
+   - 如果可能,为每个*计谋*绘制石川图:(卡通)角色想要做什么,以及他们如何使用可用资源来做到这一点?
+   - 你可以包括角色,特别是威利·E. 郊狼,可能从[制造一切的公司](https://fictionalcompanies.fandom.com/wiki/ACME)购买的材料
 
-   - Go off and meet the SMI peasants in Y4, who are struggling with their Semester 8 Projects. 
-   - Get their Project Briefs, and whatever Insights they might gleaned as a result of their Research
-   - Write up a [full Article analysing and solving their problem](../../../projects/Modules/TRIZ/20-Spotify/index.en.qmd) with TRIZ. 
-   - Sell it back to them, peasants. 
-   - You grade depends upon the signed Sales Invoice, and Payment Advise you show me in class. 
-   
-### Assignment-13. Bring Your Own Problem
+### 作业-10. [理想最终结果 (IFR)](../75-TRIZ-Ideal-Final-Result/index.qmd)
 
-   - Same as above, but for a Problem that you, or someone you care about , may be facing at the moment. 
+   - 前往 Springwise 创新数据库 <https://springwise.com/innovation-database/>。
+   - 注意:你可能需要创建一个免费帐户(有效期为1周)。我已经阅读他们的免费通讯好几年了。
+   - 挑选不同领域的5个创新。(例如农业、交通、医疗保健、教育、能源...)
+   - 清楚地说明他们声称已经解决的`问题`
+   - 清楚地说明他们提供的`解决方案`
+   - 现在:从 TRIZ 角度写,这些创新中的每一个可能是什么`理想最终结果 (IFR)`
+   - 写出一些在得出`解决方案`时可能做出的`假设`
+   - 最后,评论`解决方案`如何接近`IFR`
+   - 有关灵感,请查看本课程网站的[案例研究部分](../../../projects/listing.qmd)。
+
+### 作业-11. [矛盾的语言](../80-A-Contradictory-Language/index.qmd) 和[矛盾矩阵工作流](../90-TRIZ-Contradiction-Matrix/index.qmd)
+
+   - 前往 Google Play 并安装 **40IP** 应用程序。<https://play.google.com/store/apps/details?id=de.trizconsulting.fortyip.android.paid>
+   - 选择说三个`发明原理 (IP)`
+   - 点击每一个,找到三个示例,说明这些`IP`如何包含在现实世界的产品中。
+   - 写出可能使用提到的`IP`解决的`技术矛盾 (TC)`。
+   - 证明你对`矛盾`的选择,特别是使用的`参数`。这些可能最初是如何在问题中出现的?
+   - 写出可能在`TC`之前的`行政矛盾 (AC)`。(你可以按照你的直觉以任何顺序进行这些工作)。
+
+### 作业-12. 解决别人的问题
+
+   - 去见 Y4 的 SMI 平民们,他们正在为第8学期项目挣扎。
+   - 获取他们的项目简介,以及他们作为研究结果可能获得的任何见解
+   - 编写[一篇完整的文章,用 TRIZ 分析和解决他们的问题](../../../projects/Modules/TRIZ/20-Spotify/index.en.qmd)。
+   - 把它卖回给他们,平民们。
+   - 你的成绩取决于你向我展示的签署的销售发票和付款建议。
+
+### 作业-13. 带上你自己的问题
+
+   - 与上述相同,但针对你或你关心的人现在可能面临的问题。

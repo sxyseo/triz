@@ -1,6 +1,6 @@
 ---
-title: "TRIZ Techniques"
-subtitle: "Creative Problem Solving using TRIZ"
+title: "TRIZ技术"
+subtitle: "运用TRIZ进行创造性问题解决"
 date: "July 24, 2024"
 date-modified: "`r Sys.Date()` "
 listing:
