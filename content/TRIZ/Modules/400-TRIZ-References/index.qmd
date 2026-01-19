@@ -294,7 +294,160 @@ knitr::opts_chunk$set(echo = TRUE)
 1. Chhabin Pokhrel. *TRIZ 方法在过程工程问题解决中的适应性*。
 拉彭兰塔理工大学, 技术学院。 <u>[PDF](TRIZ-related/Adaptation of TRIZ Method for Problem Solving in Process Engineering by Pokhrel Chhabin.pdf)</u>
 
+## 在线 TRIZ 课程和认证 (2025)
 
+### 国际认证课程
+
+1. **MATRIZ 官方认证** - 国际TRIZ协会官方认证项目
+   - <u>[https://www.matriz-official.net/](https://www.matriz-official.net/)</u>
+   - 提供 Level 1-5 认证课程
+   - 2025年10月新增 AI-TRIZ 认证课程
+
+2. **Altshuller Institute TRIZ 培训** - TRIZ 发明问题解决理论
+   - <u>[https://www.aitriz.org/triz-training](https://www.aitriz.org/triz-training)</u>
+   - 虚拟多会话 TRIZ 研讨会
+   - 助理认证考试准备课程
+
+3. **ASME TRIZ 课程** - 美国机械工程师学会
+   - <u>[https://www.asme.org/learning-development/find-course/triz-theory-inventive-problem-solving](https://www.asme.org/learning-development/find-course/triz-theory-inventive-problem-solving)</u>
+   - 虚拟课堂形式
+   - 适合工程师和产品设计师
+
+4. **Novismo Academy TRIZ Level 1-2** - 欧洲TRIZ认证
+   - <u>[https://novismo.academy/course-category/triz/](https://novismo.academy/course-category/triz/)</u>
+   - 符合 MATRIZ 要求的认证培训
+   - 在线自学课程
+
+5. **AI-TRIZ 从业者认证** - TRIZ Consulting Group
+   - <u>[https://www.triz-consulting.de/offers/triz-training-courses/certified-ai-triz-practitioner/?lang=en](https://www.triz-consulting.de/offers/triz-training-courses/certified-ai-triz-practitioner/?lang=en)</u>
+   - 结合生成式AI的TRIZ工具
+   - MATRIZ 官方认证
+
+### 中文 TRIZ 学习资源
+
+1. **中国大学 MOOC - 创新思维与发明问题解决方法**
+   - <u>[https://www.icourse163.org/learn/XAUAT-1206021805](https://www.icourse163.org/learn/XAUAT-1206021805)</u>
+   - 西安建筑科技大学
+   - 系统性 TRIZ 课程，免费在线学习
+
+2. **学堂在线 - TRIZ 课程**
+   - <u>[https://www.xuetangx.com/course/XAUAT01011000790](https://www.xuetangx.com/course/XAUAT01011000790)</u>
+   - 清华大学平台
+   - "人人都可以掌握的超级发明术"
+
+3. **国家高等教育智慧教育平台**
+   - <u>[https://www.chinaooc.com.cn/course/662053cabb5c5a802565273e](https://www.chinaooc.com.cn/course/662053cabb5c5a802565273e)</u>
+   - 介绍TRIZ理论体系
+   - 技术系统进化法则
+   - TRIZ 创新方法
+
+4. **创新设计——TRIZ系统化创新教程 (第2版)**
+   - 张换高 著
+   - <u>[http://www.cmpedu.com/books/book/5608346.htm](http://www.cmpedu.com/books/book/5608346.htm)</u>
+   - 面向产品设计各阶段
+   - 发现问题、分析问题和创造性解决问题的系统化方法
+
+## TRIZ 学习网站和工具 (2025)
+
+### 综合资源网站
+
+1. **The Altshuller Institute for TRIZ Studies**
+   - <u>[https://www.aitriz.org/](https://www.aitriz.org/)</u>
+   - TRIZ 学习、会议、书籍和视频
+   - STEM教育 TRIZ 项目
+
+2. **TRIZ.org - TRIZ Training, Consulting, and Publishing**
+   - <u>[https://triz.org/](https://triz.org/)</u>
+   - TRIZ 培训项目
+   - 定制解决方案包
+   - TRIZ 出版物
+
+3. **Oxford Creativity - TRIZ Links**
+   - <u>[https://www.triz.co.uk/triz-links](https://www.triz.co.uk/triz-links)</u>
+   - 全球 TRIZ 资源链接集合
+   - 帮助 TRIZ 学习者的导航网站
+
+4. **创新培训.org**
+   - <u>[https://www.innovationtraining.org/triz-training-theory-of-inventive-problem-solving](https://www.innovationtraining.org/triz-training-theory-of-inventive-problem-solving)</u>
+   - TRIZ 培训指南
+   - 应用 TRIZ 原则到技术挑战
+
+5. **And Invent, Inc. - Kraev's Korner**
+   - <u>[https://www.andinvent.com/kraev-korner](https://www.andinvent.com/kraev-korner)</u>
+   - Altshuller Institute 订购的在线 TRIZ 培训材料
+   - 免费 TRIZ 课程资源
+
+### 在线 TRIZ 工具和数据库
+
+1. **TRIZ40.com - 矛盾矩阵在线工具**
+   - <u>[https://www.triz40.com/](https://www.triz40.com/)</u>
+   - 可搜索的矛盾数据库
+   - 发明原理详细列表及示例
+
+2. **AI TRIZ 助手** - 本项目配套系统
+   - <u>[https://ai.triz.help/](https://ai.triz.help/)</u>
+   - AI 驱动的 TRIZ 问题解决助手
+   - 实时 TRIZ 咨询和学习
+
+### TRIZ 博客和教程
+
+1. **CSDN TRIZ 创新理论入门教程**
+   - <u>[https://blog.csdn.net/gitblog_06701/article/details/148184437](https://blog.csdn.net/gitblog_06701/article/details/148184437)</u>
+   - TRIZ 理论入门
+   - 问题分析与解决方法
+
+2. **知乎 - 40个发明原理详解**
+   - <u>[https://zhuanlan.zhihu.com/p/11260580419](https://zhuanlan.zhihu.com/p/11260580419)</u>
+   - 仔细阅读并思考深有启发
+   - 40个发明原理详细解析
+
+3. **我的马克 - 复制创新**
+   - <u>[https://mymkc.com/article/content/22298](https://mymkc.com/article/content/22298)</u>
+   - TRIZ 的 40 项发明原则
+   - 创新是可以学习的
+
+## TRIZ 视频和多媒体资源
+
+1. **Project TETRIS 视频**
+   - TRIZ 历史: <u>[YouTube](https://www.youtube.com/watch?v=NeDAnftRx8c)</u>
+   - TRIZ 故事系列 (妮娜在学校、大学、工作)
+   - 如何使用矛盾矩阵
+
+2. **Coursera TRIZ 课程**
+   - 创造性思维技术和工具
+   - 矛盾矩阵使用教程
+
+## TRIZ 最新研究和发展
+
+1. **数智化发明创造能力提升服务 (AI FOR INNOVATOR)**
+   - <u>[https://amr.nanjing.gov.cn/ztzl/zscqgz/fwzt/202510/P020251010455033856538.pdf](https://amr.nanjing.gov.cn/ztzl/zscqgz/fwzt/202510/P020251010455033856538.pdf)</u>
+   - 发明创造智能 TRIZ 专家系统
+   - 集成决策支持技术、人工智能、TRIZ 理论
+
+2. **AI + TRIZ 研究方向**
+   - AI 辅助 TRIZ 问题解决
+   - 机器学习与 TRIZ 结合
+   - 智能创新系统开发
+
+## TRIZ 社区和网络
+
+1. **国际 TRIZ 日** - 10月15日
+   - 全球 TRIZ 社区庆祝活动
+   - MATRIZ 官方组织
+
+2. **TRIZ Journal 社区**
+   - <u>[https://the-trizjournal.com](https://the-trizjournal.com)</u>
+   - TRIZ 案例研究
+   - 发明原理示例
+
+3. **欧洲 TRIZ 协会 (ETRIA)**
+   - <u>[https://etria.eu/portal/](https://etria.eu/portal/)</u>
+   - 欧洲最大 TRIZ 组织
+   - 会议、出版物、认证
+
+---
+
+> 💡 **学习建议**: 建议从基础概念开始（问题与矛盾、40个发明原理、矛盾矩阵），然后逐步学习高级方法（ARIZ、物-场分析）。结合实际案例和练习效果更佳！
 
 
 

@@ -1,0 +1,13 @@
+title: "SEO Metadata Extension"
+author: "Arvind Venkatadri"
+version: "1.0.0"
+quarto-required: ">=1.0.0"
+contributes:
+  formats:
+    html:
+      metadata:
+        encoding: "UTF-8"
+        lang: "zh-CN"
+        viewport: "width=device-width, initial-scale=1.0"
+        robots: "index, follow"
+        googlebot: "index, follow"
