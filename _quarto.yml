@@ -21,10 +21,10 @@ website:
   open-graph: true
   search: true
   twitter-card: true
-  title: "TRIZ: A Creative Problem-Solving System"
+  title: "TRIZ：创造性问题解决系统"
   site-url: "https://triz.help"
   repo-url: https://github.com/arvindvenkatadri/teachingtriz
-  description: This is the teaching website of Arvind V., External Faculty, Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India.
+  description: 这是 Arvind V. 的教学网站，印度班加罗尔 Srishti Manipal 艺术设计学院外部教师。
   favicon: "content/materials/icon-park-twotone--concept-sharing.svg"
   google-analytics: "" 
   reader-mode: true
@@ -39,6 +39,11 @@ website:
     #   - text: "Home"
     #     file: index.qmd
       
+    left:
+      - text: "AI TRIZ 助手"
+        icon: lightbulb
+        href: https://ai.triz.help/
+
     right:
       - icon: github
         href: https://github.com/arvindvenkatadri/teachingtriz
@@ -58,10 +63,10 @@ website:
     logo: "content/materials/images/1book25.jpg"
     contents:
     
-      - section: "Teaching"
+      - section: "教学"
         href: content/listing.qmd
         contents:
-          - section: "Basic Ideas in Creativity"
+          - section: "创造力基础"
             href: content/Basics/listing.qmd
             contents: 
               - content/Basics/Modules/10-Flow-and-Play/index.qmd
@@ -73,7 +78,7 @@ website:
               - content/Basics/Modules/70-Metaphoric-Thinking/index.qmd
       
       
-          - section: "TRIZ for Problem Solvers"
+          - section: "TRIZ 问题解决方法"
             href: content/TRIZ/listing.qmd
             contents: 
               - content/TRIZ/Modules/60-Problems-and-Contradictions/index.qmd
@@ -88,7 +93,7 @@ website:
               - content/TRIZ/Modules/1000-TRIZ-Games/index.qmd 
               - content/TRIZ/Modules/7777-WritingAssignments/index.qmd 
         
-      - section: "Case Studies and Talks"
+      - section: "案例研究与演讲"
         href: content/projects/listing.qmd      
         contents: 
           - content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.qmd
@@ -99,9 +104,9 @@ website:
           - content/projects/Modules/Talks/TRIZTalkMay2025/index.qmd
               
   page-footer:
-    center: "Website made with ❤️ and [Quarto](https://quarto.org/), by Arvind V."
-    right:  Hosted by Netlify [{{< iconify simple-icons netlify >}}](https://www.netlify.com).
-    left:  "License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
+    center: "网站用 ❤️ 和 [Quarto](https://quarto.org/) 制作，作者 Arvind V."
+    right:  由 Netlify 托管 [{{< iconify simple-icons netlify >}}](https://www.netlify.com).
+    left:  "许可证: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
     background: light
     #   - icon: github
     #     href: https://github.com/arvindvenkatadri/
@@ -141,7 +146,7 @@ format:
     code-block-border-left: "black"
     code-block-bg: "#E7FBFE"
     code-fold: false
-    code-summary: "Show the Code"
+    code-summary: "显示代码"
     code-overflow: scroll
     code-line-numbers: false # not with code-link:true
     code-link: true
