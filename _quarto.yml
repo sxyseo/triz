@@ -21,37 +21,14 @@ website:
   bread-crumbs: true
   open-graph: true
   search: true
-  twitter-card: true
   title: "TRIZ：创造性问题解决系统 - 系统化创新方法教程"
   site-url: "https://triz.help"
   repo-url: https://github.com/arvindvenkatadri/teachingtriz
   description: "学习TRIZ（发明问题解决理论）- 来自俄罗斯的结构化创新方法。掌握40个发明原理、矛盾矩阵、ARIZ等核心工具，由MATRIZ认证专家Arvind Venkatadri教授。适合工程师、设计师、产品经理和创意工作者。"
   favicon: "content/materials/icon-park-twotone--concept-sharing.svg"
-  google-analytics:
-    trackingId: ""
-    anonymizeIP: true
+  google-analytics: ""
   reader-mode: true
 
-  # SEO Optimization
-  keywords: "TRIZ,发明问题解决理论,创造性思维,创新方法,40个发明原理,矛盾矩阵,ARIZ,物场分析,根里奇阿奇舒勒,系统性创新,产品设计,工程创新,MATRIZ,TRIZ认证,问题解决工具,技术矛盾,物理矛盾,理想最终结果"
-  author: "Arvind Venkatadri"
-
-  # Social Media Optimization
-  image: "content/materials/images/1book25.jpg"
-  twitter-card:
-    creator: "@arvind_v"
-    card-style: summary_large_image
-
-  # Sitemap Configuration
-  sitemap:
-    filename: "sitemap.xml"
-    changefreq: "weekly"
-    priority: 0.8
-    exclude:
-      - "_freeze/*"
-      - "_site/*"
-      - "files/*"
-  
   navbar:
     background: primary
     # foreground: "#FAF1B0"
