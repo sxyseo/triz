@@ -8,12 +8,12 @@ project:
 page-layout: full
 execute:
   enabled: false
-  freeze: auto
+  freeze: false
   cache: false
-  echo: true
+  echo: false
   warning: false
   message: false
-  error: false # errors will not stop rendering!
+  error: false
 
 website:
   page-navigation: true
@@ -215,7 +215,7 @@ format:
       - quarto
       - line-highlight
       - shinylive
-      - gadenbuie/tachyons # Causes strange code wrapping with decimals!
+      # - gadenbuie/tachyons # Causes strange code wrapping with decimals!
 
     d2:
       format: svg

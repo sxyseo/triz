@@ -18,9 +18,9 @@ editor:
 ![](feature.jpg)
 
 ```{r echo=FALSE}
-library(blogdown)
+# library(blogdown)
 #devtools::install_github("mccarthy-m-g/embedr")
-library(embedr) # Embed multimedia in HTML files
+# library(embedr) # Embed multimedia in HTML files
 ```
 
 

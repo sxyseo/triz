@@ -70,9 +70,7 @@ knitr::include_graphics("Flow.png")
 
 1.  米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi) 的著作[**《心流：幸福的心理学》**](Flow_%20The%20Psychology%20of%20Happiness%20-%20Csikszentmihalyi,%20Mihaly.pdf)。首先，让我们学会如何读他的名字！！
 
-<center>
-`r embedr::embed_audio("https://upload.wikimedia.org/wikipedia/commons/5/59/Mih%C3%A1ly_Cs%C3%ADkszentmih%C3%A1lyi.ogg")`
-</center>
+<!-- 音频播放需要 embedr 包，暂时注释掉 -->
 
   让我们阅读相关页面（第72-76页，*心流活动*）。这一部分很好地将契克森米哈赖的`心流`思想和凯鲁瓦的`游戏`思想并置，并作为他们研究的发现指出：
 
