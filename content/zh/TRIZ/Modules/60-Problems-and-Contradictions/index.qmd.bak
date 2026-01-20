@@ -95,7 +95,7 @@ knitr::include_graphics("4Pcs-set-New-Guitar-Control-Knobs-Silver-Top-Hat-Bell-F
 
 这是一个什么样的矛盾？超市的货架上有一个***鲜榨果汁***货架的标牌：
 
-{{<!-- tweet  JoshHochschild 1453536795564683264 >}}
+{{< tweet JoshHochschild 1453536795564683264 >}}
 
 ```{r echo=FALSE, eval=FALSE}
 blogdown::shortcode("tweet",
@@ -110,7 +110,7 @@ knitr::include_graphics("Juice.jpeg")
 
 ### C2: 矛盾-2
 
-这是另一个：{{<!-- tweet  otherliztaylor 1238079127992795137 >}}
+这是另一个：{{< tweet otherliztaylor 1238079127992795137 >}}
 
 ### C3: 矛盾-3
 
@@ -129,7 +129,7 @@ knitr::include_graphics("Juice.jpeg")
 > 这次疫情极其清晰地凸显了这个社会及其衰落的社会秩序的每一个主要***矛盾***。 <https://t.co/EtSUY3pPMi>\
 > --- 革命左派广播（@RevLeftRadio）
 
-{{<!-- tweet  washingtonpost 1237821091680313344 >}}
+{{< tweet washingtonpost 1237821091680313344 >}}
 
 ### C5 - 白板马克笔设计错了！
 

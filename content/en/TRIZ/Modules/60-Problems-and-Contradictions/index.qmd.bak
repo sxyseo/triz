@@ -95,7 +95,7 @@ We see them everywhere....if one is observant!! Let's see a few:
 
 How is this for a Contradiction? A shelf in a supermarket carries this placard for a shelf of ***FRESH JUICE***:
 
-{{<!-- tweet  JoshHochschild 1453536795564683264 >}}
+{{< tweet JoshHochschild 1453536795564683264 >}}
 
 ```{r echo=FALSE, eval=FALSE}
 blogdown::shortcode("tweet", 
@@ -110,7 +110,7 @@ knitr::include_graphics("Juice.jpeg")
 
 ### C2: Contradiction-2
 
-Here is another: {{<!-- tweet  otherliztaylor 1238079127992795137 >}}
+Here is another: {{< tweet otherliztaylor 1238079127992795137 >}}
 
 ### C3: Contradiction-3
 
@@ -129,7 +129,7 @@ Most people's healthcare is tied to their job....Therefore, every corona-time la
 > This outbreak is highlighting, with extreme clarity, every major ***contradiction*** of this society and its decaying social order. <https://t.co/EtSUY3pPMi>\
 > --- Revolutionary Left Radio (\@RevLeftRadio)
 
-{{<!-- tweet  washingtonpost 1237821091680313344 >}}
+{{< tweet washingtonpost 1237821091680313344 >}}
 
 ### C5 - Whiteboard Markers are made wrong!
 

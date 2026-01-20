@@ -1,0 +1,71 @@
+[
+  {
+    "objectID": "content/zh/TRIZ/listing.html",
+    "href": "content/zh/TRIZ/listing.html",
+    "title": "TRIZ技术",
+    "section": "",
+    "text": "TRIZ - 问题与矛盾\n\n\n\nJan 14, 2021\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 可用资源的不合理有效性\n\n\n\nJan 20, 2021\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 理想最终结果\n\n\n\nFeb 4, 2021\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 一种矛盾语言\n\n\n\nJan 5, 2021\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 矛盾矩阵工作流程\n\n\n\nJan 18, 2021\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 电影中的应用\n\n\n\nFeb 14, 2024\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 演化定律\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 物质-场分析和 ARIZ\n\n\n\nFeb 14, 2024\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 参考文档\n\n\n\nAug 6, 2024\n\n\n\n\n\n\n\n\n\n\n\nTRIZ - 游戏\n\n\n\nNov 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n阅读和写作作业\n\n\n\nNov 30, 2025\n\n\n\n\n\n\n\n\n\n\n\nTRIZ 问题数据库\n\n\n\nDec 7, 2025\n\n\n\n\n\n\n\n\n\n\n\nFlash Cards\n\n\n\n\n\nNo matching items\n Back to top",
+    "crumbs": [
+      "AI TRIZ Assistant",
+      "中文",
+      "教学",
+      "TRIZ 问题解决方法"
+    ]
+  },
+  {
+    "objectID": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html",
+    "href": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html",
+    "title": "TRIZ - 问题与矛盾",
+    "section": "",
+    "text": "玛丽，玛丽，真固执，\n你的花园如何长得好？\n银铃，和海贝壳，\n还有漂亮的少女排成行。\n让我们迈出进入 TRIZ 世界的第一步。当你看到本页第一张图片时，你首先想到了什么？\n在 TRIZ 中，看待创造性设计问题的基本方式是发现并提出矛盾。这些矛盾以尽可能简单和鲜明的语言来表达……越鲜明越好！\n一旦我们找到了矛盾（在给定的设计情况中可能有不止一个！），我们可以使用 TRIZ 原理来解决它们，无需妥协。\n我们在这些熟悉的物体中看到了什么样的矛盾？什么是好的，什么是不太好的？这可能是需要解决的问题的来源吗？",
+    "crumbs": [
+      "AI TRIZ Assistant",
+      "中文",
+      "教学",
+      "TRIZ 问题解决方法",
+      "TRIZ - 问题与矛盾"
+    ]
+  },
+  {
+    "objectID": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html#简介",
+    "href": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html#简介",
+    "title": "TRIZ - 问题与矛盾",
+    "section": "",
+    "text": "玛丽，玛丽，真固执，\n你的花园如何长得好？\n银铃，和海贝壳，\n还有漂亮的少女排成行。\n让我们迈出进入 TRIZ 世界的第一步。当你看到本页第一张图片时，你首先想到了什么？\n在 TRIZ 中，看待创造性设计问题的基本方式是发现并提出矛盾。这些矛盾以尽可能简单和鲜明的语言来表达……越鲜明越好！\n一旦我们找到了矛盾（在给定的设计情况中可能有不止一个！），我们可以使用 TRIZ 原理来解决它们，无需妥协。\n我们在这些熟悉的物体中看到了什么样的矛盾？什么是好的，什么是不太好的？这可能是需要解决的问题的来源吗？",
+    "crumbs": [
+      "AI TRIZ Assistant",
+      "中文",
+      "教学",
+      "TRIZ 问题解决方法",
+      "TRIZ - 问题与矛盾"
+    ]
+  },
+  {
+    "objectID": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html#一些让我们思考的日常物品",
+    "href": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html#一些让我们思考的日常物品",
+    "title": "TRIZ - 问题与矛盾",
+    "section": "一些让我们思考的日常物品",
+    "text": "一些让我们思考的日常物品\n思考并记录每个物体：\n\n目的：这个物体的目的是什么？它的主要目的是什么？\n伴随：与其一起工作的其他伴随物体是什么？\n旋钮：对于你列出的每个物体，一个方面、参数或旋钮是什么，它使物体有用？\n\n\n设置：每个旋钮的当前设置/值是什么？\n调整：将每个旋钮的设置更改为其自然的相反极端。会发生什么？这是好事吗？什么时候？\n你会看到，在许多情况下，每个旋钮在一个设置下产生特定的结果，在相反设置下产生另一个结果。\n两个结果都是可取的吗？你想”既吃蛋糕又保留蛋糕”吗？\n这可能是你的问题/矛盾的来源！！\n\n在 TRIZ 中，这种将问题表达为简单的矛盾的方式被称为陈述行政矛盾（AC）。（噢，那些俄罗斯人……）。\n稍后，我们将使用制作隐喻的经验，将 AC 转换为更像 TRIZ 的矛盾，使用TRIZ 语言。\n让我们先考虑一些例子，然后练习设置简单的 AC：",
+    "crumbs": [
+      "AI TRIZ Assistant",
+      "中文",
+      "教学",
+      "TRIZ 问题解决方法",
+      "TRIZ - 问题与矛盾"
+    ]
+  },
+  {
+    "objectID": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html#一些矛盾例子",
+    "href": "content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html#一些矛盾例子",
+    "title": "TRIZ - 问题与矛盾",
+    "section": "一些矛盾例子……",
+    "text": "一些矛盾例子……\n如果我们善于观察，到处都能看到它们！让我们看几个：\n\nC1: 矛盾-1\n这是一个什么样的矛盾？超市的货架上有一个鲜榨果汁货架的标牌：\n{{\n\n\n  \n      \n         TRIZ 问题解决方法\n                \n  \n  \n      \n        TRIZ - 可用资源的不合理有效性",
+    "crumbs": [
+      "AI TRIZ Assistant",
+      "中文",
+      "教学",
+      "TRIZ 问题解决方法",
+      "TRIZ - 问题与矛盾"
+    ]
+  }
+]
