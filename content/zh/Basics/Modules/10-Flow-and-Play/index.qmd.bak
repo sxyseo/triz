@@ -1,0 +1,154 @@
+---
+date: "2021-04-22"
+title: "我如水"
+date-modified: "`r Sys.Date()`"
+order: 10
+image: featured.jpg
+tags:
+- 心流与游戏
+- 焦虑与厌倦
+- 米哈里·契克森米哈赖
+editor:
+  markdown:
+    wrap: 72
+---
+
+```{r,echo = FALSE, eval = TRUE, fig.alt="Petr Slováček on Unsplash", fig.align='center',out.height="50%", out.width="50%"}
+knitr::include_graphics("featured.jpg")
+```
+
+```{r echo=FALSE, eval=FALSE}
+library(blogdown)
+#devtools::install_github("mccarthy-m-g/embedr")
+library(embedr) # 在HTML文件中嵌入多媒体
+```
+
+## 引言
+
+教室的地板上散落着一些东西。
+
+-   乐高积木
+
+-   《沃尔多在哪里？》
+    图书！[](https://upload.wikimedia.org/wikipedia/en/e/ec/WheresWally.jpg)
+
+-   《魔眼》
+    图书！[](https://upload.wikimedia.org/wikipedia/en/3/35/MagicEyeCover.gif)
+
+-   多米诺骨牌
+    ![](https://www.museumofplay.org/app/uploads/2021/08/domino-square_0.png)
+
+-   磁铁 +
+    连接环！[](https://upload.wikimedia.org/wikipedia/commons/7/70/M_tic.jpg)
+
+-   拼图
+    积木！[](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Plastic_pattern_blocks.JPG/640px-Plastic_pattern_blocks.JPG)
+
+-   想象力火车套装 + 托马斯
+    引擎！[](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Holzeisenbahn.jpg/640px-Holzeisenbahn.jpg)
+
+玩吧！！是的，就是你。
+
+## 讨论 #1：游戏
+
+你是怎么玩的？
+
+-   你感到无聊了吗？
+-   在某个时刻你是否失去了时间感？
+-   有什么变得太难了吗？
+-   在这样的时刻你做了什么？
+
+让我们快速回顾一下[罗杰·凯鲁瓦 (Roger Caillois) 关于游戏的四个核心思想](https://en.wikipedia.org/wiki/Man,_Play_and_Games)。
+
+## 什么是心流？
+
+```{r, echo=FALSE,fig.align='center',out.height="100%", out.width="100%"}
+knitr::include_graphics("Flow.png")
+```
+
+我们将从以下方面理解**心流**：
+
+1.  米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi) 的著作[**《心流：幸福的心理学》**](Flow_%20The%20Psychology%20of%20Happiness%20-%20Csikszentmihalyi,%20Mihaly.pdf)。首先，让我们学会如何读他的名字！！
+
+<center>
+`r embedr::embed_audio("https://upload.wikimedia.org/wikipedia/commons/5/59/Mih%C3%A1ly_Cs%C3%ADkszentmih%C3%A1lyi.ogg")`
+</center>
+
+  让我们阅读相关页面（第72-76页，*心流活动*）。这一部分很好地将契克森米哈赖的`心流`思想和凯鲁瓦的`游戏`思想并置，并作为他们研究的发现指出：
+
+  >....每一种心流活动，无论是涉及竞争、机缘还是任何其他经验维度，都有一个共同点：它提供了一种发现感，一种将人带入新现实的创造性感觉。它推动人达到更高的表现水平，并引领前所未有的意识状态。简而言之，它通过使自我更加复杂而转化了自我。
+
+
+1.  这个视频：
+<br>
+{{< youtube 8h6IMYRoCZw >}}
+<br>
+
+2.  这个 TED 演讲：[**心流，幸福的秘诀**](%22https://www.ted.com/talks/mihaly_csikszentmihalyi_flow_the_secret_to_happiness?utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare%22)
+<br>
+{{< youtube fXIeFJCqsPs >}}
+<br>
+
+3. 这就是水：大卫·福斯特·华莱士的著名演讲：
+<br>
+{{< youtube eC7xzavzEKY >}}
+<br>
+
+
+## 讨论 #2
+
+-   心流的概念难以捉摸吗？它类似于游戏吗？
+-   是否只有某些人能理解它，而且只在某些时候？
+-   大卫·福斯特·华莱士的演讲是否有些自欺欺人？
+-   那么，当我们谈论设计思维时所说的*同理心*究竟是什么？
+
+
+## 流行"测验"：想要更多心流吗？
+
+不，这不是一个糟糕的拼写......为什么不是呢？在这张图片里找到我！！<br>
+
+![Pillar Rock](Pillar.JPG)
+
+## {{< iconify fluent-mdl2 decision-solid >}} 结论
+
+- 心流是上升的`厌倦地板`和逼近的`焦虑/挑战天花板`之间的一个`游戏区`（我的"定义"！）
+- 你需要利用厌倦来推开天花板，以保持在游戏中
+- 为此，你可能需要：
+  - 打破规则：改变你体验/感知事物的方式
+  - 理解你的假设：（后面会详细说明）
+  - 使用和创造惊喜：发现潜伏在你厌倦中的问题
+  - 培养更多技能以处理更高的复杂性
+
+
+## {{< iconify mingcute thought-line >}} 等等，为什么？
+
+- 工作时处于心流状态是很棒的
+- 它使你能够以独特和超高效的方式体验你的工作、你的问题解决
+- 而且...
+- 如果你构建/设计某个东西，你难道不希望使用这个东西的人也能进入心流吗？
+- 心流是你给用户/客户/客户的礼物！！
+- 因此，它既是设计的开始，也是设计的目标！
+
+## {{< iconify streamline book-reading >}} 阅读写作作业
+
+  前往本模块的[作业 #1](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-1.-i-am-water)。
+
+## {{< iconify ooui references-ltr >}} 参考文献
+
+1. 国家游戏研究所 <https://nifplay.org/>
+1.  Scott Eberle，"游戏的要素"
+    <https://files.eric.ed.gov/fulltext/EJ1023799.pdf>
+1.  "平台创造力：领域、场域和个人"。
+    <https://medium.com/call4/domain-8a22b6b486f4>
+1.  **根据米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi) 创建心流的8种方法**。
+    <https://positivepsychology.com/mihaly-csikszentmihalyi-father-of-flow/>
+1. Maria Popova。（2016年4月8日）。*黛安·阿克曼论深度游戏的进化和存在目的*。<u><https://www.themarginalian.org/2016/08/04/diane-ackerman-deep-play/></u>
+1. James Clear. <https://jamesclear.com/stay-focused>
+1.  Ian Bogost，"在任何事情上玩"。
+
+## 后记
+
+```{r, echo=FALSE,fig.align='center',out.height="100%", out.width="100%"}
+knitr::include_graphics("tweet.png")
+```
+

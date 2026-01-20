@@ -1,0 +1,44 @@
+---
+title: "Arvind V." # if using a built-in template, this title appears under your photo
+image: content/materials/images/AV-portrait.jpeg # a great spot for your professional headshot :)
+toc: false # disable table of contents for this page
+about:
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links: # create buttons
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/arvindvenkatadri/
+    - text: GitHub
+      icon: github
+      href: https://github.com/arvindvenkatadri
+    - text: Email
+      icon: envelope
+      href: mailto:arvind.venkatadri@gmail.com
+---
+
+
+我是[斯里什蒂马尼帕尔艺术与设计学院](https://srishtimanipalinstitute.in)的外部教员，同时也是[MMRFIC](https://mmrfic.com)的工程经理，这两所机构都位于印度班加罗尔。我也是[ MATRIZ认证的一级TRIZ专业人士](https://www.matriz-official.net)。
+
+我对数据可视化、使用R / ObservableJS / p5.js编程、复杂性科学、文学以及运用TRIZ进行创造性思维/问题解决充满热情。在这个网站上，我分享和教授我所学到的关于TRIZ的知识——这是一种来自俄罗斯的结构化发明问题解决系统。要开始学习，您可以查看本网站的模块。
+
+我的教学网站包括：\
+
+- [TRIZ for Problem Solvers](https://triz.help)\（就是这个网站！！）
+- [The Mad Hatter's Guide to Data Viz and Stats in R](https://madhatterguide.netlify.app)\
+- [Model Thinking in Design](https://old-tortoise-taught-us.netlify.app/)\
+- [Literary Jukebox: Design Thinking from Short Fiction](https://literary-jukebox.netlify.app)\
+- [Maths for Creative Coders](https://mathforcoders.netlify.app)\
+- [Intro to Design of Experiments in R](https://doe-a-deer.netlify.app)\（仍在持续更新中！）
+
+我的学生作品集在这里：\
+<https://we-r-us.netlify.app/portfolio/>\
+<https://form-and-structure.netlify.app/portfolio/>\
+
+您可以在[Twitter](https://twitter.com/arvind_v)、[GitHub](https://github.com/arvindvenkatadri)或[LinkedIn](https://www.linkedin.com/in/arvindvenkatadri)上找到我！也欢迎通过[邮件](mailto:arvind.venkatadri@gmail.com)与我联系！
+
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arvindvenkatadri" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+\center
+

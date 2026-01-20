@@ -1,0 +1,228 @@
+---
+title: 'TRIZ 编年史:Spotify 广告'
+date: "2023-01-09"
+date-modified: "`r Sys.Date()`"
+order: 20
+subtitle: Harrdy Sandhu 和买菜
+categories: TRIZ
+tags:
+- TRIZ 编年史
+- 48个 TRIZ 参数
+- 理想最终结果
+- 发明原理
+- 创造力系统模型
+- 制造隐喻
+- Spotify
+abstract: 旁遮普流行音乐和买菜
+---
+
+```{r, setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.align="center")
+library(qcc)
+library(SixSigma)
+
+```
+
+## 简介
+
+我们又开始了我另一个 TRIZ 编年史。
+
+Spotify 最近的系列广告非常受欢迎,广告行业也是如此。这些广告中有几个,每个都有一个可靠的小故事和一个很好的点睛之笔。这里有一个受欢迎的,我选择了它,展示一位母亲买菜,而她的儿子*观看*(并"聆听")她与店主讨价还价。
+在这里,我只拿那个非常有效的广告,从*TRIZ*角度进行解释。
+
+这篇文章源于我过去8年或更长时间在印度班加罗尔的*Srishti Manipal 艺术、设计与技术学院*教授一门基于 TRIZ 的创造性思维和问题解决课程,题为*游戏与发明*。(<https://srishtimanipalinstitute.in>)。
+
+## 著名的 Spotify 广告
+
+让我们先观看 Spotify 广告,然后再分析!
+
+<iframe width="760" height="500" src="https://www.youtube.com/embed/X1WP5J-I9f8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+## 年轻人的问题
+
+为了从中制作一个*故事*,我想把广告中的年轻人做成一个[**主角**](https://en.wikipedia.org/wiki/Protagonist)。
+他有问题,他将应用 TRIZ 来解决它。我讨论他的问题来源,并从(经典)TRIZ 角度给出问题分析,包括*矛盾*的表述、*原因的识别*、*理想最终结果*的陈述,最后使用*TRIZ 矛盾矩阵*找到*发明原理*,这些原理导致解决方案,当然,解决方案旨在无误地包括 Spotify!
+
+首先,让我们哲学一下:
+
+几位作者采用了生活的游戏观。James P Carse 的著名著作题为*有限游戏和无限游戏*[**谈到**](https://fs.blog/finite-and-infinite-games/)玩耍、游戏类型、规则、获胜以及我们在游戏本身中的目标。类似的表达,在我看来,是[米哈里·契克森米哈赖 (Mihaly Csikszentlmihalyi)](https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi)在他的心流概念中,如下所示:
+
+![来自
+Sketchplanations](sketchplanations-match-challenge-with-skills-for-flow-at-work.jpg)
+
+当游戏呈现很少的挑战时,我们*无聊*。当游戏需要极端的技能时,挑战对我们来说太多了,我们会经历*焦虑*。当呈现的挑战刚刚好被我们的技能匹配时,我们处于*心流*区域,或者我称之为*玩耍*。
+
+这种体验的一个好的隐喻图像如下:——我们生活在一个*无聊地板*总是上升并将我们压在*焦虑天花板*上的空间。处理这个问题的一种方法是发展更多的技能并*推开天花板*,有效地进入心流区域。另一种看待这个问题的方式是 Carse 建议的:*当玩耍不再可能时,改变游戏。*
+
+那么所有这些与买菜有什么关系呢?
+
+在我看来,这个广告全是关于无聊,以及如何避免它。并且不得罪任何人。年轻人(以下简称"YM")只是不得不陪伴他的妈妈,并在她买菜的时候在那里。我会夸大他的恼怒和无聊,冒着冒犯可能读到这篇的年轻人的风险,并说*他宁愿不在那里*,但他不想伤害妈妈。
+
+我们现在准备好对这个问题进行基于 TRIZ 的分析!
+
+## 访问蔬菜市场的 TRIZ 分析
+
+对于 TRIZ 工作流程,我们按[**之前**](https://arvindvenkatadri.com/project/2022-12-20-triz-lawrence-of-arabia/)进行:
+
+首先,使用[*开源 TRIZ*](https://www.youtube.com/watch?v=cah0OhCH55k)中描述的方法,我们识别情况中的*旋钮*或*参数*,看看转动这些如何可能导致识别*矛盾*形式问题原因。
+
+下面是一个快速的*石川图*来帮助我们识别这个问题的参数:
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Cause and Effect Diagram or Fish- bone Sample
+library(qcc)
+library(SixSigma)
+
+#Effect
+effect <- "无聊"
+
+#Causes
+causes.head <- c("测量", "材料", "方法", "环境", "人力", "机器")
+
+#Individual Causes
+causes <- vector(mode =  "list", length = length(causes.head))
+causes[1] <- list(c("噪音", "无聊的谈话", "花费时间", "气味", "驾驶距离"))
+
+causes[2] <- list(c("蔬菜", "自行车", "灰尘", "噪音", "气味", "时间", "燃料"))
+
+causes[3] <- list(c("想要美食!", "驾驶", "逃避这个差事", "我爱妈妈!"))
+
+causes[4] <- list(c("温馨的家","嘈杂的市场"))
+
+causes[5] <- list(c("我", "妈妈", "店主(们)"))
+causes[6] <- list(c("自行车", "货架", "称重秤"))
+
+#Fishbone Diagram
+#
+ss.ceDiag(effect,causes.head,causes, main ="我、妈妈和市场",#ss.col = c("", "red"),
+          sub = "无聊的石川因果图\n使用 R 包 SixSigma 和 qcc 制作")
+
+
+
+```
+
+转动石川图中的*旋钮/参数*,似乎如果 YM 和妈妈一起去市场,他很可能会无聊,但会让妈妈高兴。如果他不去,那么他会在家里放松,但妈妈会合理地愤怒。这就是*矛盾*所在,我们现在可以用*通俗英语*将其指定为[**行政矛盾 (AC)**](https://altshuller.ru/world/eng/triz6.asp):
+
+:::callout-note
+## 行政矛盾
+YM 想在家里放松,但妈妈想让他陪她买菜。他必须忍受*`浪费时间`*、无聊以及远离朋友的*`压力`*。
+:::
+
+接下来,基于这个矛盾和对上述石川图的检查,我们现在准备定义 TRIZ *理想最终结果*:
+
+:::callout-note
+## 理想最终结果
+YM 必须去市场但不无聊。
+:::
+
+再次注意表达 IFR 的听起来不可能的方式!需要练习,就像《爱丽丝梦游仙境》中的女王,可以在早餐前想到*六件不可能的事情*!还要注意可能有其他指定 IFR 的方式。见下面,节[IFR 的替代想法]。
+
+让我们采用 AC 并将其转换为*技术矛盾 (TC)*,记住这个 IFR。我们将查看 [*TRIZ 矛盾矩阵**(PDF)**](/pdf/TRIZ/ContradictionMatrix2003.pdf) 中的 *48个 TRIZ 参数*,看看我们想要改善哪个参数而不恶化另一个。以下是我们可以获得的。我们将两种方式分析每个矛盾[^1]:
+
+::: callout-note
+## TC 1
+改善`时间损失`(26)而不恶化`外部有害因素的影响`(30)
+:::
+
+::: callout-note
+## TC 2
+提高`生产力`(44)而不恶化`压力`(19)
+:::
+
+这里我们根据我们的 IFR 选择这些参数,即虽然去市场可能是不可避免的,但不一定要无聊。从 TRIZ 矩阵中选择的参数可以被看作是我们 AC 中旋钮的*隐喻*。从 AC 到 TC 是*制造隐喻*的行为。我们很容易可以选择参数`噪声(29)`作为要避免的"隐喻事物",但当前的 IFR 不太支持那个。在这里,对 AC 有相当大的灵活性和想象性解释的可能性,但使用 *TRIZ 的语言*。
+
+我们也可以表述*物理矛盾 (PC)*[^2]:
+
+::: callout-note
+## 物理矛盾
+YM 必须同时在这个市场上又不在这个市场上。
+:::
+
+这直接针对问题中的一个*假设*,即 YM 必须去。同样,如果 IFR 表述不同,我们可能会获得一组非常不同的 AC 和 PC。见下面,节[IFR 的替代想法]。
+
+在未来的文章中,我们将处理使用*PC*和*TRIZ 分离原理*来解决问题。
+
+## 解决技术矛盾
+
+让我们将两个 TC 都带入矛盾矩阵并得出 TRIZ 发明原理列表。下图是 TC-1 的矩阵解决方案:
+
+```{r}
+#| echo: false
+#| out-width: "100%"
+#| out-height: "120%"
+#| fig-align: center
+#| fig-cap: "TC1 和 TC2 的 TRIZ 矩阵"
+knitr::include_graphics("matrix.png")
+
+```
+
+TC1 的两个方块已用红圈圈出,解决了 TC-1。发明原理是:(TC1, TC2, 两种方式)
+
+1.  1(分割)
+2.  35(参数变化)
+3.  21(跳跃)
+4.  18(机械振动) (**!!**)
+5.  2(抽取/分离)
+6.  10(预先作用)
+7.  36(相变)
+
+以及 TC2:
+
+8.  3(局部质量)
+9.  14(球体化/曲率)
+10. 9(预先反作用)
+11. 37(热膨胀)
+12. 40(复合材料)
+13. 25(自服务)
+14. 24(中介)
+
+这是我们要尝试使用的相当多的列表!让我们应用一些这些发明原理!将这些发明原理看作我们的*广义解决方案*,我们尝试将这些映射回手头的问题:
+
+-   **35(参数变化)**: 改变哪个参数?位置?不。
+    声音?将"讨价还价谈话"变成什么?甜蜜的音乐歌词!!🎵🤣
+-   **18(机械振动)** : 什么,制造你自己的噪音?是的!
+    播放音乐!!🔉 🤣
+-   **14(球体化)**: 戴上"球形"耳机!!🎧!创造一个"声音球"!这是一个长远的!!
+-   **3(局部质量)**: 也表明在 YM 周围创造一个"局部"茧,但需要与*18(机械振动)*结合才能真正到达音乐解决方案!
+
+可以对**2(抽取/分离)**和**24(中介)**做出不错的解释,但我们已经在那里了!其余的可能(至少对我!)不是很令人联想,除非**37(热膨胀)**意味着"向妈妈发脾气"?永远不会!
+
+所以你拥有了!在 Spotify 上播放的 [**灰姑娘歌曲**](https://www.youtube.com/watch?v=NwdQx2P_ytk)不仅仅变成[*噪声消除器*](https://www.ti.com/lit/an/spra337/spra337.pdf),而且实际上似乎替代了妈妈和供应商之间的对话。
+YM 已经成功地达到了心流!还有 IFR,因为通过他头脑中的音乐,他实际上"在市场中*又*不在市场中*同时"!
+
+我在写这篇文章时也达到了心流!!
+
+## IFR 的替代想法
+
+顺便提一下,不止一种方法可以表述*理想最终结果*。这里还有两个例子:
+
+::: callout-note
+## IFR2
+蔬菜应该到达而不 (YM) 去市场
+:::
+
+::: callout-note
+## IFR3
+食物应该准备好而不用去买蔬菜。
+:::
+
+显然,这些至少和我们选择的一样好,听起来理所当然地"不可能"!要点是,在问题分析中,我们确实需要问*谁有问题*,正如我们所做的那样,IFR 需要从那里产生。这些替代 IFR 很可能是[**(另一个)客户的声音**](https://www.mit.edu/~hauser/Papers/Gaskin_Griffin_Hauser_et_al%20VOC%20Encyclopedia%202011.pdf)。
+
+如果有任何有趣的情况可以用 TRIZ 分析,请给我发私信!谢谢!
+
+## 参考文献
+
+1.  James P Carse, [*有限游戏和无限游戏*](https://en.wikipedia.org/wiki/Finite_and_Infinite_Games),
+    Free Press, 1986. ISBN: 0-02-905980-1
+2.  米哈里·契克森米哈赖,创造力、心流以及发现和发明的心理学。Harper Perennial; 重印版(2013年8月6日)
+3.  Jack Hipple,理想结果以及如何实现它。Springer; 2012版(2012年6月26日)
+4.  Valery Souchkov,定义矛盾。
+    <http://www.xtriz.com/Training/TRIZ_DefineContradiction_Tutorial.pdf>
+
+[^1]: 矛盾矩阵不完全对称,所以两种方式陈述矛盾允许我们从矩阵的两个单元格访问稍微大一点的发明原理集合。
+
+[^2]: 得到*物理矛盾*并不总是容易的!如果我们能,那么我们可以应用一套非常清晰的**TRIZ 分离原理**来解决问题。

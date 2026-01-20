@@ -21,30 +21,30 @@ website:
   bread-crumbs: true
   open-graph: true
   search: true
-  title: "TRIZ：创造性问题解决系统 - 系统化创新方法教程"
+  title: "TRIZ: Theory of Inventive Problem Solving"
   site-url: "https://triz.help"
   repo-url: https://github.com/arvindvenkatadri/teachingtriz
-  description: "学习TRIZ（发明问题解决理论）- 来自俄罗斯的结构化创新方法。掌握40个发明原理、矛盾矩阵、ARIZ等核心工具，由MATRIZ认证专家Arvind Venkatadri教授。适合工程师、设计师、产品经理和创意工作者。"
+  description: "Learn TRIZ (Theory of Inventive Problem Solving) - A systematic approach to creative problem solving from Russia. 学习TRIZ（发明问题解决理论）- 来自俄罗斯的结构化创新方法。"
   favicon: "content/materials/icon-park-twotone--concept-sharing.svg"
   google-analytics: ""
   reader-mode: true
 
   navbar:
     background: primary
-    # foreground: "#FAF1B0"
     pinned: false
     collapse: true
     collapse-below: lg
-    # left: 
-    #   - text: "Home"
-    #     file: index.qmd
-      
+
     left:
-      - text: "AI TRIZ 助手"
+      - text: "AI TRIZ Assistant"
         icon: lightbulb
         href: https://ai.triz.help/
 
     right:
+      - text: "English"
+        href: content/en/index.qmd
+      - text: "中文"
+        href: content/zh/index.qmd
       - icon: github
         href: https://github.com/arvindvenkatadri/teachingtriz
       - icon: twitter
@@ -62,51 +62,95 @@ website:
     search: true
     logo: "content/materials/images/1book25.jpg"
     contents:
-    
-      - section: "教学"
-        href: content/listing.qmd
+
+      - section: "English"
+        href: content/en/index.qmd
         contents:
-          - section: "创造力基础"
-            href: content/Basics/listing.qmd
-            contents: 
-              - content/Basics/Modules/10-Flow-and-Play/index.qmd
-              - content/Basics/Modules/20-Cultural-Capital/index.qmd
-              - content/Basics/Modules/30-MBTI-Big-5/index.qmd
-              - content/Basics/Modules/40-Domain-Field-Self/index.qmd
-              - content/Basics/Modules/50-Thinking-Fast-Slow/index.qmd
-              - content/Basics/Modules/60-Parallel-Thinking/index.qmd
-              - content/Basics/Modules/70-Metaphoric-Thinking/index.qmd
-      
-      
-          - section: "TRIZ 问题解决方法"
-            href: content/TRIZ/listing.qmd
-            contents: 
-              - content/TRIZ/Modules/60-Problems-and-Contradictions/index.qmd
-              - content/TRIZ/Modules/70-TRIZ-Resources/index.qmd
-              - content/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.qmd
-              - content/TRIZ/Modules/80-A-Contradictory-Language/index.qmd
-              - content/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.qmd
-              - content/TRIZ/Modules/95-TRIZ-Stories/index.qmd
-              - content/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.qmd
-              - content/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.qmd
-              - content/TRIZ/Modules/400-TRIZ-References/index.qmd
-              - content/TRIZ/Modules/1000-TRIZ-Games/index.qmd 
-              - content/TRIZ/Modules/7777-WritingAssignments/index.qmd 
-        
-      - section: "案例研究与演讲"
-        href: content/projects/listing.qmd      
-        contents: 
-          - content/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.qmd
-          - content/projects/Modules/TRIZ/20-Spotify/index.qmd 
-          - content/projects/Modules/TRIZ/30-Wildlife-Crossing/index.qmd  
-          - content/projects/Modules/TRIZ/40-Owind/index.qmd
-          - content/projects/Modules/TRIZ/50-BubbleBarrier/index.qmd
-          - content/projects/Modules/Talks/TRIZTalkMay2025/index.qmd
+          - section: "Teaching"
+            href: content/en/listing.qmd
+            contents:
+              - section: "Basics of Creativity"
+                href: content/en/Basics/listing.qmd
+                contents:
+                  - content/en/Basics/Modules/10-Flow-and-Play/index.qmd
+                  - content/en/Basics/Modules/20-Cultural-Capital/index.qmd
+                  - content/en/Basics/Modules/30-MBTI-Big-5/index.qmd
+                  - content/en/Basics/Modules/40-Domain-Field-Self/index.qmd
+                  - content/en/Basics/Modules/50-Thinking-Fast-Slow/index.qmd
+                  - content/en/Basics/Modules/60-Parallel-Thinking/index.qmd
+                  - content/en/Basics/Modules/70-Metaphoric-Thinking/index.qmd
+
+              - section: "TRIZ Problem Solving"
+                href: content/en/TRIZ/listing.qmd
+                contents:
+                  - content/en/TRIZ/Modules/60-Problems-and-Contradictions/index.qmd
+                  - content/en/TRIZ/Modules/70-TRIZ-Resources/index.qmd
+                  - content/en/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.qmd
+                  - content/en/TRIZ/Modules/80-A-Contradictory-Language/index.qmd
+                  - content/en/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.qmd
+                  - content/en/TRIZ/Modules/95-TRIZ-Stories/index.qmd
+                  - content/en/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.qmd
+                  - content/en/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.qmd
+                  - content/en/TRIZ/Modules/400-TRIZ-References/index.qmd
+                  - content/en/TRIZ/Modules/1000-TRIZ-Games/index.qmd
+                  - content/en/TRIZ/Modules/7777-WritingAssignments/index.qmd
+
+          - section: "Case Studies & Talks"
+            href: content/en/projects/listing.qmd
+            contents:
+              - content/en/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.qmd
+              - content/en/projects/Modules/TRIZ/20-Spotify/index.qmd
+              - content/en/projects/Modules/TRIZ/30-Wildlife-Crossing/index.qmd
+              - content/en/projects/Modules/TRIZ/40-Owind/index.qmd
+              - content/en/projects/Modules/TRIZ/50-BubbleBarrier/index.qmd
+              - content/en/projects/Modules/Talks/TRIZTalkMay2025/index.qmd
+
+      - section: "中文"
+        href: content/zh/index.qmd
+        contents:
+          - section: "教学"
+            href: content/zh/listing.qmd
+            contents:
+              - section: "创造力基础"
+                href: content/zh/Basics/listing.qmd
+                contents:
+                  - content/zh/Basics/Modules/10-Flow-and-Play/index.qmd
+                  - content/zh/Basics/Modules/20-Cultural-Capital/index.qmd
+                  - content/zh/Basics/Modules/30-MBTI-Big-5/index.qmd
+                  - content/zh/Basics/Modules/40-Domain-Field-Self/index.qmd
+                  - content/zh/Basics/Modules/50-Thinking-Fast-Slow/index.qmd
+                  - content/zh/Basics/Modules/60-Parallel-Thinking/index.qmd
+                  - content/zh/Basics/Modules/70-Metaphoric-Thinking/index.qmd
+
+              - section: "TRIZ 问题解决方法"
+                href: content/zh/TRIZ/listing.qmd
+                contents:
+                  - content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.qmd
+                  - content/zh/TRIZ/Modules/70-TRIZ-Resources/index.qmd
+                  - content/zh/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.qmd
+                  - content/zh/TRIZ/Modules/80-A-Contradictory-Language/index.qmd
+                  - content/zh/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.qmd
+                  - content/zh/TRIZ/Modules/95-TRIZ-Stories/index.qmd
+                  - content/zh/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.qmd
+                  - content/zh/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.qmd
+                  - content/zh/TRIZ/Modules/400-TRIZ-References/index.qmd
+                  - content/zh/TRIZ/Modules/1000-TRIZ-Games/index.qmd
+                  - content/zh/TRIZ/Modules/7777-WritingAssignments/index.qmd
+
+          - section: "案例研究与演讲"
+            href: content/zh/projects/listing.qmd
+            contents:
+              - content/zh/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.qmd
+              - content/zh/projects/Modules/TRIZ/20-Spotify/index.qmd
+              - content/zh/projects/Modules/TRIZ/30-Wildlife-Crossing/index.qmd
+              - content/zh/projects/Modules/TRIZ/40-Owind/index.qmd
+              - content/zh/projects/Modules/TRIZ/50-BubbleBarrier/index.qmd
+              - content/zh/projects/Modules/Talks/TRIZTalkMay2025/index.qmd
               
   page-footer:
-    center: "网站用 ❤️ 和 [Quarto](https://quarto.org/) 制作，作者 Arvind V."
-    right:  由 Netlify 托管 [{{< iconify simple-icons netlify >}}](https://www.netlify.com).
-    left:  "许可证: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
+    center: "Made with ❤️ and [Quarto](https://quarto.org/), by Arvind V."
+    right: "Hosted by Netlify [{{< iconify simple-icons netlify >}}](https://www.netlify.com)."
+    left: "License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
     background: light
     #   - icon: github
     #     href: https://github.com/arvindvenkatadri/
@@ -146,7 +190,7 @@ format:
     code-block-border-left: "black"
     code-block-bg: "#E7FBFE"
     code-fold: false
-    code-summary: "显示代码"
+    code-summary: "Show code"
     code-overflow: scroll
     code-line-numbers: false # not with code-link:true
     code-link: true

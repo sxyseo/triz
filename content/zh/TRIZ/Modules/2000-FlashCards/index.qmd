@@ -1,0 +1,23 @@
+---
+title: "TRIZ FlashCards"
+format: pdf
+---
+
+---
+title: "Flash Cards"
+format: typst
+---
+
+# Flash Card 1
+[Front]
+What is Typst?
+
+[Back]
+Typst is a markup-based typesetting system.
+
+# Flash Card 2
+[Front]
+What is Quarto?
+
+[Back]
+Quarto is a document authoring system that integrates with Typst.

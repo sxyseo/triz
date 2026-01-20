@@ -1,0 +1,123 @@
+---
+date: "2021-04-22"
+title: "我就是我"
+date-modified: "`r Sys.Date()`"
+order: 20
+image: feature.jpg
+tags:
+  - 文化资本
+  - 身份认同
+  - 因为我是我所以我知道的事情
+  - 传统、礼仪、习俗
+  - 谁最初教会了我？
+editor:
+  markdown:
+    wrap: 72
+---
+
+![](feature.jpg)
+
+```{r echo=FALSE, eval=FALSE}
+library(blogdown)
+#devtools::install_github("mccarthy-m-g/embedr")
+library(embedr) # 在 HTML 文件中嵌入多媒体
+```
+
+
+
+## 引言
+
+照片中两个人的身份/民族是什么？你觉得他们的手势/姿势有什么有趣的地方吗？为什么？我们将理解皮埃尔·布迪厄 (Pierre Bourdieu) 的文化资本概念。
+
+## 文化资本
+
+我们将理解皮埃尔·布迪厄 (Pierre Bourdieu) 的[文化资本 (Cultural Capital, CC)]{style="background-color:yello w;"}概念。CC 影响我们对世界的看法，并帮助我们识别生活中的问题情境和矛盾。CC 影响我们对世界的看法，并帮助我们识别生活中的问题情境和矛盾。
+
+1. 让我们快速阅读这篇短文：**什么是文化资本？** <https://culturallearningalliance.org.uk/what-is-cultural-capital>
+
+2. 并观看这个关于文化资本的视频 <br> {{< youtube 5DBEYiBkgp8 >}}
+
+## 活动
+
+### 分享
+
+1. CC 的分享：我们每个人轮流展示我们直接拥有的文化资本的某些方面：**物化**、**制度化**和**具身**。请分享关于：
+
+    - 举止、传统和习俗（服装、食物......），甚至刻板印象和迷信（gulp！）
+    - 节日和场合
+    - 食谱
+    - 爱好
+    - 生活技巧和怪癖：如何叠衣服、如何打包行李箱
+    - 谚语和格言
+    - "我祖母常说的话"。
+
+### 讨论
+-   有什么东西在生物学上从一代复制到另一代？
+-   有什么东西以"非生物"方式复制？
+-   你会如何衡量它？可以说，用什么单位？
+
+### 重新发明你自己的游戏
+
+1. 你将被分成团队。每个团队需要从你的童年中选择一个著名的客厅/家庭或棋盘游戏。设置并玩它。
+
+    - 你在哪里不得不"弯曲规则"？
+    - 这种行为何时是可以接受的？在什么情况下？
+    - 甚至是令人向往的？？！！！？？？
+
+2. 然后，你将获得一个名为 **Makey-Makey** 的电子硬件。你需要将这个硬件包含在你的游戏中，并以某种方式扩展游戏。
+
+::: callout-note
+## TRIZ 概念：物场分析
+
+我们稍后将把这个活动与 TRIZ 的*物场分析*思想联系起来。也许你对此已经有了预感？
+:::
+
+### <u>[发明你的城市](https://youtu.be/JW1kfoXtxzY)</u>
+
+1. 制作街道交叉口标志
+
+让我们从这个网站获得灵感：
+<https://www.cartogrammar.com/blog/maps-make-the-best-logos/>
+
+2. 这里有一些说明：\
+
+-   在谷歌地图上访问你的家乡
+-   在那里选择一个特定的街道交叉口。
+-   将街道交叉口的形状复制粘贴到你最喜欢的图像制作软件中
+-   使用该形状为你的城市创建一个标志，以便你根据你自己的文化资本展示你的城市的一些有趣方面。
+-   用三句话描述你的标志。
+-   参见上面链接中的示例以获得灵感
+
+::: callout-note
+## 机缘巧合
+
+这门课程如果不是关于*机缘巧合*，那就什么都不是。
+<https://www.dictionary.com/browse/serendipity>。我们将把这个标志构建想法与 TRIZ 中的隐喻思想联系起来。
+:::
+
+## {{< iconify streamline book-reading >}} 读写作业
+
+  前往本模块的[作业 #2](../../../TRIZ/Modules/7777-WritingAssignments/#assignment-2.-i-yam-what-i-yam)。
+
+
+## {{< iconify ooui references-ltr >}} 参考文献
+
+1. Makey-Makey 的 Web 应用程序。
+    <https://makeymakey.com/blogs/how-to-instructions/apps-for-plug-and-play>
+2. 使用 Makey-Makey 制作你自己的游戏。
+    <https://www.instructables.com/Using-Scratch-and-Makey-Makey-to-make-your-own-gam>
+3. 理查德·道金斯 (Richard Dawkins)。自私的基因。
+    <https://richarddawkins.net/2014/02/whats-in-a-meme/>
+
+## 补充阅读
+
+1. Andrea Ovans。（2015 年 2 月 27 日）。*创新更多是关于人还是过程？*。<u><https://hbr.org/2015/02/is-innovation-more-about-people-or-process></u>
+1. 亚瑟·凯斯特勒 (Arthur Koestler)，来自他的书*创造的艺术*：
+
+>昨天的发现是明天不言而喻的真理，因为我们可以增加我们的知识但不能从中减去。当两个参考框架都整合为一个时，很难想象它们以前是独立存在的。合成看起来具有欺骗性的不言自明，并且不会背叛将其组成部分组合在一起所需的想象力努力。
+
+从这个意义上说，所有知识似乎都是一种天真无邪的丧失，达到的一种新状态，从那里我们无法回到旧状态。这也类似于<u>[**路径依赖**](https://en.wikipedia.org/wiki/Path_dependence)</u>的思想。
+
+顺便说一句：我知道的唯一一个我们可以，而且确实必须，撤销这种暂时(？)知识的暴政的地方是在<u>[**卷积码的维特比解码器**](https://youtu.be/ytjvvUrOvHk)</u>中，但这本身就是*另一个世界*！！
+
+你需要什么来做到这一点？记忆。

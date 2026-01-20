@@ -1,0 +1,6 @@
+---
+title: "TRIZ Talk May2025"
+date: 2025/Dec/08
+---
+<br>
+{{< video https://www.youtube.com/watch?v=fwt4NcfefNE >}}

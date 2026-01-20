@@ -1,0 +1,28 @@
+---
+title: "TRIZ Techniques"
+subtitle: "Creative Problem Solving using TRIZ"
+date: "July 24, 2024"
+date-modified: "`r Sys.Date()` "
+listing:
+  type: grid
+  sort: "order"
+  sort-ui: false
+  filter-ui: false
+  contents:
+    - "Modules/*/index.qmd"
+  fields: [image, title, date]
+  table-striped: true
+  table-hover: true
+  categories: true
+---
+
+
+```{r}
+#| label: nothing
+#| include: false
+
+```
+
+
+
+
