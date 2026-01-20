@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-01-20">
+
+<title>TRIZ - 可用资源的不合理有效性 – TRIZ: Theory of Inventive Problem Solving</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<link href="../../../../../content/zh/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.html" rel="next">
+<link href="../../../../../content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html" rel="prev">
+<link href="../../../../../content/materials/icon-park-twotone--concept-sharing.svg" rel="icon" type="image/svg+xml">
+<script src="../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-795e9e8eca1e12b12abcb09a27409631.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap-afa36575126fe0cbd1278e680bef78d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../../site_libs/quarto-contrib/line-highlight-1.0.0/line-highlight.css" rel="stylesheet">
+<script src="../../../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link href="../../../../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../../../../../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+
+<meta property="og:title" content="TRIZ - 可用资源的不合理有效性 – TRIZ: Theory of Inventive Problem Solving">
+<meta property="og:description" content="在框内思考">
+<meta property="og:image" content="https://triz.help/content/zh/materials/images/Stanford-SOB-Building.jpeg">
+<meta property="og:site_name" content="TRIZ: Theory of Inventive Problem Solving">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../../../index.html">
+    <span class="navbar-title">TRIZ: Theory of Inventive Problem Solving</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://ai.triz.help/"> <i class="bi bi-lightbulb" role="img">
+</i> 
+<span class="menu-text">AI TRIZ Assistant</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../../../content/en/index.html" aria-current="page"> 
+<span class="menu-text">English</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../content/zh/index.html"> 
+<span class="menu-text">中文</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/arvindvenkatadri/teachingtriz"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/arvind_v"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/arvindvenkatadri"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:arvind.venkatadri@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../../content/zh/index.html">中文</a></li><li class="breadcrumb-item"><a href="../../../../../content/zh/listing.html">教学</a></li><li class="breadcrumb-item"><a href="../../../../../content/zh/TRIZ/listing.html">TRIZ 问题解决方法</a></li><li class="breadcrumb-item"><a href="../../../../../content/zh/TRIZ/Modules/70-TRIZ-Resources/index.html">TRIZ - 可用资源的不合理有效性</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../../../../index.html" class="sidebar-logo-link">
+      <img src="../../../../../content/materials/images/1book25.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../../../../content/materials/images/1book25.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/en/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">English</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/en/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Teaching</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/en/Basics/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Basics of Creativity</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/10-Flow-and-Play/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">I am Water</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/20-Cultural-Capital/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">I yam What I yam</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/30-MBTI-Big-5/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Birds of Different Feathers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/40-Domain-Field-Self/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">I Connect therefore I am</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/50-Thinking-Fast-Slow/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">I Think, Fast and Slow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/60-Parallel-Thinking/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Art of Parallel Thinking</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/Basics/Modules/70-Metaphoric-Thinking/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Year of Metaphoric Thinking</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/en/TRIZ/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ Problem Solving</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/60-Problems-and-Contradictions/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - Problems and Contradictions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/70-TRIZ-Resources/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - The Unreasonable Effectiveness of Available Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - The Ideal Final Result</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/80-A-Contradictory-Language/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - A Contradictory Language</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - The Contradiction Matrix Workflow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/95-TRIZ-Stories/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - At the Movies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - The Laws of Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - Substance Field Analysis, and ARIZ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/400-TRIZ-References/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - Reference Documents</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/1000-TRIZ-Games/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - Games</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/TRIZ/Modules/7777-WritingAssignments/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reading and Writing Assignments</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/en/projects/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Case Studies &amp; Talks</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The TRIZ Chronicles: Lawrence of Arabia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/projects/Modules/TRIZ/20-Spotify/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 编年史:Spotify 广告</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/projects/Modules/TRIZ/30-Wildlife-Crossing/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The TRIZ Chronicles: Banff Wildlife Crossings</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/projects/Modules/TRIZ/40-Owind/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The TRIZ Chronicles: the O-Wind Turbine</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/projects/Modules/TRIZ/50-BubbleBarrier/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The TRIZ Chronicles: the Amsterdam Bubble Barrier</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/en/projects/Modules/Talks/TRIZTalkMay2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ Talk May2025</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/zh/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">中文</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/zh/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">教学</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/zh/Basics/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">创造力基础</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/10-Flow-and-Play/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">我如水</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/20-Cultural-Capital/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">我就是我</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/30-MBTI-Big-5/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">物以类聚</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/40-Domain-Field-Self/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">我连接故我在</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/50-Thinking-Fast-Slow/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">思考,快与慢</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/60-Parallel-Thinking/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">平行思维的艺术</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/Basics/Modules/70-Metaphoric-Thinking/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">隐喻思维之年</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/zh/TRIZ/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 问题解决方法</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 问题与矛盾</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/70-TRIZ-Resources/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">TRIZ - 可用资源的不合理有效性</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 理想最终结果</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/80-A-Contradictory-Language/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 一种矛盾语言</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/90-TRIZ-Contradiction-Matrix/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 矛盾矩阵工作流程</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/95-TRIZ-Stories/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 电影中的应用</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/100-TRIZ-Laws-of-Evolution/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 演化定律</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/200-TRIZ-Advanced-Stuff/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 物质-场分析和 ARIZ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/400-TRIZ-References/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 参考文档</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/1000-TRIZ-Games/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ - 游戏</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/TRIZ/Modules/7777-WritingAssignments/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">阅读和写作作业</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../../../content/zh/projects/listing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">案例研究与演讲</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/projects/Modules/TRIZ/10-Lawrence-of-Arabia/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 编年史:阿拉伯的劳伦斯</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/projects/Modules/TRIZ/20-Spotify/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 编年史:Spotify 广告</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/projects/Modules/TRIZ/30-Wildlife-Crossing/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 编年史：班夫野生动物通道</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/projects/Modules/TRIZ/40-Owind/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 编年史：O-Wind 风力涡轮机</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/projects/Modules/TRIZ/50-BubbleBarrier/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 编年史：阿姆斯特丹气泡屏障</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../../content/zh/projects/Modules/Talks/TRIZTalkMay2025/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRIZ 演讲 2025年5月</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#简介" id="toc-简介" class="nav-link active" data-scroll-target="#简介">简介</a></li>
+  <li><a href="#可用资源游戏-1" id="toc-可用资源游戏-1" class="nav-link" data-scroll-target="#可用资源游戏-1">可用资源：游戏 #1</a></li>
+  <li><a href="#可用资源游戏-2" id="toc-可用资源游戏-2" class="nav-link" data-scroll-target="#可用资源游戏-2">可用资源：游戏 #2</a></li>
+  <li><a href="#讨论" id="toc-讨论" class="nav-link" data-scroll-target="#讨论">讨论</a></li>
+  <li><a href="#打破假设创造新世界" id="toc-打破假设创造新世界" class="nav-link" data-scroll-target="#打破假设创造新世界">打破假设：创造新世界</a>
+  <ul class="collapse">
+  <li><a href="#案例研究故事" id="toc-案例研究故事" class="nav-link" data-scroll-target="#案例研究故事">案例研究故事</a></li>
+  </ul></li>
+  <li><a href="#参考资料" id="toc-参考资料" class="nav-link" data-scroll-target="#参考资料">参考资料</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../../content/zh/index.html">中文</a></li><li class="breadcrumb-item"><a href="../../../../../content/zh/listing.html">教学</a></li><li class="breadcrumb-item"><a href="../../../../../content/zh/TRIZ/listing.html">TRIZ 问题解决方法</a></li><li class="breadcrumb-item"><a href="../../../../../content/zh/TRIZ/Modules/70-TRIZ-Resources/index.html">TRIZ - 可用资源的不合理有效性</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">TRIZ - 可用资源的不合理有效性</h1>
+<p class="subtitle lead">在框内思考</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">可用资源</div>
+    <div class="quarto-category">功能固着</div>
+    <div class="quarto-category">假设</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta column-body">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 20, 2021</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">January 20, 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><br></p>
+<section id="简介" class="level2">
+<h2 class="anchored" data-anchor-id="简介">简介</h2>
+<p>在前一个关于<strong>问题与矛盾</strong>的模块中，我们了解了如何在日常情况中识别<strong>行政矛盾</strong>。这是 TRIZ 问题解决方法的第一步，也是最重要的一步。</p>
+<p>TRIZ 中的另一个重要概念是<strong>可用资源</strong>。让我们通过两个游戏来理解这个概念。但在那之前，先短暂前往<del>月球</del> NASA。</p>
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ry55--J4_VQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</section>
+<section id="可用资源游戏-1" class="level2">
+<h2 class="anchored" data-anchor-id="可用资源游戏-1">可用资源：游戏 #1</h2>
+<p>你必须将点燃的蜡烛贴在墙上，使融化的蜡不会滴到地板上。你的资源有：</p>
+<ul>
+<li>蜡烛</li>
+<li>火柴盒</li>
+<li>图钉</li>
+</ul>
+</section>
+<section id="可用资源游戏-2" class="level2">
+<h2 class="anchored" data-anchor-id="可用资源游戏-2">可用资源：游戏 #2</h2>
+<p>看下面的图表：它是否让你想起你非常熟悉的东西？</p>
+<p>这个图表代表什么？</p>
+<p>让我们假装自己是这个图表的一部分，看看我们的问题表述技能会带我们走向何方！</p>
+</section>
+<section id="讨论" class="level2">
+<h2 class="anchored" data-anchor-id="讨论">讨论</h2>
+<ul>
+<li>问题与矛盾</li>
+<li>所有可用资源</li>
+<li><strong>假设</strong>和<strong>功能固着</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p>在一个老笑话中，也发生了类似的注意力转移，讲的是在一个高安全性工厂工作的工人，工人们在下班离开时受到仔细监视。在某个特定的日子，这个工人在推着满载泡沫包装花生的独轮车走出工厂大门时被拦住了。他解释说，这些是他从垃圾中抢救出来的，并计划在寄给孙辈的礼物时使用。守卫搜查了这些包装材料，什么也没发现，于是让这个男人回家了。第二周发生了同样的事情，这个工人再次被拦住。但他提供了完全相同的解释，当守卫搜查包装花生什么也没发现时，他被允许离开。但这持续了一周又一周，直到守卫不再相信一个人会想要或能够使用这么多包装材料。最后，这个男人被扣留审讯，那时他承认他完全不需要包装花生——这些周来，他一直在偷独轮车。</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>听到这个笑话，我想起了”部分和整体”这个词，这是<a href="https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3"><strong>“图形和背景”</strong></a>的粗略等价物，即格式塔原则。在大部分时间里，包装花生占据中心舞台作为图形（部分），而独轮车（仅作为容器）被完全忽略为无害的背景（整体）。在笑话的结尾，有一个意想不到的转折，重点的转移，重新定位，当我们发现<strong><em>整体实际上是部分</em></strong>时。</p>
+</blockquote>
+<p>这还应该让我们想起我们做过的<em>吉尔福德替代用途练习</em>，在那里我们强迫自己放弃物体的”常规用途”，把它想象为完全不同的功能。</p>
+</section>
+<section id="打破假设创造新世界" class="level2">
+<h2 class="anchored" data-anchor-id="打破假设创造新世界">打破假设：创造新世界</h2>
+<p>首先，一些关于<strong><em>假设</em></strong>的漫画缓解：</p>
+<p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/JKHqjJIdM2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+<p><br></p>
+<p>克里斯·塔克似乎发现他做了一个假设！对他来说幸运的是还不算太晚！</p>
+<p>我们已经看到<strong>物质对象</strong>在我们脑海中似乎有<em>功能固着</em>。有一个等价的概念可以与<em>现象</em>和<em>过程</em>相关联：我们可以称之为<em>过程固着</em>。这意味着什么？这意味着像<a href="https://novelstoday.com/to-kill-a-mockingbird/page-23.html">Jem、Scout 和 Dill</a>那样</p>
+<p>被陈述为不可改变的事物：</p>
+<ul>
+<li>“我们就是这样”</li>
+<li>“一直都是这样做的”</li>
+<li>“那不可能改变”</li>
+</ul>
+<p>遗憾的是，有些事物是<strong>未陈述的</strong>，在心理上是不可改变的：</p>
+<ul>
+<li>你听说过禁忌吗？</li>
+<li>秘密？</li>
+<li>或者因为某人不喜欢而不能提及的事物？</li>
+</ul>
+<p>我们用什么方法来发现我们对情况或现象/过程所施加的这些<strong><em>假设</em></strong>？</p>
+<p>&lt;&lt; 待详细撰写。&gt;&gt;</p>
+<section id="案例研究故事" class="level3">
+<h3 class="anchored" data-anchor-id="案例研究故事">案例研究故事</h3>
+<ol type="1">
+<li>Sahil Bloom，于 X，2024 年 5 月 6 日：</li>
+</ol>
+<p>2009 年，斯坦福商学院教授 Tina Seelig 将她的班级分成小组，并发出一个挑战： 每个小组有 5 美元和 2 小时的时间来获得最高的资金回报。 最后，他们将简要介绍自己的策略。 接下来发生的事情令人着迷：</p>
+<p><a href="../../../materials/images/Stanford-SOB-Building.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../../materials/images/Stanford-SOB-Building.jpeg" class="img-fluid"></a></p>
+<blockquote class="blockquote">
+<p>大多数小组采用了一种简单的方法：</p>
+<ul>
+<li>使用 5 美元购买几件物品。</li>
+<li>以物易物或转售这些物品。</li>
+<li>重复</li>
+<li>以（希望）高于 5 美元的价格出售最终物品。</li>
+<li>这些小组在最初的 5 美元上获得了适度的回报。</li>
+</ul>
+</blockquote>
+<blockquote class="blockquote">
+<p>几个小组忽略了这 5 美元。他们想出了在规定时间内赚取最多钱的方法：</p>
+<ul>
+<li>制作/销售热门餐厅的预订。</li>
+<li>在校园内为自行车轮胎充气。</li>
+<li>这些小组在最初的 5 美元上获得了良好的回报。</li>
+</ul>
+</blockquote>
+<blockquote class="blockquote">
+<p>获胜的小组采用了一种非常不同的方法：他们有三个认识：</p>
+<ul>
+<li>5 美元是一种干扰。</li>
+<li>2 小时的时间不足以通过小型企业获得有吸引力的超额回报。</li>
+<li>最有价值的”资产”实际上是在斯坦福学生班级面前的展示时间。</li>
+<li>认识到了<strong>隐藏资产</strong>的价值，他们向希望招聘斯坦福学生的公司提供展示时间。</li>
+<li>他们以 650 美元的价格出售了这个时段，这是对最初 5 美元本金的巨大回报。</li>
+</ul>
+</blockquote>
+<p>获胜小组以不同的方式思考（关于资源），并实现了不对称的结果。</p>
+</section>
+</section>
+<section id="参考资料" class="level2">
+<h2 class="anchored" data-anchor-id="参考资料">参考资料</h2>
+<ol type="1">
+<li><a href="https://www.wikiwand.com/en/Candle_problem" class="uri">https://www.wikiwand.com/en/Candle_problem</a></li>
+<li>资源游戏 <a href="./pdf/TRIZ/Titanic_Case_Study.pdf">PDF</a></li>
+<li><a href="https://thedecisionlab.com/biases/functional-fixedness" class="uri">https://thedecisionlab.com/biases/functional-fixedness</a></li>
+<li><a href="https://helpfulprofessor.com/functional-fixedness-examples/" class="uri">https://helpfulprofessor.com/functional-fixedness-examples/</a></li>
+<li><a href="https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3" class="uri">https://www.interaction-design.org/literature/article/the-laws-of-figure-ground-praegnanz-closure-and-common-fate-gestalt-principles-3</a></li>
+<li>Stan Kaplan，<strong><em>TRIZ 简介</em></strong> <a href="./pdf/TRIZ/Stan Kaplan-Intro-to-TRIZ.pdf">(PDF)</a> 这是对经典 TRIZ <em>所有</em>方面的简单而简短的介绍。</li>
+<li>Jack Hipple，“理想结果：它是什么以及如何实现它”，Springer，2012 年。</li>
+</ol>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/triz\.help");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../../../content/zh/TRIZ/Modules/60-Problems-and-Contradictions/index.html" class="pagination-link" aria-label="TRIZ - 问题与矛盾">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">TRIZ - 问题与矛盾</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../../../content/zh/TRIZ/Modules/75-TRIZ-Ideal-Final-Result/index.html" class="pagination-link" aria-label="TRIZ - 理想最终结果">
+        <span class="nav-page-text">TRIZ - 理想最终结果</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+<p>Made with ❤️ and <a href="https://quarto.org/">Quarto</a>, by Arvind V.</p>
+</div>
+    <div class="nav-footer-right">
+<p>Hosted by Netlify <a href="https://www.netlify.com"><iconify-icon inline="" icon="simple-icons:netlify" aria-label="Icon netlify from simple-icons Iconify.design set." title="Icon netlify from simple-icons Iconify.design set."></iconify-icon></a>.</p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"right","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+<script src="../../../../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../../../site_libs/quarto-contrib/line-highlight-1.0.0/line-highlight.js" defer="true"></script>
+</body></html>

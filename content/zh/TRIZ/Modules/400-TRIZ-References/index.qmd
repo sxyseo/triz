@@ -66,7 +66,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## TRIZ 示例
 
-1. Arvind 的 TRIZ 案例研究数据库 `r emoji::emoji("laugh")`! <u>[在线演示](/slides/PlayAndInvent/TRIZ-Database/index.html)</u>
+1. Arvind 的 TRIZ 案例研究数据库 😄! <u>[在线演示](/slides/PlayAndInvent/TRIZ-Database/index.html)</u>
 
 1. The TRIZ Journal. *发明原理示例* <u><https://the-trizjournal.com/40-inventive-principles-examples/></u>
 

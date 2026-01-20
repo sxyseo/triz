@@ -67,7 +67,7 @@ International Technology Education Association. <u>[PDF](TRIZ-related/NewToolsfo
 
 ## TRIZ Examples
 
-1. Arvind's TRIZ Case Study Database `r emoji::emoji("laugh")`! <u>[Online Presentation](/slides/PlayAndInvent/TRIZ-Database/index.html)</u>
+1. Arvind's TRIZ Case Study Database 😄! <u>[Online Presentation](/slides/PlayAndInvent/TRIZ-Database/index.html)</u>
 
 1. The TRIZ Journal. *Inventive Principle Examples* <u><https://the-trizjournal.com/40-inventive-principles-examples/></u>
 
